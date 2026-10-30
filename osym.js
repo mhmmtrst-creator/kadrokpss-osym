@@ -84,9 +84,53 @@ function welcome(html, base, today) {
   return notice(title, abs(link, base) || `${SITE}/hosgeldiniz.html`, today);
 }
 
-/** Aynı duyuru iki yerden okunsa da tek bildirim: tür + sınavlar + gün. */
+/**
+ * Hoş geldiniz sayfasındaki duyuruyu listedeki eşiyle eşleştiren anahtar: tür + sınavlar + gün.
+ * Yalnızca bu eşleştirme için kullanılır; aynı gün çıkan iki ayrı liste duyurusu aynı anahtarı taşıyabilir.
+ */
 function signature(n) {
-  return n.kind ? `sig:${n.kind}:${[...n.exams].sort().join(",")}:${n.day || ""}` : null;
+  return n.kind && n.day ? `sig:${n.kind}:${[...n.exams].sort().join(",")}:${n.day}` : null;
 }
 
-module.exports = { SITE, LIST_URL, HOME_URL, fold, kind, examsOf, parse, welcome, signature };
+function isWelcome(n) {
+  return n.url.startsWith("https://sonuc.osym.gov.tr") || n.url.endsWith("hosgeldiniz.html");
+}
+
+function minusDays(day, d) {
+  const t = Date.parse(`${day}T00:00:00Z`) - d * 86400000;
+  return new Date(t).toISOString().slice(0, 10);
+}
+
+/** Hoş geldiniz sayfası tarih taşımaz ve günlerce açık kalabilir: son üç günün anahtarları da sayılır. */
+function twinSignatures(n) {
+  if (!n.day) return [];
+  return [0, 1, 2, 3].map((d) => signature({ ...n, day: minusDays(n.day, d) })).filter(Boolean);
+}
+
+/** Uygulamadaki OsymAnnouncements.fresh ile aynı kural: yalnızca son üç günün haberi yeni sayılır. */
+function fresh(relevant, seen, today, firstCheck) {
+  const listed = new Set(relevant.filter((n) => !isWelcome(n)).map(signature).filter(Boolean));
+  const out = [];
+  const urls = new Set();
+  for (const n of relevant) {
+    if (urls.has(n.url) || seen.has(n.url)) continue;
+    if (firstCheck && n.day !== today) continue;
+    if (n.day && n.day < minusDays(today, 2)) continue;
+    if (isWelcome(n)) {
+      if (twinSignatures(n).some((s) => seen.has(s) || listed.has(s))) continue;
+    } else {
+      const sig = signature(n);
+      if (sig && seen.has(sig)) continue;
+    }
+    urls.add(n.url);
+    out.push(n);
+  }
+  return out;
+}
+
+/** Hatırlanacaklar: her adres ve hoş geldiniz duyurularının eş anahtarları. */
+function remembered(notices) {
+  return [...notices.map((n) => n.url), ...notices.filter(isWelcome).flatMap(twinSignatures)];
+}
+
+module.exports = { SITE, LIST_URL, HOME_URL, fold, kind, examsOf, parse, welcome, signature, isWelcome, twinSignatures, fresh, remembered };

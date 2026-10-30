@@ -52,21 +52,20 @@ async function run(log = console.log) {
   const snap = await ref.get();
   const first = !snap.exists;
   const seen = new Set(snap.exists ? snap.get("seen") || [] : []);
-  const fresh = [];
-  for (const n of notices) {
-    const sig = osym.signature(n);
-    if (seen.has(n.url) || seen.has(sig)) continue;
-    // İlk çalışmada yalnızca bugünkü duyurular haber sayılır.
-    if (!first || n.day === today) fresh.push(n);
-    seen.add(n.url);
-    seen.add(sig);
-  }
+  // İlk çalışmada yalnızca bugünkü duyurular haber sayılır.
+  const fresh = osym.fresh(notices, seen, today, first).sort((a, b) => (b.day || "").localeCompare(a.day || ""));
+  let sent = 0;
   for (const n of fresh.slice(0, 6)) {
     await send(n);
+    sent++;
     log("Gönderildi:", n.title, n.exams.join(","));
   }
-  await ref.set({ seen: [...seen].slice(-1500), at: admin.firestore.FieldValue.serverTimestamp() });
-  log(`${notices.length} ilgili duyuru okundu, ${fresh.length} yeni bildirim.`);
+  // Sayfalarda şu an olan her şey hatırlanır; eskiler küme büyüyünce yer açar.
+  const current = new Set(osym.remembered(notices));
+  const older = [...seen].filter((x) => !current.has(x));
+  const keep = [...current, ...older.slice(-Math.max(0, 1500 - current.size))];
+  await ref.set({ seen: keep, at: admin.firestore.FieldValue.serverTimestamp() });
+  log(`${notices.length} ilgili duyuru okundu, ${sent} yeni bildirim.`);
 }
 
 module.exports = { run };
