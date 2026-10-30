@@ -1,0 +1,43 @@
+name: ÖSYM duyuru takibi
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+    # GitHub, 60 gün hareketsiz kalan depoda zamanlanmış işleri durdurur: ayda bir küçük bir kayıt.
+    - cron: "17 6 1 * *"
+  workflow_dispatch:
+
+concurrency:
+  group: osym
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --omit=dev --no-audit --no-fund
+      - name: Firebase anahtarı
+        env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+        run: printf '%s' "$FIREBASE_SA" > "$RUNNER_TEMP/sa.json"
+      - name: ÖSYM'yi oku, yeni duyuruyu bildir
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/sa.json
+        run: node cli.js
+      - name: Ayda bir canlı tut
+        if: github.event.schedule == '17 6 1 * *'
+        run: |
+          date -u +%F > canli.txt
+          git config user.name "kadrokpss-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add canli.txt
+          git commit -m "Canlı tut" && git push || true

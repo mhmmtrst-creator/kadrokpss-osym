@@ -1,0 +1,4 @@
+node_modules/
+*.log
+sa.json
+*-firebase-adminsdk-*.json
