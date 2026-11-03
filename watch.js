@@ -41,6 +41,7 @@ async function send(n) {
       condition: topics.slice(i, i + 5).join(" || "),
       data: { type: "osym", title: n.title, url: n.url, day: n.day || "" },
       android: { priority: "high", ttl: 24 * 3600 * 1000 },
+      apns: osym.apns(n),
     });
   }
 }

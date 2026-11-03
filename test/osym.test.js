@@ -47,3 +47,16 @@ test("hoş geldiniz sayfası ertesi gün tekrar bildirilmez, aynı günün iki t
   const old = { ...list, url: "https://www.osym.gov.tr/eski", day: "2026-10-07" };
   assert.equal(osym.fresh([old], new Set(["x"]), "2026-10-31", false).length, 0);
 });
+
+test("iPhone bildirimi: başlık, gece sessiz, tek kimlik", () => {
+  const n = { title: "2026-KPSS Ön Lisans Sınavı: Sınav Sonuçları Açıklandı", url: "https://sonuc.osym.gov.tr/Sorgu.aspx?SonucID=10397", kind: "RESULT" };
+  const day = osym.apns(n, new Date("2026-10-30T09:00:00Z"));
+  assert.equal(day.payload.aps.alert.title, "📊 2026-KPSS Ön Lisans Sınavı");
+  assert.equal(day.payload.aps.alert.body, "Sınav Sonuçları Açıklandı");
+  assert.equal(day.payload.aps.sound, "default");
+  // 23:30 İstanbul: sessiz.
+  const night = osym.apns(n, new Date("2026-10-30T20:30:00Z"));
+  assert.equal(night.payload.aps.sound, undefined);
+  assert.equal(night.headers["apns-collapse-id"], day.headers["apns-collapse-id"]);
+  assert.ok(night.headers["apns-collapse-id"].length <= 64);
+});

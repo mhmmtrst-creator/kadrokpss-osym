@@ -133,4 +133,27 @@ function remembered(notices) {
   return [...notices.map((n) => n.url), ...notices.filter(isWelcome).flatMap(twinSignatures)];
 }
 
-module.exports = { SITE, LIST_URL, HOME_URL, fold, kind, examsOf, parse, welcome, signature, isWelcome, twinSignatures, fresh, remembered };
+/**
+ * iPhone'lar için APNs bölümü: Android veriyi kendisi gösterir, iPhone'da ise bildirimi iOS gösterir.
+ * Başlık ve metin Android'deki gibi ayrılır; 23:00–07:00 arası sessiz gelir; aynı duyuru tekrar
+ * gönderilse de tek bildirim kalır.
+ */
+function apns(n, now = new Date()) {
+  const icon = { RESULT: "📊", PLACEMENT: "📊", ANSWER_KEY: "📝", ENTRY_DOCUMENT: "🎫" }[n.kind] || "📢";
+  const head = n.title.includes(":") ? n.title.slice(0, n.title.indexOf(":")).trim() : "ÖSYM duyurusu";
+  const what = n.title.includes(":") ? n.title.slice(n.title.indexOf(":") + 1).trim() : n.title;
+  const hour = Number(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Istanbul", hour: "2-digit", hourCycle: "h23" }).format(now));
+  const quiet = hour >= 23 || hour < 7;
+  const aps = { alert: { title: `${icon} ${head}`, body: what }, threadId: "osym" };
+  if (!quiet) aps.sound = "default";
+  return {
+    headers: {
+      "apns-priority": "10",
+      "apns-expiration": String(Math.floor(now.getTime() / 1000) + 24 * 3600),
+      "apns-collapse-id": "osym-" + require("node:crypto").createHash("sha1").update(n.url).digest("hex").slice(0, 32),
+    },
+    payload: { aps },
+  };
+}
+
+module.exports = { SITE, LIST_URL, HOME_URL, fold, kind, examsOf, parse, welcome, signature, isWelcome, twinSignatures, fresh, remembered, apns };
