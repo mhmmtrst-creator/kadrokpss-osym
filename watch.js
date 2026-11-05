@@ -4,6 +4,7 @@
 // GitHub Actions (cli.js, 5 dakikada bir) ya da Firebase Functions (index.js) çalıştırır.
 const admin = require("firebase-admin");
 const osym = require("./osym");
+const ilan = require("./ilan");
 
 if (!admin.apps.length) admin.initializeApp();
 
@@ -11,7 +12,7 @@ const UA = "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/130.0 Mobi
 
 async function get(url) {
   const r = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "tr-TR,tr;q=0.9" }, signal: AbortSignal.timeout(60_000) });
-  if (!r.ok) throw new Error(`ÖSYM HTTP ${r.status} ${url}`);
+  if (!r.ok) throw new Error(`HTTP ${r.status} ${url}`);
   return { body: await r.text(), url: r.url };
 }
 
@@ -67,6 +68,40 @@ async function run(log = console.log) {
   const keep = [...current, ...older.slice(-Math.max(0, 1500 - current.size))];
   await ref.set({ seen: keep, at: admin.firestore.FieldValue.serverTimestamp() });
   log(`${notices.length} ilgili duyuru okundu, ${sent} yeni bildirim.`);
+  // Kamu İlan bölümü ÖSYM'den bağımsız: biri okunamazsa öbürü yine çalışır.
+  try {
+    await runListings(log);
+  } catch (e) {
+    log("Kamu İlan okunamadı:", e.message || e);
+  }
 }
 
-module.exports = { run };
+/**
+ * Kamu İlan'da yeni ilan varsa "ilanlar" konusundaki telefonları uyandırır (ilan.js). Gece (23–07)
+ * gönderilmez ve yeni ilanlar hatırlananlara eklenmez: sabahki ilk çalışma onları yine yeni sayar.
+ */
+async function runListings(log = console.log, now = new Date()) {
+  const rows = ilan.parse((await get(ilan.BASE)).body);
+  if (!rows.length) {
+    log("Kamu İlan: liste boş okundu, bir şey yapılmadı.");
+    return;
+  }
+  const ref = admin.firestore().doc("server/ilanWatch");
+  const snap = await ref.get();
+  const first = !snap.exists;
+  const seen = new Set(snap.exists ? snap.get("seen") || [] : []);
+  const fresh = ilan.fresh(rows, seen, first);
+  if (fresh.length && ilan.quiet(now)) {
+    log(`Kamu İlan: ${fresh.length} yeni ilan; gece, sabah bildirilecek.`);
+    return;
+  }
+  if (fresh.length) {
+    await admin.messaging().send(ilan.message(fresh.length));
+    log(`Kamu İlan: ${fresh.length} yeni ilan, telefonlar uyandırıldı:`, fresh.slice(0, 3).map((r) => r.kurum).join("; "));
+  } else {
+    log(`Kamu İlan: ${rows.length} ilan okundu, yeni yok${first ? " (ilk çalışma)" : ""}.`);
+  }
+  await ref.set({ seen: ilan.remembered(rows, seen), at: admin.firestore.FieldValue.serverTimestamp() });
+}
+
+module.exports = { run, runListings };
