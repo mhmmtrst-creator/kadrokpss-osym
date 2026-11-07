@@ -1,9 +1,9 @@
 {
-  "premiumOpen": false,
-  "premiumLaunch": "",
+  "premiumOpen": true,
+  "premiumLaunch": "2026-11-07",
   "foundersOpen": true,
   "monthlyPrice": "59 TL",
   "yearlyPrice": "499 TL",
   "trialDays": 15,
-  "latestVersionCode": 15
+  "latestVersionCode": 16
 }
