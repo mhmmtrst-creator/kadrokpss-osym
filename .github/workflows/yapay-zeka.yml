@@ -2,9 +2,9 @@ name: Yapay zekâ ile ilan okuma
 
 # Yeni kamu ilanlarını Claude ile okur (yapay_zeka/okuyucu.py) ve sonuçları ai/ilan/<kimlik>.json olarak yayımlar.
 # Toplu işlem kullanılır: bir çalıştırmada gönderilen ilanların sonuçları bir sonrakinde toplanır.
+# 2026-11-22: kamuilan.sbb.gov.tr GitHub'ın yurt dışındaki sunucularına "403 Forbidden" veriyor (ÖSYM işindeki
+# ilan izleyicisi de aynı hatayı alıyor). Bu yüzden zamanlama kapalı; iş Türkiye'deki bir makinede çalışmalı.
 on:
-  schedule:
-    - cron: "11,41 * * * *"
   workflow_dispatch:
 
 concurrency:

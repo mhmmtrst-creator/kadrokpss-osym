@@ -24,6 +24,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -290,7 +291,12 @@ def main() -> None:
     ap.add_argument("--kuru", action="store_true", help="Claude'a bir şey göndermeden ne yapılacağını yazar")
     ap.add_argument("--sayfa", help="portal yerine kaydedilmiş bir liste sayfası (deneme)")
     a = ap.parse_args()
-    html = Path(a.sayfa).read_text(encoding="utf-8") if a.sayfa else opener().open(BASE, timeout=60).read().decode("utf-8", "replace")
+    try:
+        html = Path(a.sayfa).read_text(encoding="utf-8") if a.sayfa else opener().open(BASE, timeout=60).read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        # Portal yurt dışındaki sunuculara (GitHub) 403 veriyor: hata sayılmaz, bu makineden okunamıyor demektir.
+        print(f"Portal erişimi reddetti (HTTP {e.code}): bu makineden ilan okunamıyor")
+        return
     listings = parse_timeline(html)
     print(f"Portalda {len(listings)} ilan")
     state = load_state()
