@@ -1,0 +1,38 @@
+name: Yapay zekâ ile ilan okuma
+
+# Yeni kamu ilanlarını Claude ile okur (yapay_zeka/okuyucu.py) ve sonuçları ai/ilan/<kimlik>.json olarak yayımlar.
+# Toplu işlem kullanılır: bir çalıştırmada gönderilen ilanların sonuçları bir sonrakinde toplanır.
+on:
+  schedule:
+    - cron: "11,41 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: yapay-zeka
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  oku:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet "anthropic==0.125.0" "beautifulsoup4==4.*"
+      - name: Yeni ilanları oku
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python yapay_zeka/okuyucu.py
+      - name: Sonuçları yayımla
+        run: |
+          git config user.name "kadrokpss-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Yapay zekâ okumaları"
+          git pull --rebase --quiet && git push
