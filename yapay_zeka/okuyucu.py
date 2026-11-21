@@ -192,6 +192,10 @@ def now_iso() -> str:
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+def today() -> str:
+    return dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+
+
 def month() -> str:
     return dt.datetime.now(dt.timezone.utc).strftime("%Y-%m")
 
@@ -262,7 +266,7 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
             state["attempts"][l["id"]] = state["attempts"].get(l["id"], 0) + 1
             print(f"PDF değil ya da çok büyük: {l['institution']} - {l['title']}")
             continue
-        state["listings"][l["id"]] = {"institution": l["institution"], "title": l["title"], "range": l["range"], "seen": now_iso()}
+        state["listings"][l["id"]] = {"institution": l["institution"], "title": l["title"], "range": l["range"], "seen": today()}
         requests.append({"custom_id": l["id"], "params": request_params(pdf, l["institution"], l["title"])})
         time.sleep(1.5)
     if not requests:
@@ -274,13 +278,12 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
 
 def prune(state: dict, on_portal: set) -> None:
     """Portaldan kalkalı KEEP_DAYS günü geçen ilanların sonuçları silinir."""
-    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=KEEP_DAYS)
+    cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
     for lid, meta in list(state["listings"].items()):
         if lid in on_portal:
-            meta["seen"] = now_iso()
+            meta["seen"] = today()
             continue
-        seen = dt.datetime.fromisoformat(meta.get("seen", now_iso()).replace("Z", "+00:00"))
-        if seen < cutoff:
+        if meta.get("seen", today())[:10] < cutoff:
             (RESULTS / f"{lid}.json").unlink(missing_ok=True)
             state["listings"].pop(lid, None)
             state["attempts"].pop(lid, None)
@@ -303,6 +306,9 @@ def main() -> None:
     if a.kuru:
         submit(None, state, listings, dry=True)
         return
+    key_file = Path.home() / ".kadrokpss" / "anthropic_api_key.txt"
+    if not os.environ.get("ANTHROPIC_API_KEY") and key_file.exists():
+        os.environ["ANTHROPIC_API_KEY"] = key_file.read_text(encoding="utf-8").strip()  # Mac'teki iş (launchd)
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("ANTHROPIC_API_KEY yok: hiçbir şey okunmadı")
         return
