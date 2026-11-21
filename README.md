@@ -12,9 +12,10 @@
     `{"exam": "kpss_lisans", "name": "2027-KPSS Lisans", "applyStart": "2027-05-05T10:00", "applyEnd": "2027-05-14T23:59", "examAt": "2027-07-11T10:15", "resultAt": "2027-08-05T17:00"}`.
     Sınav kimlikleri: kpss_lisans, kpss_onlisans, kpss_ortaogretim, ekpss, dhbt, yks, tyt, ayt, ales, yds.
 - `yapay_zeka/okuyucu.py`: yeni kamu ilanlarını Claude (Sonnet 5.5) ile okur ve her ilanın kadro satırlarını
-  `ai/ilan/<kimlik>.json` olarak yayımlar (`.github/workflows/yapay-zeka.yml`, yarım saatte bir). Kimlik, uygulamanın
+  `ai/ilan/<kimlik>.json` olarak yayımlar. Portal GitHub'ın yurt dışı sunucularına 403 verdiği için iş KadroKPSS Mac'inde
+  çalışır (launchd `app.kadro.yapay-zeka`, her gün 08:00 ve 14:00, `--bekle 55`); `.github/workflows/yapay-zeka.yml` yalnızca elle. Kimlik, uygulamanın
   `KamuIlanClient.contentId`'si ile aynıdır. Toplu işlem kullanılır (yarı fiyat): gönderilen ilanların sonuçları bir sonraki
-  çalıştırmada toplanır. Durum, harcama ve deneme sayıları `ai/durum.json`'dadır; ayda 40 doları geçince yeni ilan
+  çalıştırmada ya da `--bekle` ile aynı çalıştırmada toplanır. Durum, harcama ve deneme sayıları `ai/durum.json`'dadır; ayda 40 doları geçince yeni ilan
   gönderilmez. Uygulamalar dosya yoksa ilanı kendi okuyucusuyla okur. Yalnızca herkese açık ilan belgeleri okunur;
   kullanıcıların bilgileri buraya gelmez. Gizli anahtar: `ANTHROPIC_API_KEY`.
 - Gizli anahtar: depo ayarlarında `FIREBASE_SA` (Firebase hizmet hesabı JSON'u). Depoya asla dosya olarak eklenmez.

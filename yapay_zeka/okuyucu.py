@@ -200,13 +200,14 @@ def month() -> str:
     return dt.datetime.now(dt.timezone.utc).strftime("%Y-%m")
 
 
-def collect(client, state: dict) -> None:
+def collect(client, state: dict, quiet: bool = False) -> None:
     """Biten toplu işlerin sonuçlarını yazar; bitmeyenler bir sonraki çalıştırmaya kalır."""
     still = []
     for p in state["pending"]:
         b = client.messages.batches.retrieve(p["batch"])
         if b.processing_status != "ended":
-            print(f"Toplu iş sürüyor: {len(p['ids'])} ilan, gönderildi {p['sent']}")
+            if not quiet:
+                print(f"Toplu iş sürüyor: {len(p['ids'])} ilan, gönderildi {p['sent']}")
             still.append(p)
             continue
         got = 0
@@ -293,6 +294,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--kuru", action="store_true", help="Claude'a bir şey göndermeden ne yapılacağını yazar")
     ap.add_argument("--sayfa", help="portal yerine kaydedilmiş bir liste sayfası (deneme)")
+    ap.add_argument("--bekle", type=int, default=0, metavar="DAKİKA", help="gönderilen toplu işi en çok bu kadar dakika bekleyip sonuçları aynı çalıştırmada topla")
     a = ap.parse_args()
     try:
         html = Path(a.sayfa).read_text(encoding="utf-8") if a.sayfa else opener().open(BASE, timeout=60).read().decode("utf-8", "replace")
@@ -316,6 +318,13 @@ def main() -> None:
     client = anthropic.Anthropic(max_retries=6)
     collect(client, state)
     submit(client, state, listings, dry=False)
+    # Günde iki kez çalışınca (Mac, 08:00 ve 14:00) sonuçlar aynı çalıştırmada toplanır; çoğu toplu iş birkaç dakikada biter.
+    deadline = time.time() + a.bekle * 60
+    while state["pending"] and time.time() < deadline:
+        time.sleep(30)
+        collect(client, state, quiet=True)
+    if state["pending"]:
+        print("Toplu iş henüz bitmedi; sonuçlar bir sonraki çalıştırmada toplanacak")
     prune(state, {l["id"] for l in listings})
     save_state(state)
     print(f"Bu ay harcanan: {state['spent'].get(month(), 0.0):.2f} $")
