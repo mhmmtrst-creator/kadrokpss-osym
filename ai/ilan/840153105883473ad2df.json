@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "id": "840153105883473ad2df",
+ "institution": "BURSA TEKNİK ÜNİVERSİTESİ",
+ "title": "1 SÖZLEŞMELİ PSİKOLOG ALACAK",
+ "range": "13 Kasım - 27 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 1,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-13",
+  "apply_end": "2026-11-27",
+  "positions": [
+   {
+    "code": "2026/2-1",
+    "title": "Psikolog",
+    "place": null,
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Psikoloji"
+    ],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 35,
+    "age_rule": "35 yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Sağlık Bakanlığı tarafından klinik psikolog olarak tescilli olmak",
+     "Askerliğini yapmış veya askerlikten muaf olmak",
+     "Örgün eğitim programlarında aktif veya pasif öğrenci kaydı bulunmamak (açık öğretim ve uzaktan öğretim hariç)",
+     "Görevini yerine getirmesine engel sağlık engeli veya akıl hastalığı bulunmamak"
+    ]
+   }
+  ],
+  "notes": "Görev yeri tabloda belirtilmemiş; sözleşmeli personel Sağlık Kültür ve Spor Daire Başkanlığının herhangi bir biriminde görevlendirilebilecektir. Cinsiyet sütununda Erkek yazıyor. Yaş sınırı son başvuru tarihi itibarıyla uygulanır."
+ }
+}

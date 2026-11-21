@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "id": "9f31c908d7d8baf0e022",
+ "institution": "DOĞANYOL BELEDİYE BAŞKANLIĞI",
+ "title": "İPTAL İLANI",
+ "range": "2 Aralık - 4 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": null,
+  "apply_end": null,
+  "positions": [],
+  "notes": "Bu bir iptal ilanıdır. Doğanyol Belediyesinin 21/10/2026 tarihli ve 2676 sayılı yazısına istinaden sözleşmeli personel alım ilanı iptal edilmiştir. Belgede kadro veya pozisyon bulunmamaktadır."
+ }
+}

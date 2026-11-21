@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "id": "b2f297e9e5e742f09ed0",
+ "institution": "KARATAY BELEDİYE BAŞKANLIĞI",
+ "title": "9 MEMUR ALACAK",
+ "range": "14 Aralık - 18 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-14",
+  "apply_end": "2026-12-18",
+  "positions": [
+   {
+    "code": null,
+    "title": "ZABITA MEMURU",
+    "place": "Karatay Belediye Başkanlığı (Konya)",
+    "count": 9,
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Mahalli İdareler",
+     "Mahalli İdareler (Zabıta)",
+     "Yerel Yönetimler",
+     "Pazarlama",
+     "Pazarlama ve Satış",
+     "Piyasa Araştırmaları ve Pazarlama"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 30,
+    "age_rule": "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak",
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az (B) sınıfı sürücü belgesi",
+     "Boy erkekte en az 1.67 m, kadında en az 1.60 m",
+     "Boyun 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
+     "Sözlü ve uygulamalı sınav yapılacak",
+     "GİH 7-8 derece, 657 sayılı DMK'ya tabi",
+     "Erkek adaylar için askerlik durumu şartı"
+    ]
+   }
+  ],
+  "notes": "Tabloda tek satır var (9 kadro). İlanda toplam sayı ayrıca belirtilmemiş, bu yüzden declared_total null. Başlıktaki 9 sayısı tablodaki kadro adediyle uyumlu. KPSS yılı 2026 (B grubu). Cinsiyet Kadın/Erkek olduğundan gender null. Yer olarak kurum/il belirtilmiştir, tabloda ayrı görev yeri sütunu yoktur."
+ }
+}

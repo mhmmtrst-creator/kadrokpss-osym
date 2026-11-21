@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "id": "bd28c1393a9f4f236026",
+ "institution": "DOĞU KARADENİZ KALKINMA AJANSI",
+ "title": "1 UZMAN ALACAK",
+ "range": "23 Kasım - 6 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 1,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-23",
+  "apply_end": "2026-12-06",
+  "positions": [
+   {
+    "code": null,
+    "title": "UZMAN",
+    "place": "Rize Yatırım Destek Ofisi",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P12",
+     "P14",
+     "P24",
+     "P29",
+     "P34"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "İktisat",
+     "Ekonomi",
+     "İşletme",
+     "Kamu Yönetimi",
+     "Uluslararası İlişkiler",
+     "İstatistik",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Siyaset Bilimi ve Uluslararası İlişkiler"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce en az C düzeyi (taban puan 70), son 5 yıl içinde",
+     "Seyahat engeli olmamak",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Az tehlikeli işyerlerinde çalışmak için sağlık raporu alabilmek",
+     "Askerlikle ilgisi bulunmamak veya yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
+     "TR90 Bölgesi illerinin herhangi birinde çalışmayı kabul etmek",
+     "Yüksek lisans, doktora ve ikinci yabancı dil tercih sebebidir"
+    ]
+   }
+  ],
+  "notes": "KPSS puan türleri tabloda 'KPSS P12, P14, P24, P29, P34' olarak tek satırda verilmiş, bölüm bazında ayrım yapılmamış. Tabloda 2025-2026 KPSS yazıyor; kpss_year olarak 2026 alındı, belirsizlik olabilir (ilan 2026 tarihli, 'son başvuru tarihi itibarıyla geçerli' şartı var). Eğitim düzeyi dört yıllık lisans olarak alındı."
+ }
+}

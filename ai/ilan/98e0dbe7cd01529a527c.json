@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "id": "98e0dbe7cd01529a527c",
+ "institution": "KARABAĞLAR BELEDİYE BAŞKANLIĞI",
+ "title": "2 SÖZLEŞMELİ PERSONEL ALACAK",
+ "range": "30 Kasım - 4 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 2,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-30",
+  "apply_end": "2026-12-04",
+  "positions": [
+   {
+    "code": null,
+    "title": "MÜHENDİS (ÇEVRE)",
+    "place": "İzmir Karabağlar Belediye Başkanlığı",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Çevre Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az (B) sınıfı sürücü belgesine sahip olmak",
+     "Hizmet sınıfı TH, derece 8",
+     "KPSS (B) grubu"
+    ]
+   }
+  ],
+  "notes": "Tek satırlı tablo; ilanda toplam sayı açıkça belirtilmemiş, başlıktaki 2 ve tablodaki pozisyon adedi esas alındı. Mühendis unvanı çevre mühendisliği programı olarak belirtilmiş."
+ }
+}

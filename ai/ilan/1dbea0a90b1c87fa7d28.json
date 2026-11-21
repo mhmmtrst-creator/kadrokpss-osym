@@ -1,0 +1,73 @@
+{
+ "schema": 1,
+ "id": "1dbea0a90b1c87fa7d28",
+ "institution": "ELAZIĞ İL ÖZEL İDARESİ",
+ "title": "3 SÖZLEŞMELİ PERSONEL ALACAK",
+ "range": "30 Kasım - 9 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-30",
+  "apply_end": "2026-12-09",
+  "positions": [
+   {
+    "code": null,
+    "title": "Psikolog",
+    "place": null,
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Psikoloji"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Bölümün eşdeğerliği/denkliği Yükseköğretim Kurulu tarafından kabul edilmiş olması",
+     "Erkek adaylar için askerlikle ilişiği olmamak",
+     "Daha önce kamu kurumlarından disiplinsizlik veya ahlaki nedenlerle çıkarılmamış olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Sosyal Çalışmacı",
+    "place": null,
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Sosyal Hizmetler"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Bölümün eşdeğerliği/denkliği Yükseköğretim Kurulu tarafından kabul edilmiş olması",
+     "Erkek adaylar için askerlikle ilişiği olmamak",
+     "Daha önce kamu kurumlarından disiplinsizlik veya ahlaki nedenlerle çıkarılmamış olmak"
+    ]
+   }
+  ],
+  "notes": "İlan toplam sayıyı açıkça belirtmiyor; tablodaki satırlar 2 + 1 = 3 kadro. Görev yeri belirtilmemiş. Cinsiyet sütunu Kadın/Erkek (her iki cinsiyet açık). Her iki kadro için hizmet sınıfı SH, derece 8. KPSS 2026 yılı sınavından, taban puan 60. Başvuru e-posta veya şahsen/posta ile 30/11/2026-09/12/2026 arasında."
+ }
+}

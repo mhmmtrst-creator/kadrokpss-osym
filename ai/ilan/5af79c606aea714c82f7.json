@@ -1,0 +1,210 @@
+{
+ "schema": 1,
+ "id": "5af79c606aea714c82f7",
+ "institution": "DİCLE KALKINMA AJANSI",
+ "title": "4 SÖZLEŞMELİ UZMAN PERSONEL ALACAK",
+ "range": "4 Aralık - 18 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 4,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-12-04",
+  "apply_end": "2026-12-18",
+  "positions": [
+   {
+    "code": null,
+    "title": "UZMAN PERSONEL",
+    "place": "Mardin, Batman, Siirt ve Şırnak",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P14",
+     "P15",
+     "P16",
+     "P24",
+     "P25",
+     "P26",
+     "P19",
+     "P20",
+     "P21"
+    ],
+    "department_kpss": [
+     {
+      "department": "İktisat",
+      "kpss_types": [
+       "P14",
+       "P15",
+       "P16"
+      ]
+     },
+     {
+      "department": "İşletme",
+      "kpss_types": [
+       "P24",
+       "P25",
+       "P26"
+      ]
+     },
+     {
+      "department": "Maliye",
+      "kpss_types": [
+       "P19",
+       "P20",
+       "P21"
+      ]
+     }
+    ],
+    "min_score": 80,
+    "departments": [
+     "İktisat",
+     "İşletme",
+     "Maliye"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce en az 70 puan (son 5 yıl) veya eşdeğeri",
+     "En az dört yıllık lisans mezunu olmak",
+     "KPSS son başvuru tarihi itibarıyla geçerli olmak",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilgisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçmiş olmak",
+     "Az tehlikeli iş yeri için işe giriş sağlık raporu"
+    ]
+   },
+   {
+    "code": null,
+    "title": "UZMAN PERSONEL",
+    "place": "Mardin, Batman, Siirt ve Şırnak",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P29",
+     "P30",
+     "P31",
+     "P39",
+     "P40",
+     "P41",
+     "P34",
+     "P35",
+     "P36",
+     "P4"
+    ],
+    "department_kpss": [
+     {
+      "department": "Siyaset Bilimi ve Kamu Yönetimi",
+      "kpss_types": [
+       "P29",
+       "P30",
+       "P31"
+      ]
+     },
+     {
+      "department": "Kamu Yönetimi",
+      "kpss_types": [
+       "P29",
+       "P30",
+       "P31"
+      ]
+     },
+     {
+      "department": "Çalışma Ekonomisi ve Endüstri İlişkileri",
+      "kpss_types": [
+       "P39",
+       "P40",
+       "P41"
+      ]
+     },
+     {
+      "department": "Uluslararası İlişkiler",
+      "kpss_types": [
+       "P34",
+       "P35",
+       "P36"
+      ]
+     },
+     {
+      "department": "Hukuk",
+      "kpss_types": [
+       "P4"
+      ]
+     }
+    ],
+    "min_score": 80,
+    "departments": [
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Kamu Yönetimi",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri",
+     "Uluslararası İlişkiler",
+     "Hukuk"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce en az 70 puan (son 5 yıl) veya eşdeğeri",
+     "En az dört yıllık lisans mezunu olmak",
+     "KPSS son başvuru tarihi itibarıyla geçerli olmak",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilgisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçmiş olmak",
+     "Az tehlikeli iş yeri için işe giriş sağlık raporu"
+    ]
+   },
+   {
+    "code": null,
+    "title": "UZMAN PERSONEL",
+    "place": "Mardin, Batman, Siirt ve Şırnak",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "İstatistik",
+     "Matematik",
+     "Şehir ve Bölge Planlama",
+     "Bilgisayar Mühendisliği",
+     "Çevre Mühendisliği",
+     "Endüstri Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektrik Elektronik Mühendisliği",
+     "İnşaat Mühendisliği",
+     "İşletme Mühendisliği",
+     "Makine Mühendisliği",
+     "Matematik Mühendisliği",
+     "Yazılım Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce en az 70 puan (son 5 yıl) veya eşdeğeri",
+     "En az dört yıllık lisans mezunu olmak",
+     "KPSS son başvuru tarihi itibarıyla geçerli olmak",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilgisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçmiş olmak",
+     "Az tehlikeli iş yeri için işe giriş sağlık raporu"
+    ]
+   }
+  ],
+  "notes": "Tablo 1'de 3 grup var (1+1+2=4 kadro); her satırın puan türleri bölüme göre verilmiş. 'Siyaset Bilimi ve Kamu Yönetimi, Kamu Yönetimi' iki ayrı bölüm olarak yorumlandı. KPSS yılı belirtilmemiş (son başvuru tarihi itibarıyla geçerli olmalı). Asgari KPSS puanı 80 genel şarttan alındı. Dengi bölümler için denklik belgesi gerekir. Aday yalnızca bir pozisyona başvurabilir."
+ }
+}

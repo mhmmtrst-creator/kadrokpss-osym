@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "id": "8714a92c2a153992d843",
+ "institution": "ELEŞKİRT BELEDİYE BAŞKANLIĞI",
+ "title": "1 MEMUR ALACAK",
+ "range": "9 Aralık - 11 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-09",
+  "apply_end": "2026-12-11",
+  "positions": [
+   {
+    "code": null,
+    "title": "İTFAİYE ERİ",
+    "place": "Eleşkirt Belediye Başkanlığı (Ağrı)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [],
+    "any_department": true,
+    "gender": "ERKEK",
+    "age_years": 30,
+    "age_rule": "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak",
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "Boy erkeklerde en az 1.67 m",
+     "Boy ile kilo farkı (+,-) 10 kg'dan fazla olmamak (1 metreden fazla kısım için)",
+     "Kapalı mekân, dar alan ve yükseklik fobisi olmamak",
+     "Boy ve kilo ölçümü başvuru sırasında yapılacak",
+     "Sözlü ve uygulamalı sınavda en az 60 puan almak",
+     "Hizmet sınıfı GİH, kadro derecesi 11"
+    ]
+   }
+  ],
+  "notes": "Tabloda tek satır var (1 kadro). Kadın boy şartı (1.60 m) genel metinde geçiyor ancak kadro cinsiyeti tabloda 'Erkek' olarak belirtilmiş. KPSS yılı 2026 (B grubu). Başvuru 09/12/2026-11/12/2026 arası şahsen yapılır. Toplam kadro sayısı ilanda ayrıca belirtilmemiş; declared_total null bırakıldı."
+ }
+}

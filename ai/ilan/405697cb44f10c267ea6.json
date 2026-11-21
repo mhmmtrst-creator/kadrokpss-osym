@@ -1,0 +1,91 @@
+{
+ "schema": 1,
+ "id": "405697cb44f10c267ea6",
+ "institution": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI",
+ "title": "7 AFET VE ACİL DURUM YÖNETİMİ DENETÇİ YARDIMCISI ALACAK",
+ "range": "23 Kasım - 30 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 7,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-23",
+  "apply_end": "2026-11-30",
+  "positions": [
+   {
+    "code": "1",
+    "title": "AFET VE ACİL DURUM YÖNETİMİ DENETÇİ YARDIMCISI (GRUP 1)",
+    "place": "Merkez Teşkilatı (Ankara)",
+    "count": 4,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P13",
+     "P33",
+     "P48"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "İktisat",
+     "İşletme",
+     "Kamu Yönetimi",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Siyaset Bilimi ve Uluslararası İlişkiler",
+     "Uluslararası İlişkiler",
+     "Maliye",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "2027 yılının Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1992 tarihinden sonra doğmuş olmak)",
+    "license_classes": [],
+    "other_conditions": [
+     "En az dört yıllık lisans eğitimi",
+     "KPSS P13, P33 veya P48'den herhangi birinden en az 80 puan",
+     "Erkek adaylar için askerlikle ilgisi bulunmamak",
+     "Türkiye'nin her yerinde görev yapmaya elverişli olmak",
+     "Sağlık problemi bulunmamak",
+     "Giriş (sözlü) sınavında en az 70 başarı puanı"
+    ]
+   },
+   {
+    "code": "2",
+    "title": "AFET VE ACİL DURUM YÖNETİMİ DENETÇİ YARDIMCISI (GRUP 2)",
+    "place": "Merkez Teşkilatı (Ankara)",
+    "count": 3,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Endüstri Mühendisliği",
+     "Matematik Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "2027 yılının Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1992 tarihinden sonra doğmuş olmak)",
+    "license_classes": [],
+    "other_conditions": [
+     "En az dört yıllık lisans eğitimi",
+     "KPSS P3'ten en az 80 puan",
+     "Erkek adaylar için askerlikle ilgisi bulunmamak",
+     "Türkiye'nin her yerinde görev yapmaya elverişli olmak",
+     "Sağlık problemi bulunmamak",
+     "Giriş (sözlü) sınavında en az 70 başarı puanı"
+    ]
+   }
+  ],
+  "notes": "KPSS puanı 2025 veya 2026 yıllarında yapılan sınavdan olmalı; tek yıl belirtilmediği için kpss_year null bırakıldı. Görev yeri 'merkez teşkilatı' olarak belirtilmiş, Ankara iletişim adresinden çıkarıldı."
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "id": "289a38a711097e7e0e34",
+ "institution": "MİLLİ SAVUNMA BAKANLIĞI",
+ "title": "TÜRK SİLAHLI KUVVETLERİNE FAKÜLTE VEYA YÜKSEKOKUL MEZUNLARINDAN 2026 YILI MUVAZZAF ASTSUBAY ADAYI TEMİNİ",
+ "range": "2 Kasım - 23 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": null,
+  "apply_end": null,
+  "positions": [],
+  "notes": "İlan belgesi yalnızca '2026 astsubay temini kılavuzu indirmek için tıklayınız.' bağlantısını içeriyor; kadro tablosu, sayı veya şart bulunmuyor. Pozisyonlar dış kılavuzda olduğundan çıkarılamadı."
+ }
+}

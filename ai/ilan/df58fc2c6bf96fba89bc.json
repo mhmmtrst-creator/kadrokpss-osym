@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "id": "df58fc2c6bf96fba89bc",
+ "institution": "MUDURNU BELEDİYE BAŞKANLIĞI",
+ "title": "1 SÖZLEŞMELİ PERSONEL ALACAK",
+ "range": "14 Aralık - 25 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-14",
+  "apply_end": "2026-12-25",
+  "positions": [
+   {
+    "code": null,
+    "title": "Mühendis",
+    "place": "Mudurnu Belediye Başkanlığı (Bolu)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 75,
+    "departments": [
+     "Harita Mühendisliği",
+     "Jeodezi ve Fotogrametri Mühendisliği",
+     "Geomatik Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az (B) sınıfı sürücü belgesine sahip olmak",
+     "Hizmet sınıfı TH, derece 5",
+     "Erkek adaylar için askerlikle ilişiği olmamak"
+    ]
+   }
+  ],
+  "notes": "İlanda toplam sayı ayrıca belirtilmemiş; tabloda tek pozisyon (1 kadro) var. Görev yeri tabloda yazmıyor, belediye adı yer olarak alındı. Sürücü belgesi 'en az B sınıfı' olarak yazılmış. Başvuru tarihleri 14/12/2026-25/12/2026."
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "schema": 1,
+ "id": "2f53e999c2fcd2b9e951",
+ "institution": "SAYIŞTAY BAŞKANLIĞI",
+ "title": "16 SÖZLEŞMELİ PERSONEL ALACAK",
+ "range": "11 Kasım - 25 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 16,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-11",
+  "apply_end": "2026-11-25",
+  "positions": [
+   {
+    "code": null,
+    "title": "SÖZLEŞMELİ ÇÖZÜMLEYİCİ",
+    "place": null,
+    "count": 3,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik-Elektronik Mühendisliği",
+     "Endüstri Mühendisliği",
+     "Fizik Mühendisliği",
+     "Matematik Mühendisliği",
+     "Haberleşme Mühendisliği",
+     "Matematik",
+     "İstatistik",
+     "Bilgisayar Bilimleri",
+     "Bilgisayar Enformatik",
+     "Bilgisayar Enformasyon Sistemleri",
+     "Bilgisayar Teknolojisi ve Bilişim Sistemleri",
+     "Bilişim Sistemleri ve Teknolojileri",
+     "Enformasyon Teknolojileri",
+     "Fizik",
+     "Matematik Bilgisayar",
+     "Yönetim Bilişim Sistemleri",
+     "İktisat",
+     "İşletme",
+     "Maliye",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri",
+     "Uluslararası İlişkiler"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 2 programlama dilini bildiğini belgelemek (biri güncel olmalı)",
+     "YDS İngilizce en az D düzeyi veya denk belge",
+     "Tercihen .Net/Java ile web tabanlı uygulama geliştirme deneyimi ve en az bir kurumsal projede görev almış olmak",
+     "Tercihen .Net Framework, ASP.NET MVC veya J2EE, AngularJS, Spring Boot, Spring MVC bilgisi",
+     "Tercihen web teknolojileri (HTML, HTML5, CSS, Javascript, JQuery) bilgisi",
+     "Tercihen Native SQL bilgisi",
+     "Tercihen MS SQL Server ve/veya Oracle bilgi ve deneyimi",
+     "Sözlü sınav yapılacak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "SÖZLEŞMELİ PROGRAMCI (LİSANS)",
+    "place": null,
+    "count": 9,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik-Elektronik Mühendisliği",
+     "Endüstri Mühendisliği",
+     "Fizik Mühendisliği",
+     "Matematik Mühendisliği",
+     "Haberleşme Mühendisliği",
+     "Matematik",
+     "İstatistik",
+     "Bilgisayar Bilimleri",
+     "Bilgisayar Enformatik",
+     "Bilgisayar Enformasyon Sistemleri",
+     "Bilgisayar Teknolojisi ve Bilişim Sistemleri",
+     "Bilişim Sistemleri ve Teknolojileri",
+     "Enformasyon Teknolojileri",
+     "Fizik",
+     "Matematik Bilgisayar",
+     "Yönetim Bilişim Sistemleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 2 programlama dilini bildiğini belgelemek (biri güncel olmalı)",
+     "YDS İngilizce en az D düzeyi veya denk belge",
+     "Sözlü sınav yapılacak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "SÖZLEŞMELİ PROGRAMCI (ÖN LİSANS)",
+    "place": null,
+    "count": 4,
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Bilgisayar programcılığı ile ilgili bölümler"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 2 programlama dilini bildiğini belgelemek (biri güncel olmalı)",
+     "YDS İngilizce en az D düzeyi veya denk belge",
+     "Sözlü sınav yapılacak"
+    ]
+   }
+  ],
+  "notes": "Görev yeri belirtilmemiş. Lisans için KPSSP1, ön lisans için KPSSP93 en az 60 puan; KPSS yılı 2026. Programcı (lisans) bölüm listesinde mühendislik adları 'fizik, matematik ... mühendislikleri' ifadesiyle verilmiş; bölüm adları yorumla yazılmıştır."
+ }
+}

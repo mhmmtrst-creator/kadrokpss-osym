@@ -1,0 +1,136 @@
+{
+ "schema": 1,
+ "id": "08e9302971543581db45",
+ "institution": "İSTANBUL KALKINMA AJANSI",
+ "title": "5 UZMAN ALACAK",
+ "range": "2 Kasım - 22 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 5,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-02",
+  "apply_end": "2026-11-22",
+  "positions": [
+   {
+    "code": null,
+    "title": "UZMAN (KPSS ile - Mühendislik, Matematik, Şehir ve Bölge Planlama, Yönetim Bilişim Sistemleri)",
+    "place": "İstanbul",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Çevre Mühendisliği",
+     "Elektrik-Elektronik Mühendisliği",
+     "Elektronik ve Haberleşme Mühendisliği",
+     "Endüstri Mühendisliği",
+     "İşletme Mühendisliği",
+     "Makine Mühendisliği",
+     "Matematik Mühendisliği",
+     "Matematik",
+     "Metalurji Mühendisliği",
+     "Metalurji ve Malzeme Mühendisliği",
+     "Şehir ve Bölge Planlama",
+     "Yönetim Bilişim Sistemleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az dört yıllık lisans eğitimi",
+     "YDS/e-YDS veya denk sınavdan İngilizce en az C düzeyi (son 5 yıl içinde)",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "UZMAN (KPSS ile - İktisat, İşletme, Maliye)",
+    "place": "İstanbul",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P14",
+     "P15",
+     "P24",
+     "P25",
+     "P19",
+     "P20",
+     "P21"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "İktisat",
+     "İşletme",
+     "Maliye"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az dört yıllık lisans eğitimi",
+     "YDS/e-YDS veya denk sınavdan İngilizce en az C düzeyi (son 5 yıl içinde)",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "UZMAN (KPSS şartı aranmaksızın deneyim ile - Mühendislik, Matematik, Şehir ve Bölge Planlama, Yönetim Bilişim Sistemleri)",
+    "place": "İstanbul",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Çevre Mühendisliği",
+     "Elektrik-Elektronik Mühendisliği",
+     "Elektronik ve Haberleşme Mühendisliği",
+     "Endüstri Mühendisliği",
+     "İşletme Mühendisliği",
+     "Makine Mühendisliği",
+     "Matematik Mühendisliği",
+     "Matematik",
+     "Metalurji Mühendisliği",
+     "Metalurji ve Malzeme Mühendisliği",
+     "Şehir ve Bölge Planlama",
+     "Yönetim Bilişim Sistemleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 50,
+    "age_rule": "Başvuru tarihi itibarıyla 50 yaşını doldurmamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Belgelendirilmiş en az 5 yıl fiilen çalışmış olmak (planlama, proje, strateji, izleme-değerlendirme, danışmanlık, şehircilik-çevre, AR-GE, BİT, finansman, İK, uluslararası ticaret, hukuk alanlarında)",
+     "Doğrulanabilir SGK barkodlu hizmet belgesi sunmak",
+     "En az dört yıllık lisans eğitimi",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilişiği bulunmamak"
+    ]
+   }
+  ],
+  "notes": "İlan toplam 5 uzman alımı belirtiyor (KPSS ile 2+2, deneyim yoluyla 1). Tablo 1'de KPSS Puan Türü sütununda KPSSP1/P2/P3 ve KPSSP14/P15/P24/P25/P19/P20/P21 yazıyor; bölüm bazında ayrı puan türü yok, grup bazında verildi. Tercih nedenleri bölümünde (2.3) UZMAN (3 kişi) ve UZMAN (2 kişi) yazıyor; bu 3 kişi KPSS (2) ve deneyim (1) kadrolarının toplamıdır. KPSS yılı belirtilmemiş (son başvuru tarihi itibarıyla geçerli puan). Her aday yalnızca bir pozisyona başvurabilir. Çalışma yeri İstanbul İli olarak belirtilmiştir. Tercih nedenleri (yüksek lisans, SMMM vb.) şart değil, tercih sebebidir."
+ }
+}

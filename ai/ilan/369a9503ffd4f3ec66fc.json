@@ -1,0 +1,103 @@
+{
+ "schema": 1,
+ "id": "369a9503ffd4f3ec66fc",
+ "institution": "YILDIZ TEKNİK ÜNİVERSİTESİ",
+ "title": "2 BİLİŞİM PERSONELİ ALACAK",
+ "range": "2 Kasım - 1 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 2,
+  "academic": false,
+  "kpss_year": 2025,
+  "apply_start": null,
+  "apply_end": null,
+  "positions": [
+   {
+    "code": null,
+    "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ (BİLGİ GÜVENLİĞİ UZMANI)",
+    "place": "Bilgi İşlem Daire Başkanlığı",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği",
+     "Diğer mühendislik bölümleri",
+     "Fen-Edebiyat ve Eğitim fakültelerinin bilgisayar ve teknoloji üzerine eğitim veren bölümleri",
+     "İstatistik",
+     "Matematik",
+     "Fizik"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Bilgi güvenliği uzmanı, sistem yöneticisi, ağ yöneticisi veya yazılım geliştiricisi olarak en az 3 yıl çalıştığını belgelemek",
+     "Güncel programlama dillerinden en az ikisini bildiğini belgelemek",
+     "Bilgi güvenliği ve SIEM konularında bilgi sahibi olmak",
+     "Sızma testleri ve zararlı yazılım analizi konularında bilgi sahibi olmak",
+     "Tercihen CISSP, CISM, CEH, OSCP sertifikalarından biri",
+     "Ücret tavanının 2 katına kadar sözleşme ücreti",
+     "Erkek adaylar için askerlik şartı",
+     "YDS veya eş değeri İngilizce yabancı dil puanı değerlendirilir"
+    ]
+   },
+   {
+    "code": null,
+    "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ (NETWORK UZMANI)",
+    "place": "Bilgi İşlem Daire Başkanlığı",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği",
+     "Diğer mühendislik bölümleri",
+     "Fen-Edebiyat ve Eğitim fakültelerinin bilgisayar ve teknoloji üzerine eğitim veren bölümleri",
+     "İstatistik",
+     "Matematik",
+     "Fizik"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Ağ uzmanı olarak en az 3 yıl tecrübe sahibi olmak ve belgelemek",
+     "Güncel programlama dillerinden en az ikisini bildiğini belgelemek",
+     "Cisco, Huawei, Extreme vb. cihazlarda tecrübe sahibi olmak",
+     "Palo Alto güvenlik duvarı yönetiminde tecrübe sahibi olmak",
+     "Python veya ağ otomasyonu için programlama dili bilmek",
+     "Tercihen CCNA sertifikası",
+     "Ücret tavanının 2 katına kadar sözleşme ücreti",
+     "Erkek adaylar için askerlik şartı"
+    ]
+   }
+  ],
+  "notes": "KPSS yılı 2025 veya 2026 (2025 yazıldı). Başvuru süresi ilan tarihinden itibaren 30 gün, kesin tarih belgede yok. Asgari KPSS puanı belirtilmemiş (KPSS puanı yoksa 70 sayılır). b ve c bendindeki bölümler genel şart olarak her iki pozisyona uygulandı; c bendi mezunları yalnızca 2 katı ücretli pozisyonlara başvurabilir (iki pozisyon da 2 katı). Genel şartlardaki mesleki tecrübe süresi (3 veya 5 yıl) özel şartlarda 3 yıl olarak belirtilmiş."
+ }
+}

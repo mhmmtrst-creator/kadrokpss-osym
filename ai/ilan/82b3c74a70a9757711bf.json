@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "id": "82b3c74a70a9757711bf",
+ "institution": "AKHİSAR BELEDİYE BAŞKANLIĞI",
+ "title": "1 MEMUR ALACAK",
+ "range": "30 Kasım - 11 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-30",
+  "apply_end": "2026-12-11",
+  "positions": [
+   {
+    "code": null,
+    "title": "MÜHENDİS (MAKİNE)",
+    "place": "Akhisar Belediye Başkanlığı (Manisa)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Makine Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az (B) sınıfı sürücü belgesine sahip olmak",
+     "Hizmet sınıfı TH, kadro derecesi 5"
+    ]
+   }
+  ],
+  "notes": "Tabloda tek satır var (1 kadro). İlanda toplam sayı ayrıca belirtilmemiş, başlıkta '1 MEMUR ALACAK' yazıyor. Cinsiyet 'Erkek/Kadın' olduğundan sınırlama yok. Yaş sınırı belirtilmemiş. KPSS (B) grubu, 2026 yılı sınavı."
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "id": "c734881a68bc7faf39f2",
+ "institution": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI",
+ "title": "5 MÜFETTİŞ YARDIMCISI ALACAK",
+ "range": "23 Kasım - 4 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 5,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-23",
+  "apply_end": "2026-12-04",
+  "positions": [
+   {
+    "code": null,
+    "title": "MÜFETTİŞ YARDIMCISI",
+    "place": "Ankara Büyükşehir Belediye Başkanlığı",
+    "count": 5,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P48"
+    ],
+    "department_kpss": [],
+    "min_score": 75,
+    "departments": [
+     "Hukuk Fakültesi",
+     "Siyasal Bilgiler Fakültesi",
+     "İktisat Fakültesi",
+     "İşletme Fakültesi",
+     "İktisadî ve İdarî Bilimler Fakültesi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Yazılı sınav tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (26.12.1991 ve daha sonraki tarihlerde doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "En az 4 yıllık lisans eğitimi veren fakültelerden mezun olmak",
+     "Denkliği kabul edilen yurt içi/yurt dışı öğretim kurumlarından mezun olmak",
+     "Müfettişlik görevine engel sağlık sorunu bulunmamak",
+     "Müfettişliğe adli veya idari engeli bulunmamak",
+     "Rehberlik ve Teftiş Kurulu sınavına en fazla 1 defa katılmış olmak",
+     "Yazılı ve sözlü sınavda başarılı olmak",
+     "Erkek adaylar için askerlik durumu şartı",
+     "Kadro derecesi 6, hizmet sınıfı GİH"
+    ]
+   }
+  ],
+  "notes": "KPSS (A Grubu) 2025 ve 2026 yıllarındaki sınavlardan biri istenmektedir; tek bir yıl belirtilmediği için kpss_year null bırakıldı. Cinsiyet: Erkek/Kadın (kısıtlama yok). Tabloda kadro kodu ve görev yeri ayrıca verilmemiş, yer olarak Ankara Büyükşehir Belediye Başkanlığı yazıldı. Başvuru 23.11.2026-04.12.2026 arasında, yazılı sınav 26.12.2026'da yapılacaktır."
+ }
+}

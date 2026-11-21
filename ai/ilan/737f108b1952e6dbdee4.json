@@ -1,0 +1,126 @@
+{
+ "schema": 1,
+ "id": "737f108b1952e6dbdee4",
+ "institution": "GAZİOSMANPAŞA BELEDİYE BAŞKANLIĞI",
+ "title": "36 ZABITA MEMURU ALACAK",
+ "range": "7 Aralık - 11 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 36,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-07",
+  "apply_end": "2026-12-11",
+  "positions": [
+   {
+    "code": "1",
+    "title": "ZABITA MEMURU",
+    "place": "Gaziosmanpaşa Belediye Başkanlığı (İstanbul)",
+    "count": 18,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 65,
+    "departments": [
+     "Kamu Yönetimi",
+     "Yerel Yönetimler",
+     "İşletme",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Siyaset Bilimi",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 30,
+    "age_rule": "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak",
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az (B) sınıfı sürücü belgesine sahip olmak",
+     "Erkeklerde en az 1.67 m, kadınlarda en az 1.60 m boy",
+     "Boyun 1 metreden fazla olan kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
+     "Askerlikle ilişiği olmamak (erkek adaylar)",
+     "Sözlü ve uygulamalı sınav yapılacak"
+    ]
+   },
+   {
+    "code": "2",
+    "title": "ZABITA MEMURU",
+    "place": "Gaziosmanpaşa Belediye Başkanlığı (İstanbul)",
+    "count": 5,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 65,
+    "departments": [
+     "İnşaat Mühendisliği",
+     "Çevre Mühendisliği",
+     "Veteriner",
+     "Gıda Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 30,
+    "age_rule": "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak",
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az (B) sınıfı sürücü belgesine sahip olmak",
+     "Erkeklerde en az 1.67 m, kadınlarda en az 1.60 m boy",
+     "Boyun 1 metreden fazla olan kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
+     "Askerlikle ilişiği olmamak (erkek adaylar)",
+     "Sözlü ve uygulamalı sınav yapılacak"
+    ]
+   },
+   {
+    "code": "3",
+    "title": "ZABITA MEMURU",
+    "place": "Gaziosmanpaşa Belediye Başkanlığı (İstanbul)",
+    "count": 13,
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 65,
+    "departments": [
+     "Mahalli İdareler",
+     "Mahalli İdareler (Zabıta)",
+     "Yerel Yönetimler",
+     "Halkla İlişkiler",
+     "Adalet",
+     "Acil Durum ve Afet Yönetimi",
+     "İlk ve Acil Yardım"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 30,
+    "age_rule": "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak",
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az (B) sınıfı sürücü belgesine sahip olmak",
+     "Erkeklerde en az 1.67 m, kadınlarda en az 1.60 m boy",
+     "Boyun 1 metreden fazla olan kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
+     "Askerlikle ilişiği olmamak (erkek adaylar)",
+     "Sözlü ve uygulamalı sınav yapılacak"
+    ]
+   }
+  ],
+  "notes": "Satır toplamı 18+5+13=36, başlıktaki sayıyla uyumlu; ilan metni toplam sayıyı ayrıca belirtmiyor, başlıktan alındı. Başvuru tarihleri 07/12/2026-11/12/2026, şahsen yapılır. KPSS yılı 2026 olarak belirtilmiş. Cinsiyet: Erkek/Kadın (kısıtlama yok)."
+ }
+}

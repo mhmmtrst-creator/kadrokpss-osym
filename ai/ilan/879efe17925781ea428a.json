@@ -1,0 +1,65 @@
+{
+ "schema": 1,
+ "id": "879efe17925781ea428a",
+ "institution": "İÇİŞLERİ BAKANLIĞI",
+ "title": "60 KAYMAKAM ADAYI ALACAK",
+ "range": "1 Aralık - 7 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 60,
+  "academic": false,
+  "kpss_year": 2025,
+  "apply_start": "2026-12-01",
+  "apply_end": "2026-12-21",
+  "positions": [
+   {
+    "code": null,
+    "title": "KAYMAKAM ADAYI",
+    "place": "İçişleri Bakanlığı Mülki İdare Amirliği Hizmetleri Sınıfı",
+    "count": 60,
+    "education": [
+     "LISANS",
+     "YUKSEK_LISANS"
+    ],
+    "kpss_types": [
+     "P32"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Uluslararası İlişkiler",
+     "Siyaset Bilimi",
+     "Kamu Yönetimi",
+     "İktisat",
+     "İşletme",
+     "Maliye",
+     "Finans",
+     "Ekonometri",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri",
+     "Hukuk Fakülteleri",
+     "Mühendislik Fakülteleri (tezli lisansüstü şartıyla)",
+     "Tarih (tezli lisansüstü şartıyla)",
+     "Sosyoloji (tezli lisansüstü şartıyla)",
+     "Halkla İlişkiler ve Tanıtım (tezli lisansüstü şartıyla)",
+     "Psikoloji (tezli lisansüstü şartıyla)"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "1 Ocak 2027 tarihi itibariyle 35 yaşını doldurmamış olmak (1 Ocak 1992 ve daha sonraki tarihlerde doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Birinci yol: sayılan bölümlerden veya hukuk fakültesinden en az 4 yıllık lisans mezunu olmak",
+     "İkinci yol: mühendislik, tarih, sosyoloji, halkla ilişkiler ve tanıtım, psikoloji lisansı ve uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, hukuk, maliye veya iktisat alanında tezli lisansüstü eğitimini tamamlamış olmak",
+     "Müfredatın %80'ine sahip diğer bölümler için YÖK eşdeğerlik belgesi gerekir",
+     "1700 sayılı Dahiliye Memurları Kanunu m.2 ve 2/A, 657 sayılı DMK m.48/A ve Kaymakam Adayları Yönetmeliği şartları",
+     "Askerlikle ilişiği bulunmamak (yapmış, ertelemiş veya yedek sınıfa geçirilmiş olmak)",
+     "KPSS puanı 2025 veya 2026 yılında alınmış olmalı",
+     "Yazılı sınav 31 Ocak 2027'de Ankara'da; 70 ve üzeri alanlar arasından 240 aday mülakata girecek"
+    ]
+   }
+  ],
+  "notes": "KPSS puan türü ilanda 'KPSSP32' olarak yazılmış, P32 olarak alındı. KPSS yılı 2025 veya 2026 kabul ediliyor; tek değer istendiği için en erken yıl 2025 yazıldı. Ön başvuru 1-7 Aralık 2026, nihai başvuru 16-21 Aralık 2026 (geç başvuru günü 29 Aralık 2026); apply_end nihai başvurunun son günü olarak yazıldı. Tek bir kadro var, tablo yok. İki ayrı mezuniyet yolu bulunduğundan eğitim LISANS ve YUKSEK_LISANS olarak verildi."
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "schema": 1,
+ "id": "4b4440fbff6fa5c71891",
+ "institution": "ZAFER KALKINMA AJANSI",
+ "title": "2 SÖZLEŞMELİ PERSONEL ALACAK",
+ "range": "25 Kasım - 14 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 2,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-25",
+  "apply_end": "2026-12-14",
+  "positions": [
+   {
+    "code": null,
+    "title": "UZMAN PERSONEL (Mühendislik Bölümleri, Şehir ve Bölge Planlama)",
+    "place": "Afyonkarahisar, Kütahya, Manisa ve Uşak illerinden biri (Ajans Genel Sekreterliği'nin uygun göreceği)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Mühendislik Bölümleri",
+     "Şehir ve Bölge Planlama"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce son 5 yıl içinde en az 70 puan veya denk belge",
+     "KPSS son başvuru tarihi itibarıyla geçerli olmalı",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Seyahat engeli olmamak",
+     "Az tehlikeli iş yeri için işe giriş sağlık raporu",
+     "Askerlikle ilgisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçmiş olmak",
+     "Sözlü sınav (mülakat) başarı notu en az 70"
+    ]
+   },
+   {
+    "code": null,
+    "title": "UZMAN PERSONEL (İstatistik, Ekonometri, İktisat, Maliye, İşletme, Kamu Yönetimi, Uluslararası İlişkiler, Çalışma Ekonomisi ve Endüstri İlişkileri)",
+    "place": "Afyonkarahisar, Kütahya, Manisa ve Uşak illerinden biri (Ajans Genel Sekreterliği'nin uygun göreceği)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P12",
+     "P13",
+     "P14",
+     "P15",
+     "P19",
+     "P20",
+     "P24",
+     "P25",
+     "P29",
+     "P30",
+     "P34",
+     "P35",
+     "P39",
+     "P40"
+    ],
+    "department_kpss": [
+     {
+      "department": "İstatistik",
+      "kpss_types": [
+       "P12",
+       "P13"
+      ]
+     },
+     {
+      "department": "Ekonometri",
+      "kpss_types": [
+       "P12",
+       "P13"
+      ]
+     },
+     {
+      "department": "İktisat (Ekonomi)",
+      "kpss_types": [
+       "P14",
+       "P15"
+      ]
+     },
+     {
+      "department": "Maliye",
+      "kpss_types": [
+       "P19",
+       "P20"
+      ]
+     },
+     {
+      "department": "İşletme",
+      "kpss_types": [
+       "P24",
+       "P25"
+      ]
+     },
+     {
+      "department": "Kamu Yönetimi (Siyaset Bilimi ve Kamu Yönetimi)",
+      "kpss_types": [
+       "P29",
+       "P30"
+      ]
+     },
+     {
+      "department": "Uluslararası İlişkiler (Siyaset Bilimi ve Uluslararası İlişkiler)",
+      "kpss_types": [
+       "P34",
+       "P35"
+      ]
+     },
+     {
+      "department": "Çalışma Ekonomisi ve Endüstri İlişkileri",
+      "kpss_types": [
+       "P39",
+       "P40"
+      ]
+     }
+    ],
+    "min_score": 80,
+    "departments": [
+     "İstatistik",
+     "Ekonometri",
+     "İktisat (Ekonomi)",
+     "Maliye",
+     "İşletme",
+     "Kamu Yönetimi (Siyaset Bilimi ve Kamu Yönetimi)",
+     "Uluslararası İlişkiler (Siyaset Bilimi ve Uluslararası İlişkiler)",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce son 5 yıl içinde en az 70 puan veya denk belge",
+     "KPSS son başvuru tarihi itibarıyla geçerli olmalı",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Seyahat engeli olmamak",
+     "Az tehlikeli iş yeri için işe giriş sağlık raporu",
+     "Askerlikle ilgisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçmiş olmak",
+     "Sözlü sınav (mülakat) başarı notu en az 70"
+    ]
+   }
+  ],
+  "notes": "İlan, Tablo 1'deki iki bölüm grubu için birer Uzman Personel alımı yapar (toplam 2); tabloda ayrı görev yeri yok, personel dört ilden birinde görevlendirilecek. Yalnızca bir kontenjana başvurulabilir. KPSS puanının yılı belirtilmemiş, 'son başvuru tarihi itibarıyla geçerli' deniyor. Yaş sınırı yok. Başvuru Kariyer Kapısı üzerinden yapılır."
+ }
+}

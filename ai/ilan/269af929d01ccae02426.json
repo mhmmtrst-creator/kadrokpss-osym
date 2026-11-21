@@ -1,0 +1,75 @@
+{
+ "schema": 1,
+ "id": "269af929d01ccae02426",
+ "institution": "BERGAMA BELEDİYE BAŞKANLIĞI",
+ "title": "4 MEMUR ALACAK",
+ "range": "9 Aralık - 11 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 4,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-09",
+  "apply_end": "2026-12-11",
+  "positions": [
+   {
+    "code": null,
+    "title": "Memur",
+    "place": "Bergama Belediye Başkanlığı (İzmir)",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Ekonomi",
+     "İktisat",
+     "Maliye"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Genel İdare Hizmetleri sınıfı, 7. derece",
+     "Sözlü sınav yapılacak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Evlendirme Memuru",
+    "place": "Bergama Belediye Başkanlığı (İzmir)",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Uluslararası İlişkiler",
+     "Maliye",
+     "Halkla İlişkiler ve Tanıtım"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Genel İdare Hizmetleri sınıfı, 8. derece",
+     "Sözlü sınav yapılacak"
+    ]
+   }
+  ],
+  "notes": "Tabloda 2 satır var, toplam 4 kadro; ilan başlığında da 4 memur yazıyor. KPSS yılı 2026 olarak belirtilmiş (KPSS B grubu). Başvuru tarihleri 09/12/2026-11/12/2026. Satırlarda görev yeri ayrıca belirtilmediği için yer Bergama Belediyesi olarak alındı."
+ }
+}

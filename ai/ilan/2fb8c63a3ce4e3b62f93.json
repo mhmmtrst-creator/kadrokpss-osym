@@ -1,0 +1,137 @@
+{
+ "schema": 1,
+ "id": "2fb8c63a3ce4e3b62f93",
+ "institution": "YÜKSEKÖĞRETİM KALİTE KURULU",
+ "title": "5 UZMAN YARDIMCISI ALACAK",
+ "range": "1 Aralık - 14 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 5,
+  "academic": false,
+  "kpss_year": 2025,
+  "apply_start": "2026-12-01",
+  "apply_end": "2026-12-14",
+  "positions": [
+   {
+    "code": "A1",
+    "title": "Yükseköğretim Kalite Kurulu Uzman Yardımcısı (GİH)",
+    "place": "Yükseköğretim Kalite Kurulu Başkanlığı",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P14",
+     "P15",
+     "P16",
+     "P17",
+     "P18"
+    ],
+    "department_kpss": [],
+    "min_score": 75,
+    "departments": [
+     "İktisat"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "1 Ocak 2026 itibarıyla otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Sözlü sınava çağırılacak aday sayısı: 4",
+     "Yabancı fakülte mezunları için YÖK denklik belgesi"
+    ]
+   },
+   {
+    "code": "A2",
+    "title": "Yükseköğretim Kalite Kurulu Uzman Yardımcısı (GİH)",
+    "place": "Yükseköğretim Kalite Kurulu Başkanlığı",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P29",
+     "P30",
+     "P31",
+     "P32",
+     "P33"
+    ],
+    "department_kpss": [],
+    "min_score": 75,
+    "departments": [
+     "Kamu Yönetimi",
+     "Siyaset Bilimi ve Kamu Yönetimi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "1 Ocak 2026 itibarıyla otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Sözlü sınava çağırılacak aday sayısı: 4",
+     "Yabancı fakülte mezunları için YÖK denklik belgesi"
+    ]
+   },
+   {
+    "code": "A3",
+    "title": "Yükseköğretim Kalite Kurulu Uzman Yardımcısı (GİH)",
+    "place": "Yükseköğretim Kalite Kurulu Başkanlığı",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P34",
+     "P35",
+     "P36",
+     "P37",
+     "P38"
+    ],
+    "department_kpss": [],
+    "min_score": 75,
+    "departments": [
+     "Uluslararası İlişkiler",
+     "Siyaset Bilimi ve Uluslararası İlişkiler"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "1 Ocak 2026 itibarıyla otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Sözlü sınava çağırılacak aday sayısı: 8",
+     "Yabancı fakülte mezunları için YÖK denklik belgesi"
+    ]
+   },
+   {
+    "code": "A4",
+    "title": "Yükseköğretim Kalite Kurulu Uzman Yardımcısı (GİH)",
+    "place": "Yükseköğretim Kalite Kurulu Başkanlığı",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 75,
+    "departments": [
+     "İletişim Fakültesi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "1 Ocak 2026 itibarıyla otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Sözlü sınava çağırılacak aday sayısı: 4",
+     "Yabancı fakülte mezunları için YÖK denklik belgesi"
+    ]
+   }
+  ],
+  "notes": "KPSS 2025 ve 2026 yıllarında yapılan sınavlardan geçerli; kpss_year olarak 2025 yazıldı. Asgari 75 puan genel koşuldur ve tabloda belirtilen puan türlerinden herhangi biri için aranır. Yaş sınırı 35 yaşını doldurmamış olmak şeklindedir. Başvuru tarihleri belgede 01/12/2026-14/12/2026 olarak yazılmıştır."
+ }
+}

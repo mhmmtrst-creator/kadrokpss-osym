@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "id": "c2aae6dcdb99dad2eb94",
+ "institution": "BARTIN ÜNİVERSİTESİ",
+ "title": "1 SÖZLEŞMELİ PERSONEL ALACAK",
+ "range": "20 Kasım - 5 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-20",
+  "apply_end": "2026-12-05",
+  "positions": [
+   {
+    "code": "2026-11",
+    "title": "Büro Personeli",
+    "place": null,
+    "count": 1,
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": null,
+    "age_rule": "01 Ocak 1991 ve sonrası doğumlu olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Arşiv araştırması sonucu olumlu olmak",
+     "657 sayılı Kanun'un 48. maddesindeki şartları taşımak"
+    ]
+   }
+  ],
+  "notes": "Tabloda tek satır var (1 kadro). Toplam kadro sayısı ilanda ayrıca belirtilmemiş. Görev yeri belirtilmemiş. Yaş sınırı doğum tarihi şeklinde verilmiş (yıl cinsinden üst sınır yok). Başvuru tarihleri belgede 2026 olarak yazılıdır."
+ }
+}

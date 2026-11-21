@@ -1,0 +1,62 @@
+{
+ "schema": 1,
+ "id": "fa6d5b6206e20d467b8a",
+ "institution": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
+ "title": "100 SOSYAL GÜVENLİK DENETMEN YARDIMCISI ALACAK",
+ "range": "9 Kasım - 22 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 100,
+  "academic": false,
+  "kpss_year": 2025,
+  "apply_start": "2026-11-09",
+  "apply_end": "2026-11-22",
+  "positions": [
+   {
+    "code": null,
+    "title": "SOSYAL GÜVENLİK DENETMEN YARDIMCISI",
+    "place": "Taşra teşkilatı",
+    "count": 100,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P39",
+     "P40",
+     "P41",
+     "P42",
+     "P43",
+     "P44",
+     "P45",
+     "P46",
+     "P47",
+     "P48"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Hukuk",
+     "Siyasal Bilgiler",
+     "İktisadi ve İdari Bilimler",
+     "İktisat",
+     "İşletme",
+     "Sosyal Hizmetler (İktisadi ve İdari Bilimler fakültelerinin sosyal hizmetler bölümü)"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Giriş sınavının yapıldığı yılın Ocak ayının birinci günü itibarıyla otuz beş yaşını doldurmamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Kanun 48/A genel şartları",
+     "Görevini devamlı yapmaya engel durumu olmamak",
+     "Sözlü sınav yapılacak (en az 70 puan)",
+     "Sözlü sınava en fazla 400 aday çağrılacak",
+     "Yurt dışı mezunlar için denklik belgesi yüklenmeli"
+    ]
+   }
+  ],
+  "notes": "KPSS yılı 2025 veya 2026 olarak belirtilmiş; kpss_year için ilk yıl (2025) yazıldı. KPSS türü 'KPSSP39-KPSSP40-KPSSP41-KPSSP42-KPSSP43–KPSSP48' şeklinde yazılmış; P43–P48 aralığı P43 ile P48 arasındaki tüm türler olarak açıldı. Sosyal hizmetler ifadesi tabloda belirsiz; fakültelerin sosyal hizmetler bölümü olarak yazıldı. Başvuru yeri Kariyer Kapısı (E-Devlet). Sınav tarihi 28.12.2026-11.01.2027."
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "schema": 1,
+ "id": "7e122fee99c0f4004044",
+ "institution": "TANOBA BELEDİYE BAŞKANLIĞI",
+ "title": "1 MEMUR ALACAK",
+ "range": "16 Aralık - 18 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-16",
+  "apply_end": "2026-12-18",
+  "positions": [
+   {
+    "code": null,
+    "title": "Memur",
+    "place": "Tanoba Belediye Başkanlığı (Tokat)",
+    "count": 1,
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az (B) sınıfı sürücü belgesine sahip olmak",
+     "Hizmet sınıfı GİH, kadro derecesi 9",
+     "Erkek adaylar için askerlik durumu şartı"
+    ]
+   }
+  ],
+  "notes": "Tabloda tek satır var (1 Memur). Toplam kadro sayısı ilanda ayrıca belirtilmemiş. KPSS yılı 2026 olarak ilanda geçiyor (KPSS B grubu). Görev yeri tabloda yazılı değil, Tanoba Belediye Başkanlığı olarak alındı."
+ }
+}

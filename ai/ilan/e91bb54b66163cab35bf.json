@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "id": "e91bb54b66163cab35bf",
+ "institution": "MİLLİ SAVUNMA BAKANLIĞI",
+ "title": "TÜRK SİLAHLI KUVVETLERİNE EN AZ DÖRT YIL SÜRELİ FAKÜLTE VEYA YÜKSEKOKUL MEZUNLARINDAN 2026 YILI BANDO SINIFI MUVAZZAF ASTSUBAY ADAYI TEMİNİ",
+ "range": "2 Kasım - 23 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": null,
+  "apply_end": null,
+  "positions": [],
+  "notes": "İlan metninde kadro tablosu veya kadro sayısı yok; belge yalnızca 2026 Yılı Bando Sınıfı Muvazzaf Astsubay Temini Kılavuzunu indirmek için bir bağlantı içeriyor. Kadro bilgileri kılavuzda olduğundan pozisyon çıkarılamadı."
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "schema": 1,
+ "id": "37bb2d976d18d3ff33f7",
+ "institution": "ORTA KARADENİZ KALKINMA AJANSI",
+ "title": "5 ALACAK",
+ "range": "2 Kasım - 22 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 5,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-02",
+  "apply_end": "2026-11-22",
+  "positions": [
+   {
+    "code": null,
+    "title": "UZMAN PERSONEL",
+    "place": "Samsun (Amasya, Çorum, Samsun, Tokat)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Şehir ve Bölge Planlama",
+     "Mimarlık"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS veya iş tecrübesi ile başvurulabilir",
+     "İngilizce YDS (C) düzeyi veya eşdeğeri belge (son 5 yıl)",
+     "İş tecrübesiyle başvuruda en az 5 yıl çalışmış olmak ve 50 yaşını doldurmamış olmak",
+     "Sözlü sınava çağrılacak aday sayısı 5"
+    ]
+   },
+   {
+    "code": null,
+    "title": "UZMAN PERSONEL",
+    "place": "Samsun (Amasya, Çorum, Samsun, Tokat)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Çevre Mühendisliği",
+     "Elektrik-Elektronik Mühendisliği",
+     "Endüstri Mühendisliği",
+     "Endüstriyel Tasarım Mühendisliği",
+     "Gıda Mühendisliği",
+     "İşletme Mühendisliği",
+     "Mekatronik Mühendisliği",
+     "Metalurji ve Malzeme Mühendisliği",
+     "Kontrol ve Otomasyon Mühendisliği",
+     "Tekstil Mühendisliği",
+     "Yapay Zeka ve Veri Mühendisliği",
+     "Yönetim Bilişim Sistemleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS veya iş tecrübesi ile başvurulabilir",
+     "İngilizce YDS (C) düzeyi veya eşdeğeri belge (son 5 yıl)",
+     "İş tecrübesiyle başvuruda en az 5 yıl çalışmış olmak ve 50 yaşını doldurmamış olmak",
+     "Sözlü sınava çağrılacak aday sayısı 5"
+    ]
+   },
+   {
+    "code": null,
+    "title": "UZMAN PERSONEL",
+    "place": "Samsun (Amasya, Çorum, Samsun, Tokat)",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P12",
+     "P13",
+     "P14",
+     "P15",
+     "P19",
+     "P20",
+     "P24",
+     "P25",
+     "P34",
+     "P36",
+     "P48"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Çalışma Ekonomisi ve Endüstri İlişkileri",
+     "Ekonomi",
+     "Ekonometri",
+     "Ekonomi ve Finans",
+     "İktisat",
+     "İşletme",
+     "Kamu Yönetimi",
+     "Uluslararası Ticaret ve İşletmecilik",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Siyaset Bilimi ve Uluslararası İlişkiler",
+     "Veri Bilimi ve Analitiği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Yalnızca KPSS ile alım",
+     "İngilizce YDS (C) düzeyi veya eşdeğeri belge (son 5 yıl)",
+     "Sözlü sınava çağrılacak aday sayısı 10"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (BÜRO GÖREVLİSİ)",
+    "place": "Samsun (Amasya, Çorum, Samsun, Tokat)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Ekonomi",
+     "İktisat",
+     "İşletme",
+     "Maliye",
+     "Kamu Yönetimi",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Uluslararası Ticaret ve İşletmecilik",
+     "Yönetim Bilişim Sistemleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Yalnızca KPSS ile alım",
+     "Sözlü sınava çağrılacak aday sayısı 5"
+    ]
+   }
+  ],
+  "notes": "İlan başlığı ve metin 4 uzman + 1 destek personeli = 5 kadro belirtiyor. Tablo 1'de uzman sayıları 1+1+2=4 olup toplam satırıyla uyumlu. KPSS puanı 2025 veya 2026 yıllarından kabul edildiği için kpss_year en yeni yıl olan 2026 yazıldı. Başvuru bitiş saati 23.59. Ajansın merkezi Samsun, çalışma yeri Amasya, Çorum, Samsun, Tokat illerinden Ajansın uygun göreceği biri. Tercih nedenleri (B sınıfı ehliyet, YDS vb.) şart değil, sadece tercih sebebi olduğu için lisans sınıfı yazılmadı. Tablo 1'deki PDF'te Veri Bilimi ve Analitiği bölümü sayfa sonunda üçüncü satırın devamı olarak göründü. Tablo 1'de satırlara ayrı puan türleri bölüm bazında verilmediği için department_kpss boş bırakıldı."
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "id": "82cdff47d8b335c53e3f",
+ "institution": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
+ "title": "50 MÜFETTİŞ YARDIMCISI ALACAK",
+ "range": "7 Aralık - 18 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 50,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-12-07",
+  "apply_end": "2026-12-18",
+  "positions": [
+   {
+    "code": null,
+    "title": "MÜFETTİŞ YARDIMCISI",
+    "place": "Sosyal Güvenlik Kurumu Başkanlığı",
+    "count": 50,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P43",
+     "P48"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Hukuk Fakültesi",
+     "Siyasal Bilgiler Fakültesi",
+     "İktisat Fakültesi",
+     "İşletme Fakültesi",
+     "İktisadî ve İdarî Bilimler Fakültesi",
+     "Sosyal Hizmetler",
+     "Sağlık İdaresi veya Sağlık Yönetimi",
+     "Aktüerya",
+     "Bankacılık",
+     "Sigortacılık"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapıldığı 2027 yılının Ocak ayının birinci günü itibariyle 35 (otuzbeş) yaşını doldurmamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı DMK 48. maddedeki nitelikleri taşımak",
+     "Sağlık durumu yurdun her yerinde görev yapmaya elverişli olmak",
+     "Yazılı sınava başvuranlar içinde en yüksek puanlı 250 kişi içinde olmak (eşit puanlılar dahil)",
+     "Yazılı sınavda her konudan en az 60, ortalama en az 70 puan almak",
+     "Sözlü sınavda her konudan en az 60, ortalama en az 70 puan almak"
+    ]
+   }
+  ],
+  "notes": "KPSS puanı 2025 ve 2026 yıllarında yapılan sınavlardan geçerli (tek yıl değil), bu yüzden kpss_year null bırakıldı. P43 ve P48 türlerinden herhangi birinden en az 80 puan aranır. Eğitim, en az dört yıllık fakülte/bölüm mezuniyeti olarak LISANS kabul edildi. Yazılı sınav tarihi 16-17.01.2027."
+ }
+}

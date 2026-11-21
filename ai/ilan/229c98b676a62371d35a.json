@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "id": "229c98b676a62371d35a",
+ "institution": "DOĞANYOL BELEDİYE BAŞKANLIĞI",
+ "title": "2 SÖZLEŞMELİ PERSONEL ALACAK",
+ "range": "2 Aralık - 4 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-02",
+  "apply_end": "2026-12-04",
+  "positions": [
+   {
+    "code": null,
+    "title": "Çözümleyici",
+    "place": "Doğanyol Belediye Başkanlığı (Malatya)",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 55,
+    "departments": [
+     "Kamu Yönetimi",
+     "Halkla İlişkiler ve Tanıtım",
+     "Yerel Yönetimler"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az iki programlama dilini bildiğini belgelemek (mezun olunan okuldan belge veya MEB onaylı kurs sertifikası)",
+     "En az B sınıfı sürücü belgesine sahip olmak",
+     "Hizmet sınıfı TH, derece 7"
+    ]
+   }
+  ],
+  "notes": "Toplam kadro sayısı metinde açıkça belirtilmemiş; tabloda tek satır var (2 adet). KPSS yılı 2026 olarak belirtilmiş (KPSS B grubu). Cinsiyet Erkek/Kadın olduğundan null bırakıldı."
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "id": "97a68d42f002a11c8e29",
+ "institution": "EYYÜBİYE BELEDİYE BAŞKANLIĞI",
+ "title": "9 MEMUR ALACAK",
+ "range": "7 Aralık - 10 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 9,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-07",
+  "apply_end": "2026-12-10",
+  "positions": [
+   {
+    "code": null,
+    "title": "Zabıta Memuru",
+    "place": "Şanlıurfa / Eyyübiye",
+    "count": 3,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": "KADIN",
+    "age_years": 30,
+    "age_rule": "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak",
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az B sınıfı sürücü belgesi",
+     "Kadınlarda en az 1,60 m boy",
+     "Boyun 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
+     "Sözlü ve uygulamalı sınav",
+     "Erkek adaylar için askerlik şartı"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Zabıta Memuru",
+    "place": "Şanlıurfa / Eyyübiye",
+    "count": 6,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": "ERKEK",
+    "age_years": 30,
+    "age_rule": "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak",
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az B sınıfı sürücü belgesi",
+     "Erkeklerde en az 1,67 m boy",
+     "Boyun 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
+     "Sözlü ve uygulamalı sınav",
+     "Askerlik durumu şartı"
+    ]
+   }
+  ],
+  "notes": "Toplam 9 kadro (3 kadın + 6 erkek) tablodan hesaplanmıştır; ilan başlığında 9 yazıyor. KPSS (B) grubu 2026 yılı sınavı. Tabloda görev yeri ayrıca belirtilmemiş, Eyyübiye Belediyesi (Şanlıurfa) olarak yazıldı. Hizmet sınıfı GİH, derece 11."
+ }
+}

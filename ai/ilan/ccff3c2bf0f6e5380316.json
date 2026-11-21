@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "id": "ccff3c2bf0f6e5380316",
+ "institution": "KAMU DENETÇİLİĞİ KURUMU",
+ "title": "10 KAMU DENETÇİLİĞİ UZMAN YARDIMCISI ALACAK",
+ "range": "9 Kasım - 22 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 10,
+  "academic": false,
+  "kpss_year": 2025,
+  "apply_start": "2026-11-09",
+  "apply_end": "2026-11-22",
+  "positions": [
+   {
+    "code": null,
+    "title": "KAMU DENETÇİLİĞİ UZMAN YARDIMCISI (HUKUK - I. GRUP)",
+    "place": null,
+    "count": 7,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P4"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Hukuk Fakültesi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Giriş sınavının yapıldığı yılın Ocak ayının ilk günü itibariyle otuz beş yaşını doldurmamış olmak (01.01.1991 ve daha sonra doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "En az dört yıllık hukuk fakültesi mezunu veya denkliği kabul edilmiş yurt içi/yurt dışı kurum mezunu olmak",
+     "657 sayılı Kanunun 48. maddesindeki genel şartları taşımak",
+     "Görevini sürekli yapmasına engel sağlık sorunu bulunmamak",
+     "Sözlü sınava 14 aday çağrılacak",
+     "Sözlü sınavda en az 70 puan almak",
+     "Tablodaki gruplardan yalnızca birine başvurulabilir"
+    ]
+   },
+   {
+    "code": null,
+    "title": "KAMU DENETÇİLİĞİ UZMAN YARDIMCISI (SİYASAL BİLGİLER, İKTİSADİ VE İDARİ BİLİMLER, İKTİSAT VE İŞLETME FAKÜLTELERİ - II. GRUP)",
+    "place": null,
+    "count": 3,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P33",
+     "P38"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Siyasal Bilgiler Fakültesi",
+     "İktisadi ve İdari Bilimler Fakültesi",
+     "İktisat Fakültesi",
+     "İşletme Fakültesi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Giriş sınavının yapıldığı yılın Ocak ayının ilk günü itibariyle otuz beş yaşını doldurmamış olmak (01.01.1991 ve daha sonra doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "En az 4 yıllık siyasal bilgiler, iktisadi ve idari bilimler, iktisat veya işletme fakültesi mezunu veya denkliği kabul edilmiş yurt içi/yurt dışı kurum mezunu olmak",
+     "657 sayılı Kanunun 48. maddesindeki genel şartları taşımak",
+     "Görevini sürekli yapmasına engel sağlık sorunu bulunmamak",
+     "Sözlü sınava 6 aday çağrılacak",
+     "Sözlü sınavda en az 70 puan almak",
+     "Tablodaki gruplardan yalnızca birine başvurulabilir"
+    ]
+   }
+  ],
+  "notes": "KPSS 2025 veya 2026 yılı kabul ediliyor; şemada tek yıl alanı olduğu için 2025 yazıldı. II. grupta P33 veya P38 puan türlerinden biri yeterli. Görev yeri belirtilmemiş. Asgari puan 80 hem P4 hem P33/P38 için geçerli."
+ }
+}

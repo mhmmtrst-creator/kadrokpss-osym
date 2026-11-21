@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "id": "a9313b07b7ba6f85ec16",
+ "institution": "BOZTEPE BELEDİYE BAŞKANLIĞI",
+ "title": "1 MEMUR ALACAK (MADEN MÜHENDİSİ )",
+ "range": "30 Kasım - 2 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-30",
+  "apply_end": "2026-12-02",
+  "positions": [
+   {
+    "code": null,
+    "title": "MÜHENDİS (MADEN MÜHENDİSLİĞİ)",
+    "place": "Boztepe Belediye Başkanlığı (Kırşehir)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Maden Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "Kadro derecesi 8, hizmet sınıfı TH",
+     "657 sayılı DMK 48/A genel şartları",
+     "2026 KPSS (B) grubu sınavına girmiş olmak",
+     "Erkek adaylar için askerlik durumu şartı"
+    ]
+   }
+  ],
+  "notes": "İlanda toplam kadro sayısı ayrıca belirtilmemiş; tabloda tek satır (1 kadro) var. Başlıkta 1 memur alınacağı yazıyor. Cinsiyet kısmı Kadın/Erkek olduğundan cinsiyet kısıtı yok. Sürücü belgesi için 'en az (B) sınıfı' ifadesi kullanılmış."
+ }
+}

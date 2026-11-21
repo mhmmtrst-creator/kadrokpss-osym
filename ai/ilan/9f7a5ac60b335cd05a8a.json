@@ -1,0 +1,312 @@
+{
+ "schema": 1,
+ "id": "9f7a5ac60b335cd05a8a",
+ "institution": "NÜKLEER DÜZENLEME KURUMU",
+ "title": "8 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK",
+ "range": "9 Kasım - 23 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 8,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-09",
+  "apply_end": "2026-11-23",
+  "positions": [
+   {
+    "code": null,
+    "title": "YAZILIM MİMARI",
+    "place": "Ankara",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 8 yıl belgelendirilmiş mesleki tecrübe",
+     "Frontend (Angular) ve Backend (.NET/.NET Core, C#) ile uçtan uca yazılım geliştirme deneyimi",
+     "En az 2 programlama dilini bildiğini belgelemek",
+     "İngilizce YDS/e-YDS puanı (belge yoksa 0 sayılır)",
+     "Aylık brüt sözleşme ücret tavanının 4 katına kadar",
+     "Tam zamanlı",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "KIDEMLİ YAZILIM UZMANI",
+    "place": "Ankara",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 5 yıl belgelendirilmiş mesleki tecrübe",
+     "Backend (.NET/.NET Core) ve frontend (Angular veya benzeri) kurumsal uygulama geliştirme deneyimi",
+     "En az 2 programlama dilini bildiğini belgelemek",
+     "İngilizce YDS/e-YDS puanı (belge yoksa 0 sayılır)",
+     "Aylık brüt sözleşme ücret tavanının 3 katına kadar",
+     "Tam zamanlı",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "SİSTEM UZMANI",
+    "place": "Ankara",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 3 yıl belgelendirilmiş mesleki tecrübe (Active Directory, Windows Server, Linux sistem yönetimi)",
+     "En az 2 programlama dilini bildiğini belgelemek",
+     "İngilizce YDS/e-YDS puanı (belge yoksa 0 sayılır)",
+     "Aylık brüt sözleşme ücret tavanının 2 katına kadar",
+     "Tam zamanlı",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "KIDEMLİ VERİ TABANI UZMANI",
+    "place": "Ankara",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 5 yıl belgelendirilmiş mesleki tecrübe (veri tabanı uzmanı, iş zekâsı uzmanı ve/veya veri mühendisi)",
+     "Veri ambarı, ETL, raporlama, veri analizi, OLAP alanlarında en az 5 yıl tecrübe",
+     "En az 2 programlama dilini bildiğini belgelemek",
+     "İngilizce YDS/e-YDS puanı (belge yoksa 0 sayılır)",
+     "Aylık brüt sözleşme ücret tavanının 3 katına kadar",
+     "Tam zamanlı",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "AĞ UZMANI",
+    "place": "Ankara",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 3 yıl belgelendirilmiş mesleki tecrübe (ağ operasyonları ve kurumsal ağ altyapıları)",
+     "En az 2 programlama dilini bildiğini belgelemek",
+     "İngilizce YDS/e-YDS puanı (belge yoksa 0 sayılır)",
+     "Aylık brüt sözleşme ücret tavanının 2 katına kadar",
+     "Tam zamanlı",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "KIDEMLİ SİBER GÜVENLİK UZMANI",
+    "place": "Ankara",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 5 yıl belgelendirilmiş mesleki tecrübe (siber güvenlik sistemleri yönetimi ve operasyonları)",
+     "CEH, OSCP, CISSP, GPEN, CCSE, FCNSP, PCNSE, GWAPT, NSE sertifikalarından en az birine sahip olmak",
+     "En az 2 programlama dilini bildiğini belgelemek",
+     "İngilizce YDS/e-YDS puanı (belge yoksa 0 sayılır)",
+     "Aylık brüt sözleşme ücret tavanının 3 katına kadar",
+     "Tam zamanlı",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "YAZILIM UZMANI",
+    "place": "Ankara",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 3 yıl belgelendirilmiş mesleki deneyim",
+     "C# (.NET/.NET Core) ve/veya Java ile uygulama geliştirmiş olmak",
+     "En az 2 programlama dilini bildiğini belgelemek",
+     "İngilizce YDS/e-YDS puanı (belge yoksa 0 sayılır)",
+     "Aylık brüt sözleşme ücret tavanının 2 katına kadar",
+     "Tam zamanlı",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "PROJE YÖNETİCİSİ",
+    "place": "Ankara",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 3 yıl belgelendirilmiş proje yönetimi tecrübesi",
+     "En az 2 programlama dilini bildiğini belgelemek",
+     "İngilizce YDS/e-YDS puanı (belge yoksa 0 sayılır)",
+     "Aylık brüt sözleşme ücret tavanının 2 katına kadar",
+     "Tam zamanlı",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak"
+    ]
+   }
+  ],
+  "notes": "Toplam 8 kadro, her biri 1 kişi; pozisyon başına 10 aday sınava çağrılır. KPSS 2025 veya 2026 yılı P3 puanı esas alınır (kpss_year tek bir yıl olmadığından null bırakıldı); KPSS P3 yoksa 70 sayılır, bu nedenle min_score yok. Başvuru puanı = KPSS P3 x 0,70 + YDS x 0,30. Genel şart (b) bölümleri tüm pozisyonlarda geçerli sayıldı; genel şart (c) bölümleri (diğer mühendislik, fen-edebiyat, istatistik, matematik, fizik vb.) yalnızca ücret tavanının iki katı ödenecek pozisyonlar için geçerli olabilir, ancak özel şartlarda her pozisyon için sadece (b) bölümleri sayıldığından listeye eklenmedi. Genel şart (ç) mesleki tecrübe (3 veya 5 yıl) pozisyona göre değişir ancak özel şartlarda her pozisyon için ayrı yıl verilmiştir. Sınav tarihi 7-11 Aralık 2026."
+ }
+}

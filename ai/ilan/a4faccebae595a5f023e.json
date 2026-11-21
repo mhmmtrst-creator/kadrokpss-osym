@@ -1,0 +1,230 @@
+{
+ "schema": 1,
+ "id": "a4faccebae595a5f023e",
+ "institution": "ORTA ANADOLU KALKINMA AJANSI",
+ "title": "6 UZMAN, 1 DESTEK PERSONELİ ALACAK",
+ "range": "9 Kasım - 3 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 7,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-09",
+  "apply_end": "2026-12-03",
+  "positions": [
+   {
+    "code": "UZMAN PERSONEL - 1",
+    "title": "UZMAN PERSONEL - 1",
+    "place": "Kayseri, Sivas, Yozgat",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Şehir ve Bölge Planlama",
+     "Mimarlık",
+     "Endüstriyel Tasarım Mühendisliği",
+     "Çevre Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce en az C düzeyi (son 5 yıl içinde)",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilişkisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
+     "Sağlık raporuna sahip olmak",
+     "Son 1 ay içinde alınmış adli sicil kaydı"
+    ]
+   },
+   {
+    "code": "UZMAN PERSONEL - 2",
+    "title": "UZMAN PERSONEL - 2",
+    "place": "Kayseri, Sivas, Yozgat",
+    "count": 2,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Mühendislik Lisans Programları (Uzman Personel – 1 için tanımlanmış mühendislik bölümleri hariç)"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce en az C düzeyi (son 5 yıl içinde)",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilişkisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
+     "Sağlık raporuna sahip olmak",
+     "Son 1 ay içinde alınmış adli sicil kaydı"
+    ]
+   },
+   {
+    "code": "UZMAN PERSONEL - 3",
+    "title": "UZMAN PERSONEL - 3",
+    "place": "Kayseri, Sivas, Yozgat",
+    "count": 3,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P11",
+     "P12",
+     "P13",
+     "P14",
+     "P15",
+     "P16",
+     "P17",
+     "P19",
+     "P20",
+     "P21",
+     "P22",
+     "P23",
+     "P24",
+     "P25",
+     "P26",
+     "P29",
+     "P30",
+     "P34",
+     "P35",
+     "P36",
+     "P37",
+     "P38",
+     "P39",
+     "P40",
+     "P41",
+     "P42",
+     "P43",
+     "P44",
+     "P45",
+     "P46",
+     "P47",
+     "P48"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "İktisat",
+     "İşletme",
+     "Maliye",
+     "Uluslararası İlişkiler",
+     "İstatistik",
+     "Kamu Yönetimi",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Siyaset Bilimi ve Uluslararası İlişkiler",
+     "Ekonomi",
+     "Ekonometri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce en az C düzeyi (son 5 yıl içinde)",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilişkisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
+     "Sağlık raporuna sahip olmak",
+     "Son 1 ay içinde alınmış adli sicil kaydı"
+    ]
+   },
+   {
+    "code": "DESTEK PERSONELİ",
+    "title": "DESTEK PERSONELİ (BÜRO GÖREVLİSİ)",
+    "place": "Kayseri, Sivas, Yozgat",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2",
+     "P3",
+     "P11",
+     "P12",
+     "P13",
+     "P14",
+     "P15",
+     "P16",
+     "P17",
+     "P19",
+     "P20",
+     "P21",
+     "P22",
+     "P23",
+     "P24",
+     "P25",
+     "P26",
+     "P29",
+     "P30",
+     "P34",
+     "P35",
+     "P36",
+     "P37",
+     "P38",
+     "P39",
+     "P40",
+     "P41",
+     "P42",
+     "P43",
+     "P44",
+     "P45",
+     "P46",
+     "P47",
+     "P48"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "İktisat",
+     "İşletme",
+     "Maliye",
+     "Uluslararası İlişkiler",
+     "İstatistik",
+     "Kamu Yönetimi",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Siyaset Bilimi ve Uluslararası İlişkiler",
+     "Ekonomi",
+     "İletişim",
+     "Grafik Tasarım",
+     "Halkla İlişkiler",
+     "Halkla İlişkiler ve Tanıtım",
+     "Radyo Sinema ve Televizyon",
+     "Radyo ve Televizyon",
+     "Gazetecilik"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+     "Askerlikle ilişkisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
+     "Sağlık raporuna sahip olmak",
+     "Son 1 ay içinde alınmış adli sicil kaydı"
+    ]
+   }
+  ],
+  "notes": "Toplam 6 uzman + 1 destek personeli = 7 kadro (ilan metninde belirtilmiş). KPSS yılı olarak 2025 ve 2026 yıllarında yapılan KPSS kabul ediliyor; tek yıl olmadığı için kpss_year null bırakıldı. Başvuru yeri tüm pozisyonlar için Kayseri, Sivas ve Yozgat illerinden biri (Ajans merkezi Kayseri). Sözleşme belirsiz süreli iş sözleşmesidir. Yüksek lisans ve doktora yalnızca tercih sebebidir, şart değildir."
+ }
+}

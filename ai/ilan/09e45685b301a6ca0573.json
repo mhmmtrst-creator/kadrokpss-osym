@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "id": "09e45685b301a6ca0573",
+ "institution": "AKSEKİ BELEDİYE BAŞKANLIĞI",
+ "title": "1 MEMUR ALACAK",
+ "range": "21 Aralık - 25 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-21",
+  "apply_end": "2026-12-25",
+  "positions": [
+   {
+    "code": null,
+    "title": "Mühendis",
+    "place": "Akseki Belediye Başkanlığı (Antalya)",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 75,
+    "departments": [
+     "Harita Mühendisliği",
+     "Jeodezi ve Fotogrametri Mühendisliği",
+     "Geomatik Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "Hizmet sınıfı TH, kadro derecesi 8",
+     "En az (B) sınıfı sürücü belgesine sahip olmak",
+     "Erkek adaylar için askerlik durumu şartı"
+    ]
+   }
+  ],
+  "notes": "Tek kadro satırı var. Toplam kadro sayısı metinde açıkça belirtilmemiş; başlıkta '1 MEMUR ALACAK' yazıyor. Kadro adedi tabloda 1. KPSS (B grubu) 2026 yılı sınavı aranıyor. Başvuru tarihleri 21/12/2026 - 25/12/2026. Cinsiyet kadın/erkek, kısıtlama yok."
+ }
+}

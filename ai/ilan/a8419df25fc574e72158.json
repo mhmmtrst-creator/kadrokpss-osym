@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "id": "a8419df25fc574e72158",
+ "institution": "HAZİNE VE MALİYE BAKANLIĞI",
+ "title": "10 STAJYER HAZİNE KONTROLÖRÜ ALACAK",
+ "range": "23 Kasım - 4 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 10,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-23",
+  "apply_end": "2026-12-04",
+  "positions": [
+   {
+    "code": null,
+    "title": "STAJYER HAZİNE KONTROLÖRÜ",
+    "place": "Hazine Kontrolörleri Kurulu Başkanlığı",
+    "count": 10,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P17",
+     "P18",
+     "P22",
+     "P23",
+     "P28",
+     "P47",
+     "P48"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Hukuk Fakültesi",
+     "İktisat Fakültesi",
+     "Siyasal Bilgiler Fakültesi",
+     "İşletme Fakültesi",
+     "İktisadi ve İdari Bilimler Fakültesi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "1 Ocak 2026 itibarıyla 35 yaşını doldurmamış olmak (01/01/1991 tarihinde veya sonrasında doğmuş olmak)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı DMK 48. maddedeki genel şartları taşımak",
+     "Sağlık durumu Türkiye'nin her yerinde görev yapmaya elverişli olmak",
+     "Yazılı (klasik) ve sözlü sınav yapılacak",
+     "Yazılı sınav 20 Aralık 2026'da Ankara'da",
+     "En fazla 10 kadro; başarılı aday azsa daha az alım yapılabilir"
+    ]
+   }
+  ],
+  "notes": "İlanda 'en fazla 10' Stajyer Hazine Kontrolörü alınacağı belirtiliyor. KPSS puanının 2025 ve 2026 yıllarında yapılan KPSS'lerden alınması isteniyor; tek bir yıl belirtilmediği için kpss_year null bırakıldı. Bölüm olarak fakülte adları (Hukuk, İktisat, Siyasal Bilgiler, İşletme, İktisadi ve İdari Bilimler) veya YÖK'çe denkliği kabul edilen kurumlar yazılmış; en az dört yıllık lisans eğitimi isteniyor. Bölüme göre değişen KPSS türü yok."
+ }
+}

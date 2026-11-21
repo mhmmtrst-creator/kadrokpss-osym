@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "id": "d5e0b15e5924715621e6",
+ "institution": "ANADOLU ÜNİVERSİTESİ",
+ "title": "1 SÖZLEŞMELİ PERSONEL ALACAK",
+ "range": "16 Kasım - 30 Kasım",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 1,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-16",
+  "apply_end": "2026-11-30",
+  "positions": [
+   {
+    "code": "ÇM01",
+    "title": "Çevre Mühendisi",
+    "place": null,
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Çevre Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 35,
+    "age_rule": "35 (otuz beş) yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "İlan tarihi son günü itibarıyla yaş şartı",
+     "Mesai saatleri dışında ve hafta sonları çalışmaya engeli olmamak",
+     "Alanında en az 3 yıl mesleki tecrübe",
+     "Tecrübeyi e-Devlet barkodlu SGK Hizmet Dökümü ile belgelemek"
+    ]
+   }
+  ],
+  "notes": "Tabloda görev yeri belirtilmemiş (Rektörlük ve bağlı birimleri). Unvanın yanındaki (Erkek) ibaresi cinsiyet şartı olarak alındı; metinde ayrıca açıklanmamış, doğrulanmalı. Yaş sınırı 'ilan tarihi son günü itibarıyla' ifadesiyle verilmiş."
+ }
+}

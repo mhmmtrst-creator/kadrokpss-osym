@@ -1,0 +1,85 @@
+{
+ "schema": 1,
+ "id": "acc0aeeb5963eedd9365",
+ "institution": "KARŞIYAKA (İZMİR) BELEDİYE BAŞKANLIĞI",
+ "title": "6 MEMUR ALACAK",
+ "range": "30 Kasım - 2 Aralık",
+ "read_at": "2026-11-21T21:11:44Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 6,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-30",
+  "apply_end": "2026-12-02",
+  "positions": [
+   {
+    "code": "1",
+    "title": "BİLGİSAYAR İŞLETMENİ",
+    "place": "Karşıyaka Belediye Başkanlığı",
+    "count": 3,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Maliye",
+     "İşletme",
+     "İktisat",
+     "Muhasebe",
+     "Finans Yönetimi",
+     "Bankacılık ve Finans",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Milli Eğitim Bakanlığı onaylı bilgisayar sertifikasına sahip olmak veya mezun olduğu okulda bilgisayar dersi gördüğünü belgelemek",
+     "Kadro derecesi 7",
+     "Hizmet sınıfı G.İ.H."
+    ]
+   },
+   {
+    "code": "2",
+    "title": "BİLGİSAYAR İŞLETMENİ",
+    "place": "Karşıyaka Belediye Başkanlığı",
+    "count": 3,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Maliye",
+     "İşletme",
+     "İktisat",
+     "Muhasebe",
+     "Finans Yönetimi",
+     "Bankacılık ve Finans",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Milli Eğitim Bakanlığı onaylı bilgisayar sertifikasına sahip olmak veya mezun olduğu okulda bilgisayar dersi gördüğünü belgelemek",
+     "Kadro derecesi 8",
+     "Hizmet sınıfı G.İ.H."
+    ]
+   }
+  ],
+  "notes": "Tabloda iki satır var (derece 7 ve derece 8), her biri 3 kadro; toplam 6. Görev yeri tabloda ayrıca belirtilmemiş, Karşıyaka Belediye Başkanlığı olarak alındı. KPSS yılı 2026 olarak belirtilmiş (KPSS B grubu). Başvuru tarihleri 30.11.2026 - 02.12.2026. Bölüm adları 'maliye, işletme, iktisat, muhasebe ve finans yönetimi, bankacılık ve finans, çalışma ekonomisi ve endüstri ilişkileri' şeklinde yazılmış; ayrım yorumlanmıştır."
+ }
+}
