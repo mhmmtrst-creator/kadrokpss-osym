@@ -15,7 +15,7 @@
   `ai/ilan/<kimlik>.json` olarak yayımlar. Portal GitHub'ın yurt dışı sunucularına 403 verdiği için iş KadroKPSS Mac'inde
   çalışır (launchd `app.kadro.yapay-zeka`, her gün 08:00 ve 14:00, `--bekle 55`); `.github/workflows/yapay-zeka.yml` yalnızca elle. Kimlik, uygulamanın
   `KamuIlanClient.contentId`'si ile aynıdır. Toplu işlem kullanılır (yarı fiyat): gönderilen ilanların sonuçları bir sonraki
-  çalıştırmada ya da `--bekle` ile aynı çalıştırmada toplanır. Durum, harcama ve deneme sayıları `ai/durum.json`'dadır; ayda 40 doları geçince yeni ilan
+  çalıştırmada ya da `--bekle` ile aynı çalıştırmada toplanır. `ai/liste.json` okuması olan ilanların kimliklerini ve okuma zamanlarını tutar (uygulamalar önce bunu indirir). Durum, harcama ve deneme sayıları `ai/durum.json`'dadır; ayda 40 doları geçince yeni ilan
   gönderilmez. Uygulamalar dosya yoksa ilanı kendi okuyucusuyla okur. Yalnızca herkese açık ilan belgeleri okunur;
   kullanıcıların bilgileri buraya gelmez. Gizli anahtar: `ANTHROPIC_API_KEY`.
 - Gizli anahtar: depo ayarlarında `FIREBASE_SA` (Firebase hizmet hesabı JSON'u). Depoya asla dosya olarak eklenmez.

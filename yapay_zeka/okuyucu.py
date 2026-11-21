@@ -186,6 +186,15 @@ def load_state() -> dict:
 def save_state(state: dict) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    # Uygulamaların her eşitlemede bir kez indirdiği küçük liste: hangi ilanın okuması var, ne zaman okundu.
+    # Telefon yalnızca listede olan ve kendisinde daha yenisi olmayan ilanların dosyasını indirir.
+    index = {}
+    for f in sorted(RESULTS.glob("*.json")) if RESULTS.exists() else []:
+        try:
+            index[f.stem] = json.loads(f.read_text(encoding="utf-8")).get("read_at", "")
+        except ValueError:
+            continue
+    (OUT / "liste.json").write_text(json.dumps({"schema": SCHEMA_VERSION, "ilanlar": index}, ensure_ascii=False, sort_keys=True), encoding="utf-8")
 
 
 def now_iso() -> str:
