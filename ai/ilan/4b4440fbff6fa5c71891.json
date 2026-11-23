@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "4b4440fbff6fa5c71891",
  "institution": "ZAFER KALKINMA AJANSI",
  "title": "2 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "25 Kasım - 14 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 2,
@@ -15,9 +15,10 @@
   "positions": [
    {
     "code": null,
-    "title": "UZMAN PERSONEL (Mühendislik Bölümleri, Şehir ve Bölge Planlama)",
-    "place": "Afyonkarahisar, Kütahya, Manisa ve Uşak illerinden biri (Ajans Genel Sekreterliği'nin uygun göreceği)",
+    "title": "UZMAN PERSONEL (MÜHENDİSLİK BÖLÜMLERİ, ŞEHİR VE BÖLGE PLANLAMA)",
+    "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -38,20 +39,25 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "YDS/e-YDS İngilizce son 5 yıl içinde en az 70 puan veya denk belge",
-     "KPSS son başvuru tarihi itibarıyla geçerli olmalı",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
-     "Seyahat engeli olmamak",
-     "Az tehlikeli iş yeri için işe giriş sağlık raporu",
-     "Askerlikle ilgisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçmiş olmak",
-     "Sözlü sınav (mülakat) başarı notu en az 70"
+     "Başvuru tarihi itibarıyla geçerliliği bulunan KPSS'den en az 80 puan almış olmak.",
+     "YDS veya e-YDS İngilizce'den son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya buna denk kabul edilen, geçerlilik süresi dolmamış uluslararası geçerliliği bulunan belgeye sahip olmak (YÖKDİL kabul edilmez).",
+     "Üniversitelerin ilgili bölümlerinden veya denkliği YÖK tarafından kabul edilen yurt içi ve yurt dışı yükseköğretim kurumlarından lisans düzeyinde mezun olmak.",
+     "İsim farklılığı olan denk bölümlerden veya yurtdışı denk bölümlerden mezun adaylar e-Devlet başvurusunda 'Denklik Gösterir Belge' alanına ilgili belgeyi yüklemelidir.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+     "Az tehlikeli iş yerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
+     "Askerlikle ilgisi bulunmamak, askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Seyahat engeli olmamak.",
+     "Yalnızca bir kontenjana başvurulabilir; birden fazla kontenjana başvuru değerlendirmeye alınmaz.",
+     "Sınavda başarılı olanlar Afyonkarahisar, Kütahya, Manisa ve Uşak illerinden birinde görevlendirilecektir.",
+     "Mülakat sınav başarı notu 100 üzerinden en az 70 olmalıdır."
     ]
    },
    {
     "code": null,
-    "title": "UZMAN PERSONEL (İstatistik, Ekonometri, İktisat, Maliye, İşletme, Kamu Yönetimi, Uluslararası İlişkiler, Çalışma Ekonomisi ve Endüstri İlişkileri)",
-    "place": "Afyonkarahisar, Kütahya, Manisa ve Uşak illerinden biri (Ajans Genel Sekreterliği'nin uygun göreceği)",
+    "title": "UZMAN PERSONEL (İSTATİSTİK, EKONOMETRİ, İKTİSAT (EKONOMİ), MALİYE, İŞLETME, KAMU YÖNETİMİ (SİYASET BİLİMİ VE KAMU YÖNETİMİ), ULUSLARARASI İLİŞKİLER (SİYASET BİLİMİ VE ULUSLARARASI İLİŞKİLER), ÇALIŞMA EKONOMİSİ VE ENDÜSTRİ İLİŞKİLERİ)",
+    "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -146,16 +152,21 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "YDS/e-YDS İngilizce son 5 yıl içinde en az 70 puan veya denk belge",
-     "KPSS son başvuru tarihi itibarıyla geçerli olmalı",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
-     "Seyahat engeli olmamak",
-     "Az tehlikeli iş yeri için işe giriş sağlık raporu",
-     "Askerlikle ilgisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçmiş olmak",
-     "Sözlü sınav (mülakat) başarı notu en az 70"
+     "Başvuru tarihi itibarıyla geçerliliği bulunan KPSS'den, mezun olunan bölümün puan türünden en az 80 puan almış olmak.",
+     "YDS veya e-YDS İngilizce'den son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya buna denk kabul edilen, geçerlilik süresi dolmamış uluslararası geçerliliği bulunan belgeye sahip olmak (YÖKDİL kabul edilmez).",
+     "Üniversitelerin ilgili bölümlerinden veya denkliği YÖK tarafından kabul edilen yurt içi ve yurt dışı yükseköğretim kurumlarından lisans düzeyinde mezun olmak.",
+     "İsim farklılığı olan denk bölümlerden veya yurtdışı denk bölümlerden mezun adaylar e-Devlet başvurusunda 'Denklik Gösterir Belge' alanına ilgili belgeyi yüklemelidir.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+     "Az tehlikeli iş yerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
+     "Askerlikle ilgisi bulunmamak, askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Seyahat engeli olmamak.",
+     "Yalnızca bir kontenjana başvurulabilir; birden fazla kontenjana başvuru değerlendirmeye alınmaz.",
+     "Sınavda başarılı olanlar Afyonkarahisar, Kütahya, Manisa ve Uşak illerinden birinde görevlendirilecektir.",
+     "Mülakat sınav başarı notu 100 üzerinden en az 70 olmalıdır."
     ]
    }
   ],
-  "notes": "İlan, Tablo 1'deki iki bölüm grubu için birer Uzman Personel alımı yapar (toplam 2); tabloda ayrı görev yeri yok, personel dört ilden birinde görevlendirilecek. Yalnızca bir kontenjana başvurulabilir. KPSS puanının yılı belirtilmemiş, 'son başvuru tarihi itibarıyla geçerli' deniyor. Yaş sınırı yok. Başvuru Kariyer Kapısı üzerinden yapılır."
- }
+  "notes": "İlan toplam 2 Uzman Personel (Tablo 1: 1 mühendislik/şehir planlama, 1 iktisadi-idari bölümler) içerir. KPSS yılı belirtilmemiş; puanın son başvuru tarihi itibarıyla geçerli olması isteniyor. Görev yeri tek olarak belirtilmemiş; Ajans Genel Sekreterliği dört ilden birinde görevlendirecek. Tercih nedenleri (yüksek lisans, doktora, ikinci yabancı dil, sürücü belgesi, çalışma deneyimi vb.) şart değil, puanlamada dikkate alınır. Tablo 2'de İktisat için P14-P15, İşletme için P24-P25 yazılıdır."
+ },
+ "reading": 2
 }

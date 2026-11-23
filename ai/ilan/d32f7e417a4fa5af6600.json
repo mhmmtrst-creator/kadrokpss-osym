@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "d32f7e417a4fa5af6600",
  "institution": "ONDOKUZ MAYIS ÜNİVERSİTESİ",
  "title": "21 SüREKLİ İŞÇİ ALACAK",
  "range": "23 Kasım - 27 Kasım",
- "read_at": "2026-11-23T13:18:00Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 21,
@@ -18,6 +18,7 @@
     "title": "Sürekli İşçi (Temizlik Görevlisi)",
     "place": null,
     "count": 7,
+    "places": [],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -31,11 +32,15 @@
     "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Kura + Sözlü Sınav",
-     "Açık ve kapalı alanlardaki her türlü temizlik, basit bakım ve onarım, dağıtım, taşıma ve diğer işleri yürütebilmek",
-     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
-     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
-     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+     "Açık ve kapalı alanlardaki her türlü temizlik, basit bakım ve onarım, dağıtım, taşıma ve diğer işleri yürütebilmek.",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak.",
+     "Alım şekli: Kura + Sözlü Sınav.",
+     "KPSS şartı aranmamaktadır.",
+     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak.",
+     "Yükseköğretim kurumlarında örgün öğretime devam eden öğrenciler başvuramaz (Açık Öğretim hariç).",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almamak.",
+     "Deneme süresi 2 aydır."
     ]
    },
    {
@@ -43,6 +48,7 @@
     "title": "Sürekli İşçi (Kaynakçı)",
     "place": null,
     "count": 2,
+    "places": [],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -58,11 +64,15 @@
     "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Kura + Uygulamalı Sınav",
-     "Alternatif olarak 3308 sayılı Kanun'a göre Kaynakçılık Ustalık belgesine sahip olmak",
-     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
-     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
-     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+     "Belge: 3308 sayılı Mesleki Eğitim Kanunu'na göre düzenlenen Kaynakçılık Ustalık belgesi (mezuniyet yerine bu belgeye sahip olmak da yeterlidir)",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak.",
+     "Alım şekli: Kura + Uygulamalı Sınav.",
+     "KPSS şartı aranmamaktadır.",
+     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak.",
+     "Yükseköğretim kurumlarında örgün öğretime devam eden öğrenciler başvuramaz (Açık Öğretim hariç).",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almamak.",
+     "Deneme süresi 2 aydır."
     ]
    },
    {
@@ -70,6 +80,7 @@
     "title": "Sürekli İşçi (Oto Bakım Onarımcısı-Otomotiv Mekanikçisi)",
     "place": null,
     "count": 2,
+    "places": [],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -85,11 +96,15 @@
     "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Kura + Uygulamalı Sınav",
-     "Alternatif olarak 3308 sayılı Kanun'a göre Oto Bakım-Onarımcısı (Otomotiv Mekanikerliği) Ustalık belgesine sahip olmak",
-     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
-     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
-     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+     "Belge: 3308 sayılı Mesleki Eğitim Kanunu'na göre düzenlenen Oto Bakım-Onarımcısı (Otomotiv Mekanikerliği) Ustalık belgesi (mezuniyet yerine bu belgeye sahip olmak da yeterlidir)",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak.",
+     "Alım şekli: Kura + Uygulamalı Sınav.",
+     "KPSS şartı aranmamaktadır.",
+     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak.",
+     "Yükseköğretim kurumlarında örgün öğretime devam eden öğrenciler başvuramaz (Açık Öğretim hariç).",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almamak.",
+     "Deneme süresi 2 aydır."
     ]
    },
    {
@@ -97,6 +112,7 @@
     "title": "Sürekli İşçi (Elektrikçi-Genel)",
     "place": null,
     "count": 4,
+    "places": [],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -112,11 +128,15 @@
     "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Kura + Uygulamalı Sınav",
-     "Alternatif olarak 3308 sayılı Kanun'a göre Elektrik Tesisatçısı/Elektrik Tesisat ve Pano Montörü Ustalık belgesine sahip olmak",
-     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
-     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
-     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+     "Belge: 3308 sayılı Mesleki Eğitim Kanunu'na göre düzenlenen Elektrik Tesisatçısı/Elektrik Tesisat ve Pano Montörü Ustalık belgesi (mezuniyet yerine bu belgeye sahip olmak da yeterlidir)",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak.",
+     "Alım şekli: Kura + Uygulamalı Sınav.",
+     "KPSS şartı aranmamaktadır.",
+     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak.",
+     "Yükseköğretim kurumlarında örgün öğretime devam eden öğrenciler başvuramaz (Açık Öğretim hariç).",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almamak.",
+     "Deneme süresi 2 aydır."
     ]
    },
    {
@@ -124,6 +144,7 @@
     "title": "Sürekli İşçi (Tarım İşçisi-Tarla Ürünleri)",
     "place": null,
     "count": 2,
+    "places": [],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -137,10 +158,14 @@
     "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Kura + Sözlü Sınav",
-     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
-     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
-     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak.",
+     "Alım şekli: Kura + Sözlü Sınav.",
+     "KPSS şartı aranmamaktadır.",
+     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak.",
+     "Yükseköğretim kurumlarında örgün öğretime devam eden öğrenciler başvuramaz (Açık Öğretim hariç).",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almamak.",
+     "Deneme süresi 2 aydır."
     ]
    },
    {
@@ -148,6 +173,7 @@
     "title": "Sürekli İşçi (Park Bahçe Görevlisi - Bahçe Bakım elemanı Park Bahçe ve Koruların Bakımı)",
     "place": null,
     "count": 2,
+    "places": [],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -161,10 +187,14 @@
     "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Kura + Sözlü Sınav",
-     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
-     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
-     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak.",
+     "Alım şekli: Kura + Sözlü Sınav.",
+     "KPSS şartı aranmamaktadır.",
+     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak.",
+     "Yükseköğretim kurumlarında örgün öğretime devam eden öğrenciler başvuramaz (Açık Öğretim hariç).",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almamak.",
+     "Deneme süresi 2 aydır."
     ]
    },
    {
@@ -172,6 +202,7 @@
     "title": "Sürekli İşçi (Mutfak Görevlisi)",
     "place": null,
     "count": 2,
+    "places": [],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -185,13 +216,18 @@
     "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Kura + Sözlü Sınav",
-     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
-     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
-     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak.",
+     "Alım şekli: Kura + Sözlü Sınav.",
+     "KPSS şartı aranmamaktadır.",
+     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak.",
+     "Yükseköğretim kurumlarında örgün öğretime devam eden öğrenciler başvuramaz (Açık Öğretim hariç).",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almamak.",
+     "Deneme süresi 2 aydır."
     ]
    }
   ],
-  "notes": "Tablodaki satır toplamı 7+2+2+4+2+2+2=21, ilan metnindeki 21 ile uyumlu. KPSS şartı aranmıyor (kura usulü). Başvuru İŞKUR ilanından itibaren 5 gün içinde yapılır; kesin tarih belgede yok. Görev yeri satırlarda belirtilmemiş (Samsun'da ikamet şartı var). Eski hükümlü ve terörle mücadelede malul sayılmayacak şekilde yaralananlar kontenjanı için alım yapılıyor (mevzuat gereği)."
- }
+  "notes": "Başvuru İŞKUR üzerinden, ilanın İŞKUR'da yayımlandığı tarihten itibaren 5 gün içinde yapılır; kesin tarihler ilanda yok. Görev yeri tabloda belirtilmemiş (ikamet şartı Samsun). Tüm kadınlar/erkekler başvurabilir (Kadın/Erkek). Toplam 7+2+2+4+2+2+2=21."
+ },
+ "reading": 2
 }

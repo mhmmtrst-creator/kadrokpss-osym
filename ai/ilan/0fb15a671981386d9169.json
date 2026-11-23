@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "0fb15a671981386d9169",
  "institution": "SAHİL GÜVENLİK KOMUTANLIĞI",
  "title": "10 MEMUR ALACAK",
  "range": "16 Kasım - 27 Kasım",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 10,
@@ -13,6 +13,7 @@
   "apply_start": "2026-11-16",
   "apply_end": "2026-11-27",
   "positions": [],
-  "notes": "İlan metninde kadro tablosu yok; toplam 10 devlet memuru alınacağı belirtiliyor. Kadro sayıları, görev yerleri, öğrenim ve bölüm şartları ile asgari puanlar ilanda değil, www.sg.gov.tr adresindeki Bilgilendirme Kılavuzu'nda yer alıyor, bu yüzden pozisyon çıkarılamadı. İlanda yalnızca unvanlar geçiyor: Mali İşler Uzmanı (Merkez/Taşra), Psikolog (Merkez/Taşra), Yabancı Dil Öğretmeni (İngilizce) (Merkez), Tedarik Uzmanı (Merkez) için KPSS P3; Video Montaj Teknikeri (Merkez), Muhasebeci (Merkez) için KPSS P93. Yaş şartı: 01 Ocak 2026 itibarıyla 36 yaşından gün almamış olmak (01.01.1991 ve sonrası doğumlular). KPSS yılı 2026."
- }
+  "notes": "İlanda kadro tablosu yok; unvanlara ait adetler, öğrenim ve bölüm şartları ve asgari puanlar ilanda değil, www.sg.gov.tr adresindeki bilgilendirme kılavuzunda yer alıyor. Metinde yalnızca unvanlar sayılmış (Mali İşler Uzmanı, Psikolog, Yabancı Dil Öğretmeni (İngilizce), Tedarik Uzmanı: KPSSP03; Video Montaj Teknikeri, Muhasebeci: KPSSP93), her biri için kadro sayısı verilmediğinden pozisyon çıkarılmadı. Toplam 10 memur alınacak. Genel şartlar: 18 yaşını tamamlamış olmak, 01 Ocak 2026 itibariyle 36 yaşından gün almamış olmak (01 Ocak 1991 ve sonrası doğumlular), 2026 KPSS'ye girmiş olmak, askerlik durumu şartı, 657 sayılı Kanun 48. madde genel şartları."
+ },
+ "reading": 2
 }

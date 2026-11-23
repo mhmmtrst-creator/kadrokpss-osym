@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "8714a92c2a153992d843",
  "institution": "ELEŞKİRT BELEDİYE BAŞKANLIĞI",
  "title": "1 MEMUR ALACAK",
  "range": "9 Aralık - 11 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -18,6 +18,7 @@
     "title": "İTFAİYE ERİ",
     "place": "Eleşkirt Belediye Başkanlığı (Ağrı)",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -35,15 +36,21 @@
      "B"
     ],
     "other_conditions": [
-     "Boy erkeklerde en az 1.67 m",
-     "Boy ile kilo farkı (+,-) 10 kg'dan fazla olmamak (1 metreden fazla kısım için)",
-     "Kapalı mekân, dar alan ve yükseklik fobisi olmamak",
-     "Boy ve kilo ölçümü başvuru sırasında yapılacak",
-     "Sözlü ve uygulamalı sınavda en az 60 puan almak",
-     "Hizmet sınıfı GİH, kadro derecesi 11"
+     "Boy: tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılmak kaydıyla erkeklerde en az 1.67 metre, kadınlarda en az 1.60 metre boyunda olmak.",
+     "Kilo: boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
+     "Boy ve kilo tespitleri Belediye tarafından başvuru sırasında yapılacaktır.",
+     "Sağlık: kapalı mekân, dar alan ve yükseklik gibi fobisi olmamak kaydıyla itfaiye teşkilatının çalışma şartlarına uygun olmak.",
+     "Kadro: Hizmet sınıfı GİH, kadro derecesi 11.",
+     "Başvuru şahsen yapılır; posta veya diğer yollarla yapılan başvurular kabul edilmez.",
+     "Sözlü ve uygulamalı sınavda başarılı sayılmak için en az 60 puan almak gerekir.",
+     "Erkek adaylar için askerlik durumu: askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak, ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "Türk vatandaşı olmak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak."
     ]
    }
   ],
-  "notes": "Tabloda tek satır var (1 kadro). Kadın boy şartı (1.60 m) genel metinde geçiyor ancak kadro cinsiyeti tabloda 'Erkek' olarak belirtilmiş. KPSS yılı 2026 (B grubu). Başvuru 09/12/2026-11/12/2026 arası şahsen yapılır. Toplam kadro sayısı ilanda ayrıca belirtilmemiş; declared_total null bırakıldı."
- }
+  "notes": "Boy şartı metinde hem erkek hem kadın için yazılmış ancak tablo cinsiyeti Erkek olduğundan gender ERKEK alındı. KPSS (B) grubu, 2026 yılı KPSS. İlan başlığı \"1 MEMUR ALACAK\"; ilan metninde toplam sayı ayrıca belirtilmemiş, tek kadro 1."
+ },
+ "reading": 2
 }

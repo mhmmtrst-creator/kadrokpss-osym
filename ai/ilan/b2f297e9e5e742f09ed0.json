@@ -1,13 +1,13 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "b2f297e9e5e742f09ed0",
  "institution": "KARATAY BELEDİYE BAŞKANLIĞI",
  "title": "9 MEMUR ALACAK",
  "range": "14 Aralık - 18 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
-  "declared_total": null,
+  "declared_total": 9,
   "academic": false,
   "kpss_year": 2026,
   "apply_start": "2026-12-14",
@@ -18,6 +18,7 @@
     "title": "ZABITA MEMURU",
     "place": "Karatay Belediye Başkanlığı (Konya)",
     "count": 9,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -42,15 +43,19 @@
      "B"
     ],
     "other_conditions": [
-     "En az (B) sınıfı sürücü belgesi",
-     "Boy erkekte en az 1.67 m, kadında en az 1.60 m",
-     "Boyun 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
-     "Sözlü ve uygulamalı sınav yapılacak",
-     "GİH 7-8 derece, 657 sayılı DMK'ya tabi",
-     "Erkek adaylar için askerlik durumu şartı"
+     "Hizmet sınıfı GİH, kadro derecesi 7-8 (657 sayılı DMK'ya tabi memur kadrosu).",
+     "Boy: erkeklerde en az 1.67 metre, kadınlarda en az 1.60 metre olmak (aç karnına, soyunuk ve çıplak ayakla ölçülür).",
+     "Kilo: boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
+     "Askerlik: erkek adaylar için askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Belge: En az (B) sınıfı sürücü belgesi",
+     "Belge: Yabancı okul mezunları için Denklik Belgesi",
+     "Sözlü ve uygulamalı sınava girilecek; sınavda başarılı sayılmak için iki sınavın ortalaması en az 60 puan olmalıdır.",
+     "Başvuru şahsen yapılacaktır; posta ile başvuru kabul edilmez."
     ]
    }
   ],
-  "notes": "Tabloda tek satır var (9 kadro). İlanda toplam sayı ayrıca belirtilmemiş, bu yüzden declared_total null. Başlıktaki 9 sayısı tablodaki kadro adediyle uyumlu. KPSS yılı 2026 (B grubu). Cinsiyet Kadın/Erkek olduğundan gender null. Yer olarak kurum/il belirtilmiştir, tabloda ayrı görev yeri sütunu yoktur."
- }
+  "notes": "Tek kadro satırı var: 9 Zabıta Memuru, ön lisans, P93, en az 60 puan. Cinsiyet 'Kadın/Erkek' olduğundan cinsiyet kısıtı yok. KPSS yılı 2026 (KPSS B grubu). Başvuru yeri: Karatay Belediye Başkanlığı İnsan Kaynakları ve Eğitim Müdürlüğü, 14/12/2026-18/12/2026."
+ },
+ "reading": 2
 }

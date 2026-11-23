@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "737f108b1952e6dbdee4",
  "institution": "GAZİOSMANPAŞA BELEDİYE BAŞKANLIĞI",
  "title": "36 ZABITA MEMURU ALACAK",
  "range": "7 Aralık - 11 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 36,
@@ -16,8 +16,9 @@
    {
     "code": "1",
     "title": "ZABITA MEMURU",
-    "place": "Gaziosmanpaşa Belediye Başkanlığı (İstanbul)",
+    "place": "Gaziosmanpaşa Belediye Başkanlığı",
     "count": 18,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -42,18 +43,26 @@
      "B"
     ],
     "other_conditions": [
-     "En az (B) sınıfı sürücü belgesine sahip olmak",
-     "Erkeklerde en az 1.67 m, kadınlarda en az 1.60 m boy",
-     "Boyun 1 metreden fazla olan kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
-     "Askerlikle ilişiği olmamak (erkek adaylar)",
-     "Sözlü ve uygulamalı sınav yapılacak"
+     "Hizmet sınıfı GİH, kadro derecesi 9.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Boy: erkeklerde en az 1.67 metre, kadınlarda en az 1.60 metre olmak (aç karnına, soyunuk ve çıplak ayakla ölçülür).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş bulunmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Türk vatandaşı olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Sözlü ve uygulamalı sınavda başarılı olmak için her iki sınavın ortalamasının en az 60 puan olması şarttır.",
+     "Yabancı okul mezunları için denklik belgesi gerekir.",
+     "Belge: KPSS sonuç belgesi (ÖSYM doğrulama kodlu çıktı)",
+     "Belge: Sürücü belgesi fotokopisi veya noter onaylı örneği"
     ]
    },
    {
     "code": "2",
     "title": "ZABITA MEMURU",
-    "place": "Gaziosmanpaşa Belediye Başkanlığı (İstanbul)",
+    "place": "Gaziosmanpaşa Belediye Başkanlığı",
     "count": 5,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -76,18 +85,26 @@
      "B"
     ],
     "other_conditions": [
-     "En az (B) sınıfı sürücü belgesine sahip olmak",
-     "Erkeklerde en az 1.67 m, kadınlarda en az 1.60 m boy",
-     "Boyun 1 metreden fazla olan kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
-     "Askerlikle ilişiği olmamak (erkek adaylar)",
-     "Sözlü ve uygulamalı sınav yapılacak"
+     "Hizmet sınıfı GİH, kadro derecesi 9.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Boy: erkeklerde en az 1.67 metre, kadınlarda en az 1.60 metre olmak (aç karnına, soyunuk ve çıplak ayakla ölçülür).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş bulunmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Türk vatandaşı olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Sözlü ve uygulamalı sınavda başarılı olmak için her iki sınavın ortalamasının en az 60 puan olması şarttır.",
+     "Yabancı okul mezunları için denklik belgesi gerekir.",
+     "Belge: KPSS sonuç belgesi (ÖSYM doğrulama kodlu çıktı)",
+     "Belge: Sürücü belgesi fotokopisi veya noter onaylı örneği"
     ]
    },
    {
     "code": "3",
     "title": "ZABITA MEMURU",
-    "place": "Gaziosmanpaşa Belediye Başkanlığı (İstanbul)",
+    "place": "Gaziosmanpaşa Belediye Başkanlığı",
     "count": 13,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -113,14 +130,22 @@
      "B"
     ],
     "other_conditions": [
-     "En az (B) sınıfı sürücü belgesine sahip olmak",
-     "Erkeklerde en az 1.67 m, kadınlarda en az 1.60 m boy",
-     "Boyun 1 metreden fazla olan kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
-     "Askerlikle ilişiği olmamak (erkek adaylar)",
-     "Sözlü ve uygulamalı sınav yapılacak"
+     "Hizmet sınıfı GİH, kadro derecesi 10.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Boy: erkeklerde en az 1.67 metre, kadınlarda en az 1.60 metre olmak (aç karnına, soyunuk ve çıplak ayakla ölçülür).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş bulunmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Türk vatandaşı olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Sözlü ve uygulamalı sınavda başarılı olmak için her iki sınavın ortalamasının en az 60 puan olması şarttır.",
+     "Yabancı okul mezunları için denklik belgesi gerekir.",
+     "Belge: KPSS sonuç belgesi (ÖSYM doğrulama kodlu çıktı)",
+     "Belge: Sürücü belgesi fotokopisi veya noter onaylı örneği"
     ]
    }
   ],
-  "notes": "Satır toplamı 18+5+13=36, başlıktaki sayıyla uyumlu; ilan metni toplam sayıyı ayrıca belirtmiyor, başlıktan alındı. Başvuru tarihleri 07/12/2026-11/12/2026, şahsen yapılır. KPSS yılı 2026 olarak belirtilmiş. Cinsiyet: Erkek/Kadın (kısıtlama yok)."
- }
+  "notes": "Toplam 18+5+13=36 kadro. KPSS yılı 2026 (KPSS B grubu). Cinsiyet kısmı Erkek/Kadın olduğu için kısıt yok. Yaş sınırı genel şartlardan alındı (sınav tarihinde 30 yaşını doldurmamış olmak)."
+ },
+ "reading": 2
 }

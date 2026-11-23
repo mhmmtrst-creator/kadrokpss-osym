@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "269af929d01ccae02426",
  "institution": "BERGAMA BELEDİYE BAŞKANLIĞI",
  "title": "4 MEMUR ALACAK",
  "range": "9 Aralık - 11 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 4,
@@ -16,8 +16,9 @@
    {
     "code": null,
     "title": "Memur",
-    "place": "Bergama Belediye Başkanlığı (İzmir)",
+    "place": "Bergama Belediye Başkanlığı",
     "count": 2,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -37,15 +38,21 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Genel İdare Hizmetleri sınıfı, 7. derece",
-     "Sözlü sınav yapılacak"
+     "Hizmet sınıfı: G.İ.H, kadro derecesi: 7",
+     "Türk vatandaşı olmak",
+     "Kamu haklarından mahrum bulunmamak",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak",
+     "2026 yılı KPSS (B grubu) sınavına girmiş olmak",
+     "Sözlü sınavda başarılı sayılmak için en az 60 puan almak"
     ]
    },
    {
     "code": null,
     "title": "Evlendirme Memuru",
-    "place": "Bergama Belediye Başkanlığı (İzmir)",
+    "place": "Bergama Belediye Başkanlığı",
     "count": 2,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -65,11 +72,17 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Genel İdare Hizmetleri sınıfı, 8. derece",
-     "Sözlü sınav yapılacak"
+     "Hizmet sınıfı: G.İ.H, kadro derecesi: 8",
+     "Türk vatandaşı olmak",
+     "Kamu haklarından mahrum bulunmamak",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak",
+     "2026 yılı KPSS (B grubu) sınavına girmiş olmak",
+     "Sözlü sınavda başarılı sayılmak için en az 60 puan almak"
     ]
    }
   ],
-  "notes": "Tabloda 2 satır var, toplam 4 kadro; ilan başlığında da 4 memur yazıyor. KPSS yılı 2026 olarak belirtilmiş (KPSS B grubu). Başvuru tarihleri 09/12/2026-11/12/2026. Satırlarda görev yeri ayrıca belirtilmediği için yer Bergama Belediyesi olarak alındı."
- }
+  "notes": "Başvuru tarihleri 09/12/2026-11/12/2026 olarak belirtilmiştir. KPSS yılı 2026 olarak ilanda yazılıdır. Sözlü sınav 21/12/2026 tarihindedir."
+ },
+ "reading": 2
 }

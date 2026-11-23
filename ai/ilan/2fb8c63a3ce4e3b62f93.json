@@ -1,23 +1,24 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "2fb8c63a3ce4e3b62f93",
  "institution": "YÜKSEKÖĞRETİM KALİTE KURULU",
  "title": "5 UZMAN YARDIMCISI ALACAK",
  "range": "1 Aralık - 14 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 5,
   "academic": false,
-  "kpss_year": 2025,
+  "kpss_year": 2026,
   "apply_start": "2026-12-01",
   "apply_end": "2026-12-14",
   "positions": [
    {
     "code": "A1",
-    "title": "Yükseköğretim Kalite Kurulu Uzman Yardımcısı (GİH)",
-    "place": "Yükseköğretim Kalite Kurulu Başkanlığı",
+    "title": "YÜKSEKÖĞRETİM KALİTE KURULU UZMAN YARDIMCISI (GİH) (İKTİSAT)",
+    "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -36,18 +37,25 @@
     "any_department": false,
     "gender": null,
     "age_years": 35,
-    "age_rule": "1 Ocak 2026 itibarıyla otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
+    "age_rule": "1 Ocak 2026 itibariyle otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
     "license_classes": [],
     "other_conditions": [
-     "Sözlü sınava çağırılacak aday sayısı: 4",
-     "Yabancı fakülte mezunları için YÖK denklik belgesi"
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesinde belirtilen genel şartları taşımak.",
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından onaylanmış yabancı fakültelerden mezun olmak.",
+     "Tabloda belirtilen bölümlere denk sayılan bölümlerden mezun olanlar YÖK onaylı denklik belgesini başvuru aşamasında e-Devlet (Kariyer Kapısı Kamu İşe Alım) üzerinden eklemelidir.",
+     "KPSS'den 2025 ve 2026 yıllarında alınmış puan olmalıdır.",
+     "Sözlü sınava çağırılacak en yüksek puanlı aday içerisinde yer almak (son sıradaki adaylarla aynı puana sahip adaylar da sınava kabul edilir); sözlü sınava çağırılacak aday sayısı 4.",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak.",
+     "Belge: Diploma veya geçici mezuniyet belgesi (yabancı ülkelerde mezun olanlar için denklik belgesi)",
+     "Belge: Özgeçmiş"
     ]
    },
    {
     "code": "A2",
-    "title": "Yükseköğretim Kalite Kurulu Uzman Yardımcısı (GİH)",
-    "place": "Yükseköğretim Kalite Kurulu Başkanlığı",
+    "title": "YÜKSEKÖĞRETİM KALİTE KURULU UZMAN YARDIMCISI (GİH) (KAMU YÖNETİMİ / SİYASET BİLİMİ VE KAMU YÖNETİMİ)",
+    "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -67,18 +75,25 @@
     "any_department": false,
     "gender": null,
     "age_years": 35,
-    "age_rule": "1 Ocak 2026 itibarıyla otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
+    "age_rule": "1 Ocak 2026 itibariyle otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
     "license_classes": [],
     "other_conditions": [
-     "Sözlü sınava çağırılacak aday sayısı: 4",
-     "Yabancı fakülte mezunları için YÖK denklik belgesi"
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesinde belirtilen genel şartları taşımak.",
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından onaylanmış yabancı fakültelerden mezun olmak.",
+     "Tabloda belirtilen bölümlere denk sayılan bölümlerden mezun olanlar YÖK onaylı denklik belgesini başvuru aşamasında e-Devlet (Kariyer Kapısı Kamu İşe Alım) üzerinden eklemelidir.",
+     "KPSS'den 2025 ve 2026 yıllarında alınmış puan olmalıdır.",
+     "Sözlü sınava çağırılacak en yüksek puanlı aday içerisinde yer almak (son sıradaki adaylarla aynı puana sahip adaylar da sınava kabul edilir); sözlü sınava çağırılacak aday sayısı 4.",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak.",
+     "Belge: Diploma veya geçici mezuniyet belgesi (yabancı ülkelerde mezun olanlar için denklik belgesi)",
+     "Belge: Özgeçmiş"
     ]
    },
    {
     "code": "A3",
-    "title": "Yükseköğretim Kalite Kurulu Uzman Yardımcısı (GİH)",
-    "place": "Yükseköğretim Kalite Kurulu Başkanlığı",
+    "title": "YÜKSEKÖĞRETİM KALİTE KURULU UZMAN YARDIMCISI (GİH) (ULUSLARARASI İLİŞKİLER / SİYASET BİLİMİ VE ULUSLARARASI İLİŞKİLER)",
+    "place": null,
     "count": 2,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -98,18 +113,25 @@
     "any_department": false,
     "gender": null,
     "age_years": 35,
-    "age_rule": "1 Ocak 2026 itibarıyla otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
+    "age_rule": "1 Ocak 2026 itibariyle otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
     "license_classes": [],
     "other_conditions": [
-     "Sözlü sınava çağırılacak aday sayısı: 8",
-     "Yabancı fakülte mezunları için YÖK denklik belgesi"
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesinde belirtilen genel şartları taşımak.",
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından onaylanmış yabancı fakültelerden mezun olmak.",
+     "Tabloda belirtilen bölümlere denk sayılan bölümlerden mezun olanlar YÖK onaylı denklik belgesini başvuru aşamasında e-Devlet (Kariyer Kapısı Kamu İşe Alım) üzerinden eklemelidir.",
+     "KPSS'den 2025 ve 2026 yıllarında alınmış puan olmalıdır.",
+     "Sözlü sınava çağırılacak en yüksek puanlı aday içerisinde yer almak (son sıradaki adaylarla aynı puana sahip adaylar da sınava kabul edilir); sözlü sınava çağırılacak aday sayısı 8.",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak.",
+     "Belge: Diploma veya geçici mezuniyet belgesi (yabancı ülkelerde mezun olanlar için denklik belgesi)",
+     "Belge: Özgeçmiş"
     ]
    },
    {
     "code": "A4",
-    "title": "Yükseköğretim Kalite Kurulu Uzman Yardımcısı (GİH)",
-    "place": "Yükseköğretim Kalite Kurulu Başkanlığı",
+    "title": "YÜKSEKÖĞRETİM KALİTE KURULU UZMAN YARDIMCISI (GİH) (İLETİŞİM FAKÜLTESİ)",
+    "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -124,14 +146,21 @@
     "any_department": false,
     "gender": null,
     "age_years": 35,
-    "age_rule": "1 Ocak 2026 itibarıyla otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
+    "age_rule": "1 Ocak 2026 itibariyle otuz beş (35) yaşını doldurmamış olmak (1 Ocak 1991 ve sonrası doğanlar)",
     "license_classes": [],
     "other_conditions": [
-     "Sözlü sınava çağırılacak aday sayısı: 4",
-     "Yabancı fakülte mezunları için YÖK denklik belgesi"
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesinde belirtilen genel şartları taşımak.",
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından onaylanmış yabancı fakültelerden mezun olmak.",
+     "Tabloda belirtilen bölümlere denk sayılan bölümlerden mezun olanlar YÖK onaylı denklik belgesini başvuru aşamasında e-Devlet (Kariyer Kapısı Kamu İşe Alım) üzerinden eklemelidir.",
+     "KPSS'den 2025 ve 2026 yıllarında alınmış puan olmalıdır.",
+     "Sözlü sınava çağırılacak en yüksek puanlı aday içerisinde yer almak (son sıradaki adaylarla aynı puana sahip adaylar da sınava kabul edilir); sözlü sınava çağırılacak aday sayısı 4.",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak.",
+     "Belge: Diploma veya geçici mezuniyet belgesi (yabancı ülkelerde mezun olanlar için denklik belgesi)",
+     "Belge: Özgeçmiş"
     ]
    }
   ],
-  "notes": "KPSS 2025 ve 2026 yıllarında yapılan sınavlardan geçerli; kpss_year olarak 2025 yazıldı. Asgari 75 puan genel koşuldur ve tabloda belirtilen puan türlerinden herhangi biri için aranır. Yaş sınırı 35 yaşını doldurmamış olmak şeklindedir. Başvuru tarihleri belgede 01/12/2026-14/12/2026 olarak yazılmıştır."
- }
+  "notes": "Toplam 5 kadro (1+1+2+1) ilanla uyumlu. KPSS puanı 2025 ve 2026 yıllarında yapılan sınavlardan kabul edildiği için kpss_year 2026 olarak yazıldı. Görev yeri belirtilmemiş (Ankara'daki kurum adresi dışında). Her alan için KPSS puan türlerinden herhangi biri yeterlidir."
+ },
+ "reading": 2
 }

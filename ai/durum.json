@@ -1,5 +1,8 @@
 {
- "attempts": {},
+ "attempts": {
+  "237a1fa6d3c61669b8c9": 1,
+  "3894f29294e6d0a6c75f": 1
+ },
  "listings": {
   "08e9302971543581db45": {
    "institution": "İSTANBUL KALKINMA AJANSI",
@@ -57,9 +60,7 @@
    "title": "4 MEMUR ALACAK"
   },
   "289a38a711097e7e0e34": {
-   "ekler": [
-    "https://personeltemin.msb.gov.tr/Genel/HVLDokuman/DosyaIndir?pDosyaNo=3942&pDokKayitNo=2841"
-   ],
+   "ekler": [],
    "ekler_denendi": true,
    "institution": "MİLLİ SAVUNMA BAKANLIĞI",
    "range": "2 Kasım - 23 Kasım",
@@ -353,6 +354,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 3.4078
+  "2026-11": 6.6353
  }
 }

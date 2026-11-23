@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "a4faccebae595a5f023e",
  "institution": "ORTA ANADOLU KALKINMA AJANSI",
  "title": "6 UZMAN, 1 DESTEK PERSONELİ ALACAK",
  "range": "9 Kasım - 3 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 7,
@@ -16,8 +16,9 @@
    {
     "code": "UZMAN PERSONEL - 1",
     "title": "UZMAN PERSONEL - 1",
-    "place": "Kayseri, Sivas, Yozgat",
+    "place": "Kayseri, Sivas ve Yozgat illerinden Ajansın uygun göreceği biri",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -40,18 +41,36 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "YDS/e-YDS İngilizce en az C düzeyi (son 5 yıl içinde)",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
-     "Askerlikle ilişkisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
-     "Sağlık raporuna sahip olmak",
-     "Son 1 ay içinde alınmış adli sicil kaydı"
+     "KPSS: Son başvuru tarihi itibarıyla geçerli, 2025 ve 2026 yıllarında yapılan KPSS'den en az 80 puan almış olmak.",
+     "Dil: Son başvuru tarihinden önceki 5 yıl içinde YDS/e-YDS İngilizce dilinden en az C düzeyinde puan almış olmak veya ÖSYM'nin denk kabul ettiği uluslararası geçerliliği olan başka bir sınavdan C düzeyine karşılık gelen puana sahip olmak.",
+     "Dil: ÜDS-YÖKDİL belgesi kabul edilmez.",
+     "Eğitim: En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarının veya YÖK'ün denkliğini kabul ettiği yurt dışı yükseköğretim kurumlarının belirtilen bölümlerinden lisans düzeyinde mezun olmak.",
+     "Askerlik: Askerlikle ilgisi bulunmamak, askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Sağlık: Az tehlikeli işyerlerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+     "Kamu haklarından mahrum bulunmamak ve Türkiye Cumhuriyeti vatandaşı olmak.",
+     "Genel şartlarda sayılan suçlardan hükümlü bulunmamak.",
+     "Belge: YDS sonuç belgesi veya ÖSYM'nin denkliğini kabul ettiği uluslararası geçerliliği olan yabancı dil belgesi",
+     "Belge: Son 1 ay içerisinde alınmış adli sicil kaydı",
+     "Belge: Erkek adaylar için askerlik görevini yapmış, muaf veya ertelenmiş olduğunu gösteren belge",
+     "Belge: Özgeçmiş ve fotoğraf",
+     "Belge: Diploma ya da mezuniyet belgesi (e-Devlet'teki mezuniyet bilgisi hatalı veya eksikse)",
+     "Belge: YÖK denkliği kabul edilen bölümler için Denklik Gösterir Belge",
+     "Seyahat engeli olmamak (ilan metnindeki aranan nitelikler arasında).",
+     "Tercih sebebi: Ajansın faaliyet alanlarıyla ilgili bilgi ve deneyim sahibi olmak ve belgelemek.",
+     "Tercih sebebi: Belirtilen öğrenim dalları veya ilgili alanlarda yüksek lisans mezunu olmak.",
+     "Tercih sebebi: Belirtilen öğrenim dalları veya ilgili alanlarda doktora mezunu olmak.",
+     "Tercih sebebi: İngilizce dışında ikinci bir yabancı dil bilgisi (YDS veya eşdeğer uluslararası sınavdan en az C düzeyi).",
+     "Sözlü sınav başarı notu 100 üzerinden en az 70 olmalıdır.",
+     "Başvuru puanlaması: KPSS %55, YDS %35, yüksek lisans %2, doktora %4, ikinci yabancı dil %4."
     ]
    },
    {
     "code": "UZMAN PERSONEL - 2",
     "title": "UZMAN PERSONEL - 2",
-    "place": "Kayseri, Sivas, Yozgat",
+    "place": "Kayseri, Sivas ve Yozgat illerinden Ajansın uygun göreceği biri",
     "count": 2,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -63,7 +82,7 @@
     "department_kpss": [],
     "min_score": 80,
     "departments": [
-     "Mühendislik Lisans Programları (Uzman Personel – 1 için tanımlanmış mühendislik bölümleri hariç)"
+     "Mühendislik Lisans Programları (Uzman Personel - 1 için tanımlanmış mühendislik bölümleri hariç)"
     ],
     "any_department": false,
     "gender": null,
@@ -71,18 +90,36 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "YDS/e-YDS İngilizce en az C düzeyi (son 5 yıl içinde)",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
-     "Askerlikle ilişkisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
-     "Sağlık raporuna sahip olmak",
-     "Son 1 ay içinde alınmış adli sicil kaydı"
+     "KPSS: Son başvuru tarihi itibarıyla geçerli, 2025 ve 2026 yıllarında yapılan KPSS'den en az 80 puan almış olmak.",
+     "Dil: Son başvuru tarihinden önceki 5 yıl içinde YDS/e-YDS İngilizce dilinden en az C düzeyinde puan almış olmak veya ÖSYM'nin denk kabul ettiği uluslararası geçerliliği olan başka bir sınavdan C düzeyine karşılık gelen puana sahip olmak.",
+     "Dil: ÜDS-YÖKDİL belgesi kabul edilmez.",
+     "Eğitim: En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarının veya YÖK'ün denkliğini kabul ettiği yurt dışı yükseköğretim kurumlarının belirtilen bölümlerinden lisans düzeyinde mezun olmak.",
+     "Askerlik: Askerlikle ilgisi bulunmamak, askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Sağlık: Az tehlikeli işyerlerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+     "Kamu haklarından mahrum bulunmamak ve Türkiye Cumhuriyeti vatandaşı olmak.",
+     "Genel şartlarda sayılan suçlardan hükümlü bulunmamak.",
+     "Belge: YDS sonuç belgesi veya ÖSYM'nin denkliğini kabul ettiği uluslararası geçerliliği olan yabancı dil belgesi",
+     "Belge: Son 1 ay içerisinde alınmış adli sicil kaydı",
+     "Belge: Erkek adaylar için askerlik görevini yapmış, muaf veya ertelenmiş olduğunu gösteren belge",
+     "Belge: Özgeçmiş ve fotoğraf",
+     "Belge: Diploma ya da mezuniyet belgesi (e-Devlet'teki mezuniyet bilgisi hatalı veya eksikse)",
+     "Belge: YÖK denkliği kabul edilen bölümler için Denklik Gösterir Belge",
+     "Seyahat engeli olmamak (ilan metnindeki aranan nitelikler arasında).",
+     "Tercih sebebi: Ajansın faaliyet alanlarıyla ilgili bilgi ve deneyim sahibi olmak ve belgelemek.",
+     "Tercih sebebi: Belirtilen öğrenim dalları veya ilgili alanlarda yüksek lisans mezunu olmak.",
+     "Tercih sebebi: Belirtilen öğrenim dalları veya ilgili alanlarda doktora mezunu olmak.",
+     "Tercih sebebi: İngilizce dışında ikinci bir yabancı dil bilgisi (YDS veya eşdeğer uluslararası sınavdan en az C düzeyi).",
+     "Sözlü sınav başarı notu 100 üzerinden en az 70 olmalıdır.",
+     "Başvuru puanlaması: KPSS %55, YDS %35, yüksek lisans %2, doktora %4, ikinci yabancı dil %4."
     ]
    },
    {
     "code": "UZMAN PERSONEL - 3",
     "title": "UZMAN PERSONEL - 3",
-    "place": "Kayseri, Sivas, Yozgat",
+    "place": "Kayseri, Sivas ve Yozgat illerinden Ajansın uygun göreceği biri",
     "count": 3,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -140,18 +177,36 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "YDS/e-YDS İngilizce en az C düzeyi (son 5 yıl içinde)",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
-     "Askerlikle ilişkisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
-     "Sağlık raporuna sahip olmak",
-     "Son 1 ay içinde alınmış adli sicil kaydı"
+     "KPSS: Son başvuru tarihi itibarıyla geçerli, 2025 ve 2026 yıllarında yapılan KPSS'den en az 80 puan almış olmak.",
+     "Dil: Son başvuru tarihinden önceki 5 yıl içinde YDS/e-YDS İngilizce dilinden en az C düzeyinde puan almış olmak veya ÖSYM'nin denk kabul ettiği uluslararası geçerliliği olan başka bir sınavdan C düzeyine karşılık gelen puana sahip olmak.",
+     "Dil: ÜDS-YÖKDİL belgesi kabul edilmez.",
+     "Eğitim: En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarının veya YÖK'ün denkliğini kabul ettiği yurt dışı yükseköğretim kurumlarının belirtilen bölümlerinden lisans düzeyinde mezun olmak.",
+     "Askerlik: Askerlikle ilgisi bulunmamak, askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Sağlık: Az tehlikeli işyerlerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+     "Kamu haklarından mahrum bulunmamak ve Türkiye Cumhuriyeti vatandaşı olmak.",
+     "Genel şartlarda sayılan suçlardan hükümlü bulunmamak.",
+     "Belge: YDS sonuç belgesi veya ÖSYM'nin denkliğini kabul ettiği uluslararası geçerliliği olan yabancı dil belgesi",
+     "Belge: Son 1 ay içerisinde alınmış adli sicil kaydı",
+     "Belge: Erkek adaylar için askerlik görevini yapmış, muaf veya ertelenmiş olduğunu gösteren belge",
+     "Belge: Özgeçmiş ve fotoğraf",
+     "Belge: Diploma ya da mezuniyet belgesi (e-Devlet'teki mezuniyet bilgisi hatalı veya eksikse)",
+     "Belge: YÖK denkliği kabul edilen bölümler için Denklik Gösterir Belge",
+     "Seyahat engeli olmamak (ilan metnindeki aranan nitelikler arasında).",
+     "Tercih sebebi: Ajansın faaliyet alanlarıyla ilgili bilgi ve deneyim sahibi olmak ve belgelemek.",
+     "Tercih sebebi: Belirtilen öğrenim dalları veya ilgili alanlarda yüksek lisans mezunu olmak.",
+     "Tercih sebebi: Belirtilen öğrenim dalları veya ilgili alanlarda doktora mezunu olmak.",
+     "Tercih sebebi: İngilizce dışında ikinci bir yabancı dil bilgisi (YDS veya eşdeğer uluslararası sınavdan en az C düzeyi).",
+     "Sözlü sınav başarı notu 100 üzerinden en az 70 olmalıdır.",
+     "Başvuru puanlaması: KPSS %55, YDS %35, yüksek lisans %2, doktora %4, ikinci yabancı dil %4."
     ]
    },
    {
     "code": "DESTEK PERSONELİ",
     "title": "DESTEK PERSONELİ (BÜRO GÖREVLİSİ)",
-    "place": "Kayseri, Sivas, Yozgat",
+    "place": "Kayseri, Sivas ve Yozgat illerinden Ajansın uygun göreceği biri",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -218,13 +273,27 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
-     "Askerlikle ilişkisi bulunmamak veya askerliğini yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
-     "Sağlık raporuna sahip olmak",
-     "Son 1 ay içinde alınmış adli sicil kaydı"
+     "KPSS: Son başvuru tarihi itibarıyla geçerli, 2025 ve 2026 yıllarında yapılan KPSS'den en az 70 puan almış olmak.",
+     "Eğitim: En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarının veya YÖK'ün denkliğini kabul ettiği yurt dışı yükseköğretim kurumlarının belirtilen bölümlerinden lisans düzeyinde mezun olmak.",
+     "Askerlik: Askerlikle ilgisi bulunmamak, askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Sağlık: Az tehlikeli işyerlerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+     "Kamu haklarından mahrum bulunmamak ve Türkiye Cumhuriyeti vatandaşı olmak.",
+     "Genel şartlarda sayılan suçlardan hükümlü bulunmamak.",
+     "Belge: Son 1 ay içerisinde alınmış adli sicil kaydı",
+     "Belge: Erkek adaylar için askerlik görevini yapmış, muaf veya ertelenmiş olduğunu gösteren belge",
+     "Belge: Özgeçmiş ve fotoğraf",
+     "Belge: Diploma ya da mezuniyet belgesi (e-Devlet'teki mezuniyet bilgisi hatalı veya eksikse)",
+     "Belge: YÖK denkliği kabul edilen bölümler için Denklik Gösterir Belge",
+     "Seyahat engeli olmamak (ilan metnindeki aranan nitelikler arasında).",
+     "Tercih sebebi: Ajansın faaliyet alanlarıyla ilgili bilgi ve deneyim sahibi olmak.",
+     "Tercih sebebi: Belirtilen öğrenim dalları veya ilgili alanlarda yüksek lisans mezunu olmak.",
+     "Sözlü sınav başarı notu 100 üzerinden en az 70 olmalıdır.",
+     "Başvuru puanlaması: KPSS %90, yüksek lisans %10."
     ]
    }
   ],
-  "notes": "Toplam 6 uzman + 1 destek personeli = 7 kadro (ilan metninde belirtilmiş). KPSS yılı olarak 2025 ve 2026 yıllarında yapılan KPSS kabul ediliyor; tek yıl olmadığı için kpss_year null bırakıldı. Başvuru yeri tüm pozisyonlar için Kayseri, Sivas ve Yozgat illerinden biri (Ajans merkezi Kayseri). Sözleşme belirsiz süreli iş sözleşmesidir. Yüksek lisans ve doktora yalnızca tercih sebebidir, şart değildir."
- }
+  "notes": "KPSS yılı olarak 2025 ve 2026 yıllarında yapılan KPSS kabul ediliyor; tek yıl olmadığı için kpss_year null bırakıldı. Uzman Personel-2 için Uzman Personel-1'de tanımlı mühendislik bölümleri hariç tüm mühendislik lisans programları kabul ediliyor, tek tek isim verilmediği için ilandaki ifade yazıldı. Çalışma yeri Kayseri, Sivas ve Yozgat illerinden Ajansın uygun göreceği biridir. Başvuru bitişi 03/12/2026 saat 23.59."
+ },
+ "reading": 2
 }

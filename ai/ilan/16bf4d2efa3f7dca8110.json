@@ -1,13 +1,13 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "16bf4d2efa3f7dca8110",
  "institution": "BOZKÖY BELEDİYE BAŞKANLIĞI",
  "title": "1 İTFAİYE ERİ ALACAK",
  "range": "21 Aralık - 23 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
-  "declared_total": null,
+  "declared_total": 1,
   "academic": false,
   "kpss_year": 2026,
   "apply_start": "2026-12-21",
@@ -18,6 +18,7 @@
     "title": "İTFAİYE ERİ",
     "place": "Bozköy Belediye Başkanlığı (Niğde)",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -39,15 +40,19 @@
      "C"
     ],
     "other_conditions": [
-     "En az C sınıfı sürücü belgesi",
-     "Boy erkeklerde en az 1.67 m, kadınlarda en az 1.60 m",
-     "Boy 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg fazla fark olmaması",
-     "Kapalı mekan, dar alan ve yükseklik fobisi olmamak",
-     "Erkek adaylar için askerlikle ilişiği olmamak",
-     "KPSS (B) grubu"
+     "Hizmet sınıfı GİH, kadro derecesi 11.",
+     "Erkeklerde boy en az 1,67 metre, kadınlarda en az 1,60 metre olmak (tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır).",
+     "Boy 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamak.",
+     "Sağlık açısından kapalı mekân, dar alan ve yükseklik gibi fobisi olmamak; itfaiye teşkilatının çalışma şartlarına uygun olmak.",
+     "2026 yılı KPSS (B grubu) sınavına girmiş olmak ve en az 65 KPSS puanı almış olmak.",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Belge: En az C sınıfı sürücü belgesi"
     ]
    }
   ],
-  "notes": "Tabloda tek satır var; cinsiyet Kadın/Erkek olduğundan sınırlama yok. Başvuru tarihleri 21-23/12/2026 olarak metinde yazılıdır. Sınav 05/01/2027."
- }
+  "notes": "Cinsiyet 'Kadın/Erkek' olduğundan cinsiyet kısıtı yok. Tabloda görev yeri yazmıyor; yer Bozköy Belediyesi (Niğde) olarak alındı. Başvuru tarihleri 2026 yılı olarak ilanda 21/12/2026-23/12/2026 şeklinde yazılıdır. Öğrenim ilanda 'Lisans düzeyinde eğitim veren kurumlar' olarak belirtilmiştir."
+ },
+ "reading": 2
 }

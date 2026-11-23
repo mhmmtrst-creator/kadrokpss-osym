@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "fc2c41eed618bf0c650c",
  "institution": "SAVUNMA SANAYİİ BAŞKANLIĞI",
  "title": "26 PROJE BAZLI SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "20 Kasım - 21 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 26,
@@ -18,6 +18,7 @@
     "title": "PROJE BAZLI SÖZLEŞMELİ PERSONEL",
     "place": null,
     "count": 26,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -83,15 +84,25 @@
     "age_rule": "Son başvuru tarihi itibariyle 65 yaşını doldurmamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Özel bilgi ve ihtisas alanlarının herhangi birinde en az 5 yıl tecrübe",
-     "Son 2 yıl içinde YDS İngilizce en az 70 puan veya ÖSYM'nin kabul ettiği denk belge",
-     "%100 İngilizce lisans eğitimi alanlar veya resmi dili İngilizce olan ülkede lisans/yüksek lisans/doktora alanlar için yabancı dil şartı aranmaz",
-     "657 sayılı Kanun 48/A genel şartlarını taşımak",
-     "En az dört yıllık lisans eğitimi",
-     "Güvenlik soruşturması ve arşiv araştırması olumlu olmalı"
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin birinci fıkrasının (A) bendinde yer alan genel şartları taşımak.",
+     "En az dört yıllık lisans eğitimi veren, ilanda yer alan bölümlerden veya bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi/yurt dışı öğretim kurumlarının ilgili bölümlerinden mezun olmak.",
+     "Tecrübe: Aşağıdaki özel bilgi ve ihtisas alanlarının herhangi birinde en az 5 yıl tecrübe sahibi olmak (şartı sağlamayan adayların başvuruları geçersiz sayılır): Akıllı Sistemler ve Otonomi; Algılayıcılar; Anti-Drone Teknolojileri; Aviyonik Sistemler; Batarya/Güç Elektroniği; Deniz Platformları ve Sistemleri (İnsanlı/İnsansız); Elektrik Makinaları; Elektronik Harp; Elektro-Optik; Görüntü İşleme Teknolojileri; Haberleşme/Komuta Kontrol Sistemleri; Hava Platformları ve Sistemleri (İnsanlı/İnsansız); Hava Savunma Sistemleri; Kara Platformları ve Sistemleri (İnsanlı/İnsansız); Radar/Mikrodalga; Silah/Mühimmat/Roket/Füze Sistemleri; Test/Doğrulama/Sertifikasyon; Türbinli Motorlar; Uzay/Uydu/Fırlatma Sistemleri; Yapay Zekâ/Veri Bilimi.",
+     "Yabancı dil: Son başvuru tarihi itibarıyla son 2 yıl içinde YDS'den İngilizce alanında en az 70 puan almış olmak veya ÖSYM tarafından denkliği kabul edilen ve uluslararası geçerliliği bulunan belgeye sahip olmak.",
+     "Yabancı dil muafiyeti: Lisans öğrenimi sırasında Türkçe ve İnkılap Tarihi gibi asıl alanla ilgili olmayan dersler dışındaki derslerin %100'ünü İngilizce aldığını belgeleyenlerden veya resmi dili İngilizce olan bir ülkede lisans, yüksek lisans ya da doktora derecesi almış olanlardan yabancı dil belgesi aranmaz.",
+     "Belge: Özgeçmiş (Kariyer Kapısı'ndaki Özgeçmiş Formu ile oluşturulacak; başvuruya esas özel bilgi ve ihtisas alanı bilgileri eksiksiz doldurulmalı).",
+     "Belge: SGK Tescil ve Hizmet Dökümü/İşyeri Unvan Listesi Belgesi (e-Devlet'ten barkod ve doğrulama kodlu, mesleki tecrübeyi gösteren döküm).",
+     "Belge: Yurt içi/yurt dışı mezuniyeti için denklik gerekiyorsa Denklik Belgesi.",
+     "Belge: ÖSYM tarafından YDS'ye denkliği kabul edilen dil belgesi (YDS Eşdeğer Yabancı Dil Belgesi), bu puanla başvuranlar için.",
+     "Belge: %100 İngilizce lisans eğitimi aldığını gösterir üniversite onaylı belge, bu şekilde muafiyet isteyenler için.",
+     "Belge: Resmi dili İngilizce olan ülkeden alınmış lisans veya lisansüstü diploma, bu şekilde muafiyet isteyenler için.",
+     "Belge: Mezuniyet bilgileri otomatik gelmeyenler için onaylı diploma örneği veya mezuniyet belgesi.",
+     "Güvenlik soruşturması ve arşiv araştırması (7315 sayılı Kanun) olumlu sonuçlanmalıdır.",
+     "Giriş sınavı sözlü sınavdır; başarılı sayılmak için en az 70 puan almak gerekir.",
+     "Başvuru Kariyer Kapısı (https://kariyerkapisi.gov.tr/isealim) üzerinden e-Devlet ile elektronik ortamda yapılır."
     ]
    }
   ],
-  "notes": "İlanda tek kadro grubu var: 26 proje bazlı sözleşmeli personel; görev yeri belirtilmemiş. KPSS şartı yok. Sözlü sınav başarı puanı en az 70. Özel bilgi ve ihtisas alanları (20 alan) tecrübe şartı için geçerli, kadro bazında dağılım verilmemiş."
- }
+  "notes": "İlanda tek tür kadro vardır (26 Proje Bazlı Sözleşmeli Personel); yer ve ayrı kadro sayısı verilmemiştir. KPSS şartı yoktur. Başvuru saatleri: 20 Kasım 2026 saat 10:00 - 21 Aralık 2026 saat 23:59."
+ },
+ "reading": 2
 }

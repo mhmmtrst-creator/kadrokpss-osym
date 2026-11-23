@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "2f53e999c2fcd2b9e951",
  "institution": "SAYIŞTAY BAŞKANLIĞI",
  "title": "16 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "11 Kasım - 25 Kasım",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 16,
@@ -18,6 +18,7 @@
     "title": "SÖZLEŞMELİ ÇÖZÜMLEYİCİ",
     "place": null,
     "count": 3,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -59,14 +60,20 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "En az 2 programlama dilini bildiğini belgelemek (biri güncel olmalı)",
-     "YDS İngilizce en az D düzeyi veya denk belge",
-     "Tercihen .Net/Java ile web tabanlı uygulama geliştirme deneyimi ve en az bir kurumsal projede görev almış olmak",
-     "Tercihen .Net Framework, ASP.NET MVC veya J2EE, AngularJS, Spring Boot, Spring MVC bilgisi",
-     "Tercihen web teknolojileri (HTML, HTML5, CSS, Javascript, JQuery) bilgisi",
-     "Tercihen Native SQL bilgisi",
-     "Tercihen MS SQL Server ve/veya Oracle bilgi ve deneyimi",
-     "Sözlü sınav yapılacak"
+     "En az dört yıllık lisans programından mezun olmak; denkliği yetkili makamlarca kabul edilen yurt dışı öğretim kurumlarından mezun olanlar da başvurabilir.",
+     "Belge: Programlama dillerinden bir adedi güncel olmak üzere en az 2 programlama dilini bildiğini gösteren, yükseköğrenimi sırasında bilgisayar programcılığı alanında ders aldığına ilişkin okuldan onaylı belge (transkript ve ders açılım belgesi)",
+     "Transkriptte istenen programlama dili eğitimi açıkça görünüyorsa ayrıca ders açılım belgesi gerekmez; açıkça görünmüyorsa okuldan onaylı ders açılım belgesi ibraz edilmelidir.",
+     "Belge: İngilizce dilinde Yabancı Dil Sınavından (YDS) en az D düzeyinde puan almış olmak veya buna denkliği kabul edilen ve uluslararası geçerliliği bulunan başka bir dil belgesine sahip olmak",
+     "Tercihen .Net/Java ile web tabanlı uygulama geliştirme konusunda deneyimli ve en az bir kurumsal projede görev almış olmak.",
+     "Tercihen .Net Framework, ASP.NET MVC teknolojilerine veya J2EE, AngularJS, Spring Boot, Spring MVC teknolojilerine hâkim olmak ve projelerde kullanmış olmak.",
+     "Tercihen Web teknolojileri (HTML, HTML5, CSS, Javascript, JQuery) konularında bilgi ve tecrübe sahibi olmak.",
+     "Tercihen Native SQL bilgisine sahip olmak.",
+     "Tercihen MS SQL Server ve/veya Oracle veri tabanı sistemleri hakkında bilgi ve deneyim sahibi olmak.",
+     "Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almıyor olmak.",
+     "657 sayılı Kanunun 48. maddesindeki genel şartları taşımak.",
+     "Sözleşmeli çalışırken son bir yıl içinde hizmet sözleşmesine aykırı hareket nedeniyle sözleşmesi feshedilmemiş olmak veya sözleşmesini istisnalar dışında tek taraflı feshetmemiş olmak.",
+     "Sözlü sınavda 70 ve üzeri not almak.",
+     "Sadece bir pozisyona başvuru yapılabilir."
     ]
    },
    {
@@ -74,6 +81,7 @@
     "title": "SÖZLEŞMELİ PROGRAMCI (LİSANS)",
     "place": null,
     "count": 9,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -109,9 +117,15 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "En az 2 programlama dilini bildiğini belgelemek (biri güncel olmalı)",
-     "YDS İngilizce en az D düzeyi veya denk belge",
-     "Sözlü sınav yapılacak"
+     "En az dört yıllık lisans programından mezun olmak; denkliği yetkili makamlarca kabul edilen yurt dışı öğretim kurumlarından mezun olanlar da başvurabilir.",
+     "Belge: Programlama dillerinden bir adedi güncel olmak üzere en az 2 programlama dilini bildiğini gösteren, yükseköğrenimi sırasında bilgisayar programcılığı alanında ders aldığına ilişkin okuldan onaylı belge (transkript ve ders açılım belgesi)",
+     "Transkriptte istenen programlama dili eğitimi açıkça görünüyorsa ayrıca ders açılım belgesi gerekmez; açıkça görünmüyorsa okuldan onaylı ders açılım belgesi ibraz edilmelidir.",
+     "Belge: İngilizce dilinde Yabancı Dil Sınavından (YDS) en az D düzeyinde puan almış olmak veya buna denkliği kabul edilen ve uluslararası geçerliliği bulunan başka bir dil belgesine sahip olmak",
+     "Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almıyor olmak.",
+     "657 sayılı Kanunun 48. maddesindeki genel şartları taşımak.",
+     "Sözleşmeli çalışırken son bir yıl içinde hizmet sözleşmesine aykırı hareket nedeniyle sözleşmesi feshedilmemiş olmak veya sözleşmesini istisnalar dışında tek taraflı feshetmemiş olmak.",
+     "Sözlü sınavda 70 ve üzeri not almak.",
+     "Sadece bir pozisyona başvuru yapılabilir."
     ]
    },
    {
@@ -119,6 +133,7 @@
     "title": "SÖZLEŞMELİ PROGRAMCI (ÖN LİSANS)",
     "place": null,
     "count": 4,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -136,12 +151,19 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "En az 2 programlama dilini bildiğini belgelemek (biri güncel olmalı)",
-     "YDS İngilizce en az D düzeyi veya denk belge",
-     "Sözlü sınav yapılacak"
+     "Yükseköğretim kurumlarının bilgisayar programcılığı ile ilgili bölümlerinden ön lisans düzeyinde mezun olmak.",
+     "Belge: Programlama dillerinden bir adedi güncel olmak üzere en az 2 programlama dilini bildiğini gösteren, yükseköğrenimi sırasında bilgisayar programcılığı alanında ders aldığına ilişkin okuldan onaylı belge (transkript ve ders açılım belgesi)",
+     "Transkriptte istenen programlama dili eğitimi açıkça görünüyorsa ayrıca ders açılım belgesi gerekmez; açıkça görünmüyorsa okuldan onaylı ders açılım belgesi ibraz edilmelidir.",
+     "Belge: İngilizce dilinde Yabancı Dil Sınavından (YDS) en az D düzeyinde puan almış olmak veya buna denkliği kabul edilen ve uluslararası geçerliliği bulunan başka bir dil belgesine sahip olmak",
+     "Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almıyor olmak.",
+     "657 sayılı Kanunun 48. maddesindeki genel şartları taşımak.",
+     "Sözleşmeli çalışırken son bir yıl içinde hizmet sözleşmesine aykırı hareket nedeniyle sözleşmesi feshedilmemiş olmak veya sözleşmesini istisnalar dışında tek taraflı feshetmemiş olmak.",
+     "Sözlü sınavda 70 ve üzeri not almak.",
+     "Sadece bir pozisyona başvuru yapılabilir."
     ]
    }
   ],
-  "notes": "Görev yeri belirtilmemiş. Lisans için KPSSP1, ön lisans için KPSSP93 en az 60 puan; KPSS yılı 2026. Programcı (lisans) bölüm listesinde mühendislik adları 'fizik, matematik ... mühendislikleri' ifadesiyle verilmiş; bölüm adları yorumla yazılmıştır."
- }
+  "notes": "Görev yeri ilanda belirtilmemiş. Çözümleyici için fizik, matematik, endüstri, elektrik vb. 'mühendislikleri' ifadesi bölüm adlarına 'Mühendisliği' eklenerek yazıldı. Ön lisans bölümleri tek tek sayılmamış, 'bilgisayar programcılığı ile ilgili bölümler' olarak yazıldı. KPSS yılı 2026 ve puan 60 genel şartlardan alındı."
+ },
+ "reading": 2
 }

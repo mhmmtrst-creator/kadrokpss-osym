@@ -1,23 +1,24 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "eaadec49df926e5d6537",
  "institution": "GÜNDOĞMUŞ BELEDİYE BAŞKANLIĞI",
  "title": "4 MEMUR ALACAK",
  "range": "21 Aralık - 5 Ocak",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
-  "declared_total": null,
+  "declared_total": 4,
   "academic": false,
   "kpss_year": 2026,
   "apply_start": "2026-12-21",
   "apply_end": "2027-01-05",
   "positions": [
    {
-    "code": null,
-    "title": "Mühendis (İnşaat)",
+    "code": "1",
+    "title": "Mühendis",
     "place": "Gündoğmuş Belediye Başkanlığı",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -37,15 +38,18 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesine sahip olmak",
-     "Hizmet sınıfı TH, kadro derecesi 8"
+     "Lisans düzeyinde eğitim veren fakültelerin inşaat mühendisliği programından mezun olmak.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Belge: En az B sınıfı sürücü belgesi",
+     "Hizmet sınıfı TH, kadro derecesi 8."
     ]
    },
    {
-    "code": null,
+    "code": "2",
     "title": "Mimar",
     "place": "Gündoğmuş Belediye Başkanlığı",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -65,15 +69,18 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesine sahip olmak",
-     "Hizmet sınıfı TH, kadro derecesi 8"
+     "Lisans düzeyinde eğitim veren fakültelerin mimarlık programından mezun olmak.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Belge: En az B sınıfı sürücü belgesi",
+     "Hizmet sınıfı TH, kadro derecesi 8."
     ]
    },
    {
-    "code": null,
+    "code": "3",
     "title": "Muhasebeci",
     "place": "Gündoğmuş Belediye Başkanlığı",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -97,15 +104,18 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesine sahip olmak",
-     "Hizmet sınıfı GİH, kadro derecesi 7"
+     "Lisans düzeyinde eğitim veren fakültelerin maliye, işletme, muhasebe ve finansal yönetim, ekonomi ve finans, muhasebe ve finans yönetimi programlarının birinden mezun olmak.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Belge: En az B sınıfı sürücü belgesi",
+     "Hizmet sınıfı GİH, kadro derecesi 7."
     ]
    },
    {
-    "code": null,
+    "code": "4",
     "title": "Memur",
     "place": "Gündoğmuş Belediye Başkanlığı",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -129,11 +139,14 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesine sahip olmak",
-     "Hizmet sınıfı GİH, kadro derecesi 7"
+     "Lisans düzeyinde eğitim veren fakültelerin kamu yönetimi, siyaset bilimi ve kamu yönetimi, yerel yönetimler, uluslararası ilişkiler, çalışma ekonomisi ve endüstri ilişkileri programlarının birinden mezun olmak.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Belge: En az B sınıfı sürücü belgesi",
+     "Hizmet sınıfı GİH, kadro derecesi 7."
     ]
    }
   ],
-  "notes": "Toplam kadro sayısı ilanda açıkça belirtilmemiş (satırların toplamı 4). KPSS yılı 2026 olarak yazılmış (B grubu). Başvuru tarihleri 21/12/2026-05/01/2027."
- }
+  "notes": "KPSS (B grubu) 2026 yılı sınavı aranıyor. Başvuru 21/12/2026-05/01/2027 arasında. Sözlü sınav 21/01/2027. Tüm kadrolar kadın/erkek adaylara açık. Görev yeri olarak ilanda yalnızca belediye belirtildiği için Gündoğmuş Belediye Başkanlığı yazıldı."
+ },
+ "reading": 2
 }

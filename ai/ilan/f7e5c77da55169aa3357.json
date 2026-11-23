@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "f7e5c77da55169aa3357",
  "institution": "HAZİNE VE MALİYE BAKANLIĞI",
  "title": "10 STAJYER HAZİNE KONTROLÖRÜ ALACAK - DÜZELTME İLANI",
  "range": "23 Kasım - 4 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -13,6 +13,7 @@
   "apply_start": null,
   "apply_end": null,
   "positions": [],
-  "notes": "Bu bir düzeltme ilanıdır; kadro tablosu veya pozisyon içermez. Yalnızca 13.11.2026 tarihli 33429 sayılı Resmî Gazete'de yayımlanan Stajyer Hazine Kontrolörlüğü Giriş Sınavı ilan metnindeki başvuruda yüklenecek belgelerle ilgili hüküm düzeltilmiştir (KPSS sonuç belgesi yükleme şartı kaldırıldı). Sınav tarihi 20.12.2026'dır. Kadro sayısı (başlıkta 10) ve başvuru tarihleri ilk ilanda yer alır, bu belgede verilmemiştir."
- }
+  "notes": "Bu bir düzeltme ilanıdır; kadro tablosu veya kadro satırı içermez. 13.11.2026 tarihli 33429 sayılı Resmî Gazete'deki Stajyer Hazine Kontrolörlüğü Giriş Sınavı (sınav tarihi 20.12.2026) ilanının başvuru belgeleri hükmünü düzeltir: mezuniyet bilgilerinde hata/eksik olan veya gelmeyen adaylar onaylı diploma örneği veya mezuniyet belgesini pdf olarak yükler; KPSS sonuç belgesi yükleme şartı kaldırılmıştır. Başlıktaki 10 kadro sayısı ilan metninde geçmediği için declared_total null bırakıldı. Başvuru tarihleri ve kadro bilgileri asıl ilanda yer almaktadır."
+ },
+ "reading": 2
 }

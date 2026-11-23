@@ -1,23 +1,24 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "a8419df25fc574e72158",
  "institution": "HAZİNE VE MALİYE BAKANLIĞI",
  "title": "10 STAJYER HAZİNE KONTROLÖRÜ ALACAK",
  "range": "23 Kasım - 4 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 10,
   "academic": false,
-  "kpss_year": null,
+  "kpss_year": 2025,
   "apply_start": "2026-11-23",
   "apply_end": "2026-12-04",
   "positions": [
    {
     "code": null,
     "title": "STAJYER HAZİNE KONTROLÖRÜ",
-    "place": "Hazine Kontrolörleri Kurulu Başkanlığı",
+    "place": null,
     "count": 10,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -33,26 +34,32 @@
     "department_kpss": [],
     "min_score": 80,
     "departments": [
-     "Hukuk Fakültesi",
-     "İktisat Fakültesi",
-     "Siyasal Bilgiler Fakültesi",
-     "İşletme Fakültesi",
-     "İktisadi ve İdari Bilimler Fakültesi"
+     "Hukuk",
+     "İktisat",
+     "Siyasal Bilgiler",
+     "İşletme",
+     "İktisadi ve İdari Bilimler"
     ],
     "any_department": false,
     "gender": null,
     "age_years": 35,
-    "age_rule": "1 Ocak 2026 itibarıyla 35 yaşını doldurmamış olmak (01/01/1991 tarihinde veya sonrasında doğmuş olmak)",
+    "age_rule": "35 (otuz beş) yaşını doldurmamış olmak (01/01/1991 tarihinde veya bu tarihten sonra doğmuş olmak)",
     "license_classes": [],
     "other_conditions": [
-     "657 sayılı DMK 48. maddedeki genel şartları taşımak",
-     "Sağlık durumu Türkiye'nin her yerinde görev yapmaya elverişli olmak",
-     "Yazılı (klasik) ve sözlü sınav yapılacak",
-     "Yazılı sınav 20 Aralık 2026'da Ankara'da",
-     "En fazla 10 kadro; başarılı aday azsa daha az alım yapılabilir"
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak.",
+     "En az dört yıllık lisans eğitimi veren Hukuk, İktisat, Siyasal Bilgiler, İşletme, İktisadi ve İdari Bilimler Fakültelerinden veya bunlara denkliği YÖK tarafından kabul edilen yurt içi veya yurt dışı öğretim kurumlarından mezun olmak.",
+     "2025 ve 2026 yıllarında yapılan KPSS'nin P17, P18, P22, P23, P28, P47 ve P48 puan türlerinin herhangi birinden en az 80 puan almış olmak.",
+     "Yaş sınırı 1 Ocak 2026 tarihi itibarıyla aranır.",
+     "Sağlık durumu Türkiye'nin her yerinde görev yapmaya, her türlü iklim ve yolculuk şartlarında seyahat etmeye elverişli olmak.",
+     "Kadro Genel İdare Hizmetleri sınıfında 8. derece Stajyer Hazine Kontrolörü kadrosudur.",
+     "Giriş sınavı yazılı (klasik) ve sözlü olmak üzere iki aşamalıdır; yazılı sınav 20 Aralık 2026 tarihinde Ankara'da yapılacaktır.",
+     "Yazılı sınavda her gruptan en az 50 puan almak ve tüm grupların aritmetik ortalamasının en az 70 olması gerekir.",
+     "Sözlü sınavda başarılı sayılmak için puanların aritmetik ortalamasının en az 70 olması şarttır.",
+     "Yazılı sınava en fazla atama yapılacak kadro sayısının yirmi katı kadar aday çağrılır."
     ]
    }
   ],
-  "notes": "İlanda 'en fazla 10' Stajyer Hazine Kontrolörü alınacağı belirtiliyor. KPSS puanının 2025 ve 2026 yıllarında yapılan KPSS'lerden alınması isteniyor; tek bir yıl belirtilmediği için kpss_year null bırakıldı. Bölüm olarak fakülte adları (Hukuk, İktisat, Siyasal Bilgiler, İşletme, İktisadi ve İdari Bilimler) veya YÖK'çe denkliği kabul edilen kurumlar yazılmış; en az dört yıllık lisans eğitimi isteniyor. Bölüme göre değişen KPSS türü yok."
- }
+  "notes": "İlan en fazla 10 Stajyer Hazine Kontrolörü alımını duyurmaktadır; tablo yoktur, tek kadro metinden alınmıştır. KPSS yılı 2025 ve 2026 olarak belirtilmiştir, şemada tek tamsayı olduğu için 2025 yazılmıştır. Bölüm olarak Hukuk, İktisat, Siyasal Bilgiler, İşletme, İktisadi ve İdari Bilimler Fakülteleri yazılmıştır."
+ },
+ "reading": 2
 }

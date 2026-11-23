@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "2017ff86540eded7575d",
  "institution": "ASARCIK BELEDİYE BAŞKANLIĞI",
  "title": "1 MEMUR ALACAK",
  "range": "1 Aralık - 3 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -18,6 +18,7 @@
     "title": "Mimar",
     "place": "Asarcık Belediye Başkanlığı (Samsun)",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -37,12 +38,16 @@
      "B"
     ],
     "other_conditions": [
-     "Lisans düzeyinde eğitim veren fakültelerin mimarlık programından mezun olmak",
-     "En az (B) sınıfı sürücü belgesine sahip olmak",
-     "KPSS (B) grubu"
+     "Lisans düzeyinde eğitim veren fakültelerin mimarlık programından mezun olmak.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Hizmet sınıfı TH, kadro derecesi 6.",
+     "2026 yılı KPSS (B grubu) sınavına girmiş olmak.",
+     "Belge: Sürücü belgesinin fotokopisi veya noter onaylı örneği",
+     "Belge: Yabancı okul mezunları için denklik belgesi"
     ]
    }
   ],
-  "notes": "Tabloda tek satır var (Mimar, TH, derece 6, 1 kadro). İlanda toplam sayı ayrıca belirtilmemiş; başlıktaki '1 MEMUR ALACAK' ile tablo uyumlu. Cinsiyet 'Kadın/Erkek' olduğundan sınırlama yok. Görev yeri ayrıca verilmemiş, Asarcık Belediyesi (Samsun) olarak alındı."
- }
+  "notes": "İlanda toplam sayı ayrıca belirtilmemiş; tek kadro (1 Mimar) var. Cinsiyet Kadın/Erkek olduğundan kısıtlama yok. Başvuru tarihi 01/12/2026-3/12/2026 olarak okundu."
+ },
+ "reading": 2
 }

@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "d5e0b15e5924715621e6",
  "institution": "ANADOLU ÜNİVERSİTESİ",
  "title": "1 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "16 Kasım - 30 Kasım",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1,
@@ -18,6 +18,7 @@
     "title": "Çevre Mühendisi",
     "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -32,16 +33,21 @@
     "any_department": false,
     "gender": "ERKEK",
     "age_years": 35,
-    "age_rule": "35 (otuz beş) yaşından gün almamış olmak",
+    "age_rule": "İlan tarihi son günü itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "İlan tarihi son günü itibarıyla yaş şartı",
-     "Mesai saatleri dışında ve hafta sonları çalışmaya engeli olmamak",
-     "Alanında en az 3 yıl mesleki tecrübe",
-     "Tecrübeyi e-Devlet barkodlu SGK Hizmet Dökümü ile belgelemek"
+     "Mesai saatleri dışında ve hafta sonları çalışmaya herhangi bir engeli olmamak.",
+     "Alanında en az 3 yıl mesleki tecrübeye sahip olmak.",
+     "Belge: Mesleki tecrübeyi e-Devlet'ten alınacak barkodlu meslek kodunu gösterir SGK Hizmet Dökümü ile belgelemek.",
+     "Herhangi bir Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almıyor olmak.",
+     "Görevini devamlı yapmasına engel olabilecek herhangi bir sağlık sorunu ve benzeri durumu bulunmamak.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması sonucu olumlu olmak.",
+     "Kamu kurum ve kuruluşlarında başvurulan pozisyon unvanında sözleşmeli olarak çalışmıyor olmak.",
+     "Askerlik durumu bakımından askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak."
     ]
    }
   ],
-  "notes": "Tabloda görev yeri belirtilmemiş (Rektörlük ve bağlı birimleri). Unvanın yanındaki (Erkek) ibaresi cinsiyet şartı olarak alındı; metinde ayrıca açıklanmamış, doğrulanmalı. Yaş sınırı 'ilan tarihi son günü itibarıyla' ifadesiyle verilmiş."
- }
+  "notes": "Tek kadro. Bölüm adı tabloda 'Çevre Mühendisliği' olarak veriliyor; unvanın yanındaki (Erkek) ifadesi cinsiyet şartı olarak alındı. KPSS puan türü 2026 KPSS(B) KPSSP3, en az 60 puan. Başvuru 16.11.2026 saat 09:00 - 30.11.2026 saat 13:00."
+ },
+ "reading": 2
 }

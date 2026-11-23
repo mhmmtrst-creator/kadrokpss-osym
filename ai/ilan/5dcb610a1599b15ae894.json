@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "5dcb610a1599b15ae894",
  "institution": "MİLLİ SAVUNMA BAKANLIĞI",
  "title": "ENGELLİ VE TERÖRLE MÜCADELEDE MALUL SAYILMAYACAK ŞEKİLDE YARALANANLARDAN SÜREKLİ İŞÇİ TEMİNİ İLANI",
  "range": "23 Kasım - 27 Kasım",
- "read_at": "2026-11-23T13:18:00Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -13,6 +13,7 @@
   "apply_start": null,
   "apply_end": null,
   "positions": [],
-  "notes": "İlan metninde pozisyon/kadro tablosu ve iş gücü talepleri yoktur; genel şartlar ve usuller verilmiştir. İş gücü talepleri (iş yeri, meslek kolu, sayı) İŞKUR'da yayımlanan listede yer almaktadır, belgede bulunmadığı için pozisyon çıkarılamadı. Başvuru tarihleri belirtilmemiştir; yalnızca kura çekimi 16 Aralık 2026 günüdür. Genel yaş şartı: 18 yaşını tamamlamış ve 36 yaşından gün almamış olmak. KPSS şartı yoktur."
- }
+  "notes": "İlan metninde kadro/pozisyon tablosu yoktur; unvan, görev yeri ve kadro sayısı ilanda verilmemiştir. Ayrıntılar İŞKUR'da yayımlanan listede (iş gücü talepleri) yer almaktadır ve bu belgede bulunmamaktadır. Başvuru tarihleri belirtilmemiştir; yalnızca kura çekimi 16 Aralık 2026 saat 10:00'da yapılacaktır. Genel şartlar: 18 yaşını tamamlamış ve 36 yaşından gün almamış olmak; erkek/kadın ayrımı yoktur; askerlikle ilişiği olmamak; engelli statüsünde en az %40 engelli sağlık kurulu raporu veya TMSY statüsünde sağlık raporu ve komutanlık yazısı gerekir."
+ },
+ "reading": 2
 }

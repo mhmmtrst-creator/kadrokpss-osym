@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "8c1205b7836054a362e4",
  "institution": "İZMİR BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI",
  "title": "90 ZABITA MEMURU ALACAK",
  "range": "30 Kasım - 4 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 90,
@@ -18,6 +18,7 @@
     "title": "ZABITA MEMURU",
     "place": null,
     "count": 24,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -43,10 +44,14 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Boy en az 1.67 m (erkek)",
-     "Boy 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg fazla fark olmamak",
-     "Askerlik durumu şartı"
+     "Kadro derecesi 9, hizmet sınıfı GİH.",
+     "Boy en az 1.67 metre olmak (erkeklerde).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamak.",
+     "Tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır; boy ve kilo ölçümü Belediyece yapılacaktır.",
+     "Erkek adaylar için askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel engeli bulunmamak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Sözlü ve uygulamalı sınava girilecek; başarılı sayılmak için iki sınavın ortalaması en az 60 puan olmalı."
     ]
    },
    {
@@ -54,6 +59,7 @@
     "title": "ZABITA MEMURU",
     "place": null,
     "count": 6,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -79,9 +85,13 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Boy en az 1.60 m (kadın)",
-     "Boy 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg fazla fark olmamak"
+     "Kadro derecesi 9, hizmet sınıfı GİH.",
+     "Boy en az 1.60 metre olmak (kadınlarda).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamak.",
+     "Tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır; boy ve kilo ölçümü Belediyece yapılacaktır.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel engeli bulunmamak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Sözlü ve uygulamalı sınava girilecek; başarılı sayılmak için iki sınavın ortalaması en az 60 puan olmalı."
     ]
    },
    {
@@ -89,6 +99,7 @@
     "title": "ZABITA MEMURU",
     "place": null,
     "count": 24,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -110,10 +121,14 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Boy en az 1.67 m (erkek)",
-     "Boy 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg fazla fark olmamak",
-     "Askerlik durumu şartı"
+     "Kadro derecesi 9, hizmet sınıfı GİH.",
+     "Boy en az 1.67 metre olmak (erkeklerde).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamak.",
+     "Tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır; boy ve kilo ölçümü Belediyece yapılacaktır.",
+     "Erkek adaylar için askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel engeli bulunmamak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Sözlü ve uygulamalı sınava girilecek; başarılı sayılmak için iki sınavın ortalaması en az 60 puan olmalı."
     ]
    },
    {
@@ -121,6 +136,7 @@
     "title": "ZABITA MEMURU",
     "place": null,
     "count": 6,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -142,9 +158,13 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Boy en az 1.60 m (kadın)",
-     "Boy 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg fazla fark olmamak"
+     "Kadro derecesi 9, hizmet sınıfı GİH.",
+     "Boy en az 1.60 metre olmak (kadınlarda).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamak.",
+     "Tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır; boy ve kilo ölçümü Belediyece yapılacaktır.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel engeli bulunmamak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Sözlü ve uygulamalı sınava girilecek; başarılı sayılmak için iki sınavın ortalaması en az 60 puan olmalı."
     ]
    },
    {
@@ -152,6 +172,7 @@
     "title": "ZABITA MEMURU",
     "place": null,
     "count": 24,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -173,10 +194,14 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Boy en az 1.67 m (erkek)",
-     "Boy 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg fazla fark olmamak",
-     "Askerlik durumu şartı"
+     "Kadro derecesi 10, hizmet sınıfı GİH.",
+     "Boy en az 1.67 metre olmak (erkeklerde).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamak.",
+     "Tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır; boy ve kilo ölçümü Belediyece yapılacaktır.",
+     "Erkek adaylar için askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel engeli bulunmamak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Sözlü ve uygulamalı sınava girilecek; başarılı sayılmak için iki sınavın ortalaması en az 60 puan olmalı."
     ]
    },
    {
@@ -184,6 +209,7 @@
     "title": "ZABITA MEMURU",
     "place": null,
     "count": 6,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -205,12 +231,17 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Boy en az 1.60 m (kadın)",
-     "Boy 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg fazla fark olmamak"
+     "Kadro derecesi 10, hizmet sınıfı GİH.",
+     "Boy en az 1.60 metre olmak (kadınlarda).",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamak.",
+     "Tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır; boy ve kilo ölçümü Belediyece yapılacaktır.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel engeli bulunmamak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Sözlü ve uygulamalı sınava girilecek; başarılı sayılmak için iki sınavın ortalaması en az 60 puan olmalı."
     ]
    }
   ],
-  "notes": "Satır adetleri toplamı 24+6+24+6+24+6=90, ilan başlığıyla uyumlu; ilan metninde toplam açıkça yazılmamış, başlıktaki 90 esas alındı. Görev yeri belirtilmemiş (İzmir Büyükşehir Belediyesi). Kadro derecesi: 1-4 için 9, 5-6 için 10 (GİH). KPSS yılı 2026 (B grubu). Boy ve kilo şartları ilanın genel şartlarındandır."
- }
+  "notes": "Toplam 90 kadro (24+6+24+6+24+6). Her sıra ayrı cinsiyet/öğrenim koşuluna sahip olduğundan ayrı yazıldı. Görev yeri belirtilmemiş (İzmir Büyükşehir Belediyesi). Başvuru tarihleri 30/11/2026 - 04/12/2026, şahsen başvuru. Yaş sınırı 'sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak'."
+ },
+ "reading": 2
 }

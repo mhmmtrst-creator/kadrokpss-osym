@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "b6943171f8f602142e84",
  "institution": "TÜRK AKREDİTASYON KURUMU",
  "title": "3 SÖZLEŞMELİ KORUMA VE GÜVENLİK PERSONELİ ALACAK",
  "range": "23 Kasım - 7 Aralık",
- "read_at": "2026-11-23T13:18:00Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 3,
@@ -16,8 +16,9 @@
    {
     "code": "Grup 1",
     "title": "KORUMA VE GÜVENLİK GÖREVLİSİ",
-    "place": "Ankara",
+    "place": "ANKARA",
     "count": 3,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -41,17 +42,24 @@
     "age_rule": "01.01.2026 tarihi itibariyle 35 (otuz beş) yaşını doldurmamış olmak. 02.01.1991 tarihi ve sonrasında doğmuş olmak.",
     "license_classes": [],
     "other_conditions": [
-     "Silahlı veya silahsız özel güvenlik görevlisi kimlik kartına sahip olmak (geçerlilik süresinin dolmasına en az 6 ay kalmış)",
-     "5188 sayılı Kanunun 10. maddesindeki şartları taşımak",
-     "Boy erkek için en az 170 cm, kadın için en az 160 cm",
-     "Vücut ağırlığı (boy-100) değerinin 17 eksiğinden az, 13 fazlasından fazla olmamak",
-     "Özel Güvenlik Görevlileri Sağlık Şartları Yönetmeliği'ndeki sağlık şartlarına sahip olmak",
-     "24 saat vardiyalı (nöbet usulü) çalışmaya engel durumu bulunmamak",
-     "Silahlı/silahsız özel güvenlik görevlisi olarak çalışır ibareli sağlık kurulu raporu (son 6 ay içinde alınmış)",
-     "Giriş sınavına çağrılacak aday sayısı 12; sözlü sınav"
+     "Belge: Son başvuru tarihi itibarıyla geçerlilik süresinin dolmasına en az 6 ay kalmış silahlı veya silahsız özel güvenlik görevlisi kimlik kartı",
+     "Belge: Tam teşekküllü hastaneden son başvuru tarihi itibarıyla son 6 ay içinde alınmış 'Silahlı Özel Güvenlik Görevlisi Olarak Çalışır' veya 'Silahsız Özel Güvenlik Görevlisi Olarak Çalışır' ibareli sağlık kurulu raporu",
+     "5188 sayılı Özel Güvenlik Hizmetlerine Dair Kanunun 10. maddesindeki şartları taşımak",
+     "Boy uzunluğu erkek adaylar için en az 170 cm, kadın adaylar için en az 160 cm olmak (belgelendirmek kaydıyla)",
+     "Vücut ağırlığı (kg), boy (cm) değerinden 100 çıkarılarak bulunan değerin 17 eksiğinden az, 13 fazlasından fazla olmamak",
+     "Özel Güvenlik Görevlileri Sağlık Şartları Yönetmeliği'nde belirtilen sağlık şartlarına sahip olmak",
+     "Kurum hizmet binasında iç ve dış mekânda, gece ve gündüz, hafta içi ve hafta sonu, 24 saat esasına göre vardiyalı sistemde (nöbet usulü) görev yapmaya engel durumu bulunmamak",
+     "Askerlikle ilgisi bulunmamak, muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak",
+     "Belge: Eğitimini yurtdışında tamamlayanlar için diploma denklik belgesi",
+     "Belge: Mezuniyet bölümü tabloda yer almıyor ancak eşdeğer ise YÖK onaylı eşdeğerlik belgesi",
+     "Herhangi bir Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almıyor olmak",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu sonuçlanmak",
+     "Giriş sınavına çağrılacak aday sayısı 12 (sözlü sınav, KPSS ve sözlü puanın %50'şer ağırlığı, sözlü sınavda en az 70 puan)",
+     "Alımı yapılan personel 5414.11 meslek koduyla çalıştırılacaktır; süresiz idari hizmet sözleşmeli, 657 sayılı Kanuna tabi değildir"
     ]
    }
   ],
-  "notes": "Kurumun merkezi Ankara'da olduğundan yer Ankara alındı (tabloda görev yeri sütunu yok; ilanda yalnızca Ankara'da merkez bulunduğu belirtiliyor). Başvuru tarihleri 2026 olarak ilanda yazıldığı gibi alındı. KPSS (B) Ön Lisans, puan türü KPSSP93, asgari 70."
- }
+  "notes": "KPSS 2026 (B) Ön Lisans, KPSSP93 asgari 70. Tek pozisyon grubu; görev yeri Kurum merkezi Ankara (ilanda belirtilmiş: Kurumun merkezi Ankara'dadır, başka ofisi yoktur)."
+ },
+ "reading": 2
 }

@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "7e122fee99c0f4004044",
  "institution": "TANOBA BELEDİYE BAŞKANLIĞI",
  "title": "1 MEMUR ALACAK",
  "range": "16 Aralık - 18 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -16,8 +16,9 @@
    {
     "code": null,
     "title": "Memur",
-    "place": "Tanoba Belediye Başkanlığı (Tokat)",
+    "place": "Tanoba Belediye Başkanlığı (Erbaa/TOKAT)",
     "count": 1,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -35,12 +36,16 @@
      "B"
     ],
     "other_conditions": [
-     "En az (B) sınıfı sürücü belgesine sahip olmak",
-     "Hizmet sınıfı GİH, kadro derecesi 9",
-     "Erkek adaylar için askerlik durumu şartı"
+     "Hizmet sınıfı GİH, kadro derecesi 9.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş bulunmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Sözlü sınavda başarılı sayılmak için sınav kurulu üyelerince verilen puanların aritmetik ortalamasının en az 60 olması gerekir."
     ]
    }
   ],
-  "notes": "Tabloda tek satır var (1 Memur). Toplam kadro sayısı ilanda ayrıca belirtilmemiş. KPSS yılı 2026 olarak ilanda geçiyor (KPSS B grubu). Görev yeri tabloda yazılı değil, Tanoba Belediye Başkanlığı olarak alındı."
- }
+  "notes": "İlanda toplam kadro sayısı ayrıca belirtilmemiştir; tabloda 1 kadro vardır. KPSS (B grubu) 2026 yılı sınavı aranmaktadır. Görev yeri tabloda yazılı değildir, ilan Tanoba Belediyesi için verilmiştir (Erbaa/TOKAT). Cinsiyet Erkek/Kadın olarak her iki cinse açıktır."
+ },
+ "reading": 2
 }

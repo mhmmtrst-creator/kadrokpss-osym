@@ -1,13 +1,13 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "82b3c74a70a9757711bf",
  "institution": "AKHİSAR BELEDİYE BAŞKANLIĞI",
  "title": "1 MEMUR ALACAK",
  "range": "30 Kasım - 11 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
-  "declared_total": null,
+  "declared_total": 1,
   "academic": false,
   "kpss_year": 2026,
   "apply_start": "2026-11-30",
@@ -15,9 +15,10 @@
   "positions": [
    {
     "code": null,
-    "title": "MÜHENDİS (MAKİNE)",
-    "place": "Akhisar Belediye Başkanlığı (Manisa)",
+    "title": "Mühendis (Makine)",
+    "place": "Akhisar Belediye Başkanlığı",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -37,11 +38,16 @@
      "B"
     ],
     "other_conditions": [
-     "En az (B) sınıfı sürücü belgesine sahip olmak",
-     "Hizmet sınıfı TH, kadro derecesi 5"
+     "Belge: En az (B) sınıfı sürücü belgesi",
+     "Hizmet sınıfı TH, kadro derecesi 5",
+     "Askerlik: Erkek adaylar için askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak",
+     "Sağlık: Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak",
+     "Başvuru: Sınav 29.12.2026 tarihinde sözlü olarak yapılacak; sözlü sınavda en az 60 puan gerekir"
     ]
    }
   ],
-  "notes": "Tabloda tek satır var (1 kadro). İlanda toplam sayı ayrıca belirtilmemiş, başlıkta '1 MEMUR ALACAK' yazıyor. Cinsiyet 'Erkek/Kadın' olduğundan sınırlama yok. Yaş sınırı belirtilmemiş. KPSS (B) grubu, 2026 yılı sınavı."
- }
+  "notes": "Tabloda cinsiyet Erkek/Kadın olduğundan cinsiyet kısıtı yok. Tabloda sadece Mühendis (makine mühendisliği) kadrosu var; görev yeri olarak Akhisar Belediye Başkanlığı alınmıştır. Başvuru tarihleri 30.11.2026 – 11.12.2026."
+ },
+ "reading": 2
 }

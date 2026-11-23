@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "c734881a68bc7faf39f2",
  "institution": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI",
  "title": "5 MÜFETTİŞ YARDIMCISI ALACAK",
  "range": "23 Kasım - 4 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 5,
@@ -14,10 +14,11 @@
   "apply_end": "2026-12-04",
   "positions": [
    {
-    "code": null,
+    "code": "1",
     "title": "MÜFETTİŞ YARDIMCISI",
-    "place": "Ankara Büyükşehir Belediye Başkanlığı",
+    "place": "Ankara",
     "count": 5,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -27,29 +28,41 @@
     "department_kpss": [],
     "min_score": 75,
     "departments": [
-     "Hukuk Fakültesi",
-     "Siyasal Bilgiler Fakültesi",
-     "İktisat Fakültesi",
-     "İşletme Fakültesi",
-     "İktisadî ve İdarî Bilimler Fakültesi"
+     "Hukuk",
+     "Siyasal Bilgiler",
+     "İktisat",
+     "İşletme",
+     "İktisadî ve İdarî Bilimler"
     ],
     "any_department": false,
     "gender": null,
     "age_years": 35,
-    "age_rule": "Yazılı sınav tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (26.12.1991 ve daha sonraki tarihlerde doğanlar)",
+    "age_rule": "Yazılı sınav tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak. (26.12.1991 ve daha sonraki tarihlerde doğanlar)",
     "license_classes": [],
     "other_conditions": [
-     "En az 4 yıllık lisans eğitimi veren fakültelerden mezun olmak",
-     "Denkliği kabul edilen yurt içi/yurt dışı öğretim kurumlarından mezun olmak",
-     "Müfettişlik görevine engel sağlık sorunu bulunmamak",
-     "Müfettişliğe adli veya idari engeli bulunmamak",
-     "Rehberlik ve Teftiş Kurulu sınavına en fazla 1 defa katılmış olmak",
-     "Yazılı ve sözlü sınavda başarılı olmak",
-     "Erkek adaylar için askerlik durumu şartı",
-     "Kadro derecesi 6, hizmet sınıfı GİH"
+     "En az 4 (dört) yıllık lisans eğitimi veren hukuk, siyasal bilgiler, iktisat, işletme, iktisadî ve idarî bilimler fakültelerinden veya bunlara denkliği yetkili makamlarca kabul edilen yurt içi ve yurt dışındaki öğretim kurumlarından mezun olmak.",
+     "Hizmet sınıfı GİH, kadro derecesi 6; 657 sayılı Devlet Memurları Kanununa tabi memur kadrosu.",
+     "2025 ve 2026 yılı KPSS (A Grubu) sınavına girmiş olmak ve P48 puan türünden en az 75 puan almış olmak.",
+     "Belge: Giriş sınavı ilanının yapıldığı tarihte geçerli olan A Grubu KPSS Sonuç Belgesinin aslı veya onaylı örneği.",
+     "Erkek adaylar için askerlik durumu: askerlikle ilgisi bulunmamak, muvazzaf askerlik hizmetini yapmış olmak veya askerlik hizmetini ertelemiş ya da yedek sınıfa geçirilmiş olmak.",
+     "Müfettişlik mesleğinin yürütülmesine adlî veya idarî herhangi bir engeli bulunmamak.",
+     "Sağlık durumu bakımından Müfettişlik görevini yapmasına engel olabilecek herhangi bir rahatsızlığı, hastalığı veya engeli bulunmamak.",
+     "Rehberlik ve Teftiş Kurulu Başkanlığınca yapılacak bu sınava daha önce katılmamış veya en fazla 1 (bir) defa katılmış olmak.",
+     "Türk vatandaşı olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "Belge: Yükseköğrenim diplomasının veya bitirme belgesinin aslı veya e-Devlet'ten kare kodlu belge.",
+     "Belge: Gerekli hallerde denkliğin ilgili merci tarafından tasdik edildiğine dair belgenin aslı veya onaylı örneği.",
+     "Belge: Nüfus cüzdanının aslı veya e-Devlet'ten kare kodlu belge.",
+     "Belge: Devlet memurluğuna girmeye engel adlî sicil kaydının olmadığına dair belge.",
+     "Belge: Erkek adaylar için askerlik durumunu gösterir belge.",
+     "Belge: Kendi el yazısı ile hazırlanmış özgeçmiş (okullar ve yerleri, 2 kişinin adı, soyadı ve iletişim bilgileri, yükseköğrenimden sonra yapılan işler).",
+     "Belge: Son 6 ay içinde çekilmiş 6 adet biyometrik fotoğraf.",
+     "Belge: Yazılı sınavda başarılı olan adaylardan sözlü sınavdan önce görevini devamlı yapmaya engel bir durum olmadığına dair sağlık kurulu raporu.",
+     "Yazılı sınavda her konu grubundan 100 üzerinden en az 70, yabancı dilden en az 60 ve not ortalaması en az 75 almak gerekir."
     ]
    }
   ],
-  "notes": "KPSS (A Grubu) 2025 ve 2026 yıllarındaki sınavlardan biri istenmektedir; tek bir yıl belirtilmediği için kpss_year null bırakıldı. Cinsiyet: Erkek/Kadın (kısıtlama yok). Tabloda kadro kodu ve görev yeri ayrıca verilmemiş, yer olarak Ankara Büyükşehir Belediye Başkanlığı yazıldı. Başvuru 23.11.2026-04.12.2026 arasında, yazılı sınav 26.12.2026'da yapılacaktır."
- }
+  "notes": "Tek kadro: Müfettiş Yardımcısı, 5 kadro, Ankara Büyükşehir Belediyesi. Görev yeri tabloda belirtilmemiş; Ankara ili olarak yazıldı. Cinsiyet Erkek/Kadın olduğundan kısıt yok. KPSS yılı 2025 ve 2026 olarak iki yıl belirtilmiş, tek tamsayı alanına yazılamadığı için null bırakıldı."
+ },
+ "reading": 2
 }

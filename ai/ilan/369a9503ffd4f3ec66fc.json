@@ -1,23 +1,24 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "369a9503ffd4f3ec66fc",
  "institution": "YILDIZ TEKNİK ÜNİVERSİTESİ",
  "title": "2 BİLİŞİM PERSONELİ ALACAK",
  "range": "2 Kasım - 1 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 2,
   "academic": false,
-  "kpss_year": 2025,
+  "kpss_year": null,
   "apply_start": null,
   "apply_end": null,
   "positions": [
    {
     "code": null,
-    "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ (BİLGİ GÜVENLİĞİ UZMANI)",
+    "title": "BİLGİ GÜVENLİĞİ UZMANI",
     "place": "Bilgi İşlem Daire Başkanlığı",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -33,8 +34,9 @@
      "Elektronik Mühendisliği",
      "Elektrik ve Elektronik Mühendisliği",
      "Endüstri Mühendisliği",
-     "Diğer mühendislik bölümleri",
-     "Fen-Edebiyat ve Eğitim fakültelerinin bilgisayar ve teknoloji üzerine eğitim veren bölümleri",
+     "Dört yıllık eğitim veren fakültelerin diğer mühendislik bölümleri",
+     "Fen-Edebiyat fakültelerinin bilgisayar ve teknoloji üzerine eğitim veren bölümleri",
+     "Eğitim ve Eğitim Bilimleri fakültelerinin bilgisayar ve teknoloji üzerine eğitim veren bölümleri",
      "İstatistik",
      "Matematik",
      "Fizik"
@@ -45,21 +47,34 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Bilgi güvenliği uzmanı, sistem yöneticisi, ağ yöneticisi veya yazılım geliştiricisi olarak en az 3 yıl çalıştığını belgelemek",
-     "Güncel programlama dillerinden en az ikisini bildiğini belgelemek",
-     "Bilgi güvenliği ve SIEM konularında bilgi sahibi olmak",
-     "Sızma testleri ve zararlı yazılım analizi konularında bilgi sahibi olmak",
-     "Tercihen CISSP, CISM, CEH, OSCP sertifikalarından biri",
-     "Ücret tavanının 2 katına kadar sözleşme ücreti",
-     "Erkek adaylar için askerlik şartı",
-     "YDS veya eş değeri İngilizce yabancı dil puanı değerlendirilir"
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinde sayılan genel şartlara sahip olmak.",
+     "Fakültelerin dört yıllık bilgisayar, yazılım, elektrik, elektronik, elektrik ve elektronik ya da endüstri mühendisliği bölümlerinden veya bunlara denkliği YÖK tarafından kabul edilmiş yurt dışı yükseköğretim kurumlarından mezun olmak.",
+     "Diğer dört yıllık mühendislik bölümleri, fen-edebiyat ve eğitim fakültelerinin bilgisayar ve teknoloji bölümleri ile istatistik, matematik ve fizik bölümü mezunları da başvurabilir; bunlar aylık brüt sözleşme ücret tavanının 2 katı ödenecek pozisyonlara başvurabilir (bu pozisyon 2 katına kadardır).",
+     "KPSS puanı olmayan veya belge ibraz etmeyen adayın KPSS puanı 70 olarak dikkate alınır.",
+     "2025 veya 2026 KPSS P3 puanına sahip olmak (puan türü P3).",
+     "Dil: İngilizce YDS veya YÖK'çe eş değerliği kabul edilen sınav puanı esas alınır; belge ibraz etmeyenin yabancı dil puanı 0 sayılır.",
+     "Belge: Güncel programlama dillerinden en az ikisini bildiğini gösteren belge (onaylı lisans/lisansüstü transkript, bölümden onaylı yazı, çalışılan yerden onaylı yazı veya kurs katılım sertifikası).",
+     "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak.",
+     "Yazılım, yazılım tasarımı ve geliştirilmesi ile bu sürecin yönetimi veya büyük ölçekli ağ sistemlerinin kurulumu ve yönetimi konusunda ücret tavanı iki katını geçemeyecekler için en az 3 yıl, diğerleri için en az 5 yıl mesleki tecrübeye sahip olmak (sadece lisans mezuniyeti sonrası hizmetler dikkate alınır).",
+     "Belge: Mesleki tecrübe sürelerini gösteren belgeler (özel sektör için SGK hizmet dökümü, kamu için kurumdan alınacak belge) ve tecrübenin bilişim personeli olarak geçtiğini gösteren onaylı belge.",
+     "Hizmetin gerektirdiği nitelikler ile muhakeme, temsil, yeni teknolojileri takip etme, öğrenme ve araştırma, analitik düşünebilme, takım çalışmasına yatkınlık, yüksek iletişim becerisi, yoğun ve stresli iş temposuna uyum ve belgeleme (dokümantasyon) yeteneğine sahip olmak.",
+     "Askerlik: Erkek adaylar için muvazzaf askerlik çağına gelmemiş veya askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış, ertelenmiş veya muaf olmak.",
+     "Deneyim: Büyük ölçekli bilgi işlem birimlerinde veya kritik veri bulunan kamu kurum ve kuruluşlarında yahut en az 500 iç veya 5000 dış kullanıcısı bulunan özel sektör sistem merkezlerinde bilgi güvenliği uzmanı, sistem yöneticisi (admin), bilişim ağları yöneticisi (network admin) veya yazılım geliştiricisi olarak en az 3 yıl çalıştığını belgelemek.",
+     "Bilgi Güvenliği ve SIEM (Security Information and Event Management) konularında bilgi sahibi olmak.",
+     "Güvenlik duvarları, VPN yapıları, saldırı tespit ve önleme sistemleri (IDS/IPS), antivirüs, yük dengeleme cihazlarının yapılandırma ve yönetimi konularında bilgi sahibi olmak.",
+     "Sızma (penetration) testleri konusunda bilgi sahibi olmak.",
+     "Zararlı yazılım analizi ve dijital adli bilişim süreçlerine hâkim olmak.",
+     "Tercihen CISSP, CISM, CEH, OSCP sertifikalarından biri veya daha fazlasına sahip olmak (tercih sebebi, zorunlu değil).",
+     "Belge: Sertifikalar sınavla alınmış olmalı ve sertifika doğrulama bilgileri sağlanmalıdır.",
+     "Güvenlik soruşturması ve arşiv araştırması sonucu atanmaya uygun görülmek."
     ]
    },
    {
     "code": null,
-    "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ (NETWORK UZMANI)",
+    "title": "NETWORK UZMANI",
     "place": "Bilgi İşlem Daire Başkanlığı",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -75,8 +90,9 @@
      "Elektronik Mühendisliği",
      "Elektrik ve Elektronik Mühendisliği",
      "Endüstri Mühendisliği",
-     "Diğer mühendislik bölümleri",
-     "Fen-Edebiyat ve Eğitim fakültelerinin bilgisayar ve teknoloji üzerine eğitim veren bölümleri",
+     "Dört yıllık eğitim veren fakültelerin diğer mühendislik bölümleri",
+     "Fen-Edebiyat fakültelerinin bilgisayar ve teknoloji üzerine eğitim veren bölümleri",
+     "Eğitim ve Eğitim Bilimleri fakültelerinin bilgisayar ve teknoloji üzerine eğitim veren bölümleri",
      "İstatistik",
      "Matematik",
      "Fizik"
@@ -87,17 +103,37 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Ağ uzmanı olarak en az 3 yıl tecrübe sahibi olmak ve belgelemek",
-     "Güncel programlama dillerinden en az ikisini bildiğini belgelemek",
-     "Cisco, Huawei, Extreme vb. cihazlarda tecrübe sahibi olmak",
-     "Palo Alto güvenlik duvarı yönetiminde tecrübe sahibi olmak",
-     "Python veya ağ otomasyonu için programlama dili bilmek",
-     "Tercihen CCNA sertifikası",
-     "Ücret tavanının 2 katına kadar sözleşme ücreti",
-     "Erkek adaylar için askerlik şartı"
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinde sayılan genel şartlara sahip olmak.",
+     "Fakültelerin dört yıllık bilgisayar, yazılım, elektrik, elektronik, elektrik ve elektronik ya da endüstri mühendisliği bölümlerinden veya bunlara denkliği YÖK tarafından kabul edilmiş yurt dışı yükseköğretim kurumlarından mezun olmak.",
+     "Diğer dört yıllık mühendislik bölümleri, fen-edebiyat ve eğitim fakültelerinin bilgisayar ve teknoloji bölümleri ile istatistik, matematik ve fizik bölümü mezunları da başvurabilir; bunlar aylık brüt sözleşme ücret tavanının 2 katı ödenecek pozisyonlara başvurabilir (bu pozisyon 2 katına kadardır).",
+     "KPSS puanı olmayan veya belge ibraz etmeyen adayın KPSS puanı 70 olarak dikkate alınır.",
+     "2025 veya 2026 KPSS P3 puanına sahip olmak (puan türü P3).",
+     "Dil: İngilizce YDS veya YÖK'çe eş değerliği kabul edilen sınav puanı esas alınır; belge ibraz etmeyenin yabancı dil puanı 0 sayılır.",
+     "Belge: Güncel programlama dillerinden en az ikisini bildiğini gösteren belge (onaylı lisans/lisansüstü transkript, bölümden onaylı yazı, çalışılan yerden onaylı yazı veya kurs katılım sertifikası).",
+     "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak.",
+     "Yazılım, yazılım tasarımı ve geliştirilmesi ile bu sürecin yönetimi veya büyük ölçekli ağ sistemlerinin kurulumu ve yönetimi konusunda ücret tavanı iki katını geçemeyecekler için en az 3 yıl, diğerleri için en az 5 yıl mesleki tecrübeye sahip olmak (sadece lisans mezuniyeti sonrası hizmetler dikkate alınır).",
+     "Belge: Mesleki tecrübe sürelerini gösteren belgeler (özel sektör için SGK hizmet dökümü, kamu için kurumdan alınacak belge) ve tecrübenin bilişim personeli olarak geçtiğini gösteren onaylı belge.",
+     "Hizmetin gerektirdiği nitelikler ile muhakeme, temsil, yeni teknolojileri takip etme, öğrenme ve araştırma, analitik düşünebilme, takım çalışmasına yatkınlık, yüksek iletişim becerisi, yoğun ve stresli iş temposuna uyum ve belgeleme (dokümantasyon) yeteneğine sahip olmak.",
+     "Askerlik: Erkek adaylar için muvazzaf askerlik çağına gelmemiş veya askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış, ertelenmiş veya muaf olmak.",
+     "Deneyim: Büyük ölçekli bilgi işlem birimlerinde veya kritik veri bulunan kamu kurum ve kuruluşlarında yahut en az 2.000 iç veya 20.000 dış kullanıcısı bulunan özel sektör sistem merkezlerinde ağ uzmanı olarak en az 3 yıl tecrübe sahibi olmak ve belgelemek.",
+     "Yerel Alan Ağı (LAN), Geniş Alan Ağı (WAN), Kablosuz Yerel Alan Ağı (WLAN), Sanal Özel Ağ (VPN), Dinamik Yönlendirme Protokolleri, DHCP, DNS ve IEEE 802.1x teknolojileri konusunda bilgi ve tecrübe sahibi olmak.",
+     "Cisco, Huawei, 3Com, H3C, HP, Ruijie, Extreme marka anahtarların (Switch) kurulumu, konfigürasyonu ve yönetiminde tecrübe sahibi olmak.",
+     "Cisco, Huawei, Extreme marka erişim noktası (Access Point) ve Erişim Noktası Kontrol Cihazları (Access Point Controller) kurulumu, konfigürasyonu ve yönetiminde tecrübe sahibi olmak.",
+     "Palo Alto marka güvenlik duvarı (Firewall) yönetiminde tecrübe sahibi olmak.",
+     "Ağ İzleme (Network Monitoring) araçlarının kurulumu, yönetimi ve raporlama konularında tecrübe sahibi olmak.",
+     "Güvenlik duvarları, VPN yapıları, saldırı tespit ve önleme sistemleri IDS/IPS, antivirüs, yük dengeleme cihazları yapılandırma ve yönetimi konularında bilgi sahibi olmak.",
+     "Radius, DHCP, DNS, Proxy ve benzeri sistem servislerinin kurulum ve yönetimleri hakkında bilgi sahibi olmak.",
+     "Altyapı donanımları hakkında bilgi ve tecrübe sahibi olmak.",
+     "Unix ve Linux işletim sistemleri konusunda bilgi sahibi olmak.",
+     "Python veya ağ otomasyonunda kullanılabilecek en az bir programlama dilini bilmek.",
+     "Tercihen CCNA sertifikasına sahip olmak (tercih sebebi, zorunlu değil).",
+     "NAC (Network Access Control) teknolojisi konusunda bilgi ve tecrübe sahibi olmak.",
+     "Belge: Sertifikalar sınavla alınmış olmalı ve sertifika doğrulama bilgileri sağlanmalıdır.",
+     "Güvenlik soruşturması ve arşiv araştırması sonucu atanmaya uygun görülmek."
     ]
    }
   ],
-  "notes": "KPSS yılı 2025 veya 2026 (2025 yazıldı). Başvuru süresi ilan tarihinden itibaren 30 gün, kesin tarih belgede yok. Asgari KPSS puanı belirtilmemiş (KPSS puanı yoksa 70 sayılır). b ve c bendindeki bölümler genel şart olarak her iki pozisyona uygulandı; c bendi mezunları yalnızca 2 katı ücretli pozisyonlara başvurabilir (iki pozisyon da 2 katı). Genel şartlardaki mesleki tecrübe süresi (3 veya 5 yıl) özel şartlarda 3 yıl olarak belirtilmiş."
- }
+  "notes": "Başvuru süresi ilan tarihinden itibaren 30 gün olup kesin tarih verilmemiştir. KPSS 2025 veya 2026 olarak belirtildiği için kpss_year null bırakıldı. Asgari KPSS puanı yoktur; 70, puanı olmayan aday için varsayılan puandır. Pozisyonlar 2 katına kadar ücretli olup (c) bendindeki mezunlar bu pozisyonlara başvurabilir; diğer mühendislik bölümleri ve bilgisayar/teknoloji bölümleri için ilan belirli isim vermemiştir."
+ },
+ "reading": 2
 }

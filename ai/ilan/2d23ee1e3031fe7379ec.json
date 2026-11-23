@@ -1,13 +1,13 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "2d23ee1e3031fe7379ec",
  "institution": "ULA BELEDİYE BAŞKANLIĞI",
  "title": "4 ZABITA MEMURU ALACAK",
  "range": "21 Aralık - 23 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
-  "declared_total": null,
+  "declared_total": 4,
   "academic": false,
   "kpss_year": 2026,
   "apply_start": "2026-12-21",
@@ -15,9 +15,10 @@
   "positions": [
    {
     "code": null,
-    "title": "Zabıta Memuru",
+    "title": "ZABITA MEMURU",
     "place": "Ula Belediye Başkanlığı (Muğla)",
     "count": 4,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -35,15 +36,20 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Erkeklerde en az 1,67 m, kadınlarda en az 1,60 m boy",
-     "Boyun 1 metreden fazla kısmı ile kilo arasında en fazla ±10 kg fark",
-     "Boy ve kilo tespiti başvuru evrakı tesliminden önce yapılacak",
-     "Erkek adaylar için askerlik şartı",
-     "Başvuru şahsen yapılacak"
+     "Erkek adaylar için boy en az 1.67 metre olmak.",
+     "Kadın adaylar için boy en az 1.60 metre olmak.",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
+     "Tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır; boy ve kilo tespiti belediyece başvuru evrakları teslim alınmadan önce yapılır.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Belge: Sürücü belgesinin fotokopisi veya noter onaylı örneği",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "KPSS (B) grubu 2026 yılı sınavından P93 puan türünden en az 70 puan almış olmak.",
+     "Hizmet sınıfı GİH, kadro derecesi 11.",
+     "Başvurular şahsen yapılır; posta ile başvuru kabul edilmez."
     ]
    }
   ],
-  "notes": "Tabloda tek satır var: 4 Zabıta Memuru kadrosu (GİH, 11. derece). Toplam sayı metinde açıkça belirtilmediği için declared_total null bırakıldı, başlıkta 4 yazıyor. Cinsiyet Erkek/Kadın, yani kısıtlama yok. KPSS yılı 2026 (B grubu). Başvuru tarihleri 21/12/2026-23/12/2026."
- }
+  "notes": "Zabıta memuru kadrosu için cinsiyet kısıtı yok (Erkek/Kadın). Yer olarak sadece Ula Belediye Başkanlığı belirtilmiş. Önlisans herhangi bir programdan mezuniyet aranıyor. Başvuru tarihleri 21/12/2026-23/12/2026 (şahsen, mesai saatlerinde 10:00-16:00)."
+ },
+ "reading": 2
 }

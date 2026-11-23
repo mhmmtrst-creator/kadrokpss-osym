@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "6095f530f17c42a93075",
  "institution": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ",
  "title": "İPTAL İLANI",
  "range": "9 Kasım - 23 Kasım",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -13,6 +13,7 @@
   "apply_start": null,
   "apply_end": null,
   "positions": [],
-  "notes": "Bu bir iptal ilanıdır; yeni kadro içermez. Daha önce 09.11.2026 tarihli ve 33425 sayılı Resmî Gazete'de yayımlanan ilandaki Elbistan MYO Mülkiyet Koruma ve Güvenlik Bölümü, Sivil Savunma ve İtfaiyecilik Programı Öğretim Görevlisi (Ders Verecek) kadrosu (1 adet) iptal edilmiştir. Bu nedenle pozisyon çıkarılmadı."
- }
+  "notes": "Bu bir iptal ilanıdır: 09.11.2026 tarihli ve 33425 sayılı Resmî Gazete'deki ilanda yer alan Elbistan Meslek Yüksekokulu, Mülkiyet Koruma ve Güvenlik Bölümü, Sivil Savunma ve İtfaiyecilik Programı Öğretim Görevlisi (Ders Verecek) kadrosu (1 adet) iptal edilmiştir. Yeni kadro içermediği için pozisyon çıkarılmadı."
+ },
+ "reading": 2
 }

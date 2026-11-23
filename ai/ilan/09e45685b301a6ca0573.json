@@ -1,13 +1,13 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "09e45685b301a6ca0573",
  "institution": "AKSEKİ BELEDİYE BAŞKANLIĞI",
  "title": "1 MEMUR ALACAK",
  "range": "21 Aralık - 25 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
-  "declared_total": null,
+  "declared_total": 1,
   "academic": false,
   "kpss_year": 2026,
   "apply_start": "2026-12-21",
@@ -16,8 +16,9 @@
    {
     "code": null,
     "title": "Mühendis",
-    "place": "Akseki Belediye Başkanlığı (Antalya)",
+    "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -39,12 +40,16 @@
      "B"
     ],
     "other_conditions": [
-     "Hizmet sınıfı TH, kadro derecesi 8",
-     "En az (B) sınıfı sürücü belgesine sahip olmak",
-     "Erkek adaylar için askerlik durumu şartı"
+     "Lisans düzeyinde eğitim veren fakültelerin harita mühendisliği, jeodezi ve fotogrametri mühendisliği, geomatik mühendisliği programlarının birinden mezun olmak.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Hizmet sınıfı TH, kadro derecesi 8.",
+     "2026 yılı KPSS (B grubu) sınavına girmiş olmak.",
+     "Erkek adaylar için askerlikle ilişiği bulunmamak, askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Yabancı okul mezunları için denklik belgesi gereklidir."
     ]
    }
   ],
-  "notes": "Tek kadro satırı var. Toplam kadro sayısı metinde açıkça belirtilmemiş; başlıkta '1 MEMUR ALACAK' yazıyor. Kadro adedi tabloda 1. KPSS (B grubu) 2026 yılı sınavı aranıyor. Başvuru tarihleri 21/12/2026 - 25/12/2026. Cinsiyet kadın/erkek, kısıtlama yok."
- }
+  "notes": "Tek kadro: Mühendis (1 adet). Cinsiyet Kadın/Erkek olduğundan cinsiyet kısıtı yok. KPSS yılı 2026 olarak ilanda belirtilmiştir. Başvuru tarihleri 21/12/2026-25/12/2026."
+ },
+ "reading": 2
 }

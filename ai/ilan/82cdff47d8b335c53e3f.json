@@ -1,15 +1,15 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "82cdff47d8b335c53e3f",
  "institution": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
  "title": "50 MÜFETTİŞ YARDIMCISI ALACAK",
  "range": "7 Aralık - 18 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 50,
   "academic": false,
-  "kpss_year": null,
+  "kpss_year": 2025,
   "apply_start": "2026-12-07",
   "apply_end": "2026-12-18",
   "positions": [
@@ -18,6 +18,7 @@
     "title": "MÜFETTİŞ YARDIMCISI",
     "place": "Sosyal Güvenlik Kurumu Başkanlığı",
     "count": 50,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -34,7 +35,8 @@
      "İşletme Fakültesi",
      "İktisadî ve İdarî Bilimler Fakültesi",
      "Sosyal Hizmetler",
-     "Sağlık İdaresi veya Sağlık Yönetimi",
+     "Sağlık İdaresi",
+     "Sağlık Yönetimi",
      "Aktüerya",
      "Bankacılık",
      "Sigortacılık"
@@ -45,14 +47,19 @@
     "age_rule": "Sınavın yapıldığı 2027 yılının Ocak ayının birinci günü itibariyle 35 (otuzbeş) yaşını doldurmamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "657 sayılı DMK 48. maddedeki nitelikleri taşımak",
-     "Sağlık durumu yurdun her yerinde görev yapmaya elverişli olmak",
-     "Yazılı sınava başvuranlar içinde en yüksek puanlı 250 kişi içinde olmak (eşit puanlılar dahil)",
-     "Yazılı sınavda her konudan en az 60, ortalama en az 70 puan almak",
-     "Sözlü sınavda her konudan en az 60, ortalama en az 70 puan almak"
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinde yazılı nitelikleri taşımak.",
+     "En az dört yıllık eğitim veren yüksek öğretim kurumlarından mezun olmak; yurt dışındaki okullardan mezun olanların denkliğinin Yükseköğretim Kurulunca kabul edilmiş olması gerekir.",
+     "KPSS: 2025 ve 2026 yıllarında yapılan KPSS'de KPSSP43 ve KPSSP48 puan türlerinin herhangi birinden en az 80 puan almak.",
+     "Yazılı sınava başvuranlar arasında (kadro sayısının en fazla 5 katı) en yüksek puanlı 250 kişi içinde bulunmak; son sıradaki adayla eşit puan alanların tümü sınava çağrılır; 2025 ve 2026 KPSS puan türleri birlikte değerlendirilir.",
+     "Sağlık durumunun yurdun her yerinde görev yapmaya ve her türlü iklim ve yolculuk şartlarında seyahat etmeye elverişli olması.",
+     "Yazılı sınavda her konudan en az 60, ortalama en az 70 puan almak.",
+     "Sözlü sınavda her konudan en az 60, ortalama en az 70 puan almak.",
+     "Yazılı sınav tarihi: 16-17.01.2027; yer: Sosyal Güvenlik Kurumu Başkanlığı, Ziyabey Cad. No: 6 Balgat/ANKARA.",
+     "Başvuru yalnızca elektronik ortamda e-Devlet üzerinden Kariyer Kapısı (isealimkariyerkapisi.cbiko.gov.tr) ile yapılır."
     ]
    }
   ],
-  "notes": "KPSS puanı 2025 ve 2026 yıllarında yapılan sınavlardan geçerli (tek yıl değil), bu yüzden kpss_year null bırakıldı. P43 ve P48 türlerinden herhangi birinden en az 80 puan aranır. Eğitim, en az dört yıllık fakülte/bölüm mezuniyeti olarak LISANS kabul edildi. Yazılı sınav tarihi 16-17.01.2027."
- }
+  "notes": "Geçerli KPSS yılları 2025 ve 2026; kpss_year alanına 2025 yazıldı (2026 da geçerli). Eğitim düzeyi dört yıllık yükseköğretim olarak LISANS alındı. Bölüm listesinde fakülteler ve bölümler metindeki gibi verildi."
+ },
+ "reading": 2
 }

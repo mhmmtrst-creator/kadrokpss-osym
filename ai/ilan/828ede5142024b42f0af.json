@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "828ede5142024b42f0af",
  "institution": "ASARCIK BELEDİYE BAŞKANLIĞI",
  "title": "İPTAL İLANI",
  "range": "1 Aralık - 3 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -13,6 +13,7 @@
   "apply_start": null,
   "apply_end": null,
   "positions": [],
-  "notes": "Belge bir iptal ilanıdır: Samsun ili Asarcık Belediyesinin 06.11.2026 tarihli ve 9554 sayılı yazısına istinaden ilk defa memur alımı ilanı iptal edilmiştir. Kadro tablosu veya pozisyon yoktur."
- }
+  "notes": "İlan bir iptal duyurusudur: Samsun ili Asarcık Belediyesinin 06.11.2026 tarihli ve 9554 sayılı yazısına istinaden ilk defa memur alımı ilanı iptal edilmiştir. Belgede kadro/pozisyon bulunmamaktadır."
+ },
+ "reading": 2
 }

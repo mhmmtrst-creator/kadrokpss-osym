@@ -1,23 +1,24 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "bd28c1393a9f4f236026",
  "institution": "DOĞU KARADENİZ KALKINMA AJANSI",
  "title": "1 UZMAN ALACAK",
  "range": "23 Kasım - 6 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1,
   "academic": false,
-  "kpss_year": 2026,
+  "kpss_year": null,
   "apply_start": "2026-11-23",
   "apply_end": "2026-12-06",
   "positions": [
    {
     "code": null,
-    "title": "UZMAN",
+    "title": "UZMAN PERSONEL",
     "place": "Rize Yatırım Destek Ofisi",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -46,16 +47,27 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "YDS/e-YDS İngilizce en az C düzeyi (taban puan 70), son 5 yıl içinde",
-     "Seyahat engeli olmamak",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
-     "Az tehlikeli işyerlerinde çalışmak için sağlık raporu alabilmek",
-     "Askerlikle ilgisi bulunmamak veya yapmış/ertelenmiş/yedek sınıfa geçirilmiş olmak",
-     "TR90 Bölgesi illerinin herhangi birinde çalışmayı kabul etmek",
-     "Yüksek lisans, doktora ve ikinci yabancı dil tercih sebebidir"
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya YÖK tarafından denkliği kabul edilen yurt içi/yurt dışı yükseköğretim kurumlarından Tablo 2'deki bölümlerden mezun olmak.",
+     "KPSS: Son başvuru tarihi itibarıyla geçerliliği bulunan KPSS'den P12, P14, P24, P29, P34 puan türlerinden en az 80 puan almış olmak.",
+     "Yabancı dil: Son başvuru tarihinden önceki 5 yıl içinde YDS/e-YDS İngilizce dilinden en az C düzeyinde (taban puan 70) puan almış olmak veya ÖSYM tarafından denkliği kabul edilen ve uluslararası geçerliliği bulunan başka bir sınavdan en az C düzeyine karşılık gelen puana sahip olmak.",
+     "Seyahat engeli olmamak.",
+     "Askerlikle ilgisi bulunmamak, askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Az tehlikeli işyerlerinde çalışmak için gerekli işe giriş sağlık raporunu alabilmek.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
+     "Sınavda başarılı olan aday Rize Yatırım Destek Ofisi'nde görevlendirilir ve TR90 Bölgesi illerinin herhangi birinde çalışmayı kabul etmiş sayılır.",
+     "Tercih nedeni: Tablo 2'deki öğrenim dallarında veya ilgili alanlarda yüksek lisans ya da doktora mezunu olmak.",
+     "Tercih nedeni: İngilizce dışında ikinci yabancı dil belgesine sahip olmak (YDS/e-YDS veya eşdeğer sınavdan en az C düzeyi).",
+     "Belge: Özgeçmiş ve fotoğraf",
+     "Belge: Son 1 ay içinde alınmış adli sicil kaydı",
+     "Belge: Erkek adaylar için askerlik görevini yapmış, muaf veya ertelenmiş olduğunu gösteren belge",
+     "Belge: Diploma veya mezuniyet belgesi (e-Devlet bilgileri hatalı veya eksikse)",
+     "Belge: YDS harici sınav beyanı varsa ÖSYM'ce eşdeğerliği kabul edilen yabancı dil sınavı belgesi",
+     "Belge: YÖK denklik belgesi (denkliği kabul edilen bölümler için)"
     ]
    }
   ],
-  "notes": "KPSS puan türleri tabloda 'KPSS P12, P14, P24, P29, P34' olarak tek satırda verilmiş, bölüm bazında ayrım yapılmamış. Tabloda 2025-2026 KPSS yazıyor; kpss_year olarak 2026 alındı, belirsizlik olabilir (ilan 2026 tarihli, 'son başvuru tarihi itibarıyla geçerli' şartı var). Eğitim düzeyi dört yıllık lisans olarak alındı."
- }
+  "notes": "Tek uzman kadrosu; kadro görev yeri Rize Yatırım Destek Ofisi. KPSS yılı olarak tabloda '2025-2026 KPSS' yazıyor, tek bir yıl belirtilmediği için kpss_year null bırakıldı. Başvuru bitiş saati 23.59."
+ },
+ "reading": 2
 }

@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "c2aae6dcdb99dad2eb94",
  "institution": "BARTIN ÜNİVERSİTESİ",
  "title": "1 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "20 Kasım - 5 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -18,6 +18,7 @@
     "title": "Büro Personeli",
     "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -33,11 +34,20 @@
     "age_rule": "01 Ocak 1991 ve sonrası doğumlu olmak",
     "license_classes": [],
     "other_conditions": [
-     "Arşiv araştırması sonucu olumlu olmak",
-     "657 sayılı Kanun'un 48. maddesindeki şartları taşımak"
+     "01 Ocak 1991 ve sonrası doğumlu olmak.",
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesinde belirtilen şartları taşımak.",
+     "Arşiv araştırması sonucu olumlu olmak (7315 sayılı Güvenlik Soruşturması ve Arşiv Araştırması Kanunu).",
+     "2026 KPSS (B) grubu sınavına girmiş olmak; ön lisans mezunları için KPSSP93 puanı esas alınır.",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik veya yaşlılık aylığı almamak.",
+     "Sözleşmede belirtilen görev yerinde ikamet etmek.",
+     "Yurt dışından alınmış diplomalar için YÖK denklik belgesi başvuruya eklenmelidir.",
+     "Belge: Barkodlu SGK Hizmet Dökümü (e-Devletten alınıp sisteme yüklenecek)",
+     "Belge: Nüfus Kayıt Örneği (e-Devletten barkodlu alınıp sisteme yüklenecek)",
+     "Belge: Aday Başvuru Bilgileri formu çıktısı (şahsen veya noter onaylı vekaletname ile 08 Aralık 2026 saat 17.30'a kadar teslim edilecek)"
     ]
    }
   ],
-  "notes": "Tabloda tek satır var (1 kadro). Toplam kadro sayısı ilanda ayrıca belirtilmemiş. Görev yeri belirtilmemiş. Yaş sınırı doğum tarihi şeklinde verilmiş (yıl cinsinden üst sınır yok). Başvuru tarihleri belgede 2026 olarak yazılıdır."
- }
+  "notes": "Ön lisans diploması herhangi bir ön lisans programından kabul edilir. Doğum tarihi şartı (01.01.1991 ve sonrası) yaş sınırı olarak age_rule'a yazıldı, age_years verilmedi. Toplam kadro sayısı ilanda ayrıca belirtilmemiş; tek pozisyon 1 kadro."
+ },
+ "reading": 2
 }

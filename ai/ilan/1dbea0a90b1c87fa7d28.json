@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "1dbea0a90b1c87fa7d28",
  "institution": "ELAZIĞ İL ÖZEL İDARESİ",
  "title": "3 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "30 Kasım - 9 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -18,6 +18,7 @@
     "title": "Psikolog",
     "place": null,
     "count": 2,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -35,9 +36,15 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Bölümün eşdeğerliği/denkliği Yükseköğretim Kurulu tarafından kabul edilmiş olması",
-     "Erkek adaylar için askerlikle ilişiği olmamak",
-     "Daha önce kamu kurumlarından disiplinsizlik veya ahlaki nedenlerle çıkarılmamış olmak"
+     "Üniversitelerin lisans düzeyinde eğitim veren Psikoloji bölümünden veya bu bölüme eşdeğerliği/denkliği Yükseköğretim Kurulu tarafından kabul edilmiş bölümlerden mezun olmak.",
+     "Hizmet sınıfı SH, derece 8.",
+     "Türk Vatandaşı olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel engeli bulunmamak.",
+     "Daha önce çalıştığı kamu kurum ve kuruluşlarından disiplinsizlik veya ahlaki nedenlerle çıkarılmamış olmak.",
+     "Belge: Yabancı okul mezunları için denklik belgesi",
+     "Sözlü sınavda başarılı sayılmak için en az 60 puan almak."
     ]
    },
    {
@@ -45,6 +52,7 @@
     "title": "Sosyal Çalışmacı",
     "place": null,
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -62,12 +70,19 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Bölümün eşdeğerliği/denkliği Yükseköğretim Kurulu tarafından kabul edilmiş olması",
-     "Erkek adaylar için askerlikle ilişiği olmamak",
-     "Daha önce kamu kurumlarından disiplinsizlik veya ahlaki nedenlerle çıkarılmamış olmak"
+     "Üniversitelerin lisans düzeyinde eğitim veren Sosyal Hizmetler bölümünden veya bu bölüme eşdeğerliği/denkliği Yükseköğretim Kurulu tarafından kabul edilmiş bölümlerden mezun olmak.",
+     "Hizmet sınıfı SH, derece 8.",
+     "Türk Vatandaşı olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel engeli bulunmamak.",
+     "Daha önce çalıştığı kamu kurum ve kuruluşlarından disiplinsizlik veya ahlaki nedenlerle çıkarılmamış olmak.",
+     "Belge: Yabancı okul mezunları için denklik belgesi",
+     "Sözlü sınavda başarılı sayılmak için en az 60 puan almak."
     ]
    }
   ],
-  "notes": "İlan toplam sayıyı açıkça belirtmiyor; tablodaki satırlar 2 + 1 = 3 kadro. Görev yeri belirtilmemiş. Cinsiyet sütunu Kadın/Erkek (her iki cinsiyet açık). Her iki kadro için hizmet sınıfı SH, derece 8. KPSS 2026 yılı sınavından, taban puan 60. Başvuru e-posta veya şahsen/posta ile 30/11/2026-09/12/2026 arasında."
- }
+  "notes": "İlanda toplam sayı açıkça belirtilmemiş (tablodaki satırlar 2+1=3). Cinsiyet 'Kadın/Erkek' olduğundan kısıtlama yok. Tablodaki sıra no her iki satırda da 1 yazıyor. Yaş sınırı belirtilmemiş."
+ },
+ "reading": 2
 }

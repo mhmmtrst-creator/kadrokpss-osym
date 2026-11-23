@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "6557cf5f9c7e0f19ea1d",
  "institution": "ADLİ TIP KURUMU BAŞKANLIĞI",
  "title": "181 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "30 Kasım - 6 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 181,
@@ -16,169 +16,42 @@
    {
     "code": null,
     "title": "MÜHENDİS (MAKİNE)",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 3,
-    "education": [
-     "LISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 3
+     },
+     {
+      "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "TRABZON ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
     ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Makine Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (MAKİNE)",
-    "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Makine Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (MAKİNE)",
-    "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Makine Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (MAKİNE)",
-    "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Makine Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (MAKİNE)",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Makine Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (MAKİNE)",
-    "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Makine Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (MAKİNE)",
-    "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Makine Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (MAKİNE)",
-    "place": "TRABZON ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
     "education": [
      "LISANS"
     ],
@@ -202,6 +75,7 @@
     "title": "MÜHENDİS (KİMYA)",
     "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -223,62 +97,22 @@
    {
     "code": null,
     "title": "MÜHENDİS (BİLİŞİM)",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 2,
-    "education": [
-     "LISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 2
+     },
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
     ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Bilgisayar Mühendisliği",
-     "Elektronik Mühendisliği",
-     "Elektronik ve Haberleşme Mühendisliği",
-     "Yapay Zeka Mühendisliği",
-     "Yapay Zeka ve Veri Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (BİLİŞİM)",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Bilgisayar Mühendisliği",
-     "Elektronik Mühendisliği",
-     "Elektronik ve Haberleşme Mühendisliği",
-     "Yapay Zeka Mühendisliği",
-     "Yapay Zeka ve Veri Mühendisliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "MÜHENDİS (BİLİŞİM)",
-    "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
     "education": [
      "LISANS"
     ],
@@ -304,248 +138,54 @@
    {
     "code": null,
     "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 3,
-    "education": [
-     "LISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 3
+     },
+     {
+      "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "HATAY ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
     ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "HATAY ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Kimya",
-     "Biyokimya"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "DİĞER TEKNİK HİZMET PERSONELİ (KİMYAGER)",
-    "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
     "education": [
      "LISANS"
     ],
@@ -568,120 +208,30 @@
    {
     "code": null,
     "title": "BİOLOG",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 1,
-    "education": [
-     "LISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 1
+     },
+     {
+      "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
     ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Biyoloji",
-     "Biyoteknoloji ve Moleküler Biyoloji",
-     "Moleküler Biyoloji ve Genetik",
-     "Moleküler Biyoloji, Genetik ve Biyomühendislik",
-     "Tıbbi Biyoloji",
-     "Tıbbi Biyolojik Bilimler"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BİOLOG",
-    "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Biyoloji",
-     "Biyoteknoloji ve Moleküler Biyoloji",
-     "Moleküler Biyoloji ve Genetik",
-     "Moleküler Biyoloji, Genetik ve Biyomühendislik",
-     "Tıbbi Biyoloji",
-     "Tıbbi Biyolojik Bilimler"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BİOLOG",
-    "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Biyoloji",
-     "Biyoteknoloji ve Moleküler Biyoloji",
-     "Moleküler Biyoloji ve Genetik",
-     "Moleküler Biyoloji, Genetik ve Biyomühendislik",
-     "Tıbbi Biyoloji",
-     "Tıbbi Biyolojik Bilimler"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BİOLOG",
-    "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Biyoloji",
-     "Biyoteknoloji ve Moleküler Biyoloji",
-     "Moleküler Biyoloji ve Genetik",
-     "Moleküler Biyoloji, Genetik ve Biyomühendislik",
-     "Tıbbi Biyoloji",
-     "Tıbbi Biyolojik Bilimler"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BİOLOG",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
     "education": [
      "LISANS"
     ],
@@ -708,8 +258,18 @@
    {
     "code": null,
     "title": "HEMŞİRE",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
+    ],
     "education": [
      "LISANS"
     ],
@@ -732,372 +292,67 @@
    },
    {
     "code": null,
-    "title": "HEMŞİRE",
-    "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Hemşirelik",
-     "Hemşirelik ve Sağlık Hizmetleri",
-     "Sağlık Memurluğu"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
     "title": "LABORANT",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 6,
-    "education": [
-     "ONLISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 6
+     },
+     {
+      "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 3
+     },
+     {
+      "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "DİYARBAKIR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "MALATYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "TRABZON ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "VAN ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
     ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 3,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "DİYARBAKIR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "MALATYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "TRABZON ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Sağlık Laboratuvarı",
-     "Tıbbi Laboratuvar",
-     "Tıbbi Laboratuar Teknikleri",
-     "Tıbbi Laboratuvar Teknikleri"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "LABORANT",
-    "place": "VAN ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
     "education": [
      "ONLISANS"
     ],
@@ -1122,101 +377,26 @@
    {
     "code": null,
     "title": "TEKNİKER (ELEKTRİK)",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 1
+     },
+     {
+      "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
     ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Elektrik",
-     "Elektrik Teknolojisi",
-     "Elektronik",
-     "Elektrik-Elektronik",
-     "Endüstriyel Elektronik",
-     "Elektronik Teknolojisi",
-     "Elektrik ve Elektronik Teknolojisi",
-     "Elektrik-Elektronik Teknikerliği",
-     "Deniz Elektroniği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "TEKNİKER (ELEKTRİK)",
-    "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Elektrik",
-     "Elektrik Teknolojisi",
-     "Elektronik",
-     "Elektrik-Elektronik",
-     "Endüstriyel Elektronik",
-     "Elektronik Teknolojisi",
-     "Elektrik ve Elektronik Teknolojisi",
-     "Elektrik-Elektronik Teknikerliği",
-     "Deniz Elektroniği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "TEKNİKER (ELEKTRİK)",
-    "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Elektrik",
-     "Elektrik Teknolojisi",
-     "Elektronik",
-     "Elektrik-Elektronik",
-     "Endüstriyel Elektronik",
-     "Elektronik Teknolojisi",
-     "Elektrik ve Elektronik Teknolojisi",
-     "Elektrik-Elektronik Teknikerliği",
-     "Deniz Elektroniği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "TEKNİKER (ELEKTRİK)",
-    "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
     "education": [
      "ONLISANS"
     ],
@@ -1246,172 +426,30 @@
    {
     "code": null,
     "title": "TEKNİKER (SIHHİ TESİSAT)",
-    "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
     ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Yapı",
-     "Yapı Donatım Teknolojisi",
-     "Sıhhi Tesisat",
-     "Tesisat Teknolojisi",
-     "Yapı Tesisat Teknolojisi",
-     "Yapı İnşaat",
-     "İklimlendirme-Soğutma",
-     "Soğutma Tesisatçılığı",
-     "Soğutma Tesisatı",
-     "Soğutma ve Havalandırma",
-     "İklimlendirme Teknolojisi",
-     "İklimlendirme ve Soğutma Teknolojisi",
-     "Doğalgaz, Isıtma ve Sıhhi Tesisat Teknolojisi",
-     "Sıhhi Tesisat ve Doğalgaz",
-     "Doğalgaz ve Isıtma",
-     "Doğal Gaz ve Isıtma",
-     "Doğalgaz ve Boru Hatları Teknolojisi",
-     "Gaz ve Tesisatı Teknolojisi",
-     "Doğalgaz ve Tesisatı Teknolojisi"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "TEKNİKER (SIHHİ TESİSAT)",
-    "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Yapı",
-     "Yapı Donatım Teknolojisi",
-     "Sıhhi Tesisat",
-     "Tesisat Teknolojisi",
-     "Yapı Tesisat Teknolojisi",
-     "Yapı İnşaat",
-     "İklimlendirme-Soğutma",
-     "Soğutma Tesisatçılığı",
-     "Soğutma Tesisatı",
-     "Soğutma ve Havalandırma",
-     "İklimlendirme Teknolojisi",
-     "İklimlendirme ve Soğutma Teknolojisi",
-     "Doğalgaz, Isıtma ve Sıhhi Tesisat Teknolojisi",
-     "Sıhhi Tesisat ve Doğalgaz",
-     "Doğalgaz ve Isıtma",
-     "Doğal Gaz ve Isıtma",
-     "Doğalgaz ve Boru Hatları Teknolojisi",
-     "Gaz ve Tesisatı Teknolojisi",
-     "Doğalgaz ve Tesisatı Teknolojisi"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "TEKNİKER (SIHHİ TESİSAT)",
-    "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Yapı",
-     "Yapı Donatım Teknolojisi",
-     "Sıhhi Tesisat",
-     "Tesisat Teknolojisi",
-     "Yapı Tesisat Teknolojisi",
-     "Yapı İnşaat",
-     "İklimlendirme-Soğutma",
-     "Soğutma Tesisatçılığı",
-     "Soğutma Tesisatı",
-     "Soğutma ve Havalandırma",
-     "İklimlendirme Teknolojisi",
-     "İklimlendirme ve Soğutma Teknolojisi",
-     "Doğalgaz, Isıtma ve Sıhhi Tesisat Teknolojisi",
-     "Sıhhi Tesisat ve Doğalgaz",
-     "Doğalgaz ve Isıtma",
-     "Doğal Gaz ve Isıtma",
-     "Doğalgaz ve Boru Hatları Teknolojisi",
-     "Gaz ve Tesisatı Teknolojisi",
-     "Doğalgaz ve Tesisatı Teknolojisi"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "TEKNİKER (SIHHİ TESİSAT)",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Yapı",
-     "Yapı Donatım Teknolojisi",
-     "Sıhhi Tesisat",
-     "Tesisat Teknolojisi",
-     "Yapı Tesisat Teknolojisi",
-     "Yapı İnşaat",
-     "İklimlendirme-Soğutma",
-     "Soğutma Tesisatçılığı",
-     "Soğutma Tesisatı",
-     "Soğutma ve Havalandırma",
-     "İklimlendirme Teknolojisi",
-     "İklimlendirme ve Soğutma Teknolojisi",
-     "Doğalgaz, Isıtma ve Sıhhi Tesisat Teknolojisi",
-     "Sıhhi Tesisat ve Doğalgaz",
-     "Doğalgaz ve Isıtma",
-     "Doğal Gaz ve Isıtma",
-     "Doğalgaz ve Boru Hatları Teknolojisi",
-     "Gaz ve Tesisatı Teknolojisi",
-     "Doğalgaz ve Tesisatı Teknolojisi"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "TEKNİKER (SIHHİ TESİSAT)",
-    "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
     "education": [
      "ONLISANS"
     ],
@@ -1453,6 +491,7 @@
     "title": "TEKNİKER (SİLAH MUAYENE)",
     "place": "İSTANBUL MERKEZ TEŞKİLATI",
     "count": 1,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -1479,6 +518,7 @@
     "title": "TEKNİKER (BİLGİSAYAR)",
     "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
     "count": 1,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -1504,333 +544,66 @@
    {
     "code": null,
     "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 2,
-    "education": [
-     "ONLISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 2
+     },
+     {
+      "place": "AĞRI ADLİ TIP ŞUBE MÜDÜRLÜĞÜ",
+      "count": 1
+     },
+     {
+      "place": "ARTVİN ADLİ TIP ŞUBE MÜDÜRLÜĞÜ",
+      "count": 1
+     },
+     {
+      "place": "AYDIN ADLİ TIP ŞUBE MÜDÜRLÜĞÜ",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "HATAY ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA ADLİ TIP ŞUBE MÜDÜRLÜĞÜ",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "TRABZON ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     }
     ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "AĞRI ADLİ TIP ŞUBE MÜDÜRLÜĞÜ",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "ARTVİN ADLİ TIP ŞUBE MÜDÜRLÜĞÜ",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "AYDIN ADLİ TIP ŞUBE MÜDÜRLÜĞÜ",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "HATAY ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "MUĞLA ADLİ TIP ŞUBE MÜDÜRLÜĞÜ",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "ŞANLIURFA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ONLISANS"
-    ],
-    "kpss_types": [
-     "P93"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Adli Tıp Teknikerliği",
-     "Otopsi Yardımcılığı",
-     "Adli Tıp"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "SAĞLIK TEKNİKERİ (OTOPSİ)",
-    "place": "TRABZON ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
     "education": [
      "ONLISANS"
     ],
@@ -1856,6 +629,7 @@
     "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ)",
     "place": "İSTANBUL MERKEZ TEŞKİLATI",
     "count": 5,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -1905,6 +679,7 @@
     "title": "BÜRO PERSONELİ (BİLGİ BELGE YÖNETİMİ)",
     "place": "İSTANBUL MERKEZ TEŞKİLATI",
     "count": 5,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -1930,6 +705,7 @@
     "title": "BÜRO PERSONELİ (TIBBİ SEKRETER)",
     "place": "İSTANBUL MERKEZ TEŞKİLATI",
     "count": 5,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -1959,788 +735,74 @@
    {
     "code": null,
     "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 3,
-    "education": [
-     "LISANS"
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 3
+     },
+     {
+      "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 4
+     },
+     {
+      "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "HATAY ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "MALATYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "ŞANLIURFA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "TRABZON ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "VAN ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
     ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 4,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "DİYARBAKIR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "HATAY ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "MALATYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "ŞANLIURFA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "TRABZON ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "LISANS"
-    ],
-    "kpss_types": [
-     "P3"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [
-     "Ekonomi",
-     "İktisat",
-     "Ekonomi ve İdari Bilimler",
-     "Ekonomi-Yönetim Bilimleri",
-     "Ekonomi Politik ve Toplum Felsefesi",
-     "Uluslararası Ekonomi",
-     "İşletme-Ekonomi",
-     "Ekonomi ve Finans",
-     "İşletme",
-     "İşletmecilik",
-     "İşletme-Maliye",
-     "Yönetim ve Organizasyon",
-     "Yönetim Bilimleri",
-     "Yönetim Bilimleri ve Liderlik",
-     "Muhasebe-Finansman",
-     "Muhasebe ve Finansal Yönetim",
-     "Muhasebe ve Finans Yönetimi",
-     "Pazarlama",
-     "İşletme Bilgi Yönetimi",
-     "Kamu Yönetimi",
-     "Siyaset Bilimi ve Kamu Yönetimi",
-     "Kütüphanecilik",
-     "Bilgi Belge Yönetimi",
-     "Arşivcilik",
-     "Sağlık Yönetimi",
-     "Sağlık İdaresi",
-     "Sağlık Kurumları Yönetimi",
-     "Sağlık Kurumları Yöneticiliği",
-     "Sağlık Kuruluşları Yöneticiliği",
-     "Sağlık Kurumları İşletmeciliği"
-    ],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": []
-   },
-   {
-    "code": null,
-    "title": "BÜRO PERSONELİ (İŞLETME-İKTİSAT-KAMU YÖNETİMİ-BİLGİ BELGE YÖNETİMİ)",
-    "place": "VAN ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
     "education": [
      "LISANS"
     ],
@@ -2793,6 +855,7 @@
     "title": "İNFAZ VE KORUMA MEMURU (ERKEK)",
     "place": "İSTANBUL MERKEZ TEŞKİLATI",
     "count": 1,
+    "places": [],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -2805,22 +868,79 @@
     "any_department": false,
     "gender": "ERKEK",
     "age_years": 30,
-    "age_rule": "merkezî sınavın (KPSS-2026) yapıldığı yılın Ocak ayının birinci günü itibarıyla 30 yaşını bitirmemiş olmak (01 Ocak 1996 ve sonrası doğumlular)",
+    "age_rule": "merkezî sınavın (KPSS-2026) yapıldığı yılın Ocak ayının birinci günü itibarıyla 30 yaşını bitirmemiş olmak (01 Ocak 1996 ve sonrası doğumlu olanlar sınava müracaat edebilecektir)",
     "license_classes": [],
     "other_conditions": [
-     "Son başvuru tarihi itibarıyla 18 yaşını doldurmuş olmak",
-     "170 cm'den kısa boylu olmamak",
-     "Boy son iki rakamı ile kilo farkı 13'ten fazla, 17'den az olmamak",
-     "Tam teşekküllü Devlet hastanesinden sağlık kurulu raporu",
-     "Mesai dışı, hafta sonu ve 7/24 vardiyalı çalışmaya engel olmamak (beyan formu)",
-     "Sözlü sınavda boy-kilo ölçümü yapılır"
+     "Lise ve dengi okul mezunu olmak.",
+     "Yapılacak sınavın son başvuru tarihi itibarıyla 18 yaşını doldurmuş olmak.",
+     "170 cm'den kısa boylu olmamak.",
+     "Boy uzunluğunun santimetre cinsinden son iki rakamı ile kilosu arasındaki fark 13'ten fazla, 17'den az olmamak (örneğin 170 cm boyundaki adayın kilosu 70+13=83'ten fazla, 70-17=53'ten az olmamalıdır).",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel özürlü olmamak; şaşılık, körlük, topallık, işitme kaybı, çehrede sabit eser, uzuv noksanlığı, kekemelik ve benzeri engeller bulunmadığını Sağlık Bakanlığına bağlı tam teşekküllü Devlet hastanelerinden alınacak sağlık kurulu raporu ile belgelemek.",
+     "Belge: Sağlık Bakanlığına bağlı tam teşekküllü Devlet hastanelerinden alınan sağlık kurulu raporu",
+     "Mesai saatleri dışında ve hafta sonları çalışmaya engeli olmamak; 7/24 saat esasına göre vardiyalı olarak kapalı ve açık alanlarda çalışmasına engel durumu olmamak.",
+     "Belge: Mesai dışı/hafta sonu ve vardiyalı çalışmaya engel olmadığına ilişkin imzalı beyan formu (başvuru esnasında sisteme yüklenecek)",
+     "Puan sıralaması sonucu sözlü sınava hak kazananların boy-kilo ölçümleri sözlü sınav tarihinde yapılır; gerekli boy-kilo şartını sağlamayanlar sözlü sınava alınmaz."
     ]
    },
    {
     "code": null,
     "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 8,
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 8
+     },
+     {
+      "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "HATAY ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 2
+     },
+     {
+      "place": "ŞANLIURFA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
+    ],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -2836,303 +956,44 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "ANKARA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "ANTALYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "DENİZLİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "ERZURUM ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "GAZİANTEP ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "HATAY ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "İZMİR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "SAMSUN ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 2,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (HİZMETLİ)",
-    "place": "ŞANLIURFA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [],
-    "other_conditions": [
-     "Temizlik işlerinde en az 6 ay sigortalı çalışmış olmak (SGK hizmet dökümü)",
-     "Yükseköğretimde aktif örgün öğrenci kaydı bulunmamak"
+     "Lise ve dengi okul mezunu olmak.",
+     "Temizlik işlerinde en az 6 (altı) ay sigortalı olarak çalışmış olmak.",
+     "Belge: E-Devletten alınacak, meslek kodunu/kodlarını gösterir barkodlu SGK Hizmet Dökümü (başvuru esnasında sisteme yüklenecek)",
+     "Yükseköğretim Kurumlarında aktif örgün eğitim öğrencisi olarak kaydı bulunmamak.",
+     "Görev: Görevlendirildiği birimin kapalı ve açık alanlarının temizliği, katı atıkların toplanması, malzeme-demirbaş taşıma, yükleme-boşaltma ve yöneticiler tarafından verilen diğer hizmetli görevlerini yerine getirmek."
     ]
    },
    {
     "code": null,
     "title": "DESTEK PERSONELİ (ŞOFÖR)",
-    "place": "İSTANBUL MERKEZ TEŞKİLATI",
-    "count": 5,
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "İSTANBUL MERKEZ TEŞKİLATI",
+      "count": 5
+     },
+     {
+      "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     },
+     {
+      "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
+      "count": 1
+     }
+    ],
     "education": [
      "ORTAOGRETIM"
     ],
@@ -3151,143 +1012,9 @@
      "D+C"
     ],
     "other_conditions": [
-     "Eski tip E sınıfı ya da 01.01.2016 itibarıyla yeni tip D ve C (birlikte) sürücü belgesi",
-     "Sürücü belgesi başvuruda sisteme yüklenecek"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (ŞOFÖR)",
-    "place": "ADANA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [
-     "E",
-     "D+C"
-    ],
-    "other_conditions": [
-     "Eski tip E sınıfı ya da 01.01.2016 itibarıyla yeni tip D ve C (birlikte) sürücü belgesi",
-     "Sürücü belgesi başvuruda sisteme yüklenecek"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (ŞOFÖR)",
-    "place": "BURSA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [
-     "E",
-     "D+C"
-    ],
-    "other_conditions": [
-     "Eski tip E sınıfı ya da 01.01.2016 itibarıyla yeni tip D ve C (birlikte) sürücü belgesi",
-     "Sürücü belgesi başvuruda sisteme yüklenecek"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (ŞOFÖR)",
-    "place": "DİYARBAKIR ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [
-     "E",
-     "D+C"
-    ],
-    "other_conditions": [
-     "Eski tip E sınıfı ya da 01.01.2016 itibarıyla yeni tip D ve C (birlikte) sürücü belgesi",
-     "Sürücü belgesi başvuruda sisteme yüklenecek"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (ŞOFÖR)",
-    "place": "KAYSERİ ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [
-     "E",
-     "D+C"
-    ],
-    "other_conditions": [
-     "Eski tip E sınıfı ya da 01.01.2016 itibarıyla yeni tip D ve C (birlikte) sürücü belgesi",
-     "Sürücü belgesi başvuruda sisteme yüklenecek"
-    ]
-   },
-   {
-    "code": null,
-    "title": "DESTEK PERSONELİ (ŞOFÖR)",
-    "place": "KONYA ADLİ TIP GRUP BAŞKANLIĞI",
-    "count": 1,
-    "education": [
-     "ORTAOGRETIM"
-    ],
-    "kpss_types": [
-     "P94"
-    ],
-    "department_kpss": [],
-    "min_score": 70,
-    "departments": [],
-    "any_department": false,
-    "gender": null,
-    "age_years": null,
-    "age_rule": null,
-    "license_classes": [
-     "E",
-     "D+C"
-    ],
-    "other_conditions": [
-     "Eski tip E sınıfı ya da 01.01.2016 itibarıyla yeni tip D ve C (birlikte) sürücü belgesi",
-     "Sürücü belgesi başvuruda sisteme yüklenecek"
+     "Lise ve dengi okul mezunu olmak.",
+     "Eski tip E sınıfı sürücü belgesine sahip olmak; ya da Karayolları Trafik Yönetmeliğinde 17/04/2015 tarihli ve 29329 sayılı Resmi Gazete'de yayımlanan değişiklik ile 01 Ocak 2016 tarihi itibarıyla yeni tip D ve C (birlikte) sınıfı sürücü belgesine sahip olmak.",
+     "Belge: Sürücü belgesi (başvuru esnasında sisteme yüklenecek)"
     ]
    },
    {
@@ -3295,6 +1022,7 @@
     "title": "DESTEK PERSONELİ (AŞÇI)",
     "place": "İSTANBUL MERKEZ TEŞKİLATI",
     "count": 2,
+    "places": [],
     "education": [
      "ONLISANS"
     ],
@@ -3318,6 +1046,7 @@
     "other_conditions": []
    }
   ],
-  "notes": "Toplam 109 satır; adetler toplamı 181 (ilandaki sayıyla uyumlu). Sayfa 4 metninde Sıhhi Tesisat satırları (Ankara, Denizli, Gaziantep, İzmir, Konya) başlıktan önce göründü; görsele göre TEKNİKER (SIHHİ TESİSAT) satırları olarak alındı, Tekniker (Elektrik) 4 satırdır. Min. puan 70 genel şarttan alındı. Bölüm adlarındaki virgüllü listelerin ayrımı (özellikle Biyolog ve Sıhhi Tesisat) belirsiz olabilir. İnfaz ve Koruma Memuru yaş şartı genel şartlarda da yer alıyor. Diğer pozisyonlar için 657 sayılı Kanun md. 40 yaş şartı geçerli (sayısal üst sınır yok)."
- }
+  "notes": "Toplam 181 pozisyon tablodaki satırlarla uyumlu. 70 puan alt sınırı ilanın 2. maddesinden alındı. Genel şartlar (askerlik, 657 sayılı Kanun 40. madde yaş şartı vb.) tüm pozisyonlar için geçerlidir. Bazı bölüm adlarının ayrımı (örn. 'İktisat, Ekonomi ve İdari Bilimler', 'Doğalgaz, Isıtma ve Sıhhi Tesisat Teknolojisi') metinde belirsiz; kopya olan 'İktisat' bir kez yazıldı."
+ },
+ "reading": 2
 }

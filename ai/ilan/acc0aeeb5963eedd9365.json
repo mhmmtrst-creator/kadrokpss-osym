@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "acc0aeeb5963eedd9365",
  "institution": "KARŞIYAKA (İZMİR) BELEDİYE BAŞKANLIĞI",
  "title": "6 MEMUR ALACAK",
  "range": "30 Kasım - 2 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 6,
@@ -15,9 +15,10 @@
   "positions": [
    {
     "code": "1",
-    "title": "BİLGİSAYAR İŞLETMENİ",
+    "title": "BİLGİSAYAR İŞLETMENİ (Derece 7)",
     "place": "Karşıyaka Belediye Başkanlığı",
     "count": 3,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -41,16 +42,25 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Milli Eğitim Bakanlığı onaylı bilgisayar sertifikasına sahip olmak veya mezun olduğu okulda bilgisayar dersi gördüğünü belgelemek",
-     "Kadro derecesi 7",
-     "Hizmet sınıfı G.İ.H."
+     "Belge: Milli Eğitim Bakanlığı onaylı bilgisayar sertifikasına sahip olmak veya mezun olduğu okulda bilgisayar dersi gördüğünü belgelemek",
+     "Hizmet sınıfı: Genel İdare Hizmetleri (G.İ.H.), kadro derecesi 7",
+     "KPSS (B grubu) 2026 yılı sınavına girmiş olmak ve en az 70 KPSS puanı almış olmak",
+     "Erkek adaylar için askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş bulunmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak",
+     "Başvuru belgesi: Nüfus cüzdanı veya kimlik kartı fotokopisi",
+     "Başvuru belgesi: Diploma veya mezuniyet belgesi (aslı, noter onaylı örneği veya e-devlet barkotlu belge); yabancı okul mezunları için denklik belgesi",
+     "Başvuru belgesi: KPSS sonuç belgesinin ÖSYM doğrulama kodlu bilgisayar çıktısı",
+     "Başvuru belgesi: Son altı ay içinde çekilmiş 3 adet vesikalık fotoğraf",
+     "Başvuru belgesi: MEB onaylı bilgisayar işletmeni sertifikası veya mezun olunan okulda bilgisayar dersi gördüğünü gösteren belge"
     ]
    },
    {
     "code": "2",
-    "title": "BİLGİSAYAR İŞLETMENİ",
+    "title": "BİLGİSAYAR İŞLETMENİ (Derece 8)",
     "place": "Karşıyaka Belediye Başkanlığı",
     "count": 3,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -74,12 +84,21 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Milli Eğitim Bakanlığı onaylı bilgisayar sertifikasına sahip olmak veya mezun olduğu okulda bilgisayar dersi gördüğünü belgelemek",
-     "Kadro derecesi 8",
-     "Hizmet sınıfı G.İ.H."
+     "Belge: Milli Eğitim Bakanlığı onaylı bilgisayar sertifikasına sahip olmak veya mezun olduğu okulda bilgisayar dersi gördüğünü belgelemek",
+     "Hizmet sınıfı: Genel İdare Hizmetleri (G.İ.H.), kadro derecesi 8",
+     "KPSS (B grubu) 2026 yılı sınavına girmiş olmak ve en az 70 KPSS puanı almış olmak",
+     "Erkek adaylar için askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş bulunmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak",
+     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak",
+     "Başvuru belgesi: Nüfus cüzdanı veya kimlik kartı fotokopisi",
+     "Başvuru belgesi: Diploma veya mezuniyet belgesi (aslı, noter onaylı örneği veya e-devlet barkotlu belge); yabancı okul mezunları için denklik belgesi",
+     "Başvuru belgesi: KPSS sonuç belgesinin ÖSYM doğrulama kodlu bilgisayar çıktısı",
+     "Başvuru belgesi: Son altı ay içinde çekilmiş 3 adet vesikalık fotoğraf",
+     "Başvuru belgesi: MEB onaylı bilgisayar işletmeni sertifikası veya mezun olunan okulda bilgisayar dersi gördüğünü gösteren belge"
     ]
    }
   ],
-  "notes": "Tabloda iki satır var (derece 7 ve derece 8), her biri 3 kadro; toplam 6. Görev yeri tabloda ayrıca belirtilmemiş, Karşıyaka Belediye Başkanlığı olarak alındı. KPSS yılı 2026 olarak belirtilmiş (KPSS B grubu). Başvuru tarihleri 30.11.2026 - 02.12.2026. Bölüm adları 'maliye, işletme, iktisat, muhasebe ve finans yönetimi, bankacılık ve finans, çalışma ekonomisi ve endüstri ilişkileri' şeklinde yazılmış; ayrım yorumlanmıştır."
- }
+  "notes": "Niteliği sütunundaki bölümler 'maliye, işletme, iktisat, muhasebe ve finans yönetimi, bankacılık ve finans, çalışma ekonomisi ve endüstri ilişkileri programları' olarak yazılmıştır; adlar ilandaki ifadeye göre ayrıştırılmıştır. Başlık 6 memur diyor, tablodaki toplam 3+3=6. Sözlü sınav 16.12.2026. Cinsiyet: Erkek/Kadın (kısıtlama yok). Yaş sınırı belirtilmemiş."
+ },
+ "reading": 2
 }

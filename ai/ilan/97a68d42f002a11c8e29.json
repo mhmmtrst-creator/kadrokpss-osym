@@ -1,13 +1,13 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "97a68d42f002a11c8e29",
  "institution": "EYYÜBİYE BELEDİYE BAŞKANLIĞI",
  "title": "9 MEMUR ALACAK",
  "range": "7 Aralık - 10 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
-  "declared_total": 9,
+  "declared_total": null,
   "academic": false,
   "kpss_year": 2026,
   "apply_start": "2026-12-07",
@@ -16,8 +16,9 @@
    {
     "code": null,
     "title": "Zabıta Memuru",
-    "place": "Şanlıurfa / Eyyübiye",
+    "place": "Eyyübiye Belediye Başkanlığı (Şanlıurfa)",
     "count": 3,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -35,18 +36,20 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Kadınlarda en az 1,60 m boy",
-     "Boyun 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
-     "Sözlü ve uygulamalı sınav",
-     "Erkek adaylar için askerlik şartı"
+     "Sürücü belgesi: En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Boy: Kadınlarda en az 1.60 metre boyunda olmak.",
+     "Kilo: Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
+     "Boy ve kilo ölçümü aç karnına, soyunuk ve çıplak ayakla yapılır; Belediyece başvuru evrakları teslim alınmadan önce yapılacaktır.",
+     "Sağlık: Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Başvuru şahsen yapılacaktır; posta ile veya diğer şekillerde yapılan başvurular kabul edilmez."
     ]
    },
    {
     "code": null,
     "title": "Zabıta Memuru",
-    "place": "Şanlıurfa / Eyyübiye",
+    "place": "Eyyübiye Belediye Başkanlığı (Şanlıurfa)",
     "count": 6,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -64,14 +67,17 @@
      "B"
     ],
     "other_conditions": [
-     "En az B sınıfı sürücü belgesi",
-     "Erkeklerde en az 1,67 m boy",
-     "Boyun 1 metreden fazla kısmı ile kilo arasında (+,-) 10 kg'dan fazla fark olmamak",
-     "Sözlü ve uygulamalı sınav",
-     "Askerlik durumu şartı"
+     "Sürücü belgesi: En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Boy: Erkeklerde en az 1.67 metre boyunda olmak.",
+     "Kilo: Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
+     "Boy ve kilo ölçümü aç karnına, soyunuk ve çıplak ayakla yapılır; Belediyece başvuru evrakları teslim alınmadan önce yapılacaktır.",
+     "Askerlik: Askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+     "Sağlık: Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Başvuru şahsen yapılacaktır; posta ile veya diğer şekillerde yapılan başvurular kabul edilmez."
     ]
    }
   ],
-  "notes": "Toplam 9 kadro (3 kadın + 6 erkek) tablodan hesaplanmıştır; ilan başlığında 9 yazıyor. KPSS (B) grubu 2026 yılı sınavı. Tabloda görev yeri ayrıca belirtilmemiş, Eyyübiye Belediyesi (Şanlıurfa) olarak yazıldı. Hizmet sınıfı GİH, derece 11."
- }
+  "notes": "İlan toplam kadro sayısını açıkça belirtmiyor (başlıkta 9 memur yazıyor; 3 kadın + 6 erkek). Hizmet sınıfı GİH, derece 11. KPSS (B) grubu 2026 KPSS puanı aranıyor. Askerlik şartı genel şartlarda erkek adaylar için sayılmıştır; kadın satırına eklenmedi."
+ },
+ "reading": 2
 }

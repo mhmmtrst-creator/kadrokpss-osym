@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "98e0dbe7cd01529a527c",
  "institution": "KARABAĞLAR BELEDİYE BAŞKANLIĞI",
  "title": "2 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "30 Kasım - 4 Aralık",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 2,
@@ -15,9 +15,10 @@
   "positions": [
    {
     "code": null,
-    "title": "MÜHENDİS (ÇEVRE)",
-    "place": "İzmir Karabağlar Belediye Başkanlığı",
+    "title": "Mühendis (Çevre Mühendisliği)",
+    "place": "İzmir",
     "count": 2,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -37,12 +38,18 @@
      "B"
     ],
     "other_conditions": [
-     "En az (B) sınıfı sürücü belgesine sahip olmak",
-     "Hizmet sınıfı TH, derece 8",
-     "KPSS (B) grubu"
+     "Hizmet sınıfı TH, pozisyon derecesi 8.",
+     "En az (B) sınıfı sürücü belgesine sahip olmak.",
+     "Belge: (B) sınıfı sürücü belgesi",
+     "Belge: KPSS sonuç belgesi (2026 KPSS B grubu)",
+     "Belge: Diploma veya mezuniyet belgesi (yurt içi/yurt dışı denkliği olan adaylar için denklik gösterir onaylı belge)",
+     "Belge: Son altı ay içinde çekilmiş 2 adet biyometrik fotoğraf",
+     "Tam zamanlı sözleşmeli personel olarak alınacaktır.",
+     "Sözlü sınavda başarılı sayılmak için en az 60 puan almak gerekir."
     ]
    }
   ],
-  "notes": "Tek satırlı tablo; ilanda toplam sayı açıkça belirtilmemiş, başlıktaki 2 ve tablodaki pozisyon adedi esas alındı. Mühendis unvanı çevre mühendisliği programı olarak belirtilmiş."
- }
+  "notes": "İlanda tek pozisyon var (Karabağlar Belediyesi, İzmir). KPSS taban puanı 'en az 60 puan'. Başvuru e-Devlet / Kariyer Kapısı üzerinden yapılır. Sözlü sınav 16/12/2026."
+ },
+ "reading": 2
 }

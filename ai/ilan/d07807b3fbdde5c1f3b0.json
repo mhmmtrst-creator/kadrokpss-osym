@@ -1,10 +1,10 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "d07807b3fbdde5c1f3b0",
  "institution": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
  "title": "1 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK",
  "range": "23 Kasım - 7 Aralık",
- "read_at": "2026-11-23T13:18:00Z",
+ "read_at": "2026-11-23T18:47:37Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1,
@@ -15,9 +15,10 @@
   "positions": [
    {
     "code": null,
-    "title": "SİSTEM UZMANI (SÖZLEŞMELİ BİLİŞİM PERSONELİ)",
+    "title": "SİSTEM UZMANI",
     "place": "Bilgi İşlem Daire Başkanlığı",
     "count": 1,
+    "places": [],
     "education": [
      "LISANS"
     ],
@@ -40,17 +41,45 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "En az 5 yıl mesleki tecrübe (yazılım veya büyük ölçekli ağ sistemleri)",
-     "Sistem yönetimi alanında en az 5 yıl tecrübe belgelemek",
-     "En az iki güncel programlama dilini bildiğini belgelemek",
-     "İngilizce YDS veya dengi puan belgesi (son 5 yıl)",
-     "Windows Server, Exchange, VMware, Linux, yedekleme vb. konularda tecrübe",
-     "Erkek adaylar için askerlik şartı",
-     "Arşiv araştırmasının olumlu sonuçlanması",
-     "Sağlık kurulu raporu ibraz etmek"
+     "Fakültelerin dört yıllık ilgili mühendislik bölümlerinden ya da bunlara denkliği Yükseköğretim Kurulunca kabul edilmiş yurt dışındaki yükseköğretim kurumlarından mezun olmak.",
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinde belirtilen şartları taşımak.",
+     "Yazılım, yazılım tasarımı ve geliştirilmesi ile bu sürecin yönetimi konusunda veya büyük ölçekli ağ sistemlerinin kurulumu ve yönetimi konusunda en az 5 yıllık mesleki tecrübeye sahip olmak.",
+     "Kamu kurum ve kuruluşlarının büyük ölçekli bilgi işlem birimlerinde veya aynı niteliklere sahip özel sektör kuruluşlarında sistem yönetimi alanında en az 5 yıl tecrübe sahibi olduğunu belgelemek.",
+     "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak kaydıyla güncel programlama dillerinden en az ikisini bildiğini belgelemek.",
+     "Belge: Programlama dillerinin belirtildiği onaylı lisans veya lisansüstü transkript belgesi, mezun olunan bölümden alınan programlama dillerini belirten onaylı yazı, çalışılan yerden alınan onaylı yazı veya doğrulanabilir eğitim sertifikası",
+     "Belge: Mesleki tecrübeyi gösterir belge (SGK hizmet dökümü, HİTAP veya çalışılan kurumdan alınan belge ya da işveren/yönetici onaylı belge)",
+     "Dil: İngilizce YDS puanı veya YÖK tarafından kabul edilen YDS dengi puan; son 5 yıl içinde alınmış olmalı",
+     "Belge: YDS veya denk sınav sonuç belgesi",
+     "Belge: Detaylı özgeçmiş",
+     "Belge: Diploma veya mezuniyet belgesi (denklik durumunda Denklik Gösterir Belge)",
+     "Erkek adaylar için askerlik çağına gelmemiş veya muvazzaf askerlik hizmetini yapmış, ertelemiş, muaf veya yedek sınıfa geçirilmiş olmak.",
+     "Windows Server 2016 ve üzeri sürümlerin kurulumu, yapılandırılması, bakımı ve izlenmesi konularında tecrübe sahibi olmak.",
+     "Microsoft Exchange Server 2016 ve üzeri sürümlerin (Exchange Server SE dâhil) kurulumu, yapılandırılması, sürüm geçişi, DAG yönetimi ve sorun giderilmesi konularında tecrübe sahibi olmak.",
+     "Active Directory, DNS, DHCP, Group Policy, File Server ve RADIUS (NPS, FreeRADIUS vb.) hizmetlerinin kurulumu, yapılandırılması ve sorun giderilmesi konularında tecrübe sahibi olmak.",
+     "VMware vSphere sanallaştırma platformunun (vCenter, ESXi, HA/DRS cluster vb.) kurulumu, yapılandırılması ve yönetimi konularında tecrübe sahibi olmak.",
+     "Linux sunucularda (Ubuntu, Debian, RHEL tabanlı dağıtımlar vb.) kurulum, yapılandırma, sorun giderme, performans iyileştirme, güvenlik sıkılaştırma ve log inceleme konularında tecrübe sahibi olmak.",
+     "Yedekleme altyapılarının (Veeam vb.) kurulumu, yapılandırılması ve yönetimi ile yedekleme politikalarının oluşturulması, saklama sürelerinin yönetimi, offsite yedekleme ve geri dönüş testleri konularında tecrübe sahibi olmak.",
+     "Veri depolama sistemleri, SAN anahtarları ve Fibre Channel ile iSCSI tabanlı depolama ağlarının yapılandırılması ve yönetimi konularında tecrübe sahibi olmak.",
+     "Sunucu donanımları ve yapılandırması (disk, RAID, HBA, ağ kartı vb.) konularında bilgi ve tecrübe sahibi olmak.",
+     "Sunucu güvenliği kapsamında yama yönetimi, sıkılaştırma, antivirüs/uç nokta güvenlik yazılımları (Trend Micro vb.) ve sunucu güvenlik duvarı kuralları konularında tecrübe sahibi olmak.",
+     "PowerShell ile sistem yönetimi ve otomasyon betikleri hazırlama konusunda bilgi ve tecrübe sahibi olmak.",
+     "Failover Cluster yapılandırması ve yönetimi konusunda bilgi sahibi olmak.",
+     "Web ve uygulama sunucularının (IIS, Apache, Nginx, Tomcat vb.) ve web uygulama çalışma ortamlarının (PHP, Java vb.) kurulumu ve yönetimi konularında bilgi sahibi olmak.",
+     "Yük dengeleme (HAProxy vb.) çözümlerinin yapılandırılması ve yönetimi konusunda bilgi sahibi olmak.",
+     "E-posta ağ geçidi ve filtreleme sistemlerinin (Postfix, FortiMail, Proxmox Mail Gateway vb.) yapılandırılması ve yönetimi konusunda bilgi sahibi olmak.",
+     "Güvenlik duvarı, WAF, saldırı tespit/önleme sistemleri, zafiyet tarama, sızma ve stres testleri, SIEM ve log korelasyonu ile şifreleme teknolojileri konularında bilgi sahibi olmak.",
+     "Sistem izleme araçlarının (Zabbix, Grafana, Prometheus vb.) kurulumu ve yönetimi konularında bilgi ve tecrübe sahibi olmak.",
+     "Replikasyon, iş sürekliliği ve felaketten kurtarma (DR) çözümlerinin tasarımı, kurulumu ve işletimi konularında tecrübe sahibi olmak.",
+     "Yürütülen sistemlere ilişkin teknik dokümantasyonu hazırlamak ve güncel tutmak.",
+     "Teknik şartname oluşturma konusunda bilgi sahibi olmak.",
+     "Tercih sebebi: Microsoft rol tabanlı sertifikalardan (Windows Server Hybrid Administrator Associate, Azure Administrator Associate vb.), MCSA/MCSE veya VMware Certified Professional (VCP) sertifikalarından en az birine sahip olmak.",
+     "Sözleşme için arşiv araştırmasının olumlu sonuçlanması ve tam teşekküllü hastaneden alınmış sağlık kurulu raporu ibraz etmek.",
+     "Sıralama: KPSS P3 puanının %70'i ile YDS puanının %30'unun toplamı esas alınır; 10 katı aday sözlü/uygulamalı sınava çağrılır; sınavdan en az 70 puan gerekir.",
+     "KPSS P3 puanı olmayan adayın P3 puanı 70, yabancı dil puanı olmayan adayın yabancı dil puanı 0 sayılır."
     ]
    }
   ],
-  "notes": "Tek pozisyon, tam zamanlı. KPSS yılı: 2025 veya 2026 yıllarında alınan KPSS P3 puanı (tek bir yıl olmadığından kpss_year null bırakıldı). Asgari KPSS puanı belirtilmemiş; KPSS P3 puanının %70'i ile YDS puanının %30'u toplamı esas alınır. Denkliği YÖK'çe kabul edilmiş yurt dışı okullardan mezuniyet de kabul edilir. Yaş sınırı yok."
- }
+  "notes": "KPSS P3 puanı 2025 veya 2026 yıllarında alınmış olmalı (kpss_year tek yıl olmadığı için null bırakıldı). Asgari KPSS puanı belirtilmemiş. Eğitim düzeyi 'dört yıllık fakülte' olduğundan LISANS alındı. Yaş sınırı belirtilmemiş; başvuru 23.11.2026 09:00 – 07.12.2026 13:00."
+ },
+ "reading": 2
 }
