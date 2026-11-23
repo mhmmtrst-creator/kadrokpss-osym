@@ -1,18 +1,1153 @@
 {
- "schema": 1,
+ "schema": 2,
  "id": "289a38a711097e7e0e34",
  "institution": "MİLLİ SAVUNMA BAKANLIĞI",
  "title": "TÜRK SİLAHLI KUVVETLERİNE FAKÜLTE VEYA YÜKSEKOKUL MEZUNLARINDAN 2026 YILI MUVAZZAF ASTSUBAY ADAYI TEMİNİ",
  "range": "2 Kasım - 23 Kasım",
- "read_at": "2026-11-21T21:11:44Z",
+ "read_at": "2026-11-23T16:50:55Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
   "academic": false,
-  "kpss_year": null,
-  "apply_start": null,
-  "apply_end": null,
-  "positions": [],
-  "notes": "İlan belgesi yalnızca '2026 astsubay temini kılavuzu indirmek için tıklayınız.' bağlantısını içeriyor; kadro tablosu, sayı veya şart bulunmuyor. Pozisyonlar dış kılavuzda olduğundan çıkarılamadı."
- }
+  "kpss_year": 2026,
+  "apply_start": "2026-11-02",
+  "apply_end": "2026-11-23",
+  "positions": [
+   {
+    "code": null,
+    "title": "PİYADE KOMANDO",
+    "place": null,
+    "count": 200,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Komando temel eğitiminde başarılı olmak",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TANK",
+    "place": null,
+    "count": 8,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TOPÇU",
+    "place": null,
+    "count": 40,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "HAVA SAVUNMA",
+    "place": null,
+    "count": 40,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "İSTİHBARAT",
+    "place": null,
+    "count": 24,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Kontenjan 23 erkek + 1 kadın",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "İKMAL (KARA HAVACILIĞI)",
+    "place": null,
+    "count": 2,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "YANGIN OPERATÖRÜ (KARA HAVACILIĞI)",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "İSTİHKAM",
+    "place": null,
+    "count": 50,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "İŞ MAKİNELERİ İŞLETMENİ (İSTİHKAM)",
+    "place": null,
+    "count": 4,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "İNŞAAT (İSTİHKAM)",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "İNŞAAT ELEKTRİK TEKNİSYENİ (İSTİHKAM)",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "BİLGİ SİSTEM OPERATÖRÜ (MUHABERE)",
+    "place": null,
+    "count": 6,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ÇKMS OPERATÖRÜ (MUHABERE)",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ELEKTRONİK HARP MUHABERE (MUHABERE)",
+    "place": null,
+    "count": 70,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ELEKTRONİK HARP RADAR (MUHABERE)",
+    "place": null,
+    "count": 20,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "FOTO FİLM (MUHABERE)",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Özel yetenek sınavında en az 70 puan almak",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MUHABERE MERKEZİ (MUHABERE)",
+    "place": null,
+    "count": 20,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TELLİ SİSTEM İŞLETMENİ (MUHABERE)",
+    "place": null,
+    "count": 10,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TELSİZ SİSTEM İŞLETMENİ (MUHABERE)",
+    "place": null,
+    "count": 40,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "FAYDALI YÜK İŞLETMENİ (İHA)",
+    "place": null,
+    "count": 6,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Kontenjan 5 erkek + 1 kadın",
+     "Ek sağlık raporu: İHA Faydalı Yük İşletmeni Olarak Görev Yapar",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "BAKIM TEKNİSYENİ (MOTOR MEKANİK) (İHA)",
+    "place": null,
+    "count": 8,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "AVİYONİK SİSTEM TEKNİSYENİ (ELEKTRİK-ELEKTRONİK) (İHA)",
+    "place": null,
+    "count": 6,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Ek sağlık raporu: İHA Uçuş ve Yer Sistemleri Teknisyeni Olarak Görev Yapar",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "YER SİSTEM TEKNİSYENİ (İHA)",
+    "place": null,
+    "count": 5,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Muharip sınıf",
+     "Ek sağlık raporu: İHA Uçuş ve Yer Sistemleri Teknisyeni Olarak Görev Yapar",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ULAŞTIRMA",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "İKMAL (YARDIMCI SINIF)",
+    "place": null,
+    "count": 21,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Kontenjan 20 erkek + 1 kadın",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MÜHİMMAT",
+    "place": null,
+    "count": 30,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "PERSONEL",
+    "place": null,
+    "count": 10,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Kontenjan 9 erkek + 1 kadın",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MALİYE",
+    "place": null,
+    "count": 7,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Kontenjan 6 erkek + 1 kadın",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "HARİTA TEKNİSYENİ",
+    "place": null,
+    "count": 2,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Kontenjan 1 erkek + 1 kadın",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ELEKTRO OPTİK TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ELEKTRONİK VE HABERLEŞME SİSTEM TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 20,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "İŞ MAKİNELERİ TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 6,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "K/M TOP/OBÜS TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 6,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEMEL BAKIM (BAKIM)",
+    "place": null,
+    "count": 4,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ÖZEL SİLAH TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 2,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "SAHRA HİZMETLERİ MALZEMELERİ TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 2,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "SİLAH TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 4,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKERLEKLİ ARAÇ TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 50,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TANK TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 5,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ZIRHLI ARAÇ TEKNİSYENİ (BAKIM)",
+    "place": null,
+    "count": 20,
+    "places": [],
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": null,
+    "age_rule": "Ön lisans: 25 yaşından büyük olmamak (01.01.2001 ve sonrası doğumlu); lisans: 27 yaşından büyük olmamak (01.01.1999 ve sonrası doğumlu)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yardımcı sınıf",
+     "Boy-kilo sınırları (Tablo-4)",
+     "Fiziki yeterlilik testi ve mülakatta başarılı olmak"
+    ]
+   }
+  ],
+  "notes": "İlan sayfası yalnızca 2026 Muvazzaf Astsubay Temini kılavuzuna bağlantı veriyor; kılavuz 2026 yılına ait olduğundan kullanıldı. Kılavuzda yalnızca Tablo-1'in (K.K.K.lığı) ilk 307 bölüm satırı (s.31-107) verilmiş; Tablo-1'in kalanı, Tablo-2 (Deniz Kuvvetleri) ve Tablo-3 (Hava Kuvvetleri) belgede YOK, bu yüzden Deniz ve Hava Kuvvetleri sınıfları çıkarılamadı. Kadrolar Tablo-1 başlık satırındaki sınıf/branş kontenjanlarından alındı. Her sınıfın hangi bölümleri kabul ettiği X işaretli matriste kaldığından, sütun hizası metinden güvenle okunamadığı için departments boş bırakıldı (bölüm bazlı uygunluk için kılavuzun matrisine bakılmalı). Başlıktaki kontenjanların ön lisans ve lisans toplamı mı yoksa yalnızca lisans mı olduğu belirsiz; kılavuz kontenjanın %80'inin ön lisans, %20'sinin lisans mezunlarına ayrıldığını söylüyor. Ön lisans için KPSS P93 (2026), lisans için KPSS P3 (2025 veya 2026), en az 60 puan; kpss_year 2026 olarak işaretlendi. Yaş sınırı mezuniyet düzeyine göre değiştiği için age_years boş, kural age_rule içinde. İlan toplamı belgede verilmediği için declared_total null. Başvuru 02-23 Kasım 2026 (saat 17.30'a kadar). Kadın kontenjanı olan sınıflarda sayı erkek+kadın toplamı olarak verildi. Kılavuzdaki 'ERKEK' etiketi sütun başlığındaki kontenjan metninden alındı. Bazı sınıf adlarında yıldız (*) var, anlamı belgede açıklanmamış."
+ },
+ "ekler": [
+  "https://personeltemin.msb.gov.tr/Genel/HVLDokuman/DosyaIndir?pDosyaNo=3942&pDokKayitNo=2841"
+ ]
 }

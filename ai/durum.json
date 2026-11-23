@@ -14,6 +14,7 @@
    "title": "1 MEMUR ALACAK"
   },
   "0fb15a671981386d9169": {
+   "ekler_denendi": true,
    "institution": "SAHİL GÜVENLİK KOMUTANLIĞI",
    "range": "16 Kasım - 27 Kasım",
    "seen": "2026-11-23",
@@ -56,6 +57,10 @@
    "title": "4 MEMUR ALACAK"
   },
   "289a38a711097e7e0e34": {
+   "ekler": [
+    "https://personeltemin.msb.gov.tr/Genel/HVLDokuman/DosyaIndir?pDosyaNo=3942&pDokKayitNo=2841"
+   ],
+   "ekler_denendi": true,
    "institution": "MİLLİ SAVUNMA BAKANLIĞI",
    "range": "2 Kasım - 23 Kasım",
    "seen": "2026-11-23",
@@ -116,6 +121,7 @@
    "title": "4 SÖZLEŞMELİ UZMAN PERSONEL ALACAK"
   },
   "5dcb610a1599b15ae894": {
+   "ekler_denendi": true,
    "institution": "MİLLİ SAVUNMA BAKANLIĞI",
    "range": "23 Kasım - 27 Kasım",
    "seen": "2026-11-23",
@@ -146,6 +152,7 @@
    "title": "1 MEMUR ALACAK"
   },
   "828ede5142024b42f0af": {
+   "ekler_denendi": true,
    "institution": "ASARCIK BELEDİYE BAŞKANLIĞI",
    "range": "1 Aralık - 3 Aralık",
    "seen": "2026-11-23",
@@ -200,6 +207,7 @@
    "title": "2 SÖZLEŞMELİ PERSONEL ALACAK"
   },
   "9f31c908d7d8baf0e022": {
+   "ekler_denendi": true,
    "institution": "DOĞANYOL BELEDİYE BAŞKANLIĞI",
    "range": "2 Aralık - 4 Aralık",
    "seen": "2026-11-23",
@@ -296,6 +304,10 @@
    "title": "1 SÖZLEŞMELİ PERSONEL ALACAK"
   },
   "e91bb54b66163cab35bf": {
+   "ekler": [
+    "https://personeltemin.msb.gov.tr/Genel/HVLDokuman/DosyaIndir?pDosyaNo=3910&pDokKayitNo=2830"
+   ],
+   "ekler_denendi": true,
    "institution": "MİLLİ SAVUNMA BAKANLIĞI",
    "range": "2 Kasım - 23 Kasım",
    "seen": "2026-11-23",
@@ -314,6 +326,7 @@
    "title": "4 MEMUR ALACAK"
   },
   "f7e5c77da55169aa3357": {
+   "ekler_denendi": true,
    "institution": "HAZİNE VE MALİYE BAKANLIĞI",
    "range": "23 Kasım - 4 Aralık",
    "seen": "2026-11-23",
@@ -340,6 +353,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 2.6853
+  "2026-11": 3.4078
  }
 }
