@@ -1,0 +1,1343 @@
+{
+ "schema": 1,
+ "id": "3894f29294e6d0a6c75f",
+ "institution": "JANDARMA GENEL KOMUTANLIĞI",
+ "title": "9000 UZMAN ERBAŞ TEMİN EDİLECEKTİR.",
+ "range": "23 Kasım - 7 Aralık",
+ "read_at": "2026-11-23T13:18:00Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 9000,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-23",
+  "apply_end": "2026-12-07",
+  "positions": [
+   {
+    "code": "1",
+    "title": "UZMAN ERBAŞ (JANDARMA)",
+    "place": null,
+    "count": 8174,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Lisans P3, ön lisans P93, ortaöğretim P94",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat",
+     "Güvenlik soruşturması olumlu olmak",
+     "Bölüm/program şartı aranmaz"
+    ]
+   },
+   {
+    "code": "2",
+    "title": "UZMAN ERBAŞ (AT BAKICISI)",
+    "place": null,
+    "count": 3,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2/3/4'e göre",
+     "Lisans P3, ön lisans P93, ortaöğretim P94",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "3",
+    "title": "UZMAN ERBAŞ (BOT SERDÜMENİ)",
+    "place": null,
+    "count": 3,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2/3/4'e göre",
+     "Lisans P3, ön lisans P93, ortaöğretim P94",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "4",
+    "title": "UZMAN ERBAŞ (KURBAĞA ADAM)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2/3'e göre",
+     "Birinci Sınıf Dalgıç Belgesi",
+     "TSSF(CMAS) 3 Yıldız Dalıcı Belgesi",
+     "En az 200 saat onaylı dalış kaydı",
+     "'Kurbağaadam Olur' sağlık raporu ayrıca gerekli",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "5",
+    "title": "UZMAN ERBAŞ (SIHHİYECİ)",
+    "place": null,
+    "count": 200,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2/3/4'e göre",
+     "Lisans P3, ön lisans P93, ortaöğretim P94",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "6",
+    "title": "UZMAN ERBAŞ (MUHABERE)",
+    "place": null,
+    "count": 100,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2/3/4'e göre",
+     "Lisans P3, ön lisans P93, ortaöğretim P94",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "7",
+    "title": "UZMAN ERBAŞ (HAVACILIK - UÇAK/HELİKOPTER TEKNİSYEN YRDC.)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2/3'e göre",
+     "Lisans P3, ön lisans P93",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "8",
+    "title": "UZMAN ERBAŞ (HAVACILIK - HAVACILIK İTFAİYECİSİ)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-3'e göre",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "9",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - AHŞAP DOĞRAMACI VE KAPLAMACI)",
+    "place": null,
+    "count": 3,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5 ustalık/kalfalık/MYK), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "10",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - AŞÇI)",
+    "place": null,
+    "count": 60,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "11",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - BAYAN KUAFÖRÜ)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile lisans, ön lisans ve ortaöğretim (Tablo-2/3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "12",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - BERBER)",
+    "place": null,
+    "count": 60,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile lisans, ön lisans ve ortaöğretim (Tablo-2/3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5; iş yeri açma belgesi de kabul), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "13",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - BETONARME DEMİRCİSİ)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "14",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - BEYAZ EŞYA TAMİRCİSİ)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "15",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - BOYA VE ALÇICI)",
+    "place": null,
+    "count": 25,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "16",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - ÇATI USTASI)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "17",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - DOZER OPERATÖRÜ)",
+    "place": null,
+    "count": 2,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [
+     "G"
+    ],
+    "other_conditions": [
+     "Yalnızca belge ile: MEB onaylı Dozer operatörü belgesi (105.03) veya G sınıfı Dozer sürücü belgesi",
+     "İlköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "18",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - DUVARCI)",
+    "place": null,
+    "count": 10,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "19",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - FAYANSÇI)",
+    "place": null,
+    "count": 10,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "20",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - FIRINCI)",
+    "place": null,
+    "count": 15,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "21",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - GREYDER OPERATÖRÜ)",
+    "place": null,
+    "count": 2,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [
+     "G"
+    ],
+    "other_conditions": [
+     "Yalnızca belge ile: MEB onaylı Greyder operatörü belgesi veya G sınıfı Greyder sürücü belgesi (105.07)",
+     "İlköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "22",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - ISITMA VE TESİSAT ELEMANI)",
+    "place": null,
+    "count": 25,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "23",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - İNŞAAT KALIPÇISI)",
+    "place": null,
+    "count": 10,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "24",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - İŞ MAKİNELERİ TAMİRCİSİ)",
+    "place": null,
+    "count": 1,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Yalnızca belge ile (Tablo-5): MEB onaylı ustalık/kalfalık/iş yeri açma veya MYK belgesi",
+     "İlköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "25",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - JENERATÖR TAMİRCİSİ)",
+    "place": null,
+    "count": 30,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile lisans, ön lisans ve ortaöğretim (Tablo-2/3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "26",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - KAPORTACI)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "27",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - KASAP)",
+    "place": null,
+    "count": 15,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "28",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - KAZICI YÜKLEYİCİ OPERATÖRÜ)",
+    "place": null,
+    "count": 10,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [
+     "G"
+    ],
+    "other_conditions": [
+     "Yalnızca belge ile: MEB onaylı Beko Loder/Kazıcı Yükleyici operatörlük belgesi veya G sınıfı sürücü belgesi (105.30 veya 105.02)",
+     "İlköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "29",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - MERMERCİ)",
+    "place": null,
+    "count": 5,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "30",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - OPTİK / ELEKTRO OPTİK SİS. TAMİRCİSİ)",
+    "place": null,
+    "count": 3,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "31",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - OTO BOYACI)",
+    "place": null,
+    "count": 10,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "32",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - OTO DÖŞEMECİ)",
+    "place": null,
+    "count": 10,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "33",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - OTO ELEKTRİKÇİ)",
+    "place": null,
+    "count": 30,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile lisans, ön lisans ve ortaöğretim (Tablo-2/3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5; iş yeri açma belgesi de kabul), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "34",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - OTO LASTİK TAMİRCİSİ)",
+    "place": null,
+    "count": 20,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "35",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - OTO TAMİRCİSİ)",
+    "place": null,
+    "count": 60,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile lisans, ön lisans ve ortaöğretim (Tablo-2/3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5; iş yeri açma belgesi de kabul), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "36",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - SIHHİ TESİSATÇI)",
+    "place": null,
+    "count": 30,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ön lisans ve ortaöğretim (Tablo-3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "37",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - SIVACI)",
+    "place": null,
+    "count": 10,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "38",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - SU YALITIMCISI)",
+    "place": null,
+    "count": 3,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile yalnızca ortaöğretim (Tablo-4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "39",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - TERZİ)",
+    "place": null,
+    "count": 15,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3",
+     "P93",
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 50,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "KPSS ile lisans, ön lisans ve ortaöğretim (Tablo-2/3/4)",
+     "Alternatif: KPSS'siz belge ile (Tablo-5), ilköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "40",
+    "title": "UZMAN ERBAŞ (LOJİSTİK - VİNÇ OPERATÖRÜ)",
+    "place": null,
+    "count": 1,
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS",
+     "LISANS"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [
+     "G"
+    ],
+    "other_conditions": [
+     "Yalnızca belge ile: MEB onaylı Vinç operatörü belgesi veya G sınıfı sürücü belgesi (105.10, 105.31)",
+     "İlköğretim mezunu da başvurabilir",
+     "Uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu"
+    ]
+   },
+   {
+    "code": "41",
+    "title": "UZMAN ERBAŞ (BANDO - PİYANİST)",
+    "place": null,
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2'ye göre",
+     "Bando uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "42",
+    "title": "UZMAN ERBAŞ (BANDO - SOLİST)",
+    "place": null,
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2'ye göre",
+     "Bando uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "43",
+    "title": "UZMAN ERBAŞ (BANDO - TONMAYSTER)",
+    "place": null,
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2'ye göre",
+     "Bando uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "44",
+    "title": "UZMAN ERBAŞ (BANDO - VURMALI ÇALGILAR İCRACISI)",
+    "place": null,
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2'ye göre",
+     "Bando uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   },
+   {
+    "code": "45",
+    "title": "UZMAN ERBAŞ (BANDO - YAYLI ÇALGILAR İCRACISI)",
+    "place": null,
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": false,
+    "gender": "ERKEK",
+    "age_years": 27,
+    "age_rule": "20 yaşından gün almış olmak ve 27 yaşını bitirmemiş olmak (01 Ocak 1999 - 01 Ocak 2007 arası doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Bölüm/program Tablo-2'ye göre",
+     "Bando uygulama sınavı (en az 24/50)",
+     "Boy 167-210 cm, kilo Tablo-7'ye uygun",
+     "'Uzman Erbaş Olur' sağlık kurulu raporu",
+     "Fiziki yeterlilik sınavı ve mülakat"
+    ]
+   }
+  ],
+  "notes": "Toplam 9.000 kontenjan Tablo-1'de 45 mesleki nitelik satırı olarak verilmiştir. Şehit/vazife malulü eş veya çocuklarına ayrılan 180 kontenjan bu toplamın içindedir; bu adaylarda KPSS taban puanı %80 olup jandarma, muhabere, havacılık ve bando için 48, lojistik için 40'tır. KPSS yılı 2025 veya 2026'dan biri olabilir (her iki yıl varsa yüksek puan kullanılır), bu yüzden kpss_year boş bırakıldı. Lojistik satırlarında KPSS'li başvuru için min 50, belge ile başvuruda KPSS aranmaz. Dozer, Greyder, İş Makineleri Tamircisi, Kazıcı Yükleyici ve Vinç satırları yalnızca belge ile başvurulur. Tablo-2/3/4'teki yüzlerce bölüm/program adı tek tek listelenmedi ve departments boş bırakıldı. Bunlar nitelik bazında ilgili tablolarda işaretlidir. Jandarma satırında bölüm şartı yoktur. Belge ile başvuruda ilköğretim (ortaokul) mezunları da kabul edilir, bu seviye şemada yoktur. Kurbağa adam için ek olarak 'Kurbağaadam Olur' raporu gerekir. Yaş: 01.01.2026 itibarıyla 20 yaşından gün almış ve 27 yaşını bitirmemiş olmak. Silahaltındakiler için nitelik belgesinden en az 80 puan gerekir."
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "schema": 1,
+ "id": "d32f7e417a4fa5af6600",
+ "institution": "ONDOKUZ MAYIS ÜNİVERSİTESİ",
+ "title": "21 SüREKLİ İŞÇİ ALACAK",
+ "range": "23 Kasım - 27 Kasım",
+ "read_at": "2026-11-23T13:18:00Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 21,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": null,
+  "apply_end": null,
+  "positions": [
+   {
+    "code": null,
+    "title": "Sürekli İşçi (Temizlik Görevlisi)",
+    "place": null,
+    "count": 7,
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Kura + Sözlü Sınav",
+     "Açık ve kapalı alanlardaki her türlü temizlik, basit bakım ve onarım, dağıtım, taşıma ve diğer işleri yürütebilmek",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
+     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Sürekli İşçi (Kaynakçı)",
+    "place": null,
+    "count": 2,
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Mesleki ve Teknik Liseler Metal Teknolojisi alanı (Kaynakçılık) dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Kura + Uygulamalı Sınav",
+     "Alternatif olarak 3308 sayılı Kanun'a göre Kaynakçılık Ustalık belgesine sahip olmak",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
+     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Sürekli İşçi (Oto Bakım Onarımcısı-Otomotiv Mekanikçisi)",
+    "place": null,
+    "count": 2,
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Mesleki ve Teknik Liseler Motorlu Araçlar Teknolojisi alanı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Kura + Uygulamalı Sınav",
+     "Alternatif olarak 3308 sayılı Kanun'a göre Oto Bakım-Onarımcısı (Otomotiv Mekanikerliği) Ustalık belgesine sahip olmak",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
+     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Sürekli İşçi (Elektrikçi-Genel)",
+    "place": null,
+    "count": 4,
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Mesleki ve Teknik Liseler Elektrik-Elektronik Teknolojisi alanı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Kura + Uygulamalı Sınav",
+     "Alternatif olarak 3308 sayılı Kanun'a göre Elektrik Tesisatçısı/Elektrik Tesisat ve Pano Montörü Ustalık belgesine sahip olmak",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
+     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Sürekli İşçi (Tarım İşçisi-Tarla Ürünleri)",
+    "place": null,
+    "count": 2,
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Kura + Sözlü Sınav",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
+     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Sürekli İşçi (Park Bahçe Görevlisi - Bahçe Bakım elemanı Park Bahçe ve Koruların Bakımı)",
+    "place": null,
+    "count": 2,
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Kura + Sözlü Sınav",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
+     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+    ]
+   },
+   {
+    "code": null,
+    "title": "Sürekli İşçi (Mutfak Görevlisi)",
+    "place": null,
+    "count": 2,
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "Kura + Sözlü Sınav",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
+     "Samsun il merkezi ve ilçelerinde ikamet etmek"
+    ]
+   }
+  ],
+  "notes": "Tablodaki satır toplamı 7+2+2+4+2+2+2=21, ilan metnindeki 21 ile uyumlu. KPSS şartı aranmıyor (kura usulü). Başvuru İŞKUR ilanından itibaren 5 gün içinde yapılır; kesin tarih belgede yok. Görev yeri satırlarda belirtilmemiş (Samsun'da ikamet şartı var). Eski hükümlü ve terörle mücadelede malul sayılmayacak şekilde yaralananlar kontenjanı için alım yapılıyor (mevzuat gereği)."
+ }
+}

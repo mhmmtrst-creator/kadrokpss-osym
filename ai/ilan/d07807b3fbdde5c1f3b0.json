@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "id": "d07807b3fbdde5c1f3b0",
+ "institution": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+ "title": "1 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK",
+ "range": "23 Kasım - 7 Aralık",
+ "read_at": "2026-11-23T13:18:00Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 1,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-11-23",
+  "apply_end": "2026-12-07",
+  "positions": [
+   {
+    "code": null,
+    "title": "SİSTEM UZMANI (SÖZLEŞMELİ BİLİŞİM PERSONELİ)",
+    "place": "Bilgi İşlem Daire Başkanlığı",
+    "count": 1,
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektrik-Elektronik Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "En az 5 yıl mesleki tecrübe (yazılım veya büyük ölçekli ağ sistemleri)",
+     "Sistem yönetimi alanında en az 5 yıl tecrübe belgelemek",
+     "En az iki güncel programlama dilini bildiğini belgelemek",
+     "İngilizce YDS veya dengi puan belgesi (son 5 yıl)",
+     "Windows Server, Exchange, VMware, Linux, yedekleme vb. konularda tecrübe",
+     "Erkek adaylar için askerlik şartı",
+     "Arşiv araştırmasının olumlu sonuçlanması",
+     "Sağlık kurulu raporu ibraz etmek"
+    ]
+   }
+  ],
+  "notes": "Tek pozisyon, tam zamanlı. KPSS yılı: 2025 veya 2026 yıllarında alınan KPSS P3 puanı (tek bir yıl olmadığından kpss_year null bırakıldı). Asgari KPSS puanı belirtilmemiş; KPSS P3 puanının %70'i ile YDS puanının %30'u toplamı esas alınır. Denkliği YÖK'çe kabul edilmiş yurt dışı okullardan mezuniyet de kabul edilir. Yaş sınırı yok."
+ }
+}
