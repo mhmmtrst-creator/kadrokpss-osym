@@ -319,10 +319,9 @@ def request_params(pdf: bytes, institution: str, title: str, extra: list = (), c
         ask += (" İlk belge ilanın kendisi; ötekiler ilanın bağlantı verdiği kılavuz ve ekler. Kadrolar ilanda değil de bu"
                 " belgelerdeyse onlardan çıkar. Bu ilana ait olmayan (başka yıl, başka alım) bir belgeyi kullanma ve notlarda söyle.")
     content.append({"type": "text", "text": f"Kurum: {institution}\nİlan başlığı: {title}\n{ask}"})
-    pages = page_count(pdf) + sum(page_count(d) for _, d in extra)
     config = {"format": {"type": "json_schema", "schema": SCHEMA}}
-    if cut or pages >= 30:
-        config["effort"] = "low" if cut >= 2 else "medium"
+    # Düşünme payı azaltılmaz: orta ayarda Jandarma 9000'in 45 kadrosu 10'a indi, İçişleri 1170'te hiç kadro yazılmadı
+    # (2026-11-23). Yanıt sınırı 128 bin; çok büyük tablolar (X işaretli bölüm tabloları) ayrıca okunur.
     return {
         "model": MODEL,
         "max_tokens": 128000,
