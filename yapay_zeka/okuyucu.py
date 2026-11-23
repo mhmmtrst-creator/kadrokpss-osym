@@ -305,7 +305,9 @@ def trimmed(pdf: bytes, room: int) -> bytes:
 
 # ---------------------------------------------------------------- Claude
 
-def request_params(pdf: bytes, institution: str, title: str, extra: list = ()) -> dict:
+def request_params(pdf: bytes, institution: str, title: str, extra: list = (), cut: int = 0) -> dict:
+    """cut: bu ilanın yanıtı kaç kez sınırda kesildi. Büyük belgede ve kesilmiş ilanda düşünme payı azaltılır ki
+    yanıtın tamamı (yüzlerce bölüm adı) sınıra sığsın (Jandarma 9000, 2026-11-23: 100 bin tokenin 80 bini düşünmeye gitti)."""
     def doc(data: bytes) -> dict:
         return {"type": "document", "source": {"type": "base64", "media_type": "application/pdf", "data": base64.standard_b64encode(data).decode("ascii")}}
     content = [doc(pdf)]
@@ -317,11 +319,15 @@ def request_params(pdf: bytes, institution: str, title: str, extra: list = ()) -
         ask += (" İlk belge ilanın kendisi; ötekiler ilanın bağlantı verdiği kılavuz ve ekler. Kadrolar ilanda değil de bu"
                 " belgelerdeyse onlardan çıkar. Bu ilana ait olmayan (başka yıl, başka alım) bir belgeyi kullanma ve notlarda söyle.")
     content.append({"type": "text", "text": f"Kurum: {institution}\nİlan başlığı: {title}\n{ask}"})
+    pages = page_count(pdf) + sum(page_count(d) for _, d in extra)
+    config = {"format": {"type": "json_schema", "schema": SCHEMA}}
+    if cut or pages >= 30:
+        config["effort"] = "low" if cut >= 2 else "medium"
     return {
         "model": MODEL,
-        "max_tokens": 100000,
+        "max_tokens": 128000,
         "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
-        "output_config": {"format": {"type": "json_schema", "schema": SCHEMA}},
+        "output_config": config,
         "messages": [{"role": "user", "content": content}],
     }
 
@@ -386,6 +392,8 @@ def collect(client, state: dict, quiet: bool = False) -> None:
                 state["spent"][month()] = round(state["spent"].get(month(), 0.0) + cost_of(r.result.message.usage), 4)
             if not ok:
                 state["attempts"][lid] = state["attempts"].get(lid, 0) + 1
+                if r.result.type == "succeeded" and r.result.message.stop_reason == "max_tokens":
+                    meta["kesildi"] = meta.get("kesildi", 0) + 1
                 print(f"Okunamadı ({r.result.type}): {meta.get('institution', lid)} - {meta.get('title', '')}")
                 continue
             text = next(x.text for x in r.result.message.content if x.type == "text")
@@ -478,7 +486,7 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
                 continue
             meta["ekler"] = [u for u, _ in extra]
             print(f"Bağlantılı belgelerle yeniden okunacak: {l['institution']} - {l['title']} ({len(extra)} belge)")
-        requests.append({"custom_id": l["id"], "params": request_params(pdf, l["institution"], l["title"], extra)})
+        requests.append({"custom_id": l["id"], "params": request_params(pdf, l["institution"], l["title"], extra, meta.get("kesildi", 0))})
         time.sleep(1.5)
     if not requests:
         return
