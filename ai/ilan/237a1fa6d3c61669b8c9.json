@@ -4,7 +4,7 @@
  "institution": "İÇİŞLERİ BAKANLIĞI",
  "title": "1170 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "7 Aralık - 11 Aralık",
- "read_at": "2026-11-23T18:55:03Z",
+ "read_at": "2026-11-23T13:24:55Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1170,
@@ -12,8 +12,4237 @@
   "kpss_year": 2026,
   "apply_start": "2026-12-07",
   "apply_end": "2026-12-11",
-  "positions": [],
-  "notes": "Bu ilanın pozisyon dağılım tabloları (Ek-1/a merkez 119, Ek-1/b valilik 522, Ek-1/c ilçe 529 = toplam 1.170) çok sayıda satır içeren büyük görsel tablolardır; bunların tamamı güvenilir biçimde satır satır çıkarılamadığından pozisyon listesi boş bırakılmıştır. Genel şartlar: KPSS 2026 (B) grubu; lisans P3, ön lisans P93, lise P94, en az 60 puan; ilan edilen sayının 4 katı aday sözlü sınava alınır. Başvuru 07-11 Aralık 2026 (saat 16.00'ya kadar), e-Devlet üzerinden. Unvanlar: Arşiv Uzmanı, Avukat, Programcı (YDS D düzeyi İngilizce), Mimar, Mühendis (Elektrik-Elektronik, Makine, Bilgisayar, İnşaat, Maden, Çevre), Psikolog, Tekniker, Teknisyen, Diğer Teknik Hizmet Personeli (Grafiker, İstatistikçi), Büro Personeli, Çağrı Karşılama Personeli, Destek Personeli (Şoför B sınıfı ehliyet, Temizlik, Aşçı vb.), Koruma ve Güvenlik Görevlisi (Silahlı, 35 yaş sınırı, 01/01/1992 sonrası doğumlu)."
+  "positions": [
+   {
+    "code": null,
+    "title": "ARŞİV UZMANI",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 7
+     },
+     {
+      "place": "MERKEZ/Personel GM",
+      "count": 2
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Bilgi ve Belge Yönetimi",
+     "Arşivcilik",
+     "Arşiv",
+     "Dokümantasyon ve Enformasyon",
+     "Dökümantasyon ve Enformasyon",
+     "Kütüphanecilik"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Programında Osmanlı Paleografyası, Arapça veya Farsça derslerinden en az birine yer veren lisans bölümü mezunları da başvurabilir (onaylı transkript)",
+     "Kamu kurumlarında Arşiv Uzmanı pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "AVUKAT",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 1
+     },
+     {
+      "place": "MERKEZ/Personel GM",
+      "count": 1
+     },
+     {
+      "place": "MERKEZ/Hukuk Hizmetleri GM",
+      "count": 2
+     },
+     {
+      "place": "MERKEZ/Bilgi Teknolojileri GM",
+      "count": 1
+     },
+     {
+      "place": "HATAY/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KAHRAMANMARAŞ/İl Yazı İşleri",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Hukuk Fakültesi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Barodan veya noterden onaylı Avukatlık ruhsatnamesine sahip olmak",
+     "Kamu kurumlarında Avukat pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "PSİKOLOG",
+    "place": "MERKEZ/112 Acil Çağrı ve Koordinasyon GM",
+    "count": 1,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Psikoloji",
+     "Davranış Bilimleri-Psikoloji Disiplini"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Psikolog pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "PROGRAMCI",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ADIYAMAN/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BURDUR/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "HATAY/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KAHRAMANMARAŞ/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KIRKLARELİ/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KÜTAHYA/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MALATYA/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "NİĞDE/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TRABZON/İl Yazı İşleri",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Bilgisayar ve Yazılım Mühendisliği",
+     "Kontrol ve Bilgisayar Mühendisliği",
+     "Bilgisayar ve Enformatik",
+     "Bilgisayar ve Enformasyon Sistemleri",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Elektronik ve Haberleşme Mühendisliği",
+     "Bilişim Sistemleri Mühendisliği",
+     "Endüstri Mühendisliği",
+     "Matematik",
+     "Fizik",
+     "İstatistik",
+     "Bilgisayar Bilimleri",
+     "Bilgisayar Teknolojisi",
+     "Bilgisayar Teknolojisi ve Bilişim Sistemleri",
+     "Bilişim Sistemleri ve Teknolojileri",
+     "Enformasyon Teknolojileri",
+     "Matematik-Bilgisayar",
+     "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "YDS/e-YDS İngilizce en az (D) düzeyinde veya denk uluslararası belge (CPE, CAE, TOEFL İBT, PTE Akademik)",
+     "Kamu kurumlarında Programcı pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MİMAR",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 4
+     },
+     {
+      "place": "HATAY/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "MARDİN/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "VAN/Yatırım İzleme",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Mimarlık"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Mimar pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MÜHENDİS (ELEKTRİK-ELEKTRONİK)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/İl 112",
+      "count": 1
+     },
+     {
+      "place": "ARDAHAN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "ARTVİN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "BATMAN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "BAYBURT/İl 112",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "HATAY/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "KİLİS/İl 112",
+      "count": 1
+     },
+     {
+      "place": "MALATYA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "UŞAK/İl 112",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Elektrik Mühendisliği",
+     "Elektronik Mühendisliği",
+     "Mikroelektronik Mühendisliği",
+     "Elektrik-Elektronik Mühendisliği",
+     "Elektrik ve Elektronik Mühendisliği",
+     "Elektrik Elektronik Mühendisliği",
+     "Elektronik ve Haberleşme Mühendisliği",
+     "Telekomünikasyon Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Mühendis pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MÜHENDİS (MAKİNE)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 1
+     },
+     {
+      "place": "AYDIN/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "HATAY/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "MANİSA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "MARDİN/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "SAKARYA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "TRABZON/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "VAN/Yatırım İzleme",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Makine Mühendisliği",
+     "Makine ve İmalat Mühendisliği",
+     "Makine ve Malzeme Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Mühendis pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MÜHENDİS (ÇEVRE)",
+    "place": "MERKEZ/İller İdaresi GM",
+    "count": 1,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Çevre Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Mühendis pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MÜHENDİS (İNŞAAT)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 1
+     },
+     {
+      "place": "ADANA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/Yatırım İzleme",
+      "count": 2
+     },
+     {
+      "place": "ANTALYA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "AYDIN/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "BALIKESİR/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "BURSA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "ESKİŞEHİR/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "HATAY/Yatırım İzleme",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/Yatırım İzleme",
+      "count": 3
+     },
+     {
+      "place": "İZMİR/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "KAHRAMANMARAŞ/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "KONYA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "MALATYA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "MARDİN/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "MERSİN/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "ORDU/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN/Yatırım İzleme",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "İnşaat Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Mühendis pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MÜHENDİS (BİLGİSAYAR)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERSİN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "VAN/İl 112",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Bilgisayar Bilimi ve Mühendisliği",
+     "Bilgisayar Bilimleri ve Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Mühendis pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "MÜHENDİS (MADEN)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "BALIKESİR/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "HATAY/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "KAHRAMANMARAŞ/Yatırım İzleme",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ/Yatırım İzleme",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Maden Mühendisliği",
+     "Maden ve Cevher Hazırlama Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Mühendis pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİKER (ELEKTRİK-ELEKTRONİK)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 1
+     },
+     {
+      "place": "ARTVİN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "BAYBURT/İl 112",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Elektrik",
+     "Elektrik Teknolojisi",
+     "Elektrik Makineleri Bakım ve Onarımı",
+     "Elektrik, Makine, Tamir ve Bakım",
+     "Endüstriyel Elektrik",
+     "Elektronik Teknolojisi",
+     "Deniz Elektroniği",
+     "Elektrik ve Elektronik Teknolojisi",
+     "Elektrik-Elektronik",
+     "Elektrik-Elektronik Teknikerliği",
+     "Elektronik",
+     "Elektronik Yüksek Teknisyenliği",
+     "Endüstriyel Elektronik",
+     "Endüstriyel Elektronik Teknikerliği",
+     "Endüstriyel Elektronik Teknolojisi",
+     "Gemi Elektroniği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Tekniker pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİKER (ELEKTRONİK HABERLEŞME TEKNOLOJİSİ)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 2,
+    "places": [],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Elektronik Haberleşme Teknolojisi",
+     "Elektronik Haberleşme",
+     "Elektronik Haberleşme Teknikerliği",
+     "Endüstriyel Haberleşme",
+     "Haberleşme",
+     "Haberleşme Teknolojisi",
+     "Telekomünikasyon",
+     "Elektronik ve Haberleşme",
+     "Elektronik ve Haberleşme Teknolojisi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Tekniker pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİSYEN (ELEKTRİK-ELEKTRONİK)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 2
+     },
+     {
+      "place": "ARDAHAN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "BAYBURT/İl 112",
+      "count": 2
+     },
+     {
+      "place": "BİTLİS/İl 112",
+      "count": 2
+     },
+     {
+      "place": "ÇANKIRI/İl 112",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Elektrik-Elektronik Teknolojisi Alanı ve Dallarının herhangi biri",
+     "Elektrik Bölümü",
+     "Elektronik Bölümü"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Teknisyen pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİSYEN (MARANGOZ)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 2,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Mobilya Üretim Teknolojisi dalı",
+     "Ahşap Doğrama Teknolojisi dalı",
+     "Mobilya İskeleti ve Döşemesi dalı",
+     "Ahşap Teknolojisi Alanı tüm dalları",
+     "Ağaç İşleri Bölümü",
+     "Mobilyacılık Bölümü",
+     "Mobilya ve Dekorasyon Bölümü"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Teknisyen pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİSYEN (SIHHİ TESİSAT)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 2
+     },
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Tesisat ve Enerji Sistemleri dalı",
+     "Yapı Tesisat Sistemleri dalı",
+     "Tesisat Teknolojisi Bölümü Isıtma ve Sıhhi Tesisat dalı",
+     "Sıhhi Tesisat ve Kalorifer dalı",
+     "Sıhhi Tesisat-Isıtma Bölümü dalları (Sıhhi Tesisat-Kalorifercilik-Isıtma, Isıtma-Havalandırma, Isıtma ve Doğalgaz, Isıtma ve Tesisat)"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Teknisyen pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİSYEN (KLİMA)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 1
+     },
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Soğutma ve İklimlendirme",
+     "Klima Sistemleri",
+     "Merkezi İklimlendirme Sistemleri",
+     "Merkezi İklimlendirme ve Havalandırma Sistemleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Teknisyen pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİSYEN (MOTOR)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 2,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Otomotiv Elektromekanik dalı",
+     "İş Makineleri dalı",
+     "Tarım Makineleri dalı",
+     "Otomotiv Elektro-Mekanik dalı",
+     "Motor Bölümü",
+     "İş Makineleri Bölümü"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Teknisyen pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DİĞER TEKNİK HİZMET PERSONELİ (GRAFİKER)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Personel GM",
+      "count": 1
+     },
+     {
+      "place": "MERKEZ/İç Güvenlik Stratejileri Dairesi Başkanlığı",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Grafik",
+     "Grafik Sanatlar",
+     "Fotoğraf ve Grafik Sanatlar (Grafik)",
+     "Grafik Sanatları",
+     "Grafik Tasarım",
+     "Grafik Tasarımı",
+     "Grafik Sanatlar ve Grafik Tasarım",
+     "Grafik Resimleme ve Baskı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında Diğer Teknik Hizmet Personeli pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DİĞER TEKNİK HİZMET PERSONELİ (İSTATİSTİKÇİ)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 1
+     },
+     {
+      "place": "MERKEZ/İller İdaresi GM",
+      "count": 1
+     },
+     {
+      "place": "MERKEZ/Strateji Geliştirme Başkanlığı",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "İstatistik",
+     "İstatistik ve Yöneylem Araştırması",
+     "İstatistik-Ekonometri",
+     "İstatistik-Ekonometri ve Planlama",
+     "Ekonometri ve İstatistik",
+     "Matematik ve İstatistik",
+     "İstatistik-Matematik",
+     "İstatistik ve Maliye",
+     "Maliye ve İstatistik",
+     "İstatistik ve Siyasi İlimler",
+     "Siyasi İlimler ve İstatistik",
+     "İstatistik ve Sosyal Siyaset",
+     "İstatistik-Sosyal Siyaset"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Dört yıllık fakülte veya yüksekokul mezunu olmak",
+     "Kamu kurumlarında Diğer Teknik Hizmet Personeli pozisyonunda halen görev yapmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (ŞOFÖR)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 10
+     },
+     {
+      "place": "ANKARA/İl Sivil Toplum",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az B sınıfı sürücü belgesine sahip olmak",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (TEMİZLİK GÖREVLİSİ)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 12
+     },
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 11
+     },
+     {
+      "place": "MERKEZ/Sivil Toplumla İlişkiler GM",
+      "count": 2
+     },
+     {
+      "place": "ADANA/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "AFYONKARAHİSAR/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "AĞRI/İl 112",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/İl Sivil Toplum",
+      "count": 3
+     },
+     {
+      "place": "BATMAN/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "ÇANAKKALE/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "ÇANKIRI/İl 112",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "HATAY/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/İl Nüfus",
+      "count": 3
+     },
+     {
+      "place": "İSTANBUL/İl Sivil Toplum",
+      "count": 2
+     },
+     {
+      "place": "İZMİR/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "KIRIKKALE/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "MANİSA/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "MERSİN/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "ADIYAMAN/GERGER Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AFYONKARAHİSAR/DİNAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AĞRI/PATNOS Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AKSARAY/ESKİL Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AMASYA/SULUOVA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/ÇUBUK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AYDIN/SÖKE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BALIKESİR/SUSURLUK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BARTIN/AMASRA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİLECİK/GÖLPAZARI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BOLU/MUDURNU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BURDUR/YEŞİLOVA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BURSA/YENİŞEHİR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇANAKKALE/BİGA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇANKIRI/KURŞUNLU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇORUM/ORTAKÖY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ/HONAZ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DÜZCE/AKÇAKOCA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "EDİRNE/İPSALA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ELAZIĞ/AĞIN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM/YAKUTİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GİRESUN/ESPİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "HATAY/ARSUZ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ISPARTA/KEÇİBORLU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ADALAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/AVCILAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYLİKDÜZÜ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYOĞLU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BÜYÜKÇEKMECE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SULTANGAZİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ŞİLE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/ALİAĞA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/ÇEŞME Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KAHRAMANMARAŞ/AFŞİN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARABÜK/ESKİPAZAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARAMAN/KAZIMKARABEKİR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARS/SELİM Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/CİDE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ/TALAS Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KIRKLARELİ/PINARHİSAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KIRŞEHİR/BOZTEPE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KONYA/ÇUMRA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KÜTAHYA/ASLANAPA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MALATYA/YEŞİLYURT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MANİSA/SARIGÖL Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "NİĞDE/ÇİFTLİK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ORDU/GÖLKÖY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "RİZE/ARDEŞEN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN/19 MAYIS Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİVAS/ŞARKIŞLA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/VİRANŞEHİR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TOKAT/ZİLE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TRABZON/AKÇAABAT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ/ÇEMİŞGEZEK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "UŞAK/ULUBEY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "YALOVA/ARMUTLU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ZONGULDAK/ALAPLI Yazı İşleri",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Lise ve dengi okul mezunu olmak",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (AŞÇI)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 4
+     },
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Yiyecek İçecek Hizmetleri Alanı Mutfak dalı",
+     "Aşçılık dalı",
+     "Yiyecek İçecek Hizmetleri dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Aşçılık mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK hizmet dökümü ve işe giriş bildirgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (AŞÇI-AŞÇI YARDIMCISI)",
+    "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Yiyecek İçecek Hizmetleri Alanı/Yiyecek İçecek Hizmetleri dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Aşçılık (Aşçı Yardımcısı) mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (GARSON)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Yiyecek İçecek Hizmetleri Alanı Servis dalı",
+     "Yiyecek İçecek Hizmetleri dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Garson mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (BULAŞIKÇI)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 5,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Lise ve dengi okul mezunu olmak",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (AŞÇI-TATLI USTASI)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Yiyecek İçecek Hizmetleri Alanı Pasta ve Tatlı Yapımı dalı",
+     "Yiyecek İçecek Hizmetleri dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Aşçılık (Tatlı Ustası) mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (AŞÇI-PİDE USTASI)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Yiyecek İçecek Hizmetleri Alanı Pasta ve Tatlı Yapımı dalı",
+     "Yiyecek İçecek Hizmetleri dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Aşçılık (Pide Ustası) mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (AŞÇI-KEBAP USTASI)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Yiyecek İçecek Hizmetleri Alanı Mutfak dalı",
+     "Aşçılık dalı",
+     "Yiyecek İçecek Hizmetleri dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Aşçılık (Kebap Ustası) mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (AŞÇI-KASAP)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Yiyecek İçecek Hizmetleri Alanı Mutfak dalı",
+     "Aşçılık dalı",
+     "Yiyecek İçecek Hizmetleri dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Aşçılık (Kasap) mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (TAŞ USTASI)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "İnşaat Teknolojisi Alanı Yapı Dekorasyonculuğu dalı",
+     "Yapı Yüzey Kaplama ve Yalıtım dalı",
+     "Yapı Yüzey Kaplama dalı",
+     "Cephe Sistemleri ve PVC Doğrama dalı",
+     "Üst Yapı-İnşaat dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse Taş Ustası mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (BOYACI-BADANACI)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 2,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "İnşaat Teknolojisi Alanı Yapı İç Mekan Dekorasyonu dalı",
+     "Yapı Dekorasyonculuğu dalı",
+     "Yapı Yüzey Kaplama ve Yalıtım dalı",
+     "Yapı Yüzey Kaplama dalı",
+     "Kagir Yapı (Sıva Badana ve Boyacılık) dalı",
+     "Üst Yapı dalı",
+     "Üst Yapı-İnşaat dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Boyacı-Badanacı mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (KALORİFERCİ)",
+    "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+    "count": 2,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Tesisat Teknolojisi ve İklimlendirme Alanı Tesisat ve Enerji dalı",
+     "Yapı Tesisat Sistemleri dalı",
+     "Sıhhi Tesisat Alanı Isıtma dalı",
+     "Kalorifercilik-Isıtma dalı",
+     "Isıtma ve Havalandırma dalı",
+     "Isıtma-Doğalgaz İç Tesisatçılığı dalı",
+     "Isıtma-Doğalgaz Yakıcı Cihazları Bakım ve Onarımı dalı",
+     "Isıtma-Doğalgaz Şebeke Tesisatçılığı dalı",
+     "Isıtma ve Tesisat dalı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup onaylı 'Doğalgaz yakıtlı kalorifer ateşçisi' sertifikası veya ustalık/kalfalık belgesine sahip olmak",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (BAHÇIVAN)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Destek Hizmetleri Dairesi Başkanlığı",
+      "count": 1
+     },
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 2
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Bahçecilik Alanı ve Dalları",
+     "Süs Bitkileri",
+     "Tarım",
+     "Tarım/Ziraat",
+     "Genel Ziraat",
+     "Ziraat",
+     "Tarım Teknolojileri",
+     "Makine-Tarım Teknolojisi",
+     "Tarım Teknolojisi",
+     "Peyzaj"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Alan/dal mezunu değilse herhangi bir ortaöğretim mezunu olup Bahçıvan mesleğinde en az 3 yıl (1080 gün) çalışmış olmak (SGK belgesi)",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "KORUMA VE GÜVENLİK GÖREVLİSİ (SİLAHLI)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Nüfus ve Vatandaşlık İşleri GM",
+      "count": 5
+     },
+     {
+      "place": "İSTANBUL/İl Sivil Toplum",
+      "count": 2
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sözlü sınavın yapıldığı yılın ocak ayının birinci günü itibarıyla 35 yaşını doldurmamış olmak (01/01/1992 sonrasında doğanlar)",
+    "license_classes": [],
+    "other_conditions": [
+     "Geçerlilik süresi dolmamış özel güvenlik görevlisi kimlik kartı (silahlı ibareli)",
+     "Özel güvenlik temel eğitimini tamamlamış olmak",
+     "Güvenlik soruşturması olumlu olmak",
+     "5188 sayılı Kanun md.10 ve Yönetmelik md.18 şartlarını taşımak",
+     "Kazananlardan 'özel güvenlik görevlisi olur' sağlık raporu istenir",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "BÜRO PERSONELİ (LİSANS)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/Personel GM",
+      "count": 8
+     },
+     {
+      "place": "ANKARA/İl Yazı İşleri",
+      "count": 6
+     },
+     {
+      "place": "ANKARA/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "ANKARA/İl Sivil Toplum",
+      "count": 8
+     },
+     {
+      "place": "ANTALYA/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "ANTALYA/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "ARDAHAN/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "BURSA/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/İl Yazı İşleri",
+      "count": 26
+     },
+     {
+      "place": "İSTANBUL/İl Nüfus",
+      "count": 13
+     },
+     {
+      "place": "İSTANBUL/İl Sivil Toplum",
+      "count": 5
+     },
+     {
+      "place": "İZMİR/İl Yazı İşleri",
+      "count": 2
+     },
+     {
+      "place": "İZMİR/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İZMİR/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "KAHRAMANMARAŞ/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARS/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "KIRIKKALE/İl Sivil Toplum",
+      "count": 3
+     },
+     {
+      "place": "KOCAELİ/İl Yazı İşleri",
+      "count": 2
+     },
+     {
+      "place": "KOCAELİ/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KONYA/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KONYA/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "YOZGAT/İl Sivil Toplum",
+      "count": 1
+     },
+     {
+      "place": "ADANA/ALADAĞ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ADANA/POZANTI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AFYONKARAHİSAR/ÇOBANLAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AFYONKARAHİSAR/ŞUHUT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/ÇAMLIDERE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/ELMADAĞ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/EVREN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/HAYMANA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/NALLIHAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/ŞEREFLİKOÇHİSAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/KALECİK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/KEÇİÖREN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/SİNCAN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/AKSEKİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/DEMRE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/GÜNDOĞMUŞ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/İBRADI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/AKSEKİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/AKSU Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/İBRADI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/KAŞ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "AYDIN/GERMENCİK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AYDIN/KOÇARLI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AYDIN/KÖŞK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BALIKESİR/DURSUNBEY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BALIKESİR/MARMARA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BALIKESİR/SAVAŞTEPE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BURDUR/TEFENNİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BURSA/BÜYÜKORHAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BURSA/İZNİK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BURSA/KELES Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ/BEYAĞAÇ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ/ÇAMELİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ/HONAZ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR/ÇERMİK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR/EĞİL Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR/LİCE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR/KOCAKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM/AŞKALE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM/HINIS Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM/KARAÇOBAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM/KÖPRÜKÖY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ESKİŞEHİR/BEYLİKOVA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ESKİŞEHİR/GÜNYÜZÜ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ESKİŞEHİR/MİHALIÇÇIK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ESKİŞEHİR/SİVRİHİSAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP/KARKAMIŞ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP/NURDAĞI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP/YAVUZELİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ADALAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ARNAVUTKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ATAŞEHİR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/AVCILAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAĞCILAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAHÇELİEVLER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAŞAKŞEHİR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAYRAMPAŞA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEŞİKTAŞ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYKOZ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYLİKDÜZÜ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BÜYÜKÇEKMECE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ESENLER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ESENYURT Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/EYÜPSULTAN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/FATİH Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/GAZİOSMANPAŞA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/GÜNGÖREN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/KADIKÖY Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/KAĞITHANE Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/KARTAL Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/KÜÇÜKÇEKMECE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/MALTEPE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/PENDİK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SARIYER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SİLİVRİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SULTANGAZİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ŞİŞLİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ÜMRANİYE Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/ÜSKÜDAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/BAYINDIR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/ÇEŞME Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KARABURUN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KINIK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/BAYINDIR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KEMALPAŞA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KONAK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ/FELAHİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ/TOMARZA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/ÇAYIROVA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/DARICA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/GEBZE Nüfus",
+      "count": 2
+     },
+     {
+      "place": "KOCAELİ/GÖLCÜK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/KANDIRA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/KÖRFEZ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KONYA/BOZKIR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KONYA/DOĞANHİSAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KONYA/GÜNEYSINIR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MALATYA/AKÇADAĞ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MALATYA/DARENDE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MALATYA/PÜTÜRGE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MANİSA/GÖLMARMARA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MANİSA/KÖPRÜBAŞI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MANİSA/KULA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MARDİN/ÖMERLİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MARDİN/SAVUR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MERSİN/AYDINCIK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MERSİN/GÜLNAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA/ULA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA/YATAĞAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA/BODRUM Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ORDU/GÜRGENTEPE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ORDU/KABADÜZ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SAKARYA/FERİZLİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SAKARYA/KOCAALİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN/ALAÇAM Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN/KAVAK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN/LADİK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/EYYÜBİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/HALFETİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/HARRAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/SURUÇ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/HALİLİYE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/SURUÇ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/MALKARA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/ŞARKÖY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/ÇERKEZKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/ÇORLU Nüfus",
+      "count": 2
+     },
+     {
+      "place": "TEKİRDAĞ/MARMARAEREĞLİSİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/SARAY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TRABZON/ARAKLI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TRABZON/DERNEKPAZARI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TRABZON/OF Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "VAN/BAŞKALE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "VAN/ÇALDIRAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "VAN/SARAY Yazı İşleri",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Hukuk",
+     "Kamu Yönetimi",
+     "Maliye",
+     "İktisat",
+     "İşletme",
+     "Ekonomi",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri",
+     "Ekonometri",
+     "Yerel Yönetimler",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Siyaset Bilimi ve Uluslararası İlişkiler",
+     "Uluslararası İlişkiler",
+     "Sosyoloji",
+     "Psikoloji",
+     "Davranış Bilimleri-Psikoloji Disiplini",
+     "Rehberlik ve Psikolojik Danışmanlık",
+     "Eğitimde Psikolojik Hizmetler",
+     "İstatistik",
+     "İktisadi ve İdari Bilimler Fakülte/bölümleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "BÜRO PERSONELİ (ÖN LİSANS-DİĞER)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ANKARA/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "ANTALYA/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "BATMAN/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "GAZİANTEP/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "GÜMÜŞHANE/İl Yazı İşleri",
+      "count": 2
+     },
+     {
+      "place": "HAKKARİ/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "HATAY/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/İl Yazı İşleri",
+      "count": 6
+     },
+     {
+      "place": "İSTANBUL/İl Nüfus",
+      "count": 24
+     },
+     {
+      "place": "İZMİR/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KIRKLARELİ/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "MARDİN/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "MERSİN/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞIRNAK/İl Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "ADANA/TUFANBEYLİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ADIYAMAN/SİNCİK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AFYONKARAHİSAR/KIZILÖREN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "AFYONKARAHİSAR/SANDIKLI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "AĞRI/DİYADİN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AĞRI/TAŞLIÇAY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AĞRI/TUTAK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AKSARAY/SULTANHANI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AMASYA/GÖYNÜCEK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AMASYA/GÜMÜŞHACIKÖY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "AMASYA/HAMAMÖZÜ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/AYAŞ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/BALA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/ÇAMLIDERE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/EVREN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/GÜDÜL Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/KALECİK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/KEÇİÖREN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/PURSAKLAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANKARA/SİNCAN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/AKSEKİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/AKSU Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/ELMALI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/GÜNDOĞMUŞ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/İBRADI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/KAŞ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/KEMER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/KEPEZ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/KORKUTELİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/SERİK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ARDAHAN/GÖLE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ARDAHAN/POSOF Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ARDAHAN/DAMAL Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ARTVİN/ARHAVİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ARTVİN/BORÇKA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ARTVİN/HOPA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ARTVİN/KEMALPAŞA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ARTVİN/YUSUFELİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BARTIN/KURUCAŞİLE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BATMAN/BEŞİRİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BAYBURT/AYDINTEPE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BAYBURT/DEMİRÖZÜ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİLECİK/İNHİSAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİLECİK/SÖĞÜT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİLECİK/YENİPAZAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİNGÖL/ADAKLI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİNGÖL/KARLIOVA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİNGÖL/KİĞI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİNGÖL/YAYLADERE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİNGÖL/KİĞI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BİNGÖL/YAYLADERE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BİTLİS/AHLAT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BİTLİS/MUTKİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BOLU/KIBRISCIK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BOLU/MENGEN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BOLU/MUDURNU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BOLU/SEBEN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BOLU/YENİÇAĞA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BOLU/KIBRISCIK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURDUR/KEMER Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "BURDUR/ALTINYAYLA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/BÜYÜKORHAN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/GEMLİK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/GÜRSU Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/HARMANCIK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/İZNİK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/KARACABEY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/KELES Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/KESTEL Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/MUDANYA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/MUSTAFAKEMALPAŞA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/NİLÜFER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/ORHANELİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/ORHANGAZİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/OSMANGAZİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "BURSA/YILDIRIM Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ÇANAKKALE/BAYRAMİÇ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇANAKKALE/GÖKÇEADA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇANKIRI/ÇERKEŞ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇANKIRI/ŞABANÖZÜ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇANKIRI/YAPRAKLI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇANKIRI/BAYRAMÖREN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ÇORUM/ALACA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇORUM/BOĞAZKALE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ÇORUM/İSKİLİP Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ/ACIPAYAM Nüfus",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR/HAZRO Nüfus",
+      "count": 1
+     },
+     {
+      "place": "DİYARBAKIR/KOCAKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "DÜZCE/GÖLYAKA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DÜZCE/GÜMÜŞOVA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "DÜZCE/YIĞILCA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "EDİRNE/ENEZ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "EDİRNE/İPSALA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "EDİRNE/MERİÇ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "EDİRNE/ENEZ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "EDİRNE/MERİÇ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ELAZIĞ/AĞIN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ELAZIĞ/ALACAKAYA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/ÇAYIRLI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/İLİÇ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/KEMALİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/REFAHİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/TERCAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/ÜZÜMLÜ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/KEMAH Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ERZİNCAN/KEMALİYE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM/HORASAN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ESKİŞEHİR/GÜNYÜZÜ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP/ŞAHİNBEY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP/ŞEHİTKAMİL Nüfus",
+      "count": 1
+     },
+     {
+      "place": "GİRESUN/ALUCRA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GİRESUN/DERELİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GİRESUN/ESPİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GİRESUN/GÜCE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GİRESUN/ŞEBİNKARAHİSAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GİRESUN/ÇAMOLUK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GÜMÜŞHANE/KELKİT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GÜMÜŞHANE/KÜRTÜN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "GÜMÜŞHANE/TORUL Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "HATAY/KIRIKHAN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "IĞDIR/ARALIK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "IĞDIR/KARAKOYUNLU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "IĞDIR/ARALIK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ISPARTA/YENİŞARBADEMLİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ISPARTA/ULUBORLU Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ADALAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ARNAVUTKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ATAŞEHİR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/AVCILAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAĞCILAR Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/BAHÇELİEVLER Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/BAKIRKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAŞAKŞEHİR Nüfus",
+      "count": 3
+     },
+     {
+      "place": "İSTANBUL/BAYRAMPAŞA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEŞİKTAŞ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYKOZ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYLİKDÜZÜ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYOĞLU Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BÜYÜKÇEKMECE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ÇATALCA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ÇEKMEKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ESENLER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ESENYURT Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/EYÜPSULTAN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/FATİH Nüfus",
+      "count": 3
+     },
+     {
+      "place": "İSTANBUL/GAZİOSMANPAŞA Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/GÜNGÖREN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/KADIKÖY Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/KAĞITHANE Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/KARTAL Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/KÜÇÜKÇEKMECE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/MALTEPE Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/PENDİK Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/SANCAKTEPE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SARIYER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SİLİVRİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SULTANBEYLİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SULTANGAZİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ŞİLE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ŞİŞLİ Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İSTANBUL/TUZLA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ÜMRANİYE Nüfus",
+      "count": 3
+     },
+     {
+      "place": "İSTANBUL/ÜSKÜDAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ZEYTİNBURNU Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İZMİR/BAYINDIR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/BEYDAĞ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/BORNOVA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/GÜZELBAHÇE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KARABURUN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KEMALPAŞA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KINIK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KİRAZ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/KONAK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İZMİR/MENEMEN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KARABÜK/EFLANİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARABÜK/OVACIK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARABÜK/OVACIK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KARAMAN/AYRANCI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARAMAN/BAŞYAYLA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARAMAN/SARIVELİLER Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARS/DİGOR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARS/KAĞIZMAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARS/SUSUZ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KARS/AKYAKA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KARS/SARIKAMIŞ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/CİDE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/DOĞANYURT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/HANÖNÜ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/İHSANGAZİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/KÜRE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/SEYDİLER Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/TOSYA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/AZDAVAY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/ÇATALZEYTİN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/DOĞANYURT Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KASTAMONU/ŞENPAZAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ/FELAHİYE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KIRIKKALE/DELİCE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KIRIKKALE/KARAKEÇİLİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KIRIKKALE/SULAKYURT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KIRKLARELİ/KOFÇAZ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KIRKLARELİ/PEHLİVANKÖY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KIRKLARELİ/PEHLİVANKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KIRKLARELİ/PINARHİSAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KIRŞEHİR/MUCUR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KİLİS/ELBEYLİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/ÇAYIROVA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/DARICA Nüfus",
+      "count": 2
+     },
+     {
+      "place": "KOCAELİ/DİLOVASI Nüfus",
+      "count": 2
+     },
+     {
+      "place": "KOCAELİ/GEBZE Nüfus",
+      "count": 3
+     },
+     {
+      "place": "KOCAELİ/GÖLCÜK Nüfus",
+      "count": 2
+     },
+     {
+      "place": "KOCAELİ/KANDIRA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/KÖRFEZ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KONYA/AHIRLI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KONYA/YALIHÜYÜK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KÜTAHYA/ASLANAPA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KÜTAHYA/DOMANİÇ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KÜTAHYA/DUMLUPINAR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KÜTAHYA/EMET Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "KÜTAHYA/DUMLUPINAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "MANİSA/KÖPRÜBAŞI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "MERSİN/TOROSLAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA/BODRUM Nüfus",
+      "count": 2
+     },
+     {
+      "place": "MUŞ/BULANIK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MUŞ/MALAZGİRT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "MUŞ/VARTO Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "NEVŞEHİR/ACIGÖL Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "NEVŞEHİR/DERİNKUYU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "NİĞDE/ÇAMARDI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "NİĞDE/ULUKIŞLA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ORDU/AYBASTI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "OSMANİYE/BAHÇE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "RİZE/ÇAMLIHEMŞİN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "RİZE/FINDIKLI Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "RİZE/GÜNEYSU Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "RİZE/PAZAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "SAKARYA/KAYNARCA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "SİİRT/KURTALAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİİRT/ŞİRVAN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİNOP/BOYABAT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİNOP/SARAYDÜZÜ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİNOP/TÜRKELİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİVAS/ALTINYAYLA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİVAS/GÖLOVA Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİVAS/GÜRÜN Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "SİVAS/DOĞANŞAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/AKÇAKALE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/BOZOVA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/EYYÜBİYE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/HALFETİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/HALİLİYE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/KARAKÖPRÜ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA/SURUÇ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ŞIRNAK/CİZRE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/ÇERKEZKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/ÇORLU Nüfus",
+      "count": 2
+     },
+     {
+      "place": "TEKİRDAĞ/ERGENE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/HAYRABOLU Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/KAPAKLI Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/MALKARA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/MARMARAEREĞLİSİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/SARAY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/SÜLEYMANPAŞA Nüfus",
+      "count": 2
+     },
+     {
+      "place": "TEKİRDAĞ/ŞARKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TOKAT/BAŞÇİFTLİK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TOKAT/REŞADİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TOKAT/SULUSARAY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ/ÇEMİŞGEZEK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ/MAZGİRT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ/NAZIMİYE Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ/PERTEK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ/PÜLÜMÜR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ/OVACIK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "UŞAK/BANAZ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "VAN/ÇALDIRAN Nüfus",
+      "count": 1
+     },
+     {
+      "place": "YALOVA/ÇINARCIK Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "YOZGAT/ÇANDIR Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "YOZGAT/SARAYKENT Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "YOZGAT/ŞEFAATLİ Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ZONGULDAK/GÖKÇEBEY Yazı İşleri",
+      "count": 1
+     },
+     {
+      "place": "ZONGULDAK/KİLİMLİ Yazı İşleri",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Büro Yönetimi ve Yönetici Asistanlığı",
+     "Bilgisayar Teknolojisi",
+     "Bilgisayar Programcılığı",
+     "Muhasebe ve Vergi Uygulamaları",
+     "İşletme Yönetimi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "BÜRO PERSONELİ (ÖN LİSANS-NÜFUS VE VATANDAŞLIK BÖLÜMÜ)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ANKARA/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "BURSA/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/İl Nüfus",
+      "count": 2
+     },
+     {
+      "place": "İZMİR/İl Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAĞCILAR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAHÇELİEVLER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAŞAKŞEHİR Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BAYRAMPAŞA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYKOZ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BEYLİKDÜZÜ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/BÜYÜKÇEKMECE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ESENLER Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ESENYURT Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/FATİH Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/GAZİOSMANPAŞA Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/KADIKÖY Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/KAĞITHANE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/KARTAL Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/MALTEPE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/PENDİK Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SİLİVRİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/SULTANGAZİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ŞİŞLİ Nüfus",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/ÜMRANİYE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/GEBZE Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/ÇORLU Nüfus",
+      "count": 1
+     },
+     {
+      "place": "TEKİRDAĞ/SARAY Nüfus",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Nüfus ve Vatandaşlık"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "İki yıllık yüksekokulların Nüfus ve Vatandaşlık Bölümü mezunu olmak",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ÇAĞRI KARŞILAMA PERSONELİ (LİSANS)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "MERKEZ/112 Acil Çağrı ve Koordinasyon GM",
+      "count": 5
+     },
+     {
+      "place": "BALIKESİR/İl 112",
+      "count": 2
+     },
+     {
+      "place": "BURSA/İl 112",
+      "count": 2
+     },
+     {
+      "place": "ERZURUM/İl 112",
+      "count": 1
+     },
+     {
+      "place": "ESKİŞEHİR/İl 112",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/İl 112",
+      "count": 27
+     },
+     {
+      "place": "İZMİR/İl 112",
+      "count": 3
+     },
+     {
+      "place": "KAYSERİ/İl 112",
+      "count": 1
+     },
+     {
+      "place": "KIRIKKALE/İl 112",
+      "count": 1
+     },
+     {
+      "place": "KIRKLARELİ/İl 112",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ/İl 112",
+      "count": 2
+     },
+     {
+      "place": "MANİSA/İl 112",
+      "count": 1
+     },
+     {
+      "place": "MARDİN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA/İl 112",
+      "count": 3
+     },
+     {
+      "place": "MUŞ/İl 112",
+      "count": 1
+     },
+     {
+      "place": "ORDU/İl 112",
+      "count": 1
+     },
+     {
+      "place": "RİZE/İl 112",
+      "count": 1
+     },
+     {
+      "place": "SAKARYA/İl 112",
+      "count": 3
+     },
+     {
+      "place": "SAMSUN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "SİNOP/İl 112",
+      "count": 1
+     },
+     {
+      "place": "YALOVA/İl 112",
+      "count": 1
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Hukuk",
+     "Kamu Yönetimi",
+     "Maliye",
+     "İktisat",
+     "İşletme",
+     "Ekonomi",
+     "Çalışma Ekonomisi ve Endüstri İlişkileri",
+     "Ekonometri",
+     "Yerel Yönetimler",
+     "Siyaset Bilimi ve Kamu Yönetimi",
+     "Siyaset Bilimi ve Uluslararası İlişkiler",
+     "Uluslararası İlişkiler",
+     "Sosyoloji",
+     "Psikoloji",
+     "Davranış Bilimleri-Psikoloji Disiplini",
+     "Rehberlik ve Psikolojik Danışmanlık",
+     "Eğitimde Psikolojik Hizmetler",
+     "İstatistik",
+     "İktisadi ve İdari Bilimler Fakülte/bölümleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   },
+   {
+    "code": null,
+    "title": "ÇAĞRI KARŞILAMA PERSONELİ (ÖN LİSANS-ÇAĞRI MERKEZİ HİZMETLERİ BÖLÜMÜ)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ARDAHAN/İl 112",
+      "count": 5
+     },
+     {
+      "place": "ARTVİN/İl 112",
+      "count": 3
+     },
+     {
+      "place": "AYDIN/İl 112",
+      "count": 2
+     },
+     {
+      "place": "BALIKESİR/İl 112",
+      "count": 3
+     },
+     {
+      "place": "BARTIN/İl 112",
+      "count": 5
+     },
+     {
+      "place": "BAYBURT/İl 112",
+      "count": 5
+     },
+     {
+      "place": "BİLECİK/İl 112",
+      "count": 4
+     },
+     {
+      "place": "BİNGÖL/İl 112",
+      "count": 1
+     },
+     {
+      "place": "BİTLİS/İl 112",
+      "count": 3
+     },
+     {
+      "place": "BOLU/İl 112",
+      "count": 2
+     },
+     {
+      "place": "BURSA/İl 112",
+      "count": 2
+     },
+     {
+      "place": "ÇANAKKALE/İl 112",
+      "count": 1
+     },
+     {
+      "place": "ÇANKIRI/İl 112",
+      "count": 4
+     },
+     {
+      "place": "ÇORUM/İl 112",
+      "count": 1
+     },
+     {
+      "place": "DENİZLİ/İl 112",
+      "count": 4
+     },
+     {
+      "place": "DÜZCE/İl 112",
+      "count": 2
+     },
+     {
+      "place": "EDİRNE/İl 112",
+      "count": 2
+     },
+     {
+      "place": "ERZURUM/İl 112",
+      "count": 2
+     },
+     {
+      "place": "ESKİŞEHİR/İl 112",
+      "count": 2
+     },
+     {
+      "place": "GAZİANTEP/İl 112",
+      "count": 3
+     },
+     {
+      "place": "GÜMÜŞHANE/İl 112",
+      "count": 1
+     },
+     {
+      "place": "HAKKARİ/İl 112",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL/İl 112",
+      "count": 106
+     },
+     {
+      "place": "İZMİR/İl 112",
+      "count": 6
+     },
+     {
+      "place": "KARABÜK/İl 112",
+      "count": 2
+     },
+     {
+      "place": "KARS/İl 112",
+      "count": 4
+     },
+     {
+      "place": "KASTAMONU/İl 112",
+      "count": 2
+     },
+     {
+      "place": "KAYSERİ/İl 112",
+      "count": 1
+     },
+     {
+      "place": "KIRIKKALE/İl 112",
+      "count": 3
+     },
+     {
+      "place": "KIRKLARELİ/İl 112",
+      "count": 4
+     },
+     {
+      "place": "KIRŞEHİR/İl 112",
+      "count": 2
+     },
+     {
+      "place": "KİLİS/İl 112",
+      "count": 3
+     },
+     {
+      "place": "KOCAELİ/İl 112",
+      "count": 2
+     },
+     {
+      "place": "KÜTAHYA/İl 112",
+      "count": 1
+     },
+     {
+      "place": "MANİSA/İl 112",
+      "count": 2
+     },
+     {
+      "place": "MARDİN/İl 112",
+      "count": 2
+     },
+     {
+      "place": "MUĞLA/İl 112",
+      "count": 4
+     },
+     {
+      "place": "MUŞ/İl 112",
+      "count": 2
+     },
+     {
+      "place": "ORDU/İl 112",
+      "count": 1
+     },
+     {
+      "place": "RİZE/İl 112",
+      "count": 1
+     },
+     {
+      "place": "SAKARYA/İl 112",
+      "count": 3
+     },
+     {
+      "place": "SAMSUN/İl 112",
+      "count": 1
+     },
+     {
+      "place": "SİNOP/İl 112",
+      "count": 3
+     },
+     {
+      "place": "TOKAT/İl 112",
+      "count": 2
+     },
+     {
+      "place": "UŞAK/İl 112",
+      "count": 1
+     },
+     {
+      "place": "YALOVA/İl 112",
+      "count": 2
+     },
+     {
+      "place": "YOZGAT/İl 112",
+      "count": 2
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 60,
+    "departments": [
+     "Çağrı Merkezi Hizmetleri"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "İki yıllık yüksekokulların Çağrı Merkezi Hizmetleri bölümü mezunu olmak",
+     "Kamu kurumlarında 4/B sözleşmeli personel pozisyonunda çalışmıyor olmak",
+     "Sözleşmesi feshedilmişse 1 yıllık bekleme süresini doldurmuş olmak"
+    ]
+   }
+  ],
+  "notes": "Kadrolar Ek-1/a (Merkez, toplam 119), Ek-1/b (Valilik, toplam 522) ve Ek-1/c (İlçe, toplam 529) tablolarından okundu; toplam 1.170 ilanla uyumlu. Aynı unvan ve şartlar tek kayıtta birleştirildi; yer adı biçimi: 'MERKEZ/birim', 'İL/İl birim' (valilik), 'İL/İLÇE Yazı İşleri veya Nüfus' (ilçe). Tablo sütun toplamları kontrol edildi. Tekniker (Elektronik Haberleşme Teknolojisi) için Ek-1/a'da KPSSP3 yazıyor (ön lisans için genel şart P93); tablodaki gibi P3 alındı, teyit edilmeli. Genel şart: 2026 KPSS (B) grubu, en az 60 puan; ilan edilen pozisyon sayısının 4 katı aday sözlü sınava alınır. Büro Personeli (Ön Lisans-Diğer) bölümlerinde yalnızca ana program adları listelendi, parantez içi denk programlar atlandı. Başvuru 07-11 Aralık 2026 (11.12.2026 saat 16.00'da sona erer). Teknisyen/Tekniker/Mühendis kayıtlarındaki 'bölüm/alan ayrımına bakılmaksızın' ifadesi yalnızca ortak şartlar içindir."
  },
- "reading": 2
+ "reading": 2,
+ "reading_note": "eski okuma geri yüklendi; büyük tablo ayrı okunacak"
 }
