@@ -46,6 +46,7 @@ MAX_ATTEMPTS = 4               # indirilemeyen ya da okunamayan bir ilan en çok
 KEEP_DAYS = 45                 # portaldan kalkmış ilanların sonuçları bu kadar gün sonra silinir
 # Akademik kadrolar (öğretim üyesi, araştırma görevlisi) uygulamada ayrı okunuyor; şimdilik maliyeti yarıya indirmek için atlanır.
 SKIP_ACADEMIC = True
+KEY = re.compile(r"sk-ant-[A-Za-z0-9_\-]{20,}")
 ACADEMIC = re.compile(r"ÖĞRETİM\s+(?:ÜYESİ|ELEMANI|GÖREVLİSİ)|ARAŞTIRMA\s+GÖREVLİSİ|AKADEMİK\s+PERSONEL", re.I)
 
 SYSTEM = """You read Turkish public-sector job announcements (kamu personel alım ilanları) from kamuilan.sbb.gov.tr and extract every post they offer, exactly as the document states it, for an app that checks whether a candidate is eligible. Candidates pay to rely on this, so completeness and accuracy matter more than anything.
@@ -318,17 +319,29 @@ def main() -> None:
         submit(None, state, listings, dry=True)
         return
     key_file = Path.home() / ".kadrokpss" / "anthropic_api_key.txt"
-    if not os.environ.get("ANTHROPIC_API_KEY") and key_file.exists():
-        os.environ["ANTHROPIC_API_KEY"] = key_file.read_text(encoding="utf-8").strip()  # Mac'teki iş (launchd)
-    if not os.environ.get("ANTHROPIC_API_KEY"):
+    raw = os.environ.get("ANTHROPIC_API_KEY") or (key_file.read_text(encoding="utf-8") if key_file.exists() else "")
+    # Only the key itself: a file or secret may hold more pasted text (2026-11-23 a "curl" example under the key
+    # made the header illegal, the run failed and the error printed the key into the log).
+    m = KEY.search(raw)
+    if not m:
         print("ANTHROPIC_API_KEY yok: hiçbir şey okunmadı")
         return
+    os.environ["ANTHROPIC_API_KEY"] = m.group(0)
     import anthropic
-    client = anthropic.Anthropic(max_retries=6)
+    client = anthropic.Anthropic(api_key=m.group(0), max_retries=6)
+    try:
+        run(client, state, listings, a.bekle)
+    except Exception as e:  # the message never carries the key
+        print("Okuma yarıda kaldı:", KEY.sub("[ANAHTAR]", f"{type(e).__name__}: {e}")[:300])
+        save_state(state)
+        sys.exit(1)
+
+
+def run(client, state: dict, listings: list, wait_minutes: int) -> None:
     collect(client, state)
     submit(client, state, listings, dry=False)
     # Günde iki kez çalışınca (Mac, 08:00 ve 14:00) sonuçlar aynı çalıştırmada toplanır; çoğu toplu iş birkaç dakikada biter.
-    deadline = time.time() + a.bekle * 60
+    deadline = time.time() + wait_minutes * 60
     while state["pending"] and time.time() < deadline:
         time.sleep(30)
         collect(client, state, quiet=True)
