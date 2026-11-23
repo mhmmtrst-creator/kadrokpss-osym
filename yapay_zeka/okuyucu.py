@@ -157,21 +157,167 @@ def parse_timeline(html: str) -> list:
     return out
 
 
+# ---------------------------------------------------------------- ilanın bağlantı verdiği belgeler
+#
+# Bazı ilanlarda kadrolar ilanın kendisinde değil, bağlantı verdiği bir kılavuzda ya da ektedir (2026-11-23: MSB astsubay
+# temini "kılavuzu indirmek için tıklayınız", Sahil Güvenlik "www.sg.gov.tr adresindeki Bilgilendirme Kılavuzu"). İlk okuma
+# hiç kadro bulamazsa ilan, bu belgeler bulunup eklenerek bir kez daha okunur.
+
+MAX_LINKED = 2                 # bir ilana eklenecek en çok bağlantılı belge
+MAX_LINKED_BYTES = 12_000_000  # bağlantılı bir belgenin en büyük boyutu
+MAX_PAGES = 100                # bir istekteki toplam PDF sayfası
+LINK_HOSTS = (".gov.tr", ".tsk.tr", ".edu.tr", ".bel.tr", ".pol.tr", ".k12.tr")
+SKIP_HOSTS = {"kamuilan.sbb.gov.tr", "turkiye.gov.tr", "www.turkiye.gov.tr", "kariyerkapisi.gov.tr", "isealimkariyerkapisi.cbiko.gov.tr",
+              "esube.iskur.gov.tr", "www.iskur.gov.tr", "resmigazete.gov.tr", "www.resmigazete.gov.tr", "www.osym.gov.tr", "ais.osym.gov.tr"}
+URL_RE = re.compile(r"(?:https?://|www\.)[^\s\"'<>()\[\]]+", re.I)
+GUIDE_WORDS = re.compile(r"k[ıi]lavuz|ilan|duyuru|\bek[-_ ]?\d|tablo|kontenjan|liste|dosyaindir|download|indir", re.I)
+PAGE_LINK_WORDS = re.compile(r"memur|personel|al[ıi]m|ilan|k[ıi]lavuz|duyuru|temin|s[ıi]nav", re.I)
+PAGE_WORDS = re.compile(r"kontenjan|kadro|tablo|\bek-?\s?\d|al[ıi]nacak|branş|unvan|pozisyon|say[ıi]s[ıi]", re.I)
+
+
+def _norm(u: str) -> str:
+    u = u.strip().rstrip(".,;:)")
+    return "https://" + u if u.lower().startswith("www.") else u
+
+
+def _allowed(u: str) -> bool:
+    from urllib.parse import urlparse
+    h = (urlparse(u).hostname or "").lower()
+    return bool(h) and h.endswith(LINK_HOSTS) and h not in SKIP_HOSTS
+
+
+def pdf_links(pdf: bytes) -> list:
+    """Bir PDF'in bağlantıları: önce tıklanır bağlantıları ("tıklayınız"), sonra metninde yazan adresler; yalnız kamu siteleri."""
+    import io
+    from pypdf import PdfReader
+    out = []
+    try:
+        r = PdfReader(io.BytesIO(pdf))
+        for page in r.pages:
+            for a in (page.get("/Annots") or []):
+                act = a.get_object().get("/A")
+                uri = act.get_object().get("/URI") if act else None
+                if uri:
+                    out.append(_norm(str(uri)))
+        for page in r.pages:
+            out += [_norm(u) for u in URL_RE.findall(page.extract_text() or "")]
+    except Exception:
+        return []
+    return [u for u in dict.fromkeys(out) if _allowed(u)]
+
+
+def _fetch(o, url: str):
+    with o.open(url, timeout=60) as r:
+        data = r.read(MAX_LINKED_BYTES + 1)
+        ctype = r.headers.get("Content-Type", "") or ""
+    return (None if len(data) > MAX_LINKED_BYTES else data), ctype
+
+
+def _page_pdfs(o, url: str, html: bytes, depth: int) -> list:
+    """Bir sayfadaki kılavuz/ek görünümlü PDF bağlantıları; yoksa (depth > 0) ilan/duyuru sayfalarına bir adım daha bakılır."""
+    from urllib.parse import urljoin
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html.decode("utf-8", "replace"), "html.parser")
+    pdfs, pages = [], []
+    for a in soup.find_all("a", href=True):
+        href = urljoin(url, a["href"]).split("#")[0]
+        text = squash(a.get_text())
+        if not _allowed(href):
+            continue
+        low = href.lower()
+        if low.endswith(".pdf") or "dosyaindir" in low or "download" in low:
+            if GUIDE_WORDS.search(text + " " + href):
+                pdfs.append(href)
+        elif depth > 0 and PAGE_LINK_WORDS.search(text):
+            pages.append(href)
+    out = list(dict.fromkeys(pdfs))
+    if not out and depth > 0:
+        for p in list(dict.fromkeys(pages))[:4]:
+            try:
+                data, ctype = _fetch(o, p)
+            except Exception:
+                continue
+            if data and "html" in ctype.lower():
+                out += _page_pdfs(o, p, data, depth - 1)
+            if len(out) >= MAX_LINKED:
+                break
+    return out
+
+
+def linked_documents(o, pdf: bytes) -> list:
+    """İlanın bağlantı verdiği kılavuz ve ekler: (adres, PDF) çiftleri, en çok MAX_LINKED tane."""
+    found = []
+    for url in pdf_links(pdf)[:6]:
+        if len(found) >= MAX_LINKED:
+            break
+        try:
+            data, ctype = _fetch(o, url)
+        except Exception:
+            continue
+        if not data:
+            continue
+        if data[:5] == b"%PDF-":
+            found.append((url, data))
+            continue
+        if "html" not in ctype.lower():
+            continue
+        for href in _page_pdfs(o, url, data, depth=1)[:3]:
+            if len(found) >= MAX_LINKED:
+                break
+            try:
+                d2, _ = _fetch(o, href)
+            except Exception:
+                continue
+            if d2 and d2[:5] == b"%PDF-" and all(d2 != f[1] for f in found):
+                found.append((href, d2))
+    return found
+
+
+def page_count(pdf: bytes) -> int:
+    import io
+    from pypdf import PdfReader
+    try:
+        return len(PdfReader(io.BytesIO(pdf)).pages)
+    except Exception:
+        return 0
+
+
+def trimmed(pdf: bytes, room: int) -> bytes:
+    """Sayfa sınırına sığmayan bir kılavuzun kadro tablolarının geçtiği sayfaları (ilk iki sayfa da), en çok [room] sayfa."""
+    import io
+    from pypdf import PdfReader, PdfWriter
+    r = PdfReader(io.BytesIO(pdf))
+    if len(r.pages) <= room:
+        return pdf
+    keep = [i for i, p in enumerate(r.pages) if i < 2 or PAGE_WORDS.search(p.extract_text() or "")][:room]
+    w = PdfWriter()
+    for i in keep:
+        w.add_page(r.pages[i])
+    buf = io.BytesIO()
+    w.write(buf)
+    return buf.getvalue()
+
+
 # ---------------------------------------------------------------- Claude
 
-def request_params(pdf: bytes, institution: str, title: str) -> dict:
+def request_params(pdf: bytes, institution: str, title: str, extra: list = ()) -> dict:
+    def doc(data: bytes) -> dict:
+        return {"type": "document", "source": {"type": "base64", "media_type": "application/pdf", "data": base64.standard_b64encode(data).decode("ascii")}}
+    content = [doc(pdf)]
+    for url, data in extra:
+        content.append({"type": "text", "text": f"İlanın bağlantı verdiği belge: {url}"})
+        content.append(doc(data))
+    ask = "Bu ilanı oku ve bütün kadro satırlarını şemaya göre çıkar."
+    if extra:
+        ask += (" İlk belge ilanın kendisi; ötekiler ilanın bağlantı verdiği kılavuz ve ekler. Kadrolar ilanda değil de bu"
+                " belgelerdeyse onlardan çıkar. Bu ilana ait olmayan (başka yıl, başka alım) bir belgeyi kullanma ve notlarda söyle.")
+    content.append({"type": "text", "text": f"Kurum: {institution}\nİlan başlığı: {title}\n{ask}"})
     return {
         "model": MODEL,
         "max_tokens": 100000,
         "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
         "output_config": {"format": {"type": "json_schema", "schema": SCHEMA}},
-        "messages": [{
-            "role": "user",
-            "content": [
-                {"type": "document", "source": {"type": "base64", "media_type": "application/pdf", "data": base64.standard_b64encode(pdf).decode("ascii")}},
-                {"type": "text", "text": f"Kurum: {institution}\nİlan başlığı: {title}\nBu ilanı oku ve bütün kadro satırlarını şemaya göre çıkar."},
-            ],
-        }],
+        "messages": [{"role": "user", "content": content}],
     }
 
 
@@ -242,6 +388,8 @@ def collect(client, state: dict, quiet: bool = False) -> None:
                 "schema": SCHEMA_VERSION, "id": lid, "institution": meta.get("institution", ""), "title": meta.get("title", ""),
                 "range": meta.get("range", ""), "read_at": now_iso(), "model": r.result.message.model, "result": json.loads(text),
             }
+            if meta.get("ekler"):
+                record["ekler"] = meta["ekler"]  # the guides and annexes read with it
             RESULTS.mkdir(parents=True, exist_ok=True)
             (RESULTS / f"{lid}.json").write_text(json.dumps(record, ensure_ascii=False, indent=1), encoding="utf-8")
             state["attempts"].pop(lid, None)
@@ -252,10 +400,21 @@ def collect(client, state: dict, quiet: bool = False) -> None:
 
 def submit(client, state: dict, listings: list, dry: bool) -> None:
     pending = {i for p in state["pending"] for i in p["ids"]}
+
+    def postless(l: dict) -> bool:
+        """Okunmuş ama kadro bulunmamış, bağlantılı belgeleri henüz denenmemiş ilan."""
+        if state["listings"].get(l["id"], {}).get("ekler_denendi"):
+            return False
+        try:
+            r = json.loads((RESULTS / f"{l['id']}.json").read_text(encoding="utf-8"))["result"]
+        except Exception:
+            return False
+        return not r.get("positions") and not r.get("academic")
+
     todo = [
         l for l in listings
-        if not (RESULTS / f"{l['id']}.json").exists() and l["id"] not in pending and state["attempts"].get(l["id"], 0) < MAX_ATTEMPTS
-        and not (SKIP_ACADEMIC and ACADEMIC.search(l["title"]))
+        if (not (RESULTS / f"{l['id']}.json").exists() or postless(l)) and l["id"] not in pending
+        and state["attempts"].get(l["id"], 0) < MAX_ATTEMPTS and not (SKIP_ACADEMIC and ACADEMIC.search(l["title"]))
     ][:MAX_PER_RUN]
     if not todo:
         print("Okunacak yeni ilan yok")
@@ -283,8 +442,30 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
             state["attempts"][l["id"]] = state["attempts"].get(l["id"], 0) + 1
             print(f"PDF değil ya da çok büyük: {l['institution']} - {l['title']}")
             continue
-        state["listings"][l["id"]] = {"institution": l["institution"], "title": l["title"], "range": l["range"], "seen": today()}
-        requests.append({"custom_id": l["id"], "params": request_params(pdf, l["institution"], l["title"])})
+        meta = state["listings"].setdefault(l["id"], {})
+        meta.update({"institution": l["institution"], "title": l["title"], "range": l["range"], "seen": today()})
+        extra = []
+        if (RESULTS / f"{l['id']}.json").exists():
+            # İlk okuma kadro bulamadı: ilanın bağlantı verdiği kılavuz ve ekler bulunup birlikte okunur (bir kez denenir).
+            meta["ekler_denendi"] = True
+            room = MAX_PAGES - page_count(pdf)
+            size = len(pdf)
+            for url, data in linked_documents(o, pdf):
+                if room <= 0:
+                    break
+                data = trimmed(data, room)
+                # The request carries the PDFs in base64 (a third larger); the API takes at most 32 MB.
+                if size + len(data) > 22_000_000:
+                    continue
+                room -= page_count(data)
+                size += len(data)
+                extra.append((url, data))
+            if not extra:
+                print(f"Kadro yok, bağlantılı belge de yok: {l['institution']} - {l['title']}")
+                continue
+            meta["ekler"] = [u for u, _ in extra]
+            print(f"Bağlantılı belgelerle yeniden okunacak: {l['institution']} - {l['title']} ({len(extra)} belge)")
+        requests.append({"custom_id": l["id"], "params": request_params(pdf, l["institution"], l["title"], extra)})
         time.sleep(1.5)
     if not requests:
         return
