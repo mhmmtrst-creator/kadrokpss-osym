@@ -35,7 +35,9 @@ RESULTS = OUT / "ilan"
 STATE = OUT / "durum.json"
 
 MODEL = "claude-sonnet-5-5"
-SCHEMA_VERSION = 1
+# 2 (2026-11-23): a post offered in many places is written once with "places" (İçişleri 1170: one row per place
+# went past the output limit). The apps read 1 and 2.
+SCHEMA_VERSION = 2
 # Dolar / milyon token, toplu işlem yarı fiyat (claude-api belgesindeki tablo, 2026-11-03).
 PRICE = {"in": 2.0, "out": 10.0, "cache_read": 0.10, "cache_write": 2.5}
 BATCH_DISCOUNT = 0.5
@@ -53,7 +55,9 @@ SYSTEM = """You read Turkish public-sector job announcements (kamu personel alı
 
 Rules:
 1. Read every page and every table completely. A table may continue over several pages; a header repeated on a new page is not a row.
-2. Output one entry per table row that has its own number of posts (pozisyon / kadro sayısı). A merged cell (for example a position title, an education level or a qualification spanning several görev yeri rows) applies to each row it spans. Never merge rows of different places into one entry and never drop a row.
+2. Every post with its own number of posts (pozisyon / kadro sayısı) must be read; never drop one. A merged cell (for example a position title, an education level or a qualification spanning several görev yeri rows) applies to each row it spans.
+2a. One entry per kind of post (same title, specialty and conditions). When that post is offered in more than one place, list every place with its own number in places (one item per row or cell, in the document's order) and leave the entry's place and count null. When it is offered in one place only, use place and count and leave places empty.
+2b. Some tables put the places in rows and the posts in columns (header rows with the post groups, their specialties and a KPSS puan türü row; then one row per il / birim with a number or "-" per column and total columns). Each non-empty cell is that column's post in that row's place: read every column of every row and every page; skip the total columns.
 3. When the announcement has no table, take the posts from the text ("5 adet Büro Personeli", numbered groups, "A) ... için:" headings).
 4. title: the position name as written (unvan / pozisyon adı), with its specialty in parentheses when the document gives one, e.g. "MÜHENDİS (MAKİNE)". place: the row's görev yeri / birim / il, or null.
 5. count: the number of posts of that row as an integer; null only when the document gives none.
@@ -85,6 +89,7 @@ POSITION = strict_object({
     "title": {"type": "string"},
     "place": nullable({"type": "string"}),
     "count": nullable({"type": "integer"}),
+    "places": {"type": "array", "items": strict_object({"place": {"type": "string"}, "count": {"type": "integer"}})},
     "education": {"type": "array", "items": {"type": "string", "enum": ["ORTAOGRETIM", "ONLISANS", "LISANS", "YUKSEK_LISANS", "DOKTORA"]}},
     "kpss_types": {"type": "array", "items": {"type": "string"}},
     "department_kpss": {"type": "array", "items": strict_object({"department": {"type": "string"}, "kpss_types": {"type": "array", "items": {"type": "string"}}})},
@@ -157,7 +162,7 @@ def parse_timeline(html: str) -> list:
 def request_params(pdf: bytes, institution: str, title: str) -> dict:
     return {
         "model": MODEL,
-        "max_tokens": 64000,
+        "max_tokens": 100000,
         "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
         "output_config": {"format": {"type": "json_schema", "schema": SCHEMA}},
         "messages": [{
@@ -195,7 +200,8 @@ def save_state(state: dict) -> None:
             index[f.stem] = json.loads(f.read_text(encoding="utf-8")).get("read_at", "")
         except ValueError:
             continue
-    (OUT / "liste.json").write_text(json.dumps({"schema": SCHEMA_VERSION, "ilanlar": index}, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+    # The list's own format has not changed: it stays 1 (a file's format is in the file).
+    (OUT / "liste.json").write_text(json.dumps({"schema": 1, "ilanlar": index}, ensure_ascii=False, sort_keys=True), encoding="utf-8")
 
 
 def now_iso() -> str:
