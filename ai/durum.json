@@ -1,7 +1,5 @@
 {
- "attempts": {
-  "237a1fa6d3c61669b8c9": 1
- },
+ "attempts": {},
  "listings": {
   "08e9302971543581db45": {
    "institution": "İSTANBUL KALKINMA AJANSI",
@@ -342,6 +340,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 2.1184
+  "2026-11": 2.6853
  }
 }
