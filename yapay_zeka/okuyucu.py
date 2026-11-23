@@ -356,7 +356,9 @@ def save_state(state: dict) -> None:
     index = {}
     for f in sorted(RESULTS.glob("*.json")) if RESULTS.exists() else []:
         try:
-            index[f.stem] = json.loads(f.read_text(encoding="utf-8")).get("read_at", "")
+            at = json.loads(f.read_text(encoding="utf-8")).get("read_at")
+            if isinstance(at, str) and at:
+                index[f.stem] = at
         except ValueError:
             continue
     # The list's own format has not changed: it stays 1 (a file's format is in the file).
@@ -373,6 +375,31 @@ def today() -> str:
 
 def month() -> str:
     return dt.datetime.now(dt.timezone.utc).strftime("%Y-%m")
+
+
+def previous(lid: str):
+    """Bu ilanın kayıtlı okuması (yoksa None)."""
+    try:
+        return json.loads((RESULTS / f"{lid}.json").read_text(encoding="utf-8"))["result"]
+    except Exception:
+        return None
+
+
+def posts_and_total(r: dict) -> tuple:
+    rows = r.get("positions") or []
+    total = sum((p.get("count") or 0) + sum((x.get("count") or 0) for x in (p.get("places") or [])) for p in rows)
+    return len(rows), total
+
+
+def worse(new: dict, old: dict) -> bool:
+    """Yeni okuma eskisinden belirgin biçimde eksik mi: kadro sayısı yarıdan aza indi ya da açıklanan toplamı tutturan eski
+    okumanın yerine tutturamayan geldi."""
+    n_new, t_new = posts_and_total(new)
+    n_old, t_old = posts_and_total(old)
+    if n_old and n_new * 2 < n_old:
+        return True
+    declared = new.get("declared_total") or old.get("declared_total")
+    return bool(declared) and t_old == declared and t_new != declared
 
 
 def collect(client, state: dict, quiet: bool = False) -> None:
@@ -398,10 +425,24 @@ def collect(client, state: dict, quiet: bool = False) -> None:
                     meta["kesildi"] = meta.get("kesildi", 0) + 1
                 print(f"Okunamadı ({r.result.type}): {meta.get('institution', lid)} - {meta.get('title', '')}")
                 continue
-            text = next(x.text for x in r.result.message.content if x.type == "text")
+            try:
+                text = next(x.text for x in r.result.message.content if x.type == "text")
+                result = json.loads(text)
+                if not isinstance(result, dict) or not isinstance(result.get("positions"), list):
+                    raise ValueError("şemaya uymayan yanıt")
+            except (StopIteration, ValueError) as e:  # bir ilanın bozuk yanıtı ötekileri durdurmaz
+                state["attempts"][lid] = state["attempts"].get(lid, 0) + 1
+                print(f"Okunamadı (yanıt bozuk: {e}): {meta.get('institution', lid)} - {meta.get('title', '')}")
+                continue
+            old = previous(lid)
+            if old is not None and worse(result, old):
+                # Yeni okuma eskisinden belirgin biçimde eksik (Jandarma 9000'de 45 kadro 10'a inmişti): eskisi kalır.
+                print(f"Yeni okuma eskisinden eksik, eskisi kaldı: {meta.get('institution', lid)} - {meta.get('title', '')}")
+                state["attempts"].pop(lid, None)
+                continue
             record = {
                 "schema": SCHEMA_VERSION, "id": lid, "institution": meta.get("institution", ""), "title": meta.get("title", ""),
-                "range": meta.get("range", ""), "read_at": now_iso(), "model": r.result.message.model, "result": json.loads(text),
+                "range": meta.get("range", ""), "read_at": now_iso(), "model": r.result.message.model, "result": result,
                 "reading": READING_VERSION,
             }
             if meta.get("ekler"):
@@ -438,6 +479,7 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
         l for l in listings
         if (not (RESULTS / f"{l['id']}.json").exists() or postless(l) or stale(l)) and l["id"] not in pending
         and state["attempts"].get(l["id"], 0) < MAX_ATTEMPTS and not (SKIP_ACADEMIC and ACADEMIC.search(l["title"]))
+        and not state["listings"].get(l["id"], {}).get("kesildi")
     ][:MAX_PER_RUN]
     if not todo:
         print("Okunacak yeni ilan yok")
