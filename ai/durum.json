@@ -1,8 +1,5 @@
 {
- "attempts": {
-  "237a1fa6d3c61669b8c9": 1,
-  "3894f29294e6d0a6c75f": 1
- },
+ "attempts": {},
  "listings": {
   "08e9302971543581db45": {
    "institution": "İSTANBUL KALKINMA AJANSI",
@@ -49,10 +46,10 @@
   },
   "237a1fa6d3c61669b8c9": {
    "institution": "İÇİŞLERİ BAKANLIĞI",
+   "kesildi": 1,
    "range": "7 Aralık - 11 Aralık",
    "seen": "2026-11-23",
-   "title": "1170 SÖZLEŞMELİ PERSONEL ALACAK",
-   "kesildi": 1
+   "title": "1170 SÖZLEŞMELİ PERSONEL ALACAK"
   },
   "269af929d01ccae02426": {
    "institution": "BERGAMA BELEDİYE BAŞKANLIĞI",
@@ -100,10 +97,10 @@
   },
   "3894f29294e6d0a6c75f": {
    "institution": "JANDARMA GENEL KOMUTANLIĞI",
+   "kesildi": 1,
    "range": "23 Kasım - 7 Aralık",
    "seen": "2026-11-23",
-   "title": "9000 UZMAN ERBAŞ TEMİN EDİLECEKTİR.",
-   "kesildi": 1
+   "title": "9000 UZMAN ERBAŞ TEMİN EDİLECEKTİR."
   },
   "405697cb44f10c267ea6": {
    "institution": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI",
@@ -356,6 +353,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 6.6353
+  "2026-11": 7.0788
  }
 }
