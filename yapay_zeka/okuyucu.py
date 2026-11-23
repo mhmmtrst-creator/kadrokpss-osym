@@ -38,6 +38,10 @@ MODEL = "claude-sonnet-5-5"
 # 2 (2026-11-23): a post offered in many places is written once with "places" (İçişleri 1170: one row per place
 # went past the output limit). The apps read 1 and 2.
 SCHEMA_VERSION = 2
+# Talimat sürümü. Büyüdüğünde bütün açık ilanlar yeni talimatla bir kez daha okunur.
+# 2 (2026-11-23, kullanıcı: "ne isteniyorsa o başlık altında yazsın", "tümü için geçerli"): ek tablolardaki bölüm ve
+# belge adları tek tek yazılır, "Tablo-2'ye göre" gibi gönderme yasak; diğer şartlardaki 8 madde sınırı kalktı.
+READING_VERSION = 2
 # Dolar / milyon token, toplu işlem yarı fiyat (claude-api belgesindeki tablo, 2026-11-03).
 PRICE = {"in": 2.0, "out": 10.0, "cache_read": 0.10, "cache_write": 2.5}
 BATCH_DISCOUNT = 0.5
@@ -65,11 +69,12 @@ Rules:
 7. kpss_types: KPSS score types written as P3, P93, P94, P1, P10, P48 and so on ("KPSSP3", "KPSS P3", "KPSS-P3" all mean P3). Empty when no KPSS score is asked.
 8. department_kpss: when the accepted score type depends on the bölüm (for example İktisat P14-P16, İşletme P24-P26), one entry per bölüm with its own types; otherwise empty.
 9. min_score: the lowest KPSS score accepted for the row, from the row or from the general conditions; else null. kpss_year: the year the KPSS score must come from.
-10. departments: the bölüm / program names the row accepts, one per item, as written. any_department: true when any program of the level is accepted ("herhangi bir lisans programından mezun olmak").
+10. departments: every bölüm / program / alan name the row accepts, one per item, copied as written. When the names stand in an annex table or list (Tablo-2, EK-1, "ekli listede yer alan programlar"), copy them from there: never write a reference such as "Tablo-2'deki programlar" instead of the names, however many there are. When a table marks with X (or ✓) which posts accept which program, give each post exactly the programs marked in its own column, from every page of the table and from every such table (lisans, ön lisans, ortaöğretim). Leave out level and length notes such as "(Lisans 4 Yıllık)" or "(Önlisans 2 Yıllık)" and write a program that is listed twice only once. any_department: true only when the row accepts any program of its level ("herhangi bir lisans programından mezun olmak"); departments is then empty.
 11. gender: ERKEK or KADIN only when the row is open to one gender only; else null.
 12. age_years and age_rule: the upper age limit that applies to the row and its exact wording ("30 yaşını bitirmemiş olmak", "35 yaşından gün almamış olmak"); else null.
 13. license_classes: driving licence classes asked ("B", "C", "D", "E"); when two must be held together ("D ve C birlikte") write "D+C"; list alternatives separately.
-14. other_conditions: other requirements of the row in short Turkish phrases (sertifika, boy-kilo, deneyim, askerlik, ...), at most 8.
+14. other_conditions: every other requirement of the row, each as one short Turkish sentence that states the requirement itself, so that the candidate never has to open the announcement: certificates and documents with their exact names, each starting with "Belge: " ("Belge: Elektrik Tesisatçılığı ustalık belgesi"), experience, military service, language, health, height and weight with their numbers. Never write a reference ("Tablo-5'e göre", "ilanda belirtilen", "ekteki listede yer alan") without its content: copy the content instead. When the row may also be applied to with a document instead of KPSS (belge ile başvuru), write that route too and name every accepted document. No limit on the number of items.
+14a. Every condition the announcement sets for a post belongs to that post, in a field or in other_conditions: read the annexes (EK, Tablo, liste) a post refers to and bring their content into the post. Do not shorten or summarize lists to save space; the output limit is large.
 15. declared_total: the total number of posts the announcement itself states ("181 sözleşmeli personel alınacaktır"); else null.
 16. academic: true when the posts are academic staff (öğretim üyesi, öğretim görevlisi, araştırma görevlisi).
 17. apply_start and apply_end: application dates as YYYY-MM-DD when stated; else null.
@@ -387,6 +392,7 @@ def collect(client, state: dict, quiet: bool = False) -> None:
             record = {
                 "schema": SCHEMA_VERSION, "id": lid, "institution": meta.get("institution", ""), "title": meta.get("title", ""),
                 "range": meta.get("range", ""), "read_at": now_iso(), "model": r.result.message.model, "result": json.loads(text),
+                "reading": READING_VERSION,
             }
             if meta.get("ekler"):
                 record["ekler"] = meta["ekler"]  # the guides and annexes read with it
@@ -411,9 +417,16 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
             return False
         return not r.get("positions") and not r.get("academic")
 
+    def stale(l: dict) -> bool:
+        """Eski talimatla okunmuş ilan: yeni talimatla bir kez daha okunur."""
+        try:
+            return json.loads((RESULTS / f"{l['id']}.json").read_text(encoding="utf-8")).get("reading", 1) < READING_VERSION
+        except Exception:
+            return False
+
     todo = [
         l for l in listings
-        if (not (RESULTS / f"{l['id']}.json").exists() or postless(l)) and l["id"] not in pending
+        if (not (RESULTS / f"{l['id']}.json").exists() or postless(l) or stale(l)) and l["id"] not in pending
         and state["attempts"].get(l["id"], 0) < MAX_ATTEMPTS and not (SKIP_ACADEMIC and ACADEMIC.search(l["title"]))
     ][:MAX_PER_RUN]
     if not todo:
@@ -445,7 +458,7 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
         meta = state["listings"].setdefault(l["id"], {})
         meta.update({"institution": l["institution"], "title": l["title"], "range": l["range"], "seen": today()})
         extra = []
-        if (RESULTS / f"{l['id']}.json").exists():
+        if (RESULTS / f"{l['id']}.json").exists() and (postless(l) or meta.get("ekler")):
             # İlk okuma kadro bulamadı: ilanın bağlantı verdiği kılavuz ve ekler bulunup birlikte okunur (bir kez denenir).
             meta["ekler_denendi"] = True
             room = MAX_PAGES - page_count(pdf)
@@ -460,7 +473,7 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
                 room -= page_count(data)
                 size += len(data)
                 extra.append((url, data))
-            if not extra:
+            if not extra and not stale(l):
                 print(f"Kadro yok, bağlantılı belge de yok: {l['institution']} - {l['title']}")
                 continue
             meta["ekler"] = [u for u, _ in extra]
