@@ -344,6 +344,12 @@
    "seen": "2026-11-24",
    "title": "26 PROJE BAZLI SÖZLEŞMELİ PERSONEL ALACAK"
   },
+  "fd8cc9218bc666d21850": {
+   "institution": "KÜLTÜR VE TURİZM BAKANLIĞI",
+   "range": "9 Aralık - 23 Aralık",
+   "seen": "2026-11-24",
+   "title": "20 UZMAN YARDIMCISI ALACAK"
+  },
   "fe9b9042569fd8b2a5f5": {
    "institution": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI",
    "range": "23 Kasım - 30 Kasım",
@@ -353,6 +359,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 7.0788
+  "2026-11": 7.1197
  }
 }

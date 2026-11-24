@@ -1,0 +1,262 @@
+{
+ "schema": 2,
+ "id": "fd8cc9218bc666d21850",
+ "institution": "KÜLTÜR VE TURİZM BAKANLIĞI",
+ "title": "20 UZMAN YARDIMCISI ALACAK",
+ "range": "9 Aralık - 23 Aralık",
+ "read_at": "2026-11-24T07:02:47Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 20,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-12-09",
+  "apply_end": "2026-12-23",
+  "positions": [
+   {
+    "code": "KTU.YRD.1",
+    "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCISI (MİMARLIK)",
+    "place": "Ankara",
+    "count": 3,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Mimarlık"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak (01/01/1992 ve daha sonra doğanlar başvurabilecektir)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak",
+     "En az 4 yıllık lisans eğitimi veren veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yüksek öğretim kurumlarından mezun olmak",
+     "KPSS puanı 2025 ve 2026 yıllarında yapılmış Kamu Personeli Seçme Sınavından alınmış olmalı",
+     "Sözlü sınava, öğrenim dalı itibariyle alınacak sayının 4 katı aday katılabilir (son sıradaki ile aynı puanı alanlar dahil)",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak"
+    ]
+   },
+   {
+    "code": "KTU.YRD.2",
+    "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCISI (ŞEHİR VE BÖLGE PLANLAMA)",
+    "place": "Ankara",
+    "count": 3,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Şehir ve Bölge Planlama"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak (01/01/1992 ve daha sonra doğanlar başvurabilecektir)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak",
+     "En az 4 yıllık lisans eğitimi veren veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yüksek öğretim kurumlarından mezun olmak",
+     "KPSS puanı 2025 ve 2026 yıllarında yapılmış Kamu Personeli Seçme Sınavından alınmış olmalı",
+     "Sözlü sınava, öğrenim dalı itibariyle alınacak sayının 4 katı aday katılabilir (son sıradaki ile aynı puanı alanlar dahil)",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak"
+    ]
+   },
+   {
+    "code": "KTU.YRD.3",
+    "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCISI (MAKİNE MÜHENDİSLİĞİ)",
+    "place": "Ankara",
+    "count": 3,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Makine Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak (01/01/1992 ve daha sonra doğanlar başvurabilecektir)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak",
+     "En az 4 yıllık lisans eğitimi veren veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yüksek öğretim kurumlarından mezun olmak",
+     "KPSS puanı 2025 ve 2026 yıllarında yapılmış Kamu Personeli Seçme Sınavından alınmış olmalı",
+     "Sözlü sınava, öğrenim dalı itibariyle alınacak sayının 4 katı aday katılabilir (son sıradaki ile aynı puanı alanlar dahil)",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak"
+    ]
+   },
+   {
+    "code": "KTU.YRD.4",
+    "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCISI (ÇEVRE MÜHENDİSLİĞİ)",
+    "place": "Ankara",
+    "count": 2,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Çevre Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak (01/01/1992 ve daha sonra doğanlar başvurabilecektir)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak",
+     "En az 4 yıllık lisans eğitimi veren veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yüksek öğretim kurumlarından mezun olmak",
+     "KPSS puanı 2025 ve 2026 yıllarında yapılmış Kamu Personeli Seçme Sınavından alınmış olmalı",
+     "Sözlü sınava, öğrenim dalı itibariyle alınacak sayının 4 katı aday katılabilir (son sıradaki ile aynı puanı alanlar dahil)",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak"
+    ]
+   },
+   {
+    "code": "KTU.YRD.5",
+    "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCISI (İKTİSAT, İŞLETME)",
+    "place": "Ankara",
+    "count": 3,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P28"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "İktisat",
+     "İşletme"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak (01/01/1992 ve daha sonra doğanlar başvurabilecektir)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak",
+     "En az 4 yıllık lisans eğitimi veren veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yüksek öğretim kurumlarından mezun olmak",
+     "KPSS puanı 2025 ve 2026 yıllarında yapılmış Kamu Personeli Seçme Sınavından alınmış olmalı",
+     "Sözlü sınava, öğrenim dalı itibariyle alınacak sayının 4 katı aday katılabilir (son sıradaki ile aynı puanı alanlar dahil)",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak"
+    ]
+   },
+   {
+    "code": "KTU.YRD.6",
+    "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCISI (KAMU YÖNETİMİ, SİYASET BİLİMİ VE KAMU YÖNETİMİ)",
+    "place": "Ankara",
+    "count": 2,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P29"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Kamu Yönetimi",
+     "Siyaset Bilimi ve Kamu Yönetimi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak (01/01/1992 ve daha sonra doğanlar başvurabilecektir)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak",
+     "En az 4 yıllık lisans eğitimi veren veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yüksek öğretim kurumlarından mezun olmak",
+     "KPSS puanı 2025 ve 2026 yıllarında yapılmış Kamu Personeli Seçme Sınavından alınmış olmalı",
+     "Sözlü sınava, öğrenim dalı itibariyle alınacak sayının 4 katı aday katılabilir (son sıradaki ile aynı puanı alanlar dahil)",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak"
+    ]
+   },
+   {
+    "code": "KTU.YRD.7",
+    "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCISI (ULUSLARARASI İLİŞKİLER)",
+    "place": "Ankara",
+    "count": 3,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P34"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Uluslararası İlişkiler"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak (01/01/1992 ve daha sonra doğanlar başvurabilecektir)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak",
+     "En az 4 yıllık lisans eğitimi veren veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yüksek öğretim kurumlarından mezun olmak",
+     "KPSS puanı 2025 ve 2026 yıllarında yapılmış Kamu Personeli Seçme Sınavından alınmış olmalı",
+     "Sözlü sınava, öğrenim dalı itibariyle alınacak sayının 4 katı aday katılabilir (son sıradaki ile aynı puanı alanlar dahil)",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak"
+    ]
+   },
+   {
+    "code": "KTU.YRD.8",
+    "title": "KÜLTÜR VE TURİZM UZMAN YARDIMCISI (SANAT TARİHİ)",
+    "place": "Ankara",
+    "count": 1,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Sanat Tarihi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak (01/01/1992 ve daha sonra doğanlar başvurabilecektir)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak",
+     "En az 4 yıllık lisans eğitimi veren veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yüksek öğretim kurumlarından mezun olmak",
+     "KPSS puanı 2025 ve 2026 yıllarında yapılmış Kamu Personeli Seçme Sınavından alınmış olmalı",
+     "Sözlü sınava, öğrenim dalı itibariyle alınacak sayının 4 katı aday katılabilir (son sıradaki ile aynı puanı alanlar dahil)",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak"
+    ]
+   }
+  ],
+  "notes": "Kadro sayıları toplamı 20 (3+3+3+2+3+2+3+1). KPSS yılı 2025 ve 2026 olarak belirtildiği için tek bir kpss_year yazılmadı. Yer, merkez teşkilatı ve sınavın Ankara'da yapılması nedeniyle Ankara olarak alındı; ilanda açıkça 'görev yeri' sütunu yoktur. KTU.YRD.6 için 'Kamu Yönetimi, Siyaset Bilimi ve Kamu Yönetimi' ifadesi ilandaki gibi iki bölüm olarak yazıldı."
+ },
+ "reading": 2
+}
