@@ -1,0 +1,178 @@
+{
+ "schema": 2,
+ "id": "6ee28457c62ff1f6b603",
+ "institution": "REKABET KURUMU BAŞKANLIĞI",
+ "title": "55 REKABET UZMAN YARDIMCISI ALACAK",
+ "range": "7 Aralık - 21 Aralık",
+ "read_at": "2026-11-24T15:02:45Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 55,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": "2026-12-07",
+  "apply_end": "2026-12-21",
+  "positions": [
+   {
+    "code": null,
+    "title": "REKABET UZMAN YARDIMCISI (GENEL)",
+    "place": null,
+    "count": 15,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P19",
+     "P24",
+     "P26",
+     "P27",
+     "P28",
+     "P33",
+     "P38",
+     "P41"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "İktisat Fakültesi",
+     "Siyasal Bilgiler Fakültesi",
+     "İşletme Fakültesi",
+     "İktisadi ve İdari Bilimler Fakültesi",
+     "İşletme Mühendisliği",
+     "Endüstri Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak",
+     "En az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı kurumlardan mezun olmak",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak",
+     "Son başvuru tarihi itibarıyla 2025-2026 KPSS sonuçlarından geçerli puan türlerinden birinden en az 80 puan almış olmak",
+     "KPSS puanıyla başvuranlar içinde en yüksek puanlı 300 kişi arasında bulunmak (son sıradaki adayla aynı puana sahip adaylar da kabul edilir)",
+     "Yazılı sınavda yabancı dil (İngilizce) sınavından en az 70 puan almak gerekir",
+     "Tek kadroya başvuru yapılabilir"
+    ]
+   },
+   {
+    "code": null,
+    "title": "REKABET UZMAN YARDIMCISI (İKTİSAT)",
+    "place": null,
+    "count": 15,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P12",
+     "P13",
+     "P14",
+     "P15",
+     "P16"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "İktisat",
+     "İşletme",
+     "Ekonometri",
+     "İstatistik",
+     "İstatistik ve Bilgisayar",
+     "Matematik ve Bilgisayar",
+     "Matematik Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak",
+     "En az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı kurumlardan mezun olmak",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak",
+     "Son başvuru tarihi itibarıyla 2025-2026 KPSS sonuçlarından geçerli puan türlerinden birinden en az 80 puan almış olmak",
+     "KPSS puanıyla başvuranlar içinde en yüksek puanlı 300 kişi arasında bulunmak (son sıradaki adayla aynı puana sahip adaylar da kabul edilir)",
+     "Yazılı sınavda yabancı dil (İngilizce) sınavından en az 70 puan almak gerekir",
+     "Tek kadroya başvuru yapılabilir"
+    ]
+   },
+   {
+    "code": null,
+    "title": "REKABET UZMAN YARDIMCISI (HUKUK)",
+    "place": null,
+    "count": 15,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P4",
+     "P5",
+     "P6",
+     "P7"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Hukuk Fakültesi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak",
+     "En az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı kurumlardan mezun olmak",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak",
+     "Son başvuru tarihi itibarıyla 2025-2026 KPSS sonuçlarından geçerli puan türlerinden birinden en az 80 puan almış olmak",
+     "KPSS puanıyla başvuranlar içinde en yüksek puanlı 300 kişi arasında bulunmak (son sıradaki adayla aynı puana sahip adaylar da kabul edilir)",
+     "Yazılı sınavda yabancı dil (İngilizce) sınavından en az 70 puan almak gerekir",
+     "Tek kadroya başvuru yapılabilir"
+    ]
+   },
+   {
+    "code": null,
+    "title": "REKABET UZMAN YARDIMCISI (BİLİŞİM)",
+    "place": null,
+    "count": 10,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P1",
+     "P2"
+    ],
+    "department_kpss": [],
+    "min_score": 80,
+    "departments": [
+     "Bilgisayar Mühendisliği",
+     "Adli Bilişim Mühendisliği",
+     "Yazılım Mühendisliği",
+     "Yapay Zekâ Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak",
+     "En az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı kurumlardan mezun olmak",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak",
+     "Son başvuru tarihi itibarıyla 2025-2026 KPSS sonuçlarından P1 veya P2 puan türünden en az 80 puan almış olmak",
+     "KPSS puanıyla başvuranlar içinde en yüksek puanlı 200 kişi arasında bulunmak (son sıradaki adayla aynı puana sahip adaylar da kabul edilir)",
+     "Yazılı sınavda yabancı dil (İngilizce) sınavından en az 70 puan almak gerekir",
+     "Tek kadroya başvuru yapılabilir"
+    ]
+   }
+  ],
+  "notes": "KPSS yılı olarak '2025 - 2026 KPSS' yazıldığından kpss_year null bırakıldı. Yazılı sınav 23 Ocak 2027'de Ankara'da yapılacaktır. Genel kadro için 'iktisat, siyasal bilgiler, işletme, iktisadi ve idari bilimler fakülteleri' ifadesi bölüm listesine fakülte adı olarak yazıldı."
+ },
+ "reading": 2
+}

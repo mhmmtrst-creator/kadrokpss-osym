@@ -139,6 +139,12 @@
    "seen": "2026-11-24",
    "title": "181 SÖZLEŞMELİ PERSONEL ALACAK"
   },
+  "6ee28457c62ff1f6b603": {
+   "institution": "REKABET KURUMU BAŞKANLIĞI",
+   "range": "7 Aralık - 21 Aralık",
+   "seen": "2026-11-24",
+   "title": "55 REKABET UZMAN YARDIMCISI ALACAK"
+  },
   "737f108b1952e6dbdee4": {
    "institution": "GAZİOSMANPAŞA BELEDİYE BAŞKANLIĞI",
    "range": "7 Aralık - 11 Aralık",
@@ -359,6 +365,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 7.1197
+  "2026-11": 7.1428
  }
 }
