@@ -114,6 +114,12 @@
    "seen": "2026-11-25",
    "title": "2 SÖZLEŞMELİ PERSONEL ALACAK"
   },
+  "521f7d82ec1bf7e94185": {
+   "institution": "TÜRK-ALMAN ÜNİVERSİTESİ",
+   "range": "30 Kasım - 14 Aralık",
+   "seen": "2026-11-25",
+   "title": "5 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK"
+  },
   "5af79c606aea714c82f7": {
    "institution": "DİCLE KALKINMA AJANSI",
    "range": "4 Aralık - 18 Aralık",
@@ -365,6 +371,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 7.1428
+  "2026-11": 7.2363
  }
 }
