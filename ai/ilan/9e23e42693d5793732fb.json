@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "9e23e42693d5793732fb",
+ "institution": "ÖZBURUN BELEDİYE BAŞKANLIĞI",
+ "title": "2 SüREKLİ (OPERATÖR) İŞÇİ ALACAK",
+ "range": "26 Kasım - 30 Kasım",
+ "read_at": "2026-11-26T03:59:22Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 2,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": null,
+  "apply_end": null,
+  "positions": [
+   {
+    "code": "8342.26",
+    "title": "BEKO LODER (KAZICI - YÜKLEYİCİ) OPERATÖRÜ",
+    "place": "Afyonkarahisar/Bolvadin İlçe Geneli",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "18 yaşını tamamlamış, 35 yaşından gün almamış olmak",
+    "license_classes": [
+     "G",
+     "B"
+    ],
+    "other_conditions": [
+     "Bolvadin İlçesi sınırlarında ikamet ediyor olmak.",
+     "Erkek adaylar için askerliğini yapmış, tecilli veya muaf olmak.",
+     "Sürücü belgesinde Beko Loder (Kazıcı-Yükleyici) operatörlüğüne uygun kodun bulunması.",
+     "Beko Loder (Kazıcı-Yükleyici) operatörü olarak en az 1 yıl mesleki deneyime sahip olmak.",
+     "Belge: Beko Loder (Kazıcı-Yükleyici) Operatörlük Belgesi",
+     "Görevini devamlı yapmasına engel olabilecek fiziksel veya sağlık yönünden herhangi bir engeli bulunmamak.",
+     "Yöntem: Noter kurası, sözlü sınav ve uygulamalı sınav.",
+     "Vardiyalı çalışmaya engel durumu bulunmamak.",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almıyor olmak."
+    ]
+   },
+   {
+    "code": "8332.05",
+    "title": "KARA TANKERİ OPERATÖRÜ (TEHLİKELİ MADDE TAŞIMACILIĞI)",
+    "place": "Afyonkarahisar/Bolvadin İlçe Geneli",
+    "count": 1,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "18 yaşını tamamlamış, 35 yaşından gün almamış olmak",
+    "license_classes": [
+     "B",
+     "C",
+     "CE"
+    ],
+    "other_conditions": [
+     "Bolvadin ilçesi sınırlarında ikamet ediyor olmak.",
+     "Erkek adaylar için askerliğini yapmış, tecilli veya muaf olmak.",
+     "Belge: Psikoteknik belgesi",
+     "Kara tankeri şoförü/operatörü olarak en az 1 yıl mesleki deneyime sahip olmak.",
+     "Tehlikeli madde taşıma, yükleme ve boşaltma işlemlerinde ADR ve iş sağlığı ve güvenliği kurallarına uygun hareket etmeyi kabul etmek.",
+     "Belge: SRC-5 belgesi (tanker taşımacılığı yetkisi bulunan)",
+     "Belge: ADR Temel ve ADR Tanker eğitimi belgesi",
+     "Kara tankerinin kullanımı, dolum ve boşaltma işlemleri ile ilgili görevleri yerine getirebilecek bilgi ve deneyime sahip olmak.",
+     "Yöntem: Noter kurası, sözlü sınav ve uygulamalı sınav.",
+     "Vardiyalı çalışmaya engel durumu bulunmamak.",
+     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almıyor olmak."
+    ]
+   }
+  ],
+  "notes": "Sürekli işçi alımı (İŞKUR, noter kurası); KPSS aranmıyor. Başvuru süresi ilan tarihinden itibaren 5 gün (ilan tarihi 20/11/2026 belirtilmiş, kesin başvuru başlangıç/bitiş tarihi açıkça yazılmadığından null bırakıldı). Evrak teslimi 03-04/12/2026. C veya CE sınıfı sürücü belgesi alternatif olarak yazıldı; B sınıfı da ayrıca aranıyor."
+ },
+ "reading": 2
+}

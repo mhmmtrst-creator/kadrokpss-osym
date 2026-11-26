@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "id": "166a42376fb2a9eb1183",
+ "institution": "MERSİN ÜNİVERSİTESİ",
+ "title": "1 ADET SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK",
+ "range": "26 Kasım - 10 Aralık",
+ "read_at": "2026-11-26T03:59:22Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 1,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-26",
+  "apply_end": "2026-12-10",
+  "positions": [
+   {
+    "code": "1",
+    "title": "SİSTEM YÖNETİCİSİ",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": 45,
+    "age_rule": "Başvuru son günü itibarıyla 45 yaşından gün almamış olmak.",
+    "license_classes": [],
+    "other_conditions": [
+     "Erkek adaylar için muvazzaf askerlik hizmetini yapmış, muaf veya tecilli olmak.",
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinde yazılı genel koşulları taşımak.",
+     "Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmeliğin 6 ncı maddesinin (b) fıkrasında sayılan bölümlerden mezun olmak.",
+     "Yazılım, yazılım tasarımı ve geliştirilmesi ile bu sürecin yönetimi konusunda veya büyük ölçekli ağ sistemlerinin kurulumu ve yönetimi konusunda en az 5 yıllık mesleki tecrübeye sahip olmak (e-Devletten alınan SGK Hizmet Dökümü ile belgelenecek).",
+     "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak kaydıyla güncel programlama dillerinden en az ikisini bildiğini belgelemek.",
+     "Özel şartlarda istenen sertifikalar e-Devlet onaylı veya uluslararası kurum/şirketlerden (kendi üreticisinden) verilen orijinal sertifikalar olmalıdır.",
+     "Güvenlik soruşturması ve/veya arşiv araştırmasında kamu hizmetine atanmasına engel bir durumu bulunmamak.",
+     "Sınav: ÖSYM tarafından 2026 yılında lisans mezunları için yapılan KPSS P3 puanının %70'i ile son beş yıl içinde yapılan İngilizce YDS/e-YDS veya YDS'ye denk kabul edilen sınav puanının YDS karşılığının %30'unun toplamına göre sıralanır; pozisyonun 10 katına kadar aday yazılı ve uygulamalı sınava çağrılır.",
+     "KPSS puanı olmayan adayın KPSS puanı 70, yabancı dil puanı olmayan adayın yabancı dil puanı 0 olarak değerlendirilir.",
+     "Yazılı sınavın %30'u ve uygulamalı sınavın %70'i toplamı 100 tam puan üzerinden en az 70 olmak.",
+     "Büyük ölçekli bilgi işlem birimlerinde veya millî güvenliği tehdit edebilecek ya da kamu düzeninin bozulmasına yol açabilecek kritik nitelikteki verilerin bulunduğu kamu kurum ve kuruluşlarında veya en az 5.000 iç kullanıcıya hizmet veren özel sektör kuruluşlarının bilgi işlem birimlerinde, sistem yönetimi alanında en az 5 yıl mesleki deneyime sahip olduğunu belgelemek.",
+     "Belge: Linux ve Microsoft Windows Server işletim sistemlerinin kurulumu, yapılandırılması, yönetimi, güvenlik sıkılaştırması, performans iyileştirmesi, sistem günlüklerinin analizi ve sorun giderme süreçlerinde fiilen görev aldığını gösteren belge",
+     "Belge: Sunucu sanallaştırma sistemlerinden (VMware, Hyper-V, Proxmox veya benzeri) en az birinin kurulumu ve yönetimi süreçlerinde fiilen görev aldığını gösteren belge",
+     "Belge: Apache HTTP Server veya Nginx web sunucularının kurulumu, yapılandırılması ve sorun giderme süreçlerinde fiilen görev aldığını gösteren belge",
+     "Composer ve npm paket yöneticisine hakim olmak.",
+     "Farklı programlama dilleri ve teknolojilerle geliştirilmiş web uygulamalarının çalıştırıldığı sunucu ortamlarının kurulumu, yapılandırılması, yönetimi, güncellenmesi ve sorunlarının giderilmesi konularında bilgi ve tecrübe sahibi olmak.",
+     "PostgreSQL veritabanı yönetimi ve bakımı konusunda tecrübeli olmak.",
+     "Sunucuların Cluster ve Yüksek Erişilebilirlik yapılanması konusunda çalışmış olmak.",
+     "Veri ve veritabanı yedekleme yöntem ve stratejileri konusunda tecrübeli olmak.",
+     "Storage (Depolama Cihazları) yönetimi yapabilmek.",
+     "İleri seviye bash scripting bilgisine sahip olmak.",
+     "Siber güvenlik bilgi birikimi ile sunucuyu koruma birikimine sahip olmak.",
+     "Firewall ve Web Application Firewall hakkında bilgi sahibi olmak.",
+     "DNS, DHCP, FTP konularında kurulum, konfigürasyon, upgrade ve sorun çözümleme tecrübelerine sahip olmak.",
+     "Sunucu donanımları ve yapılandırması (Disk, Ethernet, hba, raid vb.) hakkında bilgi ve tecrübe sahibi olmak.",
+     "Linux sistemlerde docker container ve kubernetes yönetiminde ileri seviye tecrübeye sahip olmak.",
+     "Linux sistemlerde Docker network yönetimi konusunda ileri seviye tecrübeye sahip olmak: IPVLAN (hem L2 hem L3), MACVLAN, Bridge, Overlay.",
+     "Analitik düşünce ve hızlı problem çözme yeteneğine sahip olmak.",
+     "Hızlı öğrenme ve kendini geliştirme yeteneğine sahip olmak.",
+     "Dokümantasyona önem vermek ve bunu düzenli olarak yapmak.",
+     "Tercihen şu sertifikalardan veya güncel sürüm/muadillerinden (VCP-DCV, CKA, LPIC-2, Microsoft Certified: Windows Server Hybrid Administrator Associate vb.) en az ikisine sahip olduğunu belgelemek: VMware Certified Professional (VCP4), Red Hat Certified Engineer (RHCE), Certified Ethical Hacker (CEH), Microsoft Certified Solutions Expert (MCSE), Microsoft Certified IT Professional (MCITP), Microsoft Certified Technology Specialist (MCTS)."
+    ]
+   }
+  ],
+  "notes": "İlan, Yönetmeliğin 6 ncı maddesinin (b) fıkrasındaki bölümlerin adlarını içermiyor, bu nedenle departments boş bırakıldı. Eğitim düzeyi 'lisans mezunları' ifadesine dayanılarak LISANS alındı. Asgari KPSS puanı belirtilmemiş. Brüt ücret tavanı 3 katı, tam zamanlı çalışma. Başvuru bitişi 10.12.2026 saat 23:59:59."
+ },
+ "reading": 2
+}
