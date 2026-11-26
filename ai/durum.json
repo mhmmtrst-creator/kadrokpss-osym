@@ -151,6 +151,12 @@
    "seen": "2026-11-26",
    "title": "181 SÖZLEŞMELİ PERSONEL ALACAK"
   },
+  "696df493081a930d7e74": {
+   "institution": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ",
+   "range": "26 Kasım - 27 Kasım",
+   "seen": "2026-11-26",
+   "title": "İPTAL İLANI"
+  },
   "6ee28457c62ff1f6b603": {
    "institution": "REKABET KURUMU BAŞKANLIĞI",
    "range": "7 Aralık - 21 Aralık",
@@ -383,6 +389,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 7.289
+  "2026-11": 7.2968
  }
 }
