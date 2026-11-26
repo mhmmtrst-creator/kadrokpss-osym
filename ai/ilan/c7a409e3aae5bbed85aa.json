@@ -1,0 +1,19 @@
+{
+ "schema": 2,
+ "id": "c7a409e3aae5bbed85aa",
+ "institution": "SAKARYA ÜNİVERSİTESİ",
+ "title": "İPTAL İLANI",
+ "range": "26 Kasım - 7 Aralık",
+ "read_at": "2026-11-26T09:02:46Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": null,
+  "academic": true,
+  "kpss_year": null,
+  "apply_start": null,
+  "apply_end": null,
+  "positions": [],
+  "notes": "Bu bir iptal ilanıdır: Sakarya Üniversitesi, 06.11.2026 tarihli ve 33422 sayılı Resmî Gazete'de yayımlanan İktisadi Gelişme ve Uluslararası İktisat Anabilim Dalı Profesör kadro ilanını (Siyasal Bilgiler Fakültesi, İktisat Bölümü, 1 adet, 1. derece) iptal etmiştir. Yeni alım yapılmadığı için kadro satırı çıkarılmamıştır."
+ },
+ "reading": 2
+}

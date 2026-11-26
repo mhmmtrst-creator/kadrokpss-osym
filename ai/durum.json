@@ -303,6 +303,12 @@
    "seen": "2026-11-26",
    "title": "5 MÜFETTİŞ YARDIMCISI ALACAK"
   },
+  "c7a409e3aae5bbed85aa": {
+   "institution": "SAKARYA ÜNİVERSİTESİ",
+   "range": "26 Kasım - 7 Aralık",
+   "seen": "2026-11-26",
+   "title": "İPTAL İLANI"
+  },
   "ccff3c2bf0f6e5380316": {
    "institution": "KAMU DENETÇİLİĞİ KURUMU",
    "range": "9 Kasım - 22 Kasım",
@@ -389,6 +395,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 7.2968
+  "2026-11": 7.3047
  }
 }
