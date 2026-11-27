@@ -6,6 +6,17 @@ on:
     # GitHub, 60 gün hareketsiz kalan depoda zamanlanmış işleri durdurur: ayda bir küçük bir kayıt.
     - cron: "17 6 1 * *"
   workflow_dispatch:
+  # Mac (yapay_zeka.sh, 15 dakikada bir) yeni ilanları okuyup listeyle birlikte yükleyince telefonlar hemen uyandırılır
+  # (watch.js runListings, macliste.js). Kod değişince de bir kez çalışır.
+  push:
+    branches: [main]
+    paths:
+      - "ai/portal.json"
+      - "ai/durum.json"
+      - "watch.js"
+      - "ilan.js"
+      - "macliste.js"
+      - ".github/workflows/osym.yml"
 
 concurrency:
   group: osym

@@ -552,6 +552,20 @@ def prune(state: dict, on_portal: set) -> None:
             state["attempts"].pop(lid, None)
 
 
+def write_portal(listings: list) -> None:
+    """Portaldaki bütün ilanlar (akademikler ve okunmayanlar da): GitHub'daki sunucu telefonları bu listeye göre uyandırır
+    (macliste.js), çünkü portal yurt dışındaki sunuculara 403 veriyor. Dosya yalnızca liste değişince değişir; boş bir
+    okuma (hata sayfası) son iyi listenin yerine yazılmaz."""
+    if not listings or not RESULTS.parent.exists():
+        return
+    rows = sorted(({"id": l["id"], "institution": l["institution"], "title": l["title"], "range": l["range"]} for l in listings),
+                  key=lambda r: r["id"])
+    text = json.dumps({"schema": 1, "ilanlar": rows}, ensure_ascii=False, indent=0, sort_keys=True)
+    path = OUT / "portal.json"
+    if not path.exists() or path.read_text(encoding="utf-8") != text:
+        path.write_text(text, encoding="utf-8")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--kuru", action="store_true", help="Claude'a bir şey göndermeden ne yapılacağını yazar")
@@ -566,6 +580,8 @@ def main() -> None:
         return
     listings = parse_timeline(html)
     print(f"Portalda {len(listings)} ilan")
+    if not a.sayfa and not a.kuru:
+        write_portal(listings)
     state = load_state()
     if a.kuru:
         submit(None, state, listings, dry=True)

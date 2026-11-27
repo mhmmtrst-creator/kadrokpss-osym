@@ -5,6 +5,7 @@
 const admin = require("firebase-admin");
 const osym = require("./osym");
 const ilan = require("./ilan");
+const maclist = require("./macliste");
 
 if (!admin.apps.length) admin.initializeApp();
 
@@ -79,27 +80,32 @@ async function run(log = console.log) {
 /**
  * Kamu İlan'da yeni ilan varsa "ilanlar" konusundaki telefonları uyandırır (ilan.js). Gece (23–07)
  * gönderilmez ve yeni ilanlar hatırlananlara eklenmez: sabahki ilk çalışma onları yine yeni sayar.
+ * Liste Mac'ten gelir (macliste.js, ai/durum.json): portal GitHub'a 403 veriyor ve Mac'in kaydı yapay zekâ
+ * okumalarıyla birlikte geldiği için uyanan telefon okumayı hazır bulur. Dosya yoksa portal denenir.
  */
 async function runListings(log = console.log, now = new Date()) {
-  const rows = ilan.parse((await get(ilan.BASE)).body);
+  const mac = maclist.rows(__dirname);
+  const rows = mac || ilan.parse((await get(ilan.BASE)).body);
+  const source = mac ? "Mac listesi" : "portal";
   if (!rows.length) {
-    log("Kamu İlan: liste boş okundu, bir şey yapılmadı.");
+    log(`Kamu İlan (${source}): liste boş, bir şey yapılmadı.`);
     return;
   }
   const ref = admin.firestore().doc("server/ilanWatch");
   const snap = await ref.get();
   const first = !snap.exists;
   const seen = new Set(snap.exists ? snap.get("seen") || [] : []);
-  const fresh = ilan.fresh(rows, seen, first);
+  // Mac listesine geçilen ilk çalışmada son 3 saatte okunan ilanlar için telefonlar bir kez uyanır.
+  const fresh = first && mac ? maclist.recent(rows, maclist.readAt(__dirname), now) : ilan.fresh(rows, seen, first);
   if (fresh.length && ilan.quiet(now)) {
-    log(`Kamu İlan: ${fresh.length} yeni ilan; gece, sabah bildirilecek.`);
+    log(`Kamu İlan (${source}): ${fresh.length} yeni ilan; gece, sabah bildirilecek.`);
     return;
   }
   if (fresh.length) {
     await admin.messaging().send(ilan.message(fresh.length));
-    log(`Kamu İlan: ${fresh.length} yeni ilan, telefonlar uyandırıldı:`, fresh.slice(0, 3).map((r) => r.kurum).join("; "));
+    log(`Kamu İlan (${source}): ${fresh.length} yeni ilan, telefonlar uyandırıldı:`, fresh.slice(0, 3).map((r) => r.kurum).join("; "));
   } else {
-    log(`Kamu İlan: ${rows.length} ilan okundu, yeni yok${first ? " (ilk çalışma)" : ""}.`);
+    log(`Kamu İlan (${source}): ${rows.length} ilan, yeni yok${first ? " (ilk çalışma)" : ""}.`);
   }
   await ref.set({ seen: ilan.remembered(rows, seen), at: admin.firestore.FieldValue.serverTimestamp() });
 }
