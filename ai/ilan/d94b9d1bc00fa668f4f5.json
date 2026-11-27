@@ -1,0 +1,116 @@
+{
+ "schema": 2,
+ "id": "d94b9d1bc00fa668f4f5",
+ "institution": "SELÇUK ÜNİVERSİTESİ",
+ "title": "2 ALACAK",
+ "range": "27 Kasım - 14 Aralık",
+ "read_at": "2026-11-27T04:00:07Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 2,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-27",
+  "apply_end": "2026-12-14",
+  "positions": [
+   {
+    "code": "01",
+    "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Ücret: Ücret tavanının 2 katına kadar sözleşme ücreti ödenir.",
+     "Mezuniyet: Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamı Yönetmeliği'nin 6. maddesinin (b) veya (c) bendinde belirtilen alanlardan birinden mezun olmak.",
+     "Türk vatandaşı olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "657 sayılı Kanun'un 48. maddesine göre kamu kurumlarında çalışmaya engel sabıka kaydı bulunmamak.",
+     "Erkek adaylar için: Muvazzaf askerlik hizmetini yapmış, yedek sınıfa geçirilmiş veya askerlikten muaf olmak ya da ilişiği bulunmamak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak ve güncel programlama dillerinden en az ikisini bildiğini belgelemek.",
+     "Deneyim: Büyük ölçekli kamu kurum ve kuruluşlarının veya özel şirketlerin bilgi işlem birimlerinde ya da bunlara hizmet veren özel yazılım şirketlerinde yazılım tasarım ve geliştirme faaliyetlerinde en az 5 yıl mesleki tecrübe sahibi olmak ve belgelemek.",
+     "Deneyim: Lisans mezuniyetinden sonra bilişim alanında en az 5 yıl frontend, backend, mobil uygulama geliştirme veya Yazılım Mühendisliği alanlarında belgelendirilmiş mesleki tecrübeye sahip olmak.",
+     "Mesleki çalışma süresi bilişim personeli olarak geçmiş olmalı ve başvuru tarihi itibarıyla 5 yıllık süre dolmuş olmalıdır.",
+     "Vue.js, React, Next.js ve Angular frameworklerinin en az birinde ürün geliştirme, mimari iyileştirme ve teknik problem çözme deneyimine sahip olmak; TypeScript, JavaScript, HTML5, CSS3 ve SCSS teknolojilerini ileri düzeyde bilmek.",
+     "PrimeNG, PrimeReact, Material UI gibi açık kaynak UI kütüphaneleri ile bileşen geliştirme ve özelleştirme süreçlerinde görev almış olmak; bileşen API'leri, erişilebilirlik, duyarlı tasarım, performans optimizasyonu ve tema altyapıları konularında tecrübe sahibi olmak.",
+     "Yerel büyük dil modelleri (Local LLM), LLM entegrasyonu ve yapay zeka destekli öneri sistemleri konularında tecrübe sahibi olmak.",
+     "Kullanıcıların doğal dil tabanlı sohbet arayüzleri (chatbot) üzerinden işlem ve hizmet taleplerini gerçekleştirebildiği yapay zeka entegrasyonlu etkileşimli web akışları tasarlamış olmak.",
+     "C# ve ASP.NET Core veya Python (Flask/Django) ekosistemlerinde backend geliştirme tecrübesine sahip olmak ve REST API entegrasyonları gerçekleştirebilmek.",
+     "Yüksek trafikli dijital platformlarda kritik iş süreçlerinin (kimlik doğrulama vb.) web arayüzüne entegrasyonu konusunda tecrübe sahibi olmak.",
+     "AWS ve benzeri bulut servislerini kullanarak otomasyon ve sunucusuz (serverless) mimariler kurabilmek; web performansı ve SEO iyileştirmeleri yapabilmek.",
+     "React Native ile mobil uygulama geliştirme konusunda tecrübe sahibi olmak; Swift ve Kotlin ile native iOS ve Android geliştirme süreçleri hakkında bilgi sahibi olmak.",
+     "Docker ve Nginx gibi bulut ve altyapı araçlarını kullanabilmek; CI/CD (GitLab CI, GitHub Actions) süreçleri hakkında bilgi ve tecrübe sahibi olmak.",
+     "Oracle, SQL ve MongoDB veritabanı sistemleri üzerinde bilgi ve tecrübe sahibi olmak.",
+     "KPSS P3 (2026) puanı varsa sıralamada puanın %70'i kullanılır; KPSS puanı yoksa 70 puan sayılır, KPSS zorunlu değildir.",
+     "Yabancı dil: İngilizce YDS/e-YDS veya denk sınav puanı varsa puanın %30'u sıralamaya eklenir; belge yoksa dil puanı 0 sayılır.",
+     "Sözlü/uygulamalı sınavdan 100 üzerinden en az 70 puan almak.",
+     "Bir aday yalnızca bir bilişim personeli pozisyonuna başvurabilir."
+    ]
+   },
+   {
+    "code": "02",
+    "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ",
+    "place": null,
+    "count": 1,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": null,
+    "departments": [],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "Ücret: Ücret tavanının 3 katına kadar sözleşme ücreti ödenir.",
+     "Mezuniyet: Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamı Yönetmeliği'nin 6. maddesinin (b) bendinde belirtilen alanlardan birinden mezun olmak.",
+     "Türk vatandaşı olmak.",
+     "Kamu haklarından mahrum bulunmamak.",
+     "657 sayılı Kanun'un 48. maddesine göre kamu kurumlarında çalışmaya engel sabıka kaydı bulunmamak.",
+     "Erkek adaylar için: Muvazzaf askerlik hizmetini yapmış, yedek sınıfa geçirilmiş veya askerlikten muaf olmak ya da ilişiği bulunmamak.",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+     "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak ve güncel programlama dillerinden en az ikisini bildiğini belgelemek.",
+     "Deneyim: Büyük ölçekli kamu kurum ve kuruluşlarının veya özel şirketlerin bilgi işlem birimlerinde ya da bunlara hizmet veren özel yazılım şirketlerinde yazılım tasarım ve geliştirme faaliyetlerinde en az 5 yıl mesleki tecrübe sahibi olmak ve belgelemek.",
+     "Deneyim: Lisans mezuniyetinden sonra en az 5 yıl yapay zeka veya Yazılım Mühendisliği alanında belgelendirilmiş mesleki tecrübeye sahip olmak.",
+     "Mesleki çalışma süresi bilişim personeli olarak geçmiş olmalı ve başvuru tarihi itibarıyla 5 yıllık süre dolmuş olmalıdır.",
+     "Bilgisayarlı görü, anomali tespiti ve zaman serisi analitiği alanlarından en az ikisinde, üretim ortamında çalışan yapay zeka sistemleri geliştirme deneyimine sahip olmak ve bunu belgelendirmek.",
+     "Python programlama dilini ileri seviyede bilmek; PyTorch, TensorFlow, Keras ve Scikit-learn kütüphanelerini kullanarak model geliştirme süreçlerinde görev almış olmak.",
+     "Doğal Dil İşleme (NLP) ve OpenCV araçları ile görüntü işleme konularında bilgi ve tecrübe sahibi olmak.",
+     "Kamera verileri ile nesne tespiti, takibi ve sınıflandırmasına yönelik bilgisayarlı görü yetenekleri geliştirmiş olmak.",
+     "Nesnelerin İnterneti (IoT) cihazlarından toplanan operasyonel veriler ve zaman serileri üzerinde tahminleme ile anomali tespit modelleri kurgulayabilmek.",
+     "Makine öğrenmesi modellerini operasyonel verilerle neredeyse gerçek zamanlı işleme sistemlerine entegre edebilmek ve uçtan uca ML yaşam döngüsü konusunda uzman olmak.",
+     "Ölçeklenebilir backend sistemleri geliştirebilmek; Docker gibi konteyner mimarileri ve modern yazılım mühendisliği pratikleriyle derin öğrenme çözümlerini devreye alma tecrübesine sahip olmak.",
+     "Linux işletim sistemleri ve PostgreSQL ilişkisel veri tabanı yönetim sistemleri üzerinde bilgi ve tecrübe sahibi olmak.",
+     "Git tabanlı sürüm kontrol sistemleri ve CI/CD süreçlerini kullanabilmek; geliştirilen yapay zeka uygulamalarının sürdürülebilir yönetimi ve güncellenmesi konusunda bilgi sahibi olmak.",
+     "Model hata ayıklama, veri keşfi ve operasyonel analizi desteklemek amacıyla görselleştirme araçları ile veri etiketleme uygulamaları geliştirebilmek.",
+     "KPSS P3 (2026) puanı varsa sıralamada puanın %70'i kullanılır; KPSS puanı yoksa 70 puan sayılır, KPSS zorunlu değildir.",
+     "Yabancı dil: İngilizce YDS/e-YDS veya denk sınav puanı varsa puanın %30'u sıralamaya eklenir; belge yoksa dil puanı 0 sayılır.",
+     "Sözlü/uygulamalı sınavdan 100 üzerinden en az 70 puan almak.",
+     "Bir aday yalnızca bir bilişim personeli pozisyonuna başvurabilir."
+    ]
+   }
+  ],
+  "notes": "Görev yeri ilanda belirtilmemiştir (Selçuk Üniversitesi). Kabul edilen bölümlerin adları ilanda yazılı değil, yalnızca Yönetmelik'in 6. maddesinin (b)/(c) bentlerine atıf yapılıyor; bu yüzden departments boş bırakıldı. KPSS P3 belgesi 'var ise' ibaresiyle isteğe bağlıdır (sıralamada kullanılır, yoksa 70 sayılır); asgari puan belirtilmemiştir. Başvuru kariyerkapisi.gov.tr üzerinden yapılır."
+ },
+ "reading": 2
+}

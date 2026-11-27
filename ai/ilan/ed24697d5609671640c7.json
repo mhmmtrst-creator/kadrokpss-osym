@@ -1,0 +1,51 @@
+{
+ "schema": 2,
+ "id": "ed24697d5609671640c7",
+ "institution": "TÜRKİYE SU ENSTİTÜSÜ",
+ "title": "1 ALACAK",
+ "range": "26 Kasım - 25 Aralık",
+ "read_at": "2026-11-27T04:00:07Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 1,
+  "academic": false,
+  "kpss_year": null,
+  "apply_start": null,
+  "apply_end": null,
+  "positions": [
+   {
+    "code": null,
+    "title": "MÜHENDİS (BİLGİSAYAR MÜHENDİSİ)",
+    "place": "İstanbul",
+    "count": 1,
+    "places": [],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Bilgisayar Mühendisliği"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": null,
+    "age_rule": null,
+    "license_classes": [],
+    "other_conditions": [
+     "İngilizce dilinden YDS/e-YDS veya ÖSYM tarafından denk kabul edilen uluslararası geçerliliği bulunan yabancı dil sınavlarının geçerli sonuç belgesinden en az 60 puan almış olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış, muaf veya başvuru tarihi itibarıyla askerliği tecilli olmak.",
+     "Görevini devamlı yapmasına engel olabilecek herhangi bir sağlık sorunu bulunmamak.",
+     "Güvenlik soruşturması ve/veya arşiv araştırması sonucu olumlu olmak.",
+     "Başvuru tarihi itibarıyla 18 yaşını tamamlamış olmak.",
+     "Çeşitli Kanun Hükmünde Kararnamelerle kamu görevinden çıkarılmamış olmak."
+    ]
+   }
+  ],
+  "notes": "Başvuru tarihi ilanın Resmî Gazete'de yayımlandığı tarihten itibaren 30 gün olarak belirtilmiş, kesin tarih verilmemiş. KPSS yılı belirtilmemiş. Görev yeri açıkça yazılmamış; kurum ve giriş sınavı İstanbul'da olduğundan place İstanbul alındı."
+ },
+ "reading": 2
+}

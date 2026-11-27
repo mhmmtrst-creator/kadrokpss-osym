@@ -1,0 +1,67 @@
+{
+ "schema": 2,
+ "id": "54b8f7591a26de49c4a2",
+ "institution": "AVRUPA BİRLİĞİ BAŞKANLIĞI",
+ "title": "5 SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) ALACAK",
+ "range": "27 Kasım - 14 Aralık",
+ "read_at": "2026-11-27T04:00:07Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 5,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-11-27",
+  "apply_end": "2026-12-14",
+  "positions": [
+   {
+    "code": null,
+    "title": "SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR)",
+    "place": "ANKARA / ÇANKAYA",
+    "count": 5,
+    "places": [],
+    "education": [
+     "ORTAOGRETIM",
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P94",
+     "P93"
+    ],
+    "department_kpss": [
+     {
+      "department": "Ortaöğretim mezunları",
+      "kpss_types": [
+       "P94"
+      ]
+     },
+     {
+      "department": "Ön lisans mezunları",
+      "kpss_types": [
+       "P93"
+      ]
+     }
+    ],
+    "min_score": 70,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": null,
+    "age_rule": "657 sayılı Devlet Memurları Kanununun 40 ıncı maddesindeki yaş şartlarını taşımak",
+    "license_classes": [
+     "B"
+    ],
+    "other_conditions": [
+     "En az B sınıfı sürücü belgesine son başvuru tarihi itibarıyla 3 yıldır sahip olmak.",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığı olmamak; yurdun her yerinde ve her türlü iklim koşullarında görev yapmaya elverişli olmak, seyahate engel durumu olmamak.",
+     "Yapılacak görev gereği 7/24 saat esasına göre vardiyalı olarak kapalı ve açık alanlarda çalışmasına engel durumu olmamak.",
+     "KPSS puan türü ortaöğretim mezunları için P94, ön lisans mezunları için P93'tür; en az 70 puan gerekir.",
+     "Herhangi bir kamu kurumunda çalışmakta iken görevden veya meslekten ihraç edilmemiş olmak.",
+     "Sözleşmeli personel olarak istihdamına engel hali bulunmamak.",
+     "Güvenlik soruşturması ve arşiv araştırması olumlu sonuçlanmak."
+    ]
+   }
+  ],
+  "notes": "Teşkilat: Merkez; istihdam türü 4/B sözleşmeli. Yaş sınırı rakamla belirtilmemiş, yalnızca 657 sayılı Kanunun 40. maddesine atıf var; bu yüzden age_years null. Ortaöğretim veya ön lisans mezunu olma şartı nedeniyle herhangi bir bölüm kabul edilir (any_department true)."
+ },
+ "reading": 2
+}
