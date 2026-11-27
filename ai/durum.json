@@ -175,6 +175,12 @@
    "seen": "2026-11-27",
    "title": "36 ZABITA MEMURU ALACAK"
   },
+  "7d43101dbc1b783e0122": {
+   "institution": "BOZKÖY BELEDİYE BAŞKANLIĞI",
+   "range": "27 Kasım - 7 Aralık",
+   "seen": "2026-11-27",
+   "title": "İPTAL İLANI"
+  },
   "7e122fee99c0f4004044": {
    "institution": "TANOBA BELEDİYE BAŞKANLIĞI",
    "range": "16 Aralık - 18 Aralık",
@@ -413,6 +419,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 7.3765
+  "2026-11": 7.3837
  }
 }
