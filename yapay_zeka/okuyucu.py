@@ -41,7 +41,11 @@ SCHEMA_VERSION = 2
 # Talimat sürümü. Büyüdüğünde bütün açık ilanlar yeni talimatla bir kez daha okunur.
 # 2 (2026-11-23, kullanıcı: "ne isteniyorsa o başlık altında yazsın", "tümü için geçerli"): ek tablolardaki bölüm ve
 # belge adları tek tek yazılır, "Tablo-2'ye göre" gibi gönderme yasak; diğer şartlardaki 8 madde sınırı kalktı.
-READING_VERSION = 2
+# 3 (2026-11-27, kullanıcı: "Evet, ekle"): ilanın bütün kadrolar için koyduğu genel şartlar (askerlik, güvenlik
+# soruşturması, öğrenci yasağı, ikamet …) general_conditions alanına yazılır. Telefon ilanı PDF'i inmeden yalnızca bu
+# okumayla değerlendirdiğinde (AiReading.alone) genel şartları buradan alır; yoksa askerliğini yapmamış bir adaya önce
+# %100, PDF inince %90 deniyordu. Elle yazılmış ya da yeniden okunması riskli okumalar "korunsun" ile dışarıda kalır.
+READING_VERSION = 3
 # Aynı gün (yeniden okuma yapılmadan, yalnız yeni ilanlar için): iki yolla başvurulan kadro iki satır yazılır, başvuru
 # evrakı "Belge:" diye yazılmaz (Jandarma 9000 elle düzeltildikten sonra, kullanıcı: "böyle sorunlar yaşamayalım").
 # Dolar / milyon token, toplu işlem yarı fiyat (claude-api belgesindeki tablo, 2026-11-03).
@@ -81,6 +85,7 @@ Rules:
 15. declared_total: the total number of posts the announcement itself states ("181 sözleşmeli personel alınacaktır"); else null.
 16. academic: true when the posts are academic staff (öğretim üyesi, öğretim görevlisi, araştırma görevlisi).
 17. apply_start and apply_end: application dates as YYYY-MM-DD when stated; else null.
+17a. general_conditions: every condition the announcement sets for ALL its posts in its general part ("Genel şartlar", "Başvuru şartları", the items of 657/48-A when they are written out, askerlik, güvenlik soruşturması / arşiv araştırması, the ban on being a student, residence, the KPSS year and the lowest score asked of everyone, the lower age limit …), each as one short Turkish sentence that states the requirement itself, as in other_conditions. Only what decides who may apply. Never the exam or selection procedure (the exam's date or place, how many candidates are called, the oral or written exam's pass mark, ranking and tie rules), how many places a candidate may choose, the identity documents to bring to the exam, or application paperwork; and never a condition that belongs to one post's own row. Empty when the announcement has no general part.
 18. Never invent a value the document does not give. When the document holds no posts (a link to an outside guide, a cancellation), return no positions and say so in notes. Put any doubt, in short Turkish, in notes."""
 
 
@@ -118,6 +123,7 @@ SCHEMA = strict_object({
     "apply_start": nullable({"type": "string"}),
     "apply_end": nullable({"type": "string"}),
     "positions": {"type": "array", "items": POSITION},
+    "general_conditions": {"type": "array", "items": {"type": "string"}},
     "notes": {"type": "string"},
 })
 
@@ -402,6 +408,37 @@ def worse(new: dict, old: dict) -> bool:
     return bool(declared) and t_old == declared and t_new != declared
 
 
+def stored(lid: str):
+    """Bir ilanın yayımlanmış okuma dosyası (bütün kayıt), yoksa ya da bozuksa None."""
+    try:
+        return json.loads((RESULTS / f"{lid}.json").read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def protected(lid: str) -> bool:
+    """ "korunsun": true olan okuma yeniden okunmaz, üzerine de yazılmaz: elle yazılmış (Jandarma 9000, 72 satır) ya da
+    yeniden okunması riskli (İçişleri 1170, 40 kadro / 750 yer) okumalar. Yeni talimat sürümü onları eskitmez."""
+    r = stored(lid)
+    return bool(r and r.get("korunsun"))
+
+
+def postless(l: dict, state: dict) -> bool:
+    """Okunmuş ama kadro bulunmamış, bağlantılı belgeleri henüz denenmemiş ilan."""
+    if state["listings"].get(l["id"], {}).get("ekler_denendi"):
+        return False
+    r = stored(l["id"])
+    if not r or r.get("korunsun") or not isinstance(r.get("result"), dict):
+        return False
+    return not r["result"].get("positions") and not r["result"].get("academic")
+
+
+def stale(l: dict) -> bool:
+    """Eski talimatla okunmuş ilan: yeni talimatla bir kez daha okunur (korunanlar hariç)."""
+    r = stored(l["id"])
+    return bool(r) and not r.get("korunsun") and r.get("reading", 1) < READING_VERSION
+
+
 def collect(client, state: dict, quiet: bool = False) -> None:
     """Biten toplu işlerin sonuçlarını yazar; bitmeyenler bir sonraki çalıştırmaya kalır."""
     still = []
@@ -434,11 +471,22 @@ def collect(client, state: dict, quiet: bool = False) -> None:
                 state["attempts"][lid] = state["attempts"].get(lid, 0) + 1
                 print(f"Okunamadı (yanıt bozuk: {e}): {meta.get('institution', lid)} - {meta.get('title', '')}")
                 continue
+            if protected(lid):
+                # Gönderildikten sonra korumaya alınmış: eldeki okuma kalır.
+                print(f"Korunan okuma, üzerine yazılmadı: {meta.get('institution', lid)} - {meta.get('title', '')}")
+                state["attempts"].pop(lid, None)
+                continue
             old = previous(lid)
             if old is not None and worse(result, old):
                 # Yeni okuma eskisinden belirgin biçimde eksik (Jandarma 9000'de 45 kadro 10'a inmişti): eskisi kalır.
                 print(f"Yeni okuma eskisinden eksik, eskisi kaldı: {meta.get('institution', lid)} - {meta.get('title', '')}")
                 state["attempts"].pop(lid, None)
+                # Eski okuma bu talimat sürümüyle denenmiş sayılır; yoksa her çalıştırmada yeniden gönderilirdi (stale).
+                # read_at değişmez: telefonlar aynı dosyayı yeniden indirmez.
+                kept = stored(lid)
+                if kept and kept.get("reading", 1) < READING_VERSION:
+                    kept["reading"] = READING_VERSION
+                    (RESULTS / f"{lid}.json").write_text(json.dumps(kept, ensure_ascii=False, indent=1), encoding="utf-8")
                 continue
             record = {
                 "schema": SCHEMA_VERSION, "id": lid, "institution": meta.get("institution", ""), "title": meta.get("title", ""),
@@ -458,26 +506,9 @@ def collect(client, state: dict, quiet: bool = False) -> None:
 def submit(client, state: dict, listings: list, dry: bool) -> None:
     pending = {i for p in state["pending"] for i in p["ids"]}
 
-    def postless(l: dict) -> bool:
-        """Okunmuş ama kadro bulunmamış, bağlantılı belgeleri henüz denenmemiş ilan."""
-        if state["listings"].get(l["id"], {}).get("ekler_denendi"):
-            return False
-        try:
-            r = json.loads((RESULTS / f"{l['id']}.json").read_text(encoding="utf-8"))["result"]
-        except Exception:
-            return False
-        return not r.get("positions") and not r.get("academic")
-
-    def stale(l: dict) -> bool:
-        """Eski talimatla okunmuş ilan: yeni talimatla bir kez daha okunur."""
-        try:
-            return json.loads((RESULTS / f"{l['id']}.json").read_text(encoding="utf-8")).get("reading", 1) < READING_VERSION
-        except Exception:
-            return False
-
     todo = [
         l for l in listings
-        if (not (RESULTS / f"{l['id']}.json").exists() or postless(l) or stale(l)) and l["id"] not in pending
+        if (not (RESULTS / f"{l['id']}.json").exists() or postless(l, state) or stale(l)) and l["id"] not in pending
         and state["attempts"].get(l["id"], 0) < MAX_ATTEMPTS and not (SKIP_ACADEMIC and ACADEMIC.search(l["title"]))
         and not state["listings"].get(l["id"], {}).get("kesildi")
     ][:MAX_PER_RUN]
@@ -510,7 +541,7 @@ def submit(client, state: dict, listings: list, dry: bool) -> None:
         meta = state["listings"].setdefault(l["id"], {})
         meta.update({"institution": l["institution"], "title": l["title"], "range": l["range"], "seen": today()})
         extra = []
-        if (RESULTS / f"{l['id']}.json").exists() and (postless(l) or meta.get("ekler")):
+        if (RESULTS / f"{l['id']}.json").exists() and (postless(l, state) or meta.get("ekler")):
             # İlk okuma kadro bulamadı: ilanın bağlantı verdiği kılavuz ve ekler bulunup birlikte okunur (bir kez denenir).
             meta["ekler_denendi"] = True
             room = MAX_PAGES - page_count(pdf)

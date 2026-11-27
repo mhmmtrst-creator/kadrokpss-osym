@@ -4,7 +4,7 @@
  "institution": "İÇİŞLERİ BAKANLIĞI",
  "title": "1170 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "7 Aralık - 11 Aralık",
- "read_at": "2026-11-23T18:57:16Z",
+ "read_at": "2026-11-27T16:08:24Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1170,
@@ -4241,8 +4241,19 @@
     ]
    }
   ],
+  "general_conditions": [
+   "Türkiye Cumhuriyeti vatandaşı olmak.",
+   "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesindeki genel ve özel şartlar ile Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslar'daki şartlara sahip olmak.",
+   "Son başvuru tarihi (11.12.2026) itibarıyla 18 yaşını doldurmuş olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "Kasten işlenen bir suçtan bir yıl veya daha fazla süreyle hapis cezasına ya da devletin güvenliğine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma veya kaçakçılık suçlarından mahkûm olmamak.",
+   "Erkek adaylar için askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş bulunmak veya askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+   "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+   "ÖSYM tarafından 2026 yılında yapılan KPSS (B) grubundan lisans mezunları için KPSSP3, ön lisans mezunları için KPSSP93, lise mezunları için KPSSP94 puan türünden en az 60 puan almış olmak."
+  ],
   "notes": "Kadrolar Ek-1/a (Merkez, toplam 119), Ek-1/b (Valilik, toplam 522) ve Ek-1/c (İlçe, toplam 529) tablolarından okundu; toplam 1.170 ilanla uyumlu. Aynı unvan ve şartlar tek kayıtta birleştirildi; yer adı biçimi: 'MERKEZ/birim', 'İL/İl birim' (valilik), 'İL/İLÇE Yazı İşleri veya Nüfus' (ilçe). Tablo sütun toplamları kontrol edildi. Tekniker (Elektronik Haberleşme Teknolojisi) için Ek-1/a'da KPSSP3 yazıyor (ön lisans için genel şart P93); tablodaki gibi P3 alındı, teyit edilmeli. Genel şart: 2026 KPSS (B) grubu, en az 60 puan; ilan edilen pozisyon sayısının 4 katı aday sözlü sınava alınır. Büro Personeli (Ön Lisans-Diğer) bölümlerinde yalnızca ana program adları listelendi, parantez içi denk programlar atlandı. Başvuru 07-11 Aralık 2026 (11.12.2026 saat 16.00'da sona erer). Teknisyen/Tekniker/Mühendis kayıtlarındaki 'bölüm/alan ayrımına bakılmaksızın' ifadesi yalnızca ortak şartlar içindir."
  },
- "reading": 2,
- "reading_note": "eski okuma geri yüklendi; büyük tablo ayrı okunacak"
+ "reading": 3,
+ "reading_note": "eski okuma geri yüklendi; büyük tablo ayrı okunacak",
+ "korunsun": true
 }

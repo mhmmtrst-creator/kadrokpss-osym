@@ -75,5 +75,49 @@ class PortalStatus(unittest.TestCase):
         self.assertEqual(3, len(json.loads(path.read_text(encoding="utf-8"))["ilanlar"]))
 
 
+class Rereading(PortalStatus):
+    """Talimat sürümü büyüyünce (READING_VERSION) eski okumalar bir kez daha okunur; "korunsun" olanlar okunmaz."""
+
+    def write(self, lid: str, **record):
+        body = {"schema": 2, "id": lid, "read_at": "2026-11-23T19:14:32Z", "result": {"positions": [{"title": "MEMUR"}], "academic": False}}
+        body.update(record)
+        (okuyucu.RESULTS / f"{lid}.json").write_text(json.dumps(body), encoding="utf-8")
+
+    def test_an_older_reading_is_stale(self):
+        self.write("eski", reading=okuyucu.READING_VERSION - 1)
+        self.write("surumsuz")
+        self.write("yeni", reading=okuyucu.READING_VERSION)
+        self.assertTrue(okuyucu.stale(listing("eski")))
+        self.assertTrue(okuyucu.stale(listing("surumsuz")))
+        self.assertFalse(okuyucu.stale(listing("yeni")))
+        self.assertFalse(okuyucu.stale(listing("okunmamis")))
+
+    def test_a_protected_reading_is_never_read_again(self):
+        self.write("elle", reading=1, korunsun=True)
+        self.assertTrue(okuyucu.protected("elle"))
+        self.assertFalse(okuyucu.stale(listing("elle")))
+        # Kadrosu olmayan korunan okuma da bağlantılı belgelerle yeniden denenmez.
+        self.write("bos", reading=1, korunsun=True, result={"positions": [], "academic": False})
+        self.assertFalse(okuyucu.postless(listing("bos"), self.state))
+        self.write("bos2", reading=okuyucu.READING_VERSION, result={"positions": [], "academic": False})
+        self.assertTrue(okuyucu.postless(listing("bos2"), self.state))
+        self.assertFalse(okuyucu.protected("bos2"))
+        self.assertFalse(okuyucu.protected("yok"))
+
+    def test_the_schema_asks_for_the_general_conditions(self):
+        self.assertIn("general_conditions", okuyucu.SCHEMA["required"])
+        self.assertEqual({"type": "array", "items": {"type": "string"}}, okuyucu.SCHEMA["properties"]["general_conditions"])
+        self.assertIn("general_conditions", okuyucu.SYSTEM)
+        self.assertEqual(3, okuyucu.READING_VERSION)
+
+    def test_the_two_big_readings_are_protected(self):
+        real = Path(okuyucu.__file__).resolve().parent.parent / "ai" / "ilan"
+        for lid in ("3894f29294e6d0a6c75f", "237a1fa6d3c61669b8c9"):
+            d = json.loads((real / f"{lid}.json").read_text(encoding="utf-8"))
+            self.assertTrue(d.get("korunsun"), lid)
+            self.assertEqual(okuyucu.READING_VERSION, d["reading"], lid)
+            self.assertTrue(d["result"]["general_conditions"], lid)
+
+
 if __name__ == "__main__":
     unittest.main()

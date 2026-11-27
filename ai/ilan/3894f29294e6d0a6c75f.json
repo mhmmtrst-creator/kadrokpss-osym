@@ -4,7 +4,7 @@
  "institution": "JANDARMA GENEL KOMUTANLIĞI",
  "title": "9000 UZMAN ERBAŞ TEMİN EDİLECEKTİR.",
  "range": "23 Kasım - 7 Aralık",
- "read_at": "2026-11-23T19:14:32Z",
+ "read_at": "2026-11-27T16:08:24Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 9000,
@@ -3257,8 +3257,25 @@
     ]
    }
   ],
+  "general_conditions": [
+   "Türk vatandaşı ve erkek olmak.",
+   "Askerlik hizmetini yapma şartı aranmamaktadır.",
+   "Askerlik hizmetini yapmakta iken başvuranlar birlik komutanlığının düzenlediği nitelik belgesinden yeterli notu almış olmalıdır.",
+   "Askerliğe elverişli değildir raporu olmamak.",
+   "Güvenlik soruşturması ve arşiv araştırması olumlu olmak.",
+   "Askeri okullar, Jandarma ve Sahil Güvenlik Akademisi ile eğitim komutanlıklarından çıkmamış veya çıkarılmamış, diğer okullardan disiplinsizlik nedeniyle çıkarılmamış olmak.",
+   "Subay, astsubay, uzman jandarma veya uzman erbaş olarak görevli iken ayrılmamış veya çıkarılmamış olmak; sözleşmesi feshedilerek ilişiği kesilen uzman erbaşlar tekrar alınmaz.",
+   "Devlet memurluğundan veya kamu görevinden çıkarılmamış olmak.",
+   "Taksirli suçlar hariç otuz günden fazla hürriyeti bağlayıcı cezaya, yüz kızartıcı veya şeref ve haysiyeti kırıcı suçlardan mahkûm olmamak.",
+   "Terör örgütlerine veya Devletin millî güvenliğine karşı faaliyette bulunan yapılara üyeliği, mensubiyeti, iltisakı veya irtibatı olmamak.",
+   "Silah taşımaya veya silahlı görev yapmaya hukuki bir engeli bulunmamak.",
+   "Alkol, uyuşturucu veya uyarıcı madde kullanımı nedeniyle tedavi görmemiş veya görmüyor olmak.",
+   "Kısa kollu gömlek ve şort ile görünen yerlerde dövme bulunmamak; vücut yapısı düzgün ve sağlam olmak.",
+   "Dilinde pelteklik, kekemelik, tutukluk gibi konuşma kusuru olmamak."
+  ],
   "notes": "Kadroların bölüm listeleri ilanın Tablo-2 (lisans), Tablo-3 (ön lisans) ve Tablo-4 (ortaöğretim) X işaretlerinden, lojistikteki KPSS'siz belge ile başvuru şartları Tablo-5'ten kadro kadro yazıldı. Toplam 9.000 kontenjan Tablo-1'de 45 mesleki nitelik satırı olarak verilmiştir. Şehit/vazife malulü eş veya çocuklarına ayrılan 180 kontenjan bu toplamın içindedir; bu adaylarda KPSS taban puanı %80 olup jandarma, muhabere, havacılık ve bando için 48, lojistik için 40'tır. KPSS yılı 2025 veya 2026'dan biri olabilir (her iki yıl varsa yüksek puan kullanılır), bu yüzden kpss_year boş bırakıldı. Lojistik satırlarında KPSS'li başvuru için min 50, belge ile başvuruda KPSS aranmaz. Dozer, Greyder, İş Makineleri Tamircisi, Kazıcı Yükleyici ve Vinç satırları yalnızca belge ile başvurulur. Tablo-2/3/4'teki yüzlerce bölüm/program adı tek tek listelenmedi ve departments boş bırakıldı. Bunlar nitelik bazında ilgili tablolarda işaretlidir. Jandarma satırında bölüm şartı yoktur. Belge ile başvuruda ilköğretim (ortaokul) mezunları da kabul edilir, bu seviye şemada yoktur. Kurbağa adam için ek olarak 'Kurbağaadam Olur' raporu gerekir. Yaş: 01.01.2026 itibarıyla 20 yaşından gün almış ve 27 yaşını bitirmemiş olmak. Silahaltındakiler için nitelik belgesinden en az 80 puan gerekir."
  },
- "reading": 2,
- "reading_note": "bölüm ve belge listeleri PDF tablolarından (Tablo-2/3/4/5) eklendi"
+ "reading": 3,
+ "reading_note": "bölüm ve belge listeleri PDF tablolarından (Tablo-2/3/4/5) eklendi",
+ "korunsun": true
 }
