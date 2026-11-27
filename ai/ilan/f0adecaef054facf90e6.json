@@ -4,7 +4,7 @@
  "institution": "GELİR İDARESİ BAŞKANLIĞI",
  "title": "22 SÖZLEŞMELİ AVUKAT ALACAK",
  "range": "2 Aralık - 9 Aralık",
- "read_at": "2026-11-27T13:02:28Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 22,
@@ -73,16 +73,18 @@
     "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
     "license_classes": [],
     "other_conditions": [
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
      "En az dört yıllık lisans eğitimi veren bir hukuk fakültesini bitirmiş olmak.",
-     "Belge: Avukatlık ruhsatnamesi (başvuru tarihinin son günü itibarıyla sahip olmak)",
-     "ÖSYM tarafından 2026 yılında yapılan (B) Grubu KPSS (Lisans) sınavına katılmış olmak.",
-     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak gerekir.",
-     "Adaylar en fazla 5 görev yeri için tercihte bulunabilir."
+     "Belge: Avukatlık ruhsatnamesi (başvuru tarihinin son günü itibarıyla sahip olmak)."
     ]
    }
   ],
-  "notes": "Tek unvan (Avukat) için dokuz görev yeri; toplam 22 kadro. Sınav sözlüdür, 21 Aralık 2026'da Ankara'da yapılacaktır. Başvuru bitişi 9 Aralık 2026 saat 17.00."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+   "ÖSYM tarafından 2026 yılında yapılan (B) Grubu Kamu Personeli Seçme Sınavına (KPSS Lisans) katılmış olmak.",
+   "KPSS P3 puan türünden en az 70 puan almış olmak.",
+   "01.01.2026 tarihi itibarıyla 35 yaşını doldurmamış olmak."
+  ],
+  "notes": "Sınav sadece sözlüdür; sözlü sınav 21 Aralık 2026'da Ankara'da yapılacaktır. Başvuru bitiş saati 17.00'dir. Tüm görev yerleri tek Avukat kadrosu altında listelenmiştir."
  },
- "reading": 2
+ "reading": 3
 }

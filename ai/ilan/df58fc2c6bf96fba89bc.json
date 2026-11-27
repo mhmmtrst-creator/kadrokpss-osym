@@ -4,10 +4,10 @@
  "institution": "MUDURNU BELEDİYE BAŞKANLIĞI",
  "title": "1 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "14 Aralık - 25 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
-  "declared_total": 1,
+  "declared_total": null,
   "academic": false,
   "kpss_year": 2026,
   "apply_start": "2026-12-14",
@@ -15,8 +15,8 @@
   "positions": [
    {
     "code": null,
-    "title": "Mühendis",
-    "place": "Mudurnu Belediye Başkanlığı (Bolu)",
+    "title": "MÜHENDİS (HARİTA MÜHENDİSLİĞİ, JEODEZİ VE FOTOGRAMETRİ MÜHENDİSLİĞİ, GEOMATİK MÜHENDİSLİĞİ)",
+    "place": "Mudurnu Belediye Başkanlığı",
     "count": 1,
     "places": [],
     "education": [
@@ -42,15 +42,22 @@
     "other_conditions": [
      "Lisans düzeyinde eğitim veren fakültelerin harita mühendisliği, jeodezi ve fotogrametri mühendisliği, geomatik mühendisliği programlarının birinden mezun olmak.",
      "En az (B) sınıfı sürücü belgesine sahip olmak.",
-     "Hizmet sınıfı TH, pozisyon derecesi 5.",
-     "KPSS (B) grubu puanından en az 75 puan almış olmak.",
-     "Erkek adaylar için askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak.",
-     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
-     "Yabancı okul mezunları için denklik belgesi gerekir."
+     "Hizmet sınıfı TH, pozisyon derecesi 5."
     ]
    }
   ],
-  "notes": "Tek pozisyon var. Cinsiyet 'Kadın/Erkek' olduğundan kısıtlama yok. Görev yeri tabloda ayrıca yazılmamış, Mudurnu Belediye Başkanlığı (Bolu) olarak alındı. Başvuru tarihleri 14/12/2026-25/12/2026. Yazılı sınav 15/01/2027."
+  "general_conditions": [
+   "Türk vatandaşı olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "Türk Ceza Kanunu'nun 53. maddesinde belirtilen süreler geçmiş olsa bile, kasten işlenen bir suçtan dolayı bir yıl veya daha fazla hapis cezası almamış olmak; affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak.",
+   "Erkek adaylar için askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+   "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+   "İlan edilen pozisyon için aranan diğer başvuru şartlarını taşımak.",
+   "Mezun olunan okul itibarıyla öğrenim şartını taşımak ve 2026 yılı KPSS (B) grubu sınavından alım yapılacak unvan karşısındaki puan türünden belirtilen asgari KPSS puanını almış olmak.",
+   "Karayolları Trafik Kanunu hükümlerince verilen en az (B) sınıfı sürücü belgesine sahip olmak.",
+   "Yabancı okul mezunlarının denklik belgesine sahip olması gerekir."
+  ],
+  "notes": "İlanda tek pozisyon (1 Mühendis) vardır; toplam sayı ayrıca belirtilmemiştir, ilan başlığında 1 kişi yazar. Cinsiyet Kadın/Erkek olduğundan kısıtlama yok. Yaş sınırı belirtilmemiştir."
  },
- "reading": 2
+ "reading": 3
 }

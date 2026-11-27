@@ -4,7 +4,7 @@
  "institution": "BERGAMA BELEDİYE BAŞKANLIĞI",
  "title": "4 MEMUR ALACAK",
  "range": "9 Aralık - 11 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 4,
@@ -14,8 +14,8 @@
   "apply_end": "2026-12-11",
   "positions": [
    {
-    "code": null,
-    "title": "Memur",
+    "code": "1",
+    "title": "MEMUR",
     "place": "Bergama Belediye Başkanlığı",
     "count": 2,
     "places": [],
@@ -38,18 +38,12 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Hizmet sınıfı: G.İ.H, kadro derecesi: 7",
-     "Türk vatandaşı olmak",
-     "Kamu haklarından mahrum bulunmamak",
-     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak",
-     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak",
-     "2026 yılı KPSS (B grubu) sınavına girmiş olmak",
-     "Sözlü sınavda başarılı sayılmak için en az 60 puan almak"
+     "Kadro: Genel İdare Hizmetleri sınıfı, 7. derece"
     ]
    },
    {
-    "code": null,
-    "title": "Evlendirme Memuru",
+    "code": "2",
+    "title": "EVLENDİRME MEMURU",
     "place": "Bergama Belediye Başkanlığı",
     "count": 2,
     "places": [],
@@ -72,17 +66,21 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Hizmet sınıfı: G.İ.H, kadro derecesi: 8",
-     "Türk vatandaşı olmak",
-     "Kamu haklarından mahrum bulunmamak",
-     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak",
-     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak",
-     "2026 yılı KPSS (B grubu) sınavına girmiş olmak",
-     "Sözlü sınavda başarılı sayılmak için en az 60 puan almak"
+     "Kadro: Genel İdare Hizmetleri sınıfı, 8. derece"
     ]
    }
   ],
-  "notes": "Başvuru tarihleri 09/12/2026-11/12/2026 olarak belirtilmiştir. KPSS yılı 2026 olarak ilanda yazılıdır. Sözlü sınav 21/12/2026 tarihindedir."
+  "general_conditions": [
+   "Türk vatandaşı olmak",
+   "Kamu haklarından mahrum bulunmamak",
+   "Türk Ceza Kanunu'nun 53. maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak",
+   "Erkek adaylar için askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak ya da askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak",
+   "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak",
+   "2026 yılı KPSS (B grubu) sınavına girmiş olmak",
+   "Unvanın karşısında belirtilen puan türünden en az 80 KPSS puanı almış olmak",
+   "İlanda belirtilen öğrenim şartlarını taşımak"
+  ],
+  "notes": "İlan başlığı 4 memur alımı diyor; tablo toplamı 2+2=4. Başvuru tarihleri belgede 09/12/2026-11/12/2026 olarak yazılıdır. Cinsiyet kadın/erkek, bu yüzden kısıtlama yok."
  },
- "reading": 2
+ "reading": 3
 }

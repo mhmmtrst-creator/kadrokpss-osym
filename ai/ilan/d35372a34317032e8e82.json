@@ -4,7 +4,7 @@
  "institution": "GELİR İDARESİ BAŞKANLIĞI",
  "title": "21 SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ ALACAK",
  "range": "2 Aralık - 9 Aralık",
- "read_at": "2026-11-27T13:02:28Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 21,
@@ -91,16 +91,19 @@
     "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
     "license_classes": [],
     "other_conditions": [
-     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin (A) bendindeki genel şartları taşımak.",
-     "Belge: Son başvuru tarihi itibarıyla geçerlilik süresi dolmamış özel güvenlik görevlisi kimlik kartı",
-     "5188 sayılı Özel Güvenlik Hizmetlerine Dair Kanunun 10 uncu maddesinde yer alan diğer şartları taşımak.",
-     "ÖSYM tarafından 2026 yılında yapılan KPSS (Ön Lisans) sınavına katılmış olmak.",
-     "Sözlü sınav 22 Aralık 2026'da Ankara'da yapılacaktır; sözlü sınavda her kriterden en az 70 puan alınması gerekir.",
-     "Adaylar en fazla 5 görev yeri için tercihte bulunabilir."
+     "Belge: Son başvuru tarihi itibarıyla geçerlilik süresi dolmamış özel güvenlik görevlisi kimlik kartına sahip olmak",
+     "5188 sayılı Özel Güvenlik Hizmetlerine Dair Kanunun 10 uncu maddesinde yer alan diğer şartları taşımak"
     ]
    }
   ],
-  "notes": "Tek unvan, 13 görev yeri; toplam 21 kadro, ilandaki toplamla uyumlu. Başvuru bitişi 9 Aralık 2026 saat 17.00. Bölümler 'Üniversitelerin Özel Güvenlik ve Koruma, Savunma ve Güvenlik, Güvenlik ön lisans programları' olarak verilmiştir."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak",
+   "01.01.2026 tarihi itibarıyla 35 yaşını doldurmamış olmak (01.01.1991 ve sonraki doğumlular)",
+   "Üniversitelerin Özel Güvenlik ve Koruma, Savunma ve Güvenlik, Güvenlik ön lisans programlarının herhangi birinden mezun olmak",
+   "ÖSYM tarafından 2026 yılında yapılan KPSS (Ön Lisans) sınavına katılmış ve KPSS P93 puan türünden en az 70 puan almış olmak",
+   "Son başvuru tarihi itibarıyla geçerlilik süresi dolmamış özel güvenlik görevlisi kimlik kartına sahip olmak ve 5188 sayılı Kanunun 10 uncu maddesindeki diğer şartları taşımak"
+  ],
+  "notes": "Tek unvan (Koruma ve Güvenlik Görevlisi) 13 görev yerinde toplam 21 kadro; sayılar toplamı ilan edilen 21 ile uyumlu. Başvuru bitiş saati 17.00."
  },
- "reading": 2
+ "reading": 3
 }

@@ -4,12 +4,12 @@
  "institution": "DOĞU KARADENİZ KALKINMA AJANSI",
  "title": "1 UZMAN ALACAK",
  "range": "23 Kasım - 6 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1,
   "academic": false,
-  "kpss_year": null,
+  "kpss_year": 2025,
   "apply_start": "2026-11-23",
   "apply_end": "2026-12-06",
   "positions": [
@@ -47,27 +47,24 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya YÖK tarafından denkliği kabul edilen yurt içi/yurt dışı yükseköğretim kurumlarından Tablo 2'deki bölümlerden mezun olmak.",
-     "KPSS: Son başvuru tarihi itibarıyla geçerliliği bulunan KPSS'den P12, P14, P24, P29, P34 puan türlerinden en az 80 puan almış olmak.",
-     "Yabancı dil: Son başvuru tarihinden önceki 5 yıl içinde YDS/e-YDS İngilizce dilinden en az C düzeyinde (taban puan 70) puan almış olmak veya ÖSYM tarafından denkliği kabul edilen ve uluslararası geçerliliği bulunan başka bir sınavdan en az C düzeyine karşılık gelen puana sahip olmak.",
+     "Son başvuru tarihinden önceki 5 yıl içinde ÖSYM tarafından yapılan YDS/e-YDS sınavından İngilizce dilinden en az C düzeyinde (en az 70 puan) almış olmak veya ÖSYM tarafından denkliği kabul edilen uluslararası geçerliliği olan başka bir sınavdan en az C düzeyine karşılık gelen puanı almış olmak.",
      "Seyahat engeli olmamak.",
-     "Askerlikle ilgisi bulunmamak, askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
-     "Az tehlikeli işyerlerinde çalışmak için gerekli işe giriş sağlık raporunu alabilmek.",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
-     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
-     "Sınavda başarılı olan aday Rize Yatırım Destek Ofisi'nde görevlendirilir ve TR90 Bölgesi illerinin herhangi birinde çalışmayı kabul etmiş sayılır.",
-     "Tercih nedeni: Tablo 2'deki öğrenim dallarında veya ilgili alanlarda yüksek lisans ya da doktora mezunu olmak.",
-     "Tercih nedeni: İngilizce dışında ikinci yabancı dil belgesine sahip olmak (YDS/e-YDS veya eşdeğer sınavdan en az C düzeyi).",
-     "Belge: Özgeçmiş ve fotoğraf",
-     "Belge: Son 1 ay içinde alınmış adli sicil kaydı",
-     "Belge: Erkek adaylar için askerlik görevini yapmış, muaf veya ertelenmiş olduğunu gösteren belge",
-     "Belge: Diploma veya mezuniyet belgesi (e-Devlet bilgileri hatalı veya eksikse)",
-     "Belge: YDS harici sınav beyanı varsa ÖSYM'ce eşdeğerliği kabul edilen yabancı dil sınavı belgesi",
-     "Belge: YÖK denklik belgesi (denkliği kabul edilen bölümler için)"
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi ya da yurt dışı yükseköğretim kurumlarından mezun olmak.",
+     "Sınavı kazanan aday, Rize Yatırım Destek Ofisi'nde görevlendirilir ve Genel Sekreterliğin uygun göreceği TR90 Bölgesi illerinin herhangi birinde çalışmayı kabul ve taahhüt etmiş sayılır."
     ]
    }
   ],
-  "notes": "Tek uzman kadrosu; kadro görev yeri Rize Yatırım Destek Ofisi. KPSS yılı olarak tabloda '2025-2026 KPSS' yazıyor, tek bir yıl belirtilmediği için kpss_year null bırakıldı. Başvuru bitiş saati 23.59."
+  "general_conditions": [
+   "Türk vatandaşı olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "Affa uğramış olsa bile Devletin şahsiyetine karşı işlenen suçlarla, zimmet, ihtilas, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, inancı kötüye kullanma, dolanlı iflas gibi yüz kızartıcı veya şeref ve haysiyeti kırıcı suçtan veya istimal ve istihlak kaçakçılığı hariç kaçakçılık, resmî ihale ve alım satımlara fesat karıştırma, Devlet sırlarını açığa vurma suçlarından dolayı hükümlü bulunmamak.",
+   "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+   "Az tehlikeli işyerlerinde çalışanlar için gerekli işe giriş sağlık raporunu alabiliyor olmak.",
+   "Askerlikle ilgisi bulunmamak; askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+   "Son başvuru tarihi itibarıyla geçerliliği bulunan KPSS sonucuna sahip olmak (2025-2026 KPSS).",
+   "KPSS'den ilgili puan türlerinden en az 80 puan almış olmak."
+  ],
+  "notes": "Tek pozisyon var. Tercih nedenleri (yüksek lisans/doktora, ikinci yabancı dil) başvuru şartı değil, puanlamada avantaj olduğu için eklenmedi. KPSS puan türleri bölüme göre ayrılmamış, tüm bölümler için ortak yazılmıştır. YDS taban puanı 70 olarak tabloda belirtilmiştir."
  },
- "reading": 2
+ "reading": 3
 }

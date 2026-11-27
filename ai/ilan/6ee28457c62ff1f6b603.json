@@ -4,7 +4,7 @@
  "institution": "REKABET KURUMU BAŞKANLIĞI",
  "title": "55 REKABET UZMAN YARDIMCISI ALACAK",
  "range": "7 Aralık - 21 Aralık",
- "read_at": "2026-11-24T15:02:45Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 55,
@@ -35,9 +35,9 @@
     "department_kpss": [],
     "min_score": 80,
     "departments": [
-     "İktisat Fakültesi",
-     "Siyasal Bilgiler Fakültesi",
-     "İşletme Fakültesi",
+     "İktisat",
+     "Siyasal Bilgiler",
+     "İşletme",
      "İktisadi ve İdari Bilimler Fakültesi",
      "İşletme Mühendisliği",
      "Endüstri Mühendisliği"
@@ -48,13 +48,9 @@
     "age_rule": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak",
-     "En az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı kurumlardan mezun olmak",
-     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak",
-     "Son başvuru tarihi itibarıyla 2025-2026 KPSS sonuçlarından geçerli puan türlerinden birinden en az 80 puan almış olmak",
-     "KPSS puanıyla başvuranlar içinde en yüksek puanlı 300 kişi arasında bulunmak (son sıradaki adayla aynı puana sahip adaylar da kabul edilir)",
-     "Yazılı sınavda yabancı dil (İngilizce) sınavından en az 70 puan almak gerekir",
-     "Tek kadroya başvuru yapılabilir"
+     "Başvuranlar arasında KPSS puanı en yüksek 300 kişi içinde bulunmak (son sıradaki adayla aynı puana sahip adaylar da sınava kabul edilir).",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığının bulunmamak.",
+     "Öğrenim dalları için en az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı öğretim kurumlarından mezun olmak."
     ]
    },
    {
@@ -91,13 +87,9 @@
     "age_rule": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak",
-     "En az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı kurumlardan mezun olmak",
-     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak",
-     "Son başvuru tarihi itibarıyla 2025-2026 KPSS sonuçlarından geçerli puan türlerinden birinden en az 80 puan almış olmak",
-     "KPSS puanıyla başvuranlar içinde en yüksek puanlı 300 kişi arasında bulunmak (son sıradaki adayla aynı puana sahip adaylar da kabul edilir)",
-     "Yazılı sınavda yabancı dil (İngilizce) sınavından en az 70 puan almak gerekir",
-     "Tek kadroya başvuru yapılabilir"
+     "Başvuranlar arasında KPSS puanı en yüksek 300 kişi içinde bulunmak (son sıradaki adayla aynı puana sahip adaylar da sınava kabul edilir).",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığının bulunmamak.",
+     "Öğrenim dalları için en az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı öğretim kurumlarından mezun olmak."
     ]
    },
    {
@@ -126,13 +118,9 @@
     "age_rule": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak",
-     "En az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı kurumlardan mezun olmak",
-     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak",
-     "Son başvuru tarihi itibarıyla 2025-2026 KPSS sonuçlarından geçerli puan türlerinden birinden en az 80 puan almış olmak",
-     "KPSS puanıyla başvuranlar içinde en yüksek puanlı 300 kişi arasında bulunmak (son sıradaki adayla aynı puana sahip adaylar da kabul edilir)",
-     "Yazılı sınavda yabancı dil (İngilizce) sınavından en az 70 puan almak gerekir",
-     "Tek kadroya başvuru yapılabilir"
+     "Başvuranlar arasında KPSS puanı en yüksek 300 kişi içinde bulunmak (son sıradaki adayla aynı puana sahip adaylar da sınava kabul edilir).",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığının bulunmamak.",
+     "Öğrenim dalları için en az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı öğretim kurumlarından mezun olmak."
     ]
    },
    {
@@ -162,17 +150,21 @@
     "age_rule": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesindeki genel şartları taşımak",
-     "En az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı kurumlardan mezun olmak",
-     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak",
-     "Son başvuru tarihi itibarıyla 2025-2026 KPSS sonuçlarından P1 veya P2 puan türünden en az 80 puan almış olmak",
-     "KPSS puanıyla başvuranlar içinde en yüksek puanlı 200 kişi arasında bulunmak (son sıradaki adayla aynı puana sahip adaylar da kabul edilir)",
-     "Yazılı sınavda yabancı dil (İngilizce) sınavından en az 70 puan almak gerekir",
-     "Tek kadroya başvuru yapılabilir"
+     "Başvuranlar arasında KPSS puanı en yüksek 200 kişi içinde bulunmak (son sıradaki adayla aynı puana sahip adaylar da sınava kabul edilir).",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığının bulunmamak.",
+     "Öğrenim dalları için en az dört yıllık öğrenim veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt içi/yurt dışı öğretim kurumlarından mezun olmak."
     ]
    }
   ],
-  "notes": "KPSS yılı olarak '2025 - 2026 KPSS' yazıldığından kpss_year null bırakıldı. Yazılı sınav 23 Ocak 2027'de Ankara'da yapılacaktır. Genel kadro için 'iktisat, siyasal bilgiler, işletme, iktisadi ve idari bilimler fakülteleri' ifadesi bölüm listesine fakülte adı olarak yazıldı."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesinde yer alan genel şartları taşımak.",
+   "Belirtilen yükseköğretim kurumlarından veya denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi/yurt dışı öğretim kurumlarından mezun olmak.",
+   "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 yaşını doldurmamış olmak.",
+   "Görevini devamlı yapmasına engel olabilecek bir hastalığının bulunmamak.",
+   "Son başvuru tarihi itibarıyla 2025-2026 Kamu Personel Seçme Sınavlarından ilgili kadro için istenen puan türünden en az 80 puan almış olmak.",
+   "Tek kadroya başvuruda bulunmak."
+  ],
+  "notes": "KPSS yılı 2025-2026 olarak belirtilmiş, tek yıl olmadığı için kpss_year null bırakıldı. Her kadroda en yüksek puanlı 300 (bilişimde 200) kişi içinde olma şartı ilgili kadronun koşullarına yazıldı."
  },
- "reading": 2
+ "reading": 3
 }

@@ -4,7 +4,7 @@
  "institution": "BOZKÖY BELEDİYE BAŞKANLIĞI",
  "title": "1 İTFAİYE ERİ ALACAK",
  "range": "21 Aralık - 23 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1,
@@ -40,19 +40,23 @@
      "C"
     ],
     "other_conditions": [
-     "Hizmet sınıfı GİH, kadro derecesi 11.",
-     "Erkeklerde boy en az 1,67 metre, kadınlarda en az 1,60 metre olmak (tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır).",
-     "Boy 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamak.",
-     "Sağlık açısından kapalı mekân, dar alan ve yükseklik gibi fobisi olmamak; itfaiye teşkilatının çalışma şartlarına uygun olmak.",
-     "2026 yılı KPSS (B grubu) sınavına girmiş olmak ve en az 65 KPSS puanı almış olmak.",
-     "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
-     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
-     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
-     "Belge: En az C sınıfı sürücü belgesi"
+     "Belge: En az (C) sınıfı sürücü belgesi",
+     "Tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılacak olup erkeklerde boy en az 1.67 metre, kadınlarda boy en az 1.60 metre olmalıdır.",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kilogramdan fazla fark olmamalıdır.",
+     "Sağlık açısından kapalı mekân, dar alan ve yükseklik gibi fobisi olmamak; itfaiye teşkilatının çalışma şartlarına uygun olmak."
     ]
    }
   ],
-  "notes": "Cinsiyet 'Kadın/Erkek' olduğundan cinsiyet kısıtı yok. Tabloda görev yeri yazmıyor; yer Bozköy Belediyesi (Niğde) olarak alındı. Başvuru tarihleri 2026 yılı olarak ilanda 21/12/2026-23/12/2026 şeklinde yazılıdır. Öğrenim ilanda 'Lisans düzeyinde eğitim veren kurumlar' olarak belirtilmiştir."
+  "general_conditions": [
+   "Türk vatandaşı olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "Türk Ceza Kanunu'nun 53. maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak.",
+   "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş bulunmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+   "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+   "Mezun olunan okul itibarı ile öğrenim şartlarını taşımak.",
+   "2026 yılı Kamu Personeli Seçme Sınavına (KPSS B grubu) girmiş olmak ve unvanın karşısında belirtilen puan türünden belirtilen asgari KPSS puanını almış olmak."
+  ],
+  "notes": "Tabloda cinsiyet 'Kadın/Erkek' olduğundan cinsiyet kısıtı yok. Yer olarak ilanda yalnızca Bozköy Belediye Başkanlığı (Niğde) belirtilmiştir. Başvuru tarihleri 2026 yılı olarak ilanda yazıldığı gibi alınmıştır."
  },
- "reading": 2
+ "reading": 3
 }

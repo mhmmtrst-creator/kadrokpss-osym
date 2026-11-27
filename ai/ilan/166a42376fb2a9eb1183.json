@@ -4,7 +4,7 @@
  "institution": "MERSİN ÜNİVERSİTESİ",
  "title": "1 ADET SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK",
  "range": "26 Kasım - 10 Aralık",
- "read_at": "2026-11-26T03:59:22Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1,
@@ -34,20 +34,12 @@
     "age_rule": "Başvuru son günü itibarıyla 45 yaşından gün almamış olmak.",
     "license_classes": [],
     "other_conditions": [
-     "Erkek adaylar için muvazzaf askerlik hizmetini yapmış, muaf veya tecilli olmak.",
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinde yazılı genel koşulları taşımak.",
-     "Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmeliğin 6 ncı maddesinin (b) fıkrasında sayılan bölümlerden mezun olmak.",
-     "Yazılım, yazılım tasarımı ve geliştirilmesi ile bu sürecin yönetimi konusunda veya büyük ölçekli ağ sistemlerinin kurulumu ve yönetimi konusunda en az 5 yıllık mesleki tecrübeye sahip olmak (e-Devletten alınan SGK Hizmet Dökümü ile belgelenecek).",
+     "Büyük ölçekli bilgi işlem birimlerinde, millî güvenliği tehdit edebilecek ya da kamu düzeninin bozulmasına yol açabilecek kritik verilerin bulunduğu kamu kurum ve kuruluşlarında veya en az 5.000 iç kullanıcıya hizmet veren özel sektör kuruluşlarının bilgi işlem birimlerinde, sistem yönetimi alanında en az 5 yıl mesleki deneyime sahip olduğunu belgelemek; belgelendirilemeyen deneyimler dikkate alınmaz.",
+     "Yazılım, yazılım tasarımı ve geliştirilmesi ile bu sürecin yönetimi veya büyük ölçekli ağ sistemlerinin kurulumu ve yönetimi konusunda en az 5 yıllık mesleki tecrübeye sahip olmak.",
      "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak kaydıyla güncel programlama dillerinden en az ikisini bildiğini belgelemek.",
-     "Özel şartlarda istenen sertifikalar e-Devlet onaylı veya uluslararası kurum/şirketlerden (kendi üreticisinden) verilen orijinal sertifikalar olmalıdır.",
-     "Güvenlik soruşturması ve/veya arşiv araştırmasında kamu hizmetine atanmasına engel bir durumu bulunmamak.",
-     "Sınav: ÖSYM tarafından 2026 yılında lisans mezunları için yapılan KPSS P3 puanının %70'i ile son beş yıl içinde yapılan İngilizce YDS/e-YDS veya YDS'ye denk kabul edilen sınav puanının YDS karşılığının %30'unun toplamına göre sıralanır; pozisyonun 10 katına kadar aday yazılı ve uygulamalı sınava çağrılır.",
-     "KPSS puanı olmayan adayın KPSS puanı 70, yabancı dil puanı olmayan adayın yabancı dil puanı 0 olarak değerlendirilir.",
-     "Yazılı sınavın %30'u ve uygulamalı sınavın %70'i toplamı 100 tam puan üzerinden en az 70 olmak.",
-     "Büyük ölçekli bilgi işlem birimlerinde veya millî güvenliği tehdit edebilecek ya da kamu düzeninin bozulmasına yol açabilecek kritik nitelikteki verilerin bulunduğu kamu kurum ve kuruluşlarında veya en az 5.000 iç kullanıcıya hizmet veren özel sektör kuruluşlarının bilgi işlem birimlerinde, sistem yönetimi alanında en az 5 yıl mesleki deneyime sahip olduğunu belgelemek.",
-     "Belge: Linux ve Microsoft Windows Server işletim sistemlerinin kurulumu, yapılandırılması, yönetimi, güvenlik sıkılaştırması, performans iyileştirmesi, sistem günlüklerinin analizi ve sorun giderme süreçlerinde fiilen görev aldığını gösteren belge",
-     "Belge: Sunucu sanallaştırma sistemlerinden (VMware, Hyper-V, Proxmox veya benzeri) en az birinin kurulumu ve yönetimi süreçlerinde fiilen görev aldığını gösteren belge",
-     "Belge: Apache HTTP Server veya Nginx web sunucularının kurulumu, yapılandırılması ve sorun giderme süreçlerinde fiilen görev aldığını gösteren belge",
+     "Linux ve Microsoft Windows Server işletim sistemlerinin kurulumu, yapılandırılması, yönetimi, güvenlik sıkılaştırması, performans iyileştirmesi, sistem günlüklerinin analizi ve sorun giderme süreçlerinde fiilen görev aldığını belgelemek.",
+     "Sunucu sanallaştırma sistemlerinden (VMware, Hyper-V, Proxmox veya benzeri) en az birinin kurulumu ve yönetimi süreçlerinde fiilen görev aldığını belgelemek.",
+     "Apache HTTP Server veya Nginx web sunucularının kurulumu, yapılandırılması ve sorun giderme süreçlerinde fiilen görev aldığını belgelemek.",
      "Composer ve npm paket yöneticisine hakim olmak.",
      "Farklı programlama dilleri ve teknolojilerle geliştirilmiş web uygulamalarının çalıştırıldığı sunucu ortamlarının kurulumu, yapılandırılması, yönetimi, güncellenmesi ve sorunlarının giderilmesi konularında bilgi ve tecrübe sahibi olmak.",
      "PostgreSQL veritabanı yönetimi ve bakımı konusunda tecrübeli olmak.",
@@ -64,11 +56,26 @@
      "Analitik düşünce ve hızlı problem çözme yeteneğine sahip olmak.",
      "Hızlı öğrenme ve kendini geliştirme yeteneğine sahip olmak.",
      "Dokümantasyona önem vermek ve bunu düzenli olarak yapmak.",
-     "Tercihen şu sertifikalardan veya güncel sürüm/muadillerinden (VCP-DCV, CKA, LPIC-2, Microsoft Certified: Windows Server Hybrid Administrator Associate vb.) en az ikisine sahip olduğunu belgelemek: VMware Certified Professional (VCP4), Red Hat Certified Engineer (RHCE), Certified Ethical Hacker (CEH), Microsoft Certified Solutions Expert (MCSE), Microsoft Certified IT Professional (MCITP), Microsoft Certified Technology Specialist (MCTS)."
+     "Tercihen şu sertifikalardan veya güncel sürüm/muadillerinden (VCP-DCV, CKA, LPIC-2, Microsoft Certified: Windows Server Hybrid Administrator Associate vb.) en az ikisine sahip olduğunu belgelemek: VMware Certified Professional (VCP4), Red Hat Certified Engineer (RHCE), Certified Ethical Hacker (CEH), Microsoft Certified Solutions Expert (MCSE), Microsoft Certified IT Professional (MCITP), Microsoft Certified Technology Specialist (MCTS).",
+     "Mesleki tecrübe, 657 sayılı Kanuna tabi kadrolu bilişim personeli, 4/b veya 399 sayılı KHK'ya tabi sözleşmeli bilişim personeli olarak ya da özel kesimde SGK primi ödenerek işçi statüsünde bilişim personeli olarak geçen belgelenmiş hizmet sürelerinden sayılır.",
+     "Özel şartlarda istenen sertifikalar e-Devlet onaylı veya uluslararası kurum/şirketlerden (kendi üreticisinden) verilen orijinal sertifikalar olmalıdır."
     ]
    }
   ],
-  "notes": "İlan, Yönetmeliğin 6 ncı maddesinin (b) fıkrasındaki bölümlerin adlarını içermiyor, bu nedenle departments boş bırakıldı. Eğitim düzeyi 'lisans mezunları' ifadesine dayanılarak LISANS alındı. Asgari KPSS puanı belirtilmemiş. Brüt ücret tavanı 3 katı, tam zamanlı çalışma. Başvuru bitişi 10.12.2026 saat 23:59:59."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanunu'nun 48. maddesinde yazılı genel koşulları taşımak.",
+   "Erkek adaylar için muvazzaf askerlik hizmetini yapmış, muaf veya tecilli olmak.",
+   "Başvuru son günü itibarıyla 45 yaşından gün almamış olmak.",
+   "Sözleşmeli Bilişim Personeli Yönetmeliği'nin 6. maddesinin (b) fıkrasında sayılan bölümlerden mezun olmak.",
+   "Mesleki tecrübe: ücret tavanı iki katını geçemeyecek pozisyonlar için en az 3 yıl, diğerleri için en az 5 yıl; Sistem Yöneticisi pozisyonu için en az 5 yıl.",
+   "Adli sicil kaydı bulunmamak.",
+   "Güvenlik soruşturması ve/veya arşiv araştırmasında kamu hizmetine atanmasına engel bir durumu bulunmamak.",
+   "Başvurulan pozisyonun özel şartlarında belirtilen öğrenim, mesleki deneyim ve diğer nitelikleri taşımak.",
+   "Yönetmelikte belirtilen özlük hakları ve diğer hususları kabul etmek.",
+   "2026 yılında lisans mezunları için yapılan KPSS'den P3 puan türünden puan almış olmak (puanı olmayanın KPSS puanı 70 sayılır).",
+   "Yabancı dil puanı için son beş yıl içinde İngilizce YDS/e-YDS veya YDS'ye denk kabul edilen sınavda alınan puan esas alınır (puanı olmayanın puanı 0 sayılır)."
+  ],
+  "notes": "Bölüm listesi ilanda yazılmamış; Yönetmeliğin 6. maddesinin (b) fıkrasındaki bölümlere atıf var, bu nedenle departments boş bırakıldı. Asgari KPSS puanı belirtilmemiş. Mesleki tecrübe 5 yıl (SGK hizmet dökümü ile belgelenecek). Başvuru kanalı Kariyer Kapısı. Eğitim düzeyi KPSS lisans (P3) nedeniyle LİSANS alındı."
  },
- "reading": 2
+ "reading": 3
 }

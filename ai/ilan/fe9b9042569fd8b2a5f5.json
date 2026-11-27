@@ -4,7 +4,7 @@
  "institution": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI",
  "title": "13 AFET VE ACİL DURUM YÖNETİMİ UZMAN YARDIMCISI ALACAK",
  "range": "23 Kasım - 30 Kasım",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 13,
@@ -16,7 +16,7 @@
    {
     "code": "1",
     "title": "AFET VE ACİL DURUM YÖNETİMİ UZMAN YARDIMCISI (GRUP 1)",
-    "place": "ANKARA",
+    "place": "Merkez teşkilatı",
     "count": 10,
     "places": [],
     "education": [
@@ -48,20 +48,14 @@
     "age_rule": "2027 yılı Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1992 tarihinden sonra doğmuş olmak)",
     "license_classes": [],
     "other_conditions": [
-     "KPSS: ÖSYM tarafından 2025 veya 2026 yıllarında yapılan KPSS'de P8, P9, P16, P21, P32 veya P43 puan türlerinin herhangi birinden en az 70 puan almış olmak.",
-     "Yabancı dil: 23 Kasım 2024 tarihinden sonra açıklanan YDS veya e-YDS'den (Almanca, Fransızca, İngilizce) en az 70 puan (C seviyesi) veya ÖSYM Yabancı Dil Sınavları Eşdeğerlik Tablosuna göre YDS/e-YDS'ye denkliği kabul edilen uluslararası geçerli yabancı dil sınav puanına sahip olmak.",
-     "Öğrenim: en az dört yıllık lisans eğitimi veren yukarıdaki bölümlerden veya YÖK tarafından denkliği kabul edilen yurt içi/yurt dışı yükseköğretim kurumlarından mezun olmak.",
-     "657 sayılı Devlet Memurları Kanunu'nun 48. maddesindeki genel şartları taşımak.",
-     "Erkek adaylar için askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak.",
-     "Afet ve Acil Durum Yönetimi Uzman Yardımcısı Giriş Sınavına iki defadan fazla katılmamış olmak.",
-     "Görevin devamlı olarak yapılmasına engel bir sağlık problemi bulunmamak.",
-     "Giriş (sözlü) sınavında başarı puanının en az 70 olması ve her üyeden en az 60 puan almak gerekir."
+     "Üniversitelerin en az dört yıllık lisans eğitimi veren sayılan öğrenim dallarından veya bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yükseköğretim kurumlarından mezun olmak.",
+     "23 Kasım 2024 tarihinden sonra açıklanan YDS veya e-YDS'den (Almanca, Fransızca, İngilizce) en az 70 puan almış olmak veya ÖSYM Yabancı Dil Sınavları Eşdeğerlik Tablosuna göre YDS/e-YDS'ye denkliği kabul edilen uluslararası geçerli yabancı dil sınav puanına sahip olmak (C seviyesi)."
     ]
    },
    {
     "code": "2",
     "title": "AFET VE ACİL DURUM YÖNETİMİ UZMAN YARDIMCISI (GRUP 2)",
-    "place": "ANKARA",
+    "place": "Merkez teşkilatı",
     "count": 3,
     "places": [],
     "education": [
@@ -81,18 +75,20 @@
     "age_rule": "2027 yılı Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1992 tarihinden sonra doğmuş olmak)",
     "license_classes": [],
     "other_conditions": [
-     "KPSS: ÖSYM tarafından 2025 veya 2026 yıllarında yapılan KPSS'de P4 puan türünden en az 70 puan almış olmak.",
-     "Yabancı dil: 23 Kasım 2024 tarihinden sonra açıklanan YDS veya e-YDS'den (Almanca, Fransızca, İngilizce) en az 70 puan (C seviyesi) veya ÖSYM Yabancı Dil Sınavları Eşdeğerlik Tablosuna göre YDS/e-YDS'ye denkliği kabul edilen uluslararası geçerli yabancı dil sınav puanına sahip olmak.",
-     "Öğrenim: en az dört yıllık lisans eğitimi veren Hukuk bölümünden veya YÖK tarafından denkliği kabul edilen yurt içi/yurt dışı yükseköğretim kurumlarından mezun olmak.",
-     "657 sayılı Devlet Memurları Kanunu'nun 48. maddesindeki genel şartları taşımak.",
-     "Erkek adaylar için askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak.",
-     "Afet ve Acil Durum Yönetimi Uzman Yardımcısı Giriş Sınavına iki defadan fazla katılmamış olmak.",
-     "Görevin devamlı olarak yapılmasına engel bir sağlık problemi bulunmamak.",
-     "Giriş (sözlü) sınavında başarı puanının en az 70 olması ve her üyeden en az 60 puan almak gerekir."
+     "Üniversitelerin en az dört yıllık lisans eğitimi veren Hukuk öğrenim dalından veya buna denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içi veya yurt dışı yükseköğretim kurumlarından mezun olmak.",
+     "23 Kasım 2024 tarihinden sonra açıklanan YDS veya e-YDS'den (Almanca, Fransızca, İngilizce) en az 70 puan almış olmak veya ÖSYM Yabancı Dil Sınavları Eşdeğerlik Tablosuna göre YDS/e-YDS'ye denkliği kabul edilen uluslararası geçerli yabancı dil sınav puanına sahip olmak (C seviyesi)."
     ]
    }
   ],
-  "notes": "Görev yeri tabloda yazılı değil; metinde 'Başkanlığımız merkez teşkilatı' denildiği ve iletişim adresi Ankara olduğu için yer ANKARA olarak yazıldı. KPSS yılı 2025 veya 2026 olmak üzere iki yıl belirtildiği için kpss_year null bırakıldı. Başvuru: 23 Kasım 2026 10:00 - 30 Kasım 2026 17:00, Kariyer Kapısı üzerinden."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinde belirtilen genel şartları taşımak.",
+   "2027 yılı Ocak ayının birinci günü itibarıyla 35 yaşını doldurmamış olmak (01.01.1992 tarihinden sonra doğmuş olmak).",
+   "Erkek adaylar için giriş sınavı tarihinde askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak.",
+   "Afet ve Acil Durum Yönetimi Uzman Yardımcısı Giriş Sınavına iki defadan fazla katılmamış olmak.",
+   "Görevin devamlı olarak yapılmasına engel bir sağlık problemi bulunmamak.",
+   "ÖSYM tarafından 2025 veya 2026 yıllarında yapılan KPSS'den ilgili puan türünden en az 70 puan almış olmak."
+  ],
+  "notes": "KPSS yılı olarak 2025 veya 2026 belirtilmiş, şemada tek yıl alanı olduğundan kpss_year null bırakıldı. Görev yeri 'merkez teşkilatı' olarak ilan metninden alındı. Yabancı dil şartı (en az 70 puan, C seviyesi) her iki grup için geçerlidir."
  },
- "reading": 2
+ "reading": 3
 }

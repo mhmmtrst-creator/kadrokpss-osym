@@ -4,7 +4,7 @@
  "institution": "GELİR İDARESİ BAŞKANLIĞI",
  "title": "27 SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) ALACAK",
  "range": "2 Aralık - 9 Aralık",
- "read_at": "2026-11-27T13:02:28Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 27,
@@ -113,15 +113,18 @@
      "D"
     ],
     "other_conditions": [
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
-     "Belge: Geçerlilik süresi dolmamış D sınıfı sürücü belgesi",
-     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak.",
-     "Sözlü sınavda her bir kriterden 100 tam puan üzerinden en az 70 puan almak.",
-     "Adaylar en fazla 5 görev yeri için tercihte bulunabilir."
+     "Geçerlilik süresi dolmamış D sınıfı sürücü belgesine sahip olmak."
     ]
    }
   ],
-  "notes": "Tek pozisyon, 18 görev yerinde toplam 27 kadro (tablo toplamı ilan edilen 27 ile uyumlu). Başvuru 9 Aralık 2026 saat 17.00'de sona erer. Sözlü sınav 28-29 Aralık 2026'da Ankara'da yapılacaktır."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+   "ÖSYM tarafından 2026 yılında yapılan KPSS (Ön Lisans) sınavına katılmış olmak.",
+   "KPSS P93 puan türünden en az 70 puan almış olmak.",
+   "Üniversitelerin Otobüs Şoförlüğü (Kaptanlık), Otobüs Şoförlüğü veya Otobüs Kaptanlığı ön lisans programlarının herhangi birinden mezun olmak.",
+   "01.01.2026 tarihi itibarıyla 35 yaşını doldurmamış olmak."
+  ],
+  "notes": "Tek pozisyon, 18 görev yeri; toplam 27 ilanda belirtilmiş ve görev yeri sayılarının toplamıyla uyumlu."
  },
- "reading": 2
+ "reading": 3
 }

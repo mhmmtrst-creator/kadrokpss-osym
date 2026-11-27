@@ -4,7 +4,7 @@
  "institution": "SAHİL GÜVENLİK KOMUTANLIĞI",
  "title": "10 MEMUR ALACAK",
  "range": "16 Kasım - 27 Kasım",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 10,
@@ -13,7 +13,19 @@
   "apply_start": "2026-11-16",
   "apply_end": "2026-11-27",
   "positions": [],
-  "notes": "İlanda kadro tablosu yok; unvanlara ait adetler, öğrenim ve bölüm şartları ve asgari puanlar ilanda değil, www.sg.gov.tr adresindeki bilgilendirme kılavuzunda yer alıyor. Metinde yalnızca unvanlar sayılmış (Mali İşler Uzmanı, Psikolog, Yabancı Dil Öğretmeni (İngilizce), Tedarik Uzmanı: KPSSP03; Video Montaj Teknikeri, Muhasebeci: KPSSP93), her biri için kadro sayısı verilmediğinden pozisyon çıkarılmadı. Toplam 10 memur alınacak. Genel şartlar: 18 yaşını tamamlamış olmak, 01 Ocak 2026 itibariyle 36 yaşından gün almamış olmak (01 Ocak 1991 ve sonrası doğumlular), 2026 KPSS'ye girmiş olmak, askerlik durumu şartı, 657 sayılı Kanun 48. madde genel şartları."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanunu'nun 48'inci maddesinde belirtilen genel şartlara sahip olmak.",
+   "İlan edilen unvanlar için mezun olunan okul itibarıyla öğrenim şartını taşımak ve bu öğrenimle ilgili olarak 2026 yılı KPSS'ye girmiş olmak.",
+   "Mali İşler Uzmanı (Merkez/Taşra Teşkilatı), Psikolog (Merkez/Taşra Teşkilatı), Yabancı Dil Öğretmeni (İngilizce) (Merkez Teşkilatı) ve Tedarik Uzmanı (Merkez Teşkilatı) unvanları için 2026 yılı KPSS sınavının KPSSP3 puan türünden kılavuzda belirtilen asgari puanı almış olmak.",
+   "Video Montaj Teknikeri (Merkez Teşkilatı) ve Muhasebeci (Merkez Teşkilatı) unvanları için 2026 yılı KPSS sınavının KPSSP93 puan türünden kılavuzda belirtilen asgari puanı almış olmak.",
+   "Müracaatların son günü itibarıyla 18 yaşını tamamlamış olmak (27 Kasım 2008 ve daha önce doğanlar başvurabilir).",
+   "01 Ocak 2026 tarihi itibarıyla 36 yaşından gün almamış olmak (01 Ocak 1991 ve daha sonra doğanlar başvurabilir).",
+   "Herhangi bir kamu kurum ve kuruluşunda 657 sayılı Kanun'a tabi görevlerde çalışmamış olmak; çalışmış ise 657 sayılı Kanun'un 97. maddesinde belirtilen süreleri doldurmuş olmak.",
+   "Sözleşmeli subay, sözleşmeli astsubay, uzman erbaş veya sözleşmeli er olarak sözleşmesi idare tarafından tek taraflı feshedilmiş olmamak veya halen bu görevlerde çalışmıyor olmak.",
+   "Askerlikle ilişiği bulunmamak, askerlik çağına gelmemiş olmak; askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş, yedek sınıfa geçirilmiş olmak veya yapmış sayılacak şekilde muaf olmak.",
+   "Bilgilendirme kılavuzunda kadro unvanının hizasında belirtilen niteliklere sahip olmak."
+  ],
+  "notes": "İlan metninde kadro tablosu yok; kadro unvanlarının sayıları, öğrenim şartları, bölümleri ve asgari KPSS puanları ilanda değil, www.sg.gov.tr adresindeki bilgilendirme kılavuzunda yer alıyor. Bu nedenle pozisyon çıkarılamadı. Ana metinde sadece unvan adları (Mali İşler Uzmanı, Psikolog, Yabancı Dil Öğretmeni (İngilizce), Tedarik Uzmanı, Video Montaj Teknikeri, Muhasebeci) ve KPSS puan türleri geçiyor, kadro sayıları verilmiyor. Toplam 10 kadro belirtilmiş."
  },
- "reading": 2
+ "reading": 3
 }

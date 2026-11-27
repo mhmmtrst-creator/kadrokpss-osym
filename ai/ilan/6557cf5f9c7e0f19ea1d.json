@@ -4,7 +4,7 @@
  "institution": "ADLİ TIP KURUMU BAŞKANLIĞI",
  "title": "181 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "30 Kasım - 6 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 181,
@@ -471,7 +471,8 @@
      "Soğutma ve Havalandırma",
      "İklimlendirme Teknolojisi",
      "İklimlendirme ve Soğutma Teknolojisi",
-     "Doğalgaz, Isıtma ve Sıhhi Tesisat Teknolojisi",
+     "Doğalgaz",
+     "Isıtma ve Sıhhi Tesisat Teknolojisi",
      "Sıhhi Tesisat ve Doğalgaz",
      "Doğalgaz ve Isıtma",
      "Doğal Gaz ve Isıtma",
@@ -865,21 +866,18 @@
     "department_kpss": [],
     "min_score": 70,
     "departments": [],
-    "any_department": false,
+    "any_department": true,
     "gender": "ERKEK",
     "age_years": 30,
     "age_rule": "merkezî sınavın (KPSS-2026) yapıldığı yılın Ocak ayının birinci günü itibarıyla 30 yaşını bitirmemiş olmak (01 Ocak 1996 ve sonrası doğumlu olanlar sınava müracaat edebilecektir)",
     "license_classes": [],
     "other_conditions": [
-     "Lise ve dengi okul mezunu olmak.",
      "Yapılacak sınavın son başvuru tarihi itibarıyla 18 yaşını doldurmuş olmak.",
      "170 cm'den kısa boylu olmamak.",
-     "Boy uzunluğunun santimetre cinsinden son iki rakamı ile kilosu arasındaki fark 13'ten fazla, 17'den az olmamak (örneğin 170 cm boyundaki adayın kilosu 70+13=83'ten fazla, 70-17=53'ten az olmamalıdır).",
-     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel özürlü olmamak; şaşılık, körlük, topallık, işitme kaybı, çehrede sabit eser, uzuv noksanlığı, kekemelik ve benzeri engeller bulunmadığını Sağlık Bakanlığına bağlı tam teşekküllü Devlet hastanelerinden alınacak sağlık kurulu raporu ile belgelemek.",
-     "Belge: Sağlık Bakanlığına bağlı tam teşekküllü Devlet hastanelerinden alınan sağlık kurulu raporu",
+     "Boy uzunluğunun santimetre cinsinden son iki rakamı ile kilosu arasındaki fark 13'ten fazla, 17'den az olmamak (örneğin 170 cm boyundaki adayın kilosu 83'ten fazla, 53'ten az olmamalıdır).",
+     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı veya bedensel özürlü olmadığını; şaşılık, körlük, topallık, işitme kaybı, çehrede sabit eser, uzuv noksanlığı, kekemelik ve benzeri engeller bulunmadığını Sağlık Bakanlığına bağlı tam teşekküllü Devlet hastanelerinden alınacak sağlık kurulu raporu ile belgelemek.",
      "Mesai saatleri dışında ve hafta sonları çalışmaya engeli olmamak; 7/24 saat esasına göre vardiyalı olarak kapalı ve açık alanlarda çalışmasına engel durumu olmamak.",
-     "Belge: Mesai dışı/hafta sonu ve vardiyalı çalışmaya engel olmadığına ilişkin imzalı beyan formu (başvuru esnasında sisteme yüklenecek)",
-     "Puan sıralaması sonucu sözlü sınava hak kazananların boy-kilo ölçümleri sözlü sınav tarihinde yapılır; gerekli boy-kilo şartını sağlamayanlar sözlü sınava alınmaz."
+     "Boy-kilo ölçümü sözlü sınav tarihinde yapılır; gerekli boy-kilo şartını sağlayamayan adaylar sözlü sınava alınmaz."
     ]
    },
    {
@@ -950,17 +948,14 @@
     "department_kpss": [],
     "min_score": 70,
     "departments": [],
-    "any_department": false,
+    "any_department": true,
     "gender": null,
     "age_years": null,
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Lise ve dengi okul mezunu olmak.",
-     "Temizlik işlerinde en az 6 (altı) ay sigortalı olarak çalışmış olmak.",
-     "Belge: E-Devletten alınacak, meslek kodunu/kodlarını gösterir barkodlu SGK Hizmet Dökümü (başvuru esnasında sisteme yüklenecek)",
-     "Yükseköğretim Kurumlarında aktif örgün eğitim öğrencisi olarak kaydı bulunmamak.",
-     "Görev: Görevlendirildiği birimin kapalı ve açık alanlarının temizliği, katı atıkların toplanması, malzeme-demirbaş taşıma, yükleme-boşaltma ve yöneticiler tarafından verilen diğer hizmetli görevlerini yerine getirmek."
+     "Temizlik işlerinde en az 6 (altı) ay sigortalı olarak çalışmış olmak; bu çalışma e-Devletten alınacak meslek kodunu/kodlarını gösterir barkodlu SGK Hizmet Dökümü ile belgelendirilir.",
+     "Yükseköğretim kurumlarında aktif örgün eğitim öğrencisi olarak kaydı bulunmamak."
     ]
    },
    {
@@ -1003,7 +998,7 @@
     "department_kpss": [],
     "min_score": 70,
     "departments": [],
-    "any_department": false,
+    "any_department": true,
     "gender": null,
     "age_years": null,
     "age_rule": null,
@@ -1012,9 +1007,7 @@
      "D+C"
     ],
     "other_conditions": [
-     "Lise ve dengi okul mezunu olmak.",
-     "Eski tip E sınıfı sürücü belgesine sahip olmak; ya da Karayolları Trafik Yönetmeliğinde 17/04/2015 tarihli ve 29329 sayılı Resmi Gazete'de yayımlanan değişiklik ile 01 Ocak 2016 tarihi itibarıyla yeni tip D ve C (birlikte) sınıfı sürücü belgesine sahip olmak.",
-     "Belge: Sürücü belgesi (başvuru esnasında sisteme yüklenecek)"
+     "Belge: Eski tip E sınıfı sürücü belgesi; ya da 01 Ocak 2016 itibarıyla yeni tip D ve C (birlikte) sınıfı sürücü belgesi (Karayolları Trafik Yönetmeliği'nde 17/04/2015 tarihli ve 29329 sayılı Resmî Gazete'de yayımlanan değişiklik uyarınca)."
     ]
    },
    {
@@ -1046,7 +1039,18 @@
     "other_conditions": []
    }
   ],
-  "notes": "Toplam 181 pozisyon tablodaki satırlarla uyumlu. 70 puan alt sınırı ilanın 2. maddesinden alındı. Genel şartlar (askerlik, 657 sayılı Kanun 40. madde yaş şartı vb.) tüm pozisyonlar için geçerlidir. Bazı bölüm adlarının ayrımı (örn. 'İktisat, Ekonomi ve İdari Bilimler', 'Doğalgaz, Isıtma ve Sıhhi Tesisat Teknolojisi') metinde belirsiz; kopya olan 'İktisat' bir kez yazıldı."
+  "general_conditions": [
+   "Türk vatandaşı olmak.",
+   "Son başvuru günü olan 06 Aralık 2026 tarihinde 657 sayılı Kanunun 40 ıncı maddesindeki yaş şartlarını taşımak.",
+   "2026 yılı KPSS'ye girmiş olmak ve her pozisyon için aranan puan türünden en az 70 puan almış olmak.",
+   "Askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş olmak; askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak.",
+   "657 sayılı Kanunun 48/1-A/5 bendinde sayılan suçlardan mahkûm olmamak.",
+   "657 sayılı Kanunun 53 üncü maddesi hükümleri saklı kalmak kaydıyla görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+   "Kamu haklarından mahrum olmamak.",
+   "Son başvuru tarihi itibarıyla başvurulan pozisyon için gerekli öğrenim niteliğini taşımak.",
+   "Adalet Bakanlığı Memur Sınav, Atama ve Nakil Yönetmeliğinin 5 ve 6 ncı maddelerinde yazılı şartları taşımak."
+  ],
+  "notes": "Toplam 181 pozisyon, tablodaki satırların toplamıyla uyuşuyor. Biolog bölüm adları metinde virgüllerle ayrıldığı için bölüm sınırları (ör. 'Moleküler Biyoloji, Genetik ve Biyomühendislik') ve Büro Personeli'ndeki 'İktisat, Ekonomi ve İdari Bilimler' ile Tekniker (Sıhhi Tesisat)'daki 'Doğalgaz, Isıtma ve Sıhhi Tesisat Teknolojisi' ayrımı yazıldığı biçimiyle yorumlandı. Genel şart olarak Adalet Bakanlığı Yönetmeliği'nin 5 ve 6. maddelerinin içeriği ilanda yazılı değil. Sözlü sınav ilanda yer alıyor; her pozisyon için 3 katı aday çağrılır."
  },
- "reading": 2
+ "reading": 3
 }

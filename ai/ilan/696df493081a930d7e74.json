@@ -4,7 +4,7 @@
  "institution": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ",
  "title": "İPTAL İLANI",
  "range": "26 Kasım - 27 Kasım",
- "read_at": "2026-11-26T07:04:20Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -13,7 +13,8 @@
   "apply_start": null,
   "apply_end": null,
   "positions": [],
-  "notes": "Bu bir iptal ilanıdır: 09/11/2026 tarihli Resmi Gazete ilanındaki 5 numaralı satır (Teknik Bilimler Meslek Yüksekokulu, Makine ve Metal Teknolojileri, Üretimde Kalite Kontrol, Öğretim Görevlisi, 5 derece) iptal edilmiştir. Yeni kadro içermediğinden pozisyon çıkarılmadı."
+  "general_conditions": [],
+  "notes": "Bu bir iptal ilanıdır: Karamanoğlu Mehmetbey Üniversitesi'nin 09/11/2026 tarihli Resmi Gazete ilanındaki Teknik Bilimler Meslek Yüksekokulu, Makine ve Metal Teknolojileri, Üretimde Kalite Kontrol Öğretim Görevlisi (Ders verecek, 5 derece) kadrosu iptal edilmiştir. Yeni alım yapılmaz, bu nedenle pozisyon yazılmamıştır."
  },
- "reading": 2
+ "reading": 3
 }

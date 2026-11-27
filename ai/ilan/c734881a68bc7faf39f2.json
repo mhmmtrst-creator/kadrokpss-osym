@@ -4,7 +4,7 @@
  "institution": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI",
  "title": "5 MÜFETTİŞ YARDIMCISI ALACAK",
  "range": "23 Kasım - 4 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 5,
@@ -40,29 +40,25 @@
     "age_rule": "Yazılı sınav tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak. (26.12.1991 ve daha sonraki tarihlerde doğanlar)",
     "license_classes": [],
     "other_conditions": [
-     "En az 4 (dört) yıllık lisans eğitimi veren hukuk, siyasal bilgiler, iktisat, işletme, iktisadî ve idarî bilimler fakültelerinden veya bunlara denkliği yetkili makamlarca kabul edilen yurt içi ve yurt dışındaki öğretim kurumlarından mezun olmak.",
-     "Hizmet sınıfı GİH, kadro derecesi 6; 657 sayılı Devlet Memurları Kanununa tabi memur kadrosu.",
-     "2025 ve 2026 yılı KPSS (A Grubu) sınavına girmiş olmak ve P48 puan türünden en az 75 puan almış olmak.",
-     "Belge: Giriş sınavı ilanının yapıldığı tarihte geçerli olan A Grubu KPSS Sonuç Belgesinin aslı veya onaylı örneği.",
-     "Erkek adaylar için askerlik durumu: askerlikle ilgisi bulunmamak, muvazzaf askerlik hizmetini yapmış olmak veya askerlik hizmetini ertelemiş ya da yedek sınıfa geçirilmiş olmak.",
+     "En az 4 yıllık lisans eğitimi veren hukuk, siyasal bilgiler, iktisat, işletme, iktisadî ve idarî bilimler fakültelerinden veya bunlara denkliği yetkili makamlarca kabul edilen yurt içi ve yurt dışındaki öğretim kurumlarından mezun olmak.",
      "Müfettişlik mesleğinin yürütülmesine adlî veya idarî herhangi bir engeli bulunmamak.",
      "Sağlık durumu bakımından Müfettişlik görevini yapmasına engel olabilecek herhangi bir rahatsızlığı, hastalığı veya engeli bulunmamak.",
-     "Rehberlik ve Teftiş Kurulu Başkanlığınca yapılacak bu sınava daha önce katılmamış veya en fazla 1 (bir) defa katılmış olmak.",
-     "Türk vatandaşı olmak.",
-     "Kamu haklarından mahrum bulunmamak.",
-     "Belge: Yükseköğrenim diplomasının veya bitirme belgesinin aslı veya e-Devlet'ten kare kodlu belge.",
-     "Belge: Gerekli hallerde denkliğin ilgili merci tarafından tasdik edildiğine dair belgenin aslı veya onaylı örneği.",
-     "Belge: Nüfus cüzdanının aslı veya e-Devlet'ten kare kodlu belge.",
-     "Belge: Devlet memurluğuna girmeye engel adlî sicil kaydının olmadığına dair belge.",
-     "Belge: Erkek adaylar için askerlik durumunu gösterir belge.",
-     "Belge: Kendi el yazısı ile hazırlanmış özgeçmiş (okullar ve yerleri, 2 kişinin adı, soyadı ve iletişim bilgileri, yükseköğrenimden sonra yapılan işler).",
-     "Belge: Son 6 ay içinde çekilmiş 6 adet biyometrik fotoğraf.",
-     "Belge: Yazılı sınavda başarılı olan adaylardan sözlü sınavdan önce görevini devamlı yapmaya engel bir durum olmadığına dair sağlık kurulu raporu.",
-     "Yazılı sınavda her konu grubundan 100 üzerinden en az 70, yabancı dilden en az 60 ve not ortalaması en az 75 almak gerekir."
+     "Rehberlik ve Teftiş Kurulu Başkanlığınca yapılacak bu sınava daha önce katılmamış veya en fazla 1 defa katılmış olmak.",
+     "Yazılı sınavda başarılı olan adaylar için sözlü sınavdan önce görevini devamlı yapmaya engel durum olmadığına dair sağlık kurulu raporu sunmak.",
+     "Kadro: GİH sınıfı, 6. derece."
     ]
    }
   ],
-  "notes": "Tek kadro: Müfettiş Yardımcısı, 5 kadro, Ankara Büyükşehir Belediyesi. Görev yeri tabloda belirtilmemiş; Ankara ili olarak yazıldı. Cinsiyet Erkek/Kadın olduğundan kısıt yok. KPSS yılı 2025 ve 2026 olarak iki yıl belirtilmiş, tek tamsayı alanına yazılamadığı için null bırakıldı."
+  "general_conditions": [
+   "Türk vatandaşı olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "Türk Ceza Kanununun 53. maddesinde belirtilen süreler geçmiş olsa bile, kasten işlenen bir suçtan dolayı bir yıl veya daha fazla hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak ve katalog suçlar listesinde yer alan suçlara karışmamış olmak.",
+   "Erkek adaylar için askerlikle ilgisi bulunmamak, askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış olmak veya askerlik hizmetini ertelemiş ya da yedek sınıfa geçirilmiş olmak.",
+   "657 sayılı Devlet Memurları Kanununun 48. maddesinde yazılı nitelikleri taşımak.",
+   "2025 ve 2026 yılı KPSS (A Grubu) sınavına girmiş olmak ve ilanda belirtilen puan türünden asgari KPSS puanını almış olmak.",
+   "Öğrenim şartlarını mezun olunan okul itibarıyla taşımak."
+  ],
+  "notes": "KPSS yılı 2025 ve 2026 olarak belirtildiği için tek bir kpss_year yazılmadı (null). Kadro Ankara Büyükşehir Belediyesi için tek satırdır; görev yeri olarak Ankara yazıldı. Cinsiyet Erkek/Kadın olduğundan sınırlama yok."
  },
- "reading": 2
+ "reading": 3
 }

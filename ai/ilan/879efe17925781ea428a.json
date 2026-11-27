@@ -4,7 +4,7 @@
  "institution": "İÇİŞLERİ BAKANLIĞI",
  "title": "60 KAYMAKAM ADAYI ALACAK",
  "range": "1 Aralık - 7 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 60,
@@ -51,21 +51,24 @@
     "age_rule": "1 Ocak 2027 tarihi itibariyle 35 yaşını doldurmamış olmak (1 Ocak 1992 ve daha sonraki tarihlerde doğanlar)",
     "license_classes": [],
     "other_conditions": [
-     "Lisans yolu: Yurt içindeki üniversitelerin veya diploma denkliği YÖK tarafından onaylanmış yabancı üniversitelerin en az dört yıllık lisans eğitimi veren fakültelerinin uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, iktisat, işletme, maliye, finans, ekonometri, çalışma ekonomisi ve endüstri ilişkileri bölümlerinden ya da hukuk fakültelerinden mezun olmak.",
-     "Bu bölümlerden herhangi birinin müfredatındaki derslerin en az yüzde seksenine sahip olan diğer bölümlerden de mezun olunabilir.",
-     "Lisansüstü yolu: Mühendislik fakülteleri ile tarih, sosyoloji, halkla ilişkiler ve tanıtım, psikoloji bölümlerinden (veya bu bölümlerden birinin müfredatındaki derslerin en az yüzde seksenine sahip diğer bölümlerden) en az dört yıllık lisans eğitimi yapmış olmak.",
-     "Lisansüstü yolu: Uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, hukuk, maliye ve iktisat alanlarında tezli lisansüstü eğitimini tamamlamış olmak.",
-     "Belge: Listedeki bölümlerden mezun olmayanlar için mezun oldukları bölümün müfredatının yüzde sekseninin ilgili bölümlerle örtüştüğüne dair Yükseköğretim Kurulu eşdeğerlik belgesi (mülakat evrak tesliminde ibraz edilecek).",
-     "Belge: Tezli lisansüstü eğitimini tamamlayanlar için noter onaylı diploma suretleri veya mezun olduklarını gösterir resmî belgeler (mülakat evrak tesliminde ibraz edilecek).",
-     "1700 sayılı Dahiliye Memurları Kanunu'nun 2 ve 2/A maddeleri, 657 sayılı DMK'nın 48/A maddesi ve Kaymakam Adayları Yönetmeliği'ndeki şartlara sahip olmak.",
-     "Askerlikle ilişiği bulunmamak; askerlik hizmetini yapmış, ertelemiş veya yedek sınıfa geçirilmiş olmak.",
-     "KPSS puanı 2025 veya 2026 yıllarında yapılan KPSS'den alınmış olmalı.",
-     "Ön başvuru KPSS puanına göre sıralanır; atama yapılacak kadronun en fazla 20 katı (1.200) aday nihai başvuru yapabilir.",
-     "Yazılı sınavda 100 üzerinden en az 70 puan almak; kadronun 4 katı (240) aday mülakata çağrılır."
+     "1. yol: Yurt içindeki üniversitelerin veya diploma denkliği YÖK tarafından onaylanmış yabancı üniversitelerin en az dört yıllık lisans eğitimi veren fakültelerinin uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, iktisat, işletme, maliye, finans, ekonometri, çalışma ekonomisi ve endüstri ilişkileri bölümlerinden ya da hukuk fakültelerinden mezun olmak.",
+     "1. yolda bu bölümlerden birinin müfredatındaki derslerin en az yüzde sekseninine sahip diğer bölümlerden de mezun olunabilir.",
+     "2. yol: Üniversitelerin mühendislik fakülteleri ile tarih, sosyoloji, halkla ilişkiler ve tanıtım, psikoloji bölümlerinden veya bu bölümlerden herhangi birinin müfredatındaki derslerin en az yüzde sekseninine sahip diğer bölümlerden en az dört yıllık lisans eğitimi yapmış olmak.",
+     "2. yolda ayrıca uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, hukuk, maliye ve iktisat alanlarında tezli lisansüstü eğitimini tamamlamış olmak.",
+     "Belge: Listedeki bölümlerden mezun olmayanlar için, mezun oldukları bölümün müfredatının listedeki bölümlerin müfredatının yüzde sekseninine sahip olduğuna ilişkin Yükseköğretim Kurulundan alınmış eşdeğerlik belgesi.",
+     "Belge: Tezli lisansüstü eğitimini tamamlayanlar için noter onaylı diploma sureti veya mezuniyeti gösterir resmî belge."
     ]
    }
   ],
-  "notes": "KPSS puanı 2025 veya 2026 yıllarına ait olmalı (tek yıl olmadığı için kpss_year null). Ön başvuru 1-7 Aralık 2026, nihai başvuru 16-21 Aralık 2026 (geç başvuru günü 29 Aralık 2026); apply_end nihai başvuru bitişi olarak alındı. Sınav 31 Ocak 2027. Bölüm listesi lisans ve lisansüstü yolları için birleştirildi; lisansüstü yolunda tezli yüksek lisans alanları (uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, hukuk, maliye, iktisat) koşullarda yazıldı."
+  "general_conditions": [
+   "1700 sayılı Dahiliye Memurları Kanunu'nun 2 ve 2/A maddelerindeki şartları taşımak.",
+   "657 sayılı Devlet Memurları Kanunu'nun 48/A maddesindeki şartları taşımak.",
+   "Kaymakam Adayları Yönetmeliği'nde yer alan şartları taşımak.",
+   "Askerlikle ilişiği bulunmamak; askerlik hizmetini yapmış, ertelemiş veya yedek sınıfa geçirilmiş olmak.",
+   "ÖSYM tarafından 2025 veya 2026 yıllarında yapılan KPSS'de KPSSP32 puan türünden en az 70 puan almış olmak.",
+   "1 Ocak 2027 tarihi itibariyle 35 yaşını doldurmamış olmak (1 Ocak 1992 ve sonrasında doğanlar)."
+  ],
+  "notes": "Tek kadro türü vardır: 60 Kaymakam Adayı. KPSS puanı 2025 veya 2026 yılından olabilir (tek yıl olmadığından kpss_year null). Ön başvuru 1-7 Aralık 2026, nihai başvuru 16-21 Aralık 2026 (geç başvuru günü 29 Aralık 2026); apply_end nihai başvuru bitişidir. Eğitim iki yoldan biriyle sağlanır: lisans (1. yol) veya lisans + tezli lisansüstü (2. yol)."
  },
- "reading": 2
+ "reading": 3
 }

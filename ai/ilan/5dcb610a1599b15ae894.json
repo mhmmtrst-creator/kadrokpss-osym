@@ -4,7 +4,7 @@
  "institution": "MİLLİ SAVUNMA BAKANLIĞI",
  "title": "ENGELLİ VE TERÖRLE MÜCADELEDE MALUL SAYILMAYACAK ŞEKİLDE YARALANANLARDAN SÜREKLİ İŞÇİ TEMİNİ İLANI",
  "range": "23 Kasım - 27 Kasım",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -13,7 +13,28 @@
   "apply_start": null,
   "apply_end": null,
   "positions": [],
-  "notes": "İlan metninde kadro/pozisyon tablosu yoktur; unvan, görev yeri ve kadro sayısı ilanda verilmemiştir. Ayrıntılar İŞKUR'da yayımlanan listede (iş gücü talepleri) yer almaktadır ve bu belgede bulunmamaktadır. Başvuru tarihleri belirtilmemiştir; yalnızca kura çekimi 16 Aralık 2026 saat 10:00'da yapılacaktır. Genel şartlar: 18 yaşını tamamlamış ve 36 yaşından gün almamış olmak; erkek/kadın ayrımı yoktur; askerlikle ilişiği olmamak; engelli statüsünde en az %40 engelli sağlık kurulu raporu veya TMSY statüsünde sağlık raporu ve komutanlık yazısı gerekir."
+  "general_conditions": [
+   "Türkiye Cumhuriyeti vatandaşı olmak.",
+   "Son başvuru tarihi itibarıyla 18 yaşını tamamlamış olmak.",
+   "Son başvuru tarihi itibarıyla 36 yaşından gün almamış olmak.",
+   "Affa uğramış olsa bile Devletin güvenliğine karşı suçlar, anayasal düzene ve bu düzenin işleyişine karşı suçlar, milli savunmaya karşı suçlar, Devletin sırlarına karşı suçlar ve casusluk, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan mal varlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak.",
+   "Devletin milli güvenliğine karşı faaliyette bulunduğuna karar verilen yapı, oluşum veya gruplara ya da terör örgütlerine üyeliği, mensubiyeti, iltisaki veya bunlarla irtibatı bulunmamak.",
+   "Terör örgütleriyle eylem birliği içerisinde olmamış, bu örgütlere yardım etmemiş, kamu imkân ve kaynaklarını bu örgütleri desteklemeye yönelik kullanmamış ya da kullandırmamış, bu örgütlerin propagandasını yapmamış olmak.",
+   "Kamusal haklarını kullanmaktan yoksun bırakılmamış olmak.",
+   "Askerlikle ilişiği olmamak (yapmış olmak, tecilli veya muaf olmak).",
+   "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almıyor olmak.",
+   "Son başvuru tarihi itibarıyla iş gücü taleplerinde belirtilen bölümlerden mezun olmak veya ilanda belirtilen mesleki yeterlilik belgesi/ustalık belgesine sahip olmak ve belirtilen diğer özel şartları sağlamak.",
+   "İşe göndermede öncelik hakkına sahip adaylar, ilgili Yönetmeliğin 5'inci maddesinin birinci fıkrasında belirtilen öncelikli durumlarını gösterir belgeye sahip olmak.",
+   "Kamu kurum ve kuruluşlarının disiplin mevzuatı uyarınca görevinden veya meslekten ihraç edilmiş olmamak.",
+   "Millî Savunma Bakanlığında ücretleri genel bütçeden ödenen bir iş yerinde çalışan işçi olmamak.",
+   "Her aday İŞKUR'da yayımlanan listedeki yalnızca bir ilana (bir iş yeri ve bir meslek koluna) başvurabilir; birden fazla ilana başvuranların başvuruları kabul edilmez.",
+   "MERNİS'e kayıtlı ikametgâh adresi ve iletişim numaraları güncel olmak.",
+   "Arşiv araştırması ve/veya güvenlik soruşturması olumlu sonuçlanmak.",
+   "Başvurulan meslek kolunda çalışmasında sağlık yönünden sakınca bulunmadığına dair sağlık raporuna sahip olmak.",
+   "Terörle mücadelede malûl sayılmayacak şekilde yaralanan (TMSY) statüsünde başvuranlar için: askerlik hizmetini yaparken 3713 sayılı Terörle Mücadele Kanunu'nun 21'inci maddesinde sayılan terör olaylarının sebep ve tesiri sonucu malûl sayılmayacak şekilde yaralanmış olmak; bunu sağlık raporu ve terörle mücadelede yaralandığını gösteren komutanlık yazısı ile belgelemek.",
+   "Engelli statüsünde başvuranlar için: tüm vücut fonksiyon kaybının en az yüzde kırk (%40) olduğunu sağlık kurulu raporu ile belgelemek."
+  ],
+  "notes": "İlan metninde kadro/pozisyon tablosu yok; iş yerleri, meslek kolları, açık iş gücü sayıları ve özel şartlar İŞKUR'da yayımlanan listede yer alıyor ve belgede verilmemiş. Bu nedenle pozisyon çıkarılamadı. Başvuru tarihleri belirtilmemiş (kura çekimi 16 Aralık 2026). Toplam kadro sayısı belirtilmemiş."
  },
- "reading": 2
+ "reading": 3
 }

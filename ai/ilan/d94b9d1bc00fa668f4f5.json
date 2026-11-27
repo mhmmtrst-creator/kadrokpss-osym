@@ -4,7 +4,7 @@
  "institution": "SELÇUK ÜNİVERSİTESİ",
  "title": "2 ALACAK",
  "range": "27 Kasım - 14 Aralık",
- "read_at": "2026-11-27T04:00:07Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 2,
@@ -22,9 +22,7 @@
     "education": [
      "LISANS"
     ],
-    "kpss_types": [
-     "P3"
-    ],
+    "kpss_types": [],
     "department_kpss": [],
     "min_score": null,
     "departments": [],
@@ -34,17 +32,8 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Ücret: Ücret tavanının 2 katına kadar sözleşme ücreti ödenir.",
-     "Mezuniyet: Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamı Yönetmeliği'nin 6. maddesinin (b) veya (c) bendinde belirtilen alanlardan birinden mezun olmak.",
-     "Türk vatandaşı olmak.",
-     "Kamu haklarından mahrum bulunmamak.",
-     "657 sayılı Kanun'un 48. maddesine göre kamu kurumlarında çalışmaya engel sabıka kaydı bulunmamak.",
-     "Erkek adaylar için: Muvazzaf askerlik hizmetini yapmış, yedek sınıfa geçirilmiş veya askerlikten muaf olmak ya da ilişiği bulunmamak.",
-     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
-     "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak ve güncel programlama dillerinden en az ikisini bildiğini belgelemek.",
-     "Deneyim: Büyük ölçekli kamu kurum ve kuruluşlarının veya özel şirketlerin bilgi işlem birimlerinde ya da bunlara hizmet veren özel yazılım şirketlerinde yazılım tasarım ve geliştirme faaliyetlerinde en az 5 yıl mesleki tecrübe sahibi olmak ve belgelemek.",
-     "Deneyim: Lisans mezuniyetinden sonra bilişim alanında en az 5 yıl frontend, backend, mobil uygulama geliştirme veya Yazılım Mühendisliği alanlarında belgelendirilmiş mesleki tecrübeye sahip olmak.",
-     "Mesleki çalışma süresi bilişim personeli olarak geçmiş olmalı ve başvuru tarihi itibarıyla 5 yıllık süre dolmuş olmalıdır.",
+     "Aylık brüt sözleşme ücret tavanının 2 katına kadar ücret ödenir; bu pozisyon için Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmeliğin 6. maddesinin (b) veya (c) bendinde belirtilen alanlardan birinden mezun olmak gerekir.",
+     "Belgelendirmek kaydıyla, lisans mezuniyetinden sonra bilişim alanında en az 5 yıl frontend, backend, mobil uygulama geliştirme veya Yazılım Mühendisliği alanlarında mesleki tecrübeye sahip olmak.",
      "Vue.js, React, Next.js ve Angular frameworklerinin en az birinde ürün geliştirme, mimari iyileştirme ve teknik problem çözme deneyimine sahip olmak; TypeScript, JavaScript, HTML5, CSS3 ve SCSS teknolojilerini ileri düzeyde bilmek.",
      "PrimeNG, PrimeReact, Material UI gibi açık kaynak UI kütüphaneleri ile bileşen geliştirme ve özelleştirme süreçlerinde görev almış olmak; bileşen API'leri, erişilebilirlik, duyarlı tasarım, performans optimizasyonu ve tema altyapıları konularında tecrübe sahibi olmak.",
      "Yerel büyük dil modelleri (Local LLM), LLM entegrasyonu ve yapay zeka destekli öneri sistemleri konularında tecrübe sahibi olmak.",
@@ -55,10 +44,7 @@
      "React Native ile mobil uygulama geliştirme konusunda tecrübe sahibi olmak; Swift ve Kotlin ile native iOS ve Android geliştirme süreçleri hakkında bilgi sahibi olmak.",
      "Docker ve Nginx gibi bulut ve altyapı araçlarını kullanabilmek; CI/CD (GitLab CI, GitHub Actions) süreçleri hakkında bilgi ve tecrübe sahibi olmak.",
      "Oracle, SQL ve MongoDB veritabanı sistemleri üzerinde bilgi ve tecrübe sahibi olmak.",
-     "KPSS P3 (2026) puanı varsa sıralamada puanın %70'i kullanılır; KPSS puanı yoksa 70 puan sayılır, KPSS zorunlu değildir.",
-     "Yabancı dil: İngilizce YDS/e-YDS veya denk sınav puanı varsa puanın %30'u sıralamaya eklenir; belge yoksa dil puanı 0 sayılır.",
-     "Sözlü/uygulamalı sınavdan 100 üzerinden en az 70 puan almak.",
-     "Bir aday yalnızca bir bilişim personeli pozisyonuna başvurabilir."
+     "Mesleki tecrübeyi belgelemek ve başvuru tarihi itibarıyla tecrübe süresini doldurmuş olmak (ücret tavanının 2 katını geçmeyecek adaylar için en az 5 yıl)."
     ]
    },
    {
@@ -70,9 +56,7 @@
     "education": [
      "LISANS"
     ],
-    "kpss_types": [
-     "P3"
-    ],
+    "kpss_types": [],
     "department_kpss": [],
     "min_score": null,
     "departments": [],
@@ -82,35 +66,38 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "Ücret: Ücret tavanının 3 katına kadar sözleşme ücreti ödenir.",
-     "Mezuniyet: Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamı Yönetmeliği'nin 6. maddesinin (b) bendinde belirtilen alanlardan birinden mezun olmak.",
-     "Türk vatandaşı olmak.",
-     "Kamu haklarından mahrum bulunmamak.",
-     "657 sayılı Kanun'un 48. maddesine göre kamu kurumlarında çalışmaya engel sabıka kaydı bulunmamak.",
-     "Erkek adaylar için: Muvazzaf askerlik hizmetini yapmış, yedek sınıfa geçirilmiş veya askerlikten muaf olmak ya da ilişiği bulunmamak.",
-     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
-     "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak ve güncel programlama dillerinden en az ikisini bildiğini belgelemek.",
-     "Deneyim: Büyük ölçekli kamu kurum ve kuruluşlarının veya özel şirketlerin bilgi işlem birimlerinde ya da bunlara hizmet veren özel yazılım şirketlerinde yazılım tasarım ve geliştirme faaliyetlerinde en az 5 yıl mesleki tecrübe sahibi olmak ve belgelemek.",
-     "Deneyim: Lisans mezuniyetinden sonra en az 5 yıl yapay zeka veya Yazılım Mühendisliği alanında belgelendirilmiş mesleki tecrübeye sahip olmak.",
-     "Mesleki çalışma süresi bilişim personeli olarak geçmiş olmalı ve başvuru tarihi itibarıyla 5 yıllık süre dolmuş olmalıdır.",
+     "Aylık brüt sözleşme ücret tavanının 3 katına kadar ücret ödenir; bu pozisyon için Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmeliğin 6. maddesinin (b) bendinde belirtilen alanlardan birinden mezun olmak gerekir.",
+     "Belgelendirmek kaydıyla, lisans mezuniyetinden sonra en az 5 yıl yapay zeka veya Yazılım Mühendisliği alanında mesleki tecrübeye sahip olmak.",
      "Bilgisayarlı görü, anomali tespiti ve zaman serisi analitiği alanlarından en az ikisinde, üretim ortamında çalışan yapay zeka sistemleri geliştirme deneyimine sahip olmak ve bunu belgelendirmek.",
      "Python programlama dilini ileri seviyede bilmek; PyTorch, TensorFlow, Keras ve Scikit-learn kütüphanelerini kullanarak model geliştirme süreçlerinde görev almış olmak.",
      "Doğal Dil İşleme (NLP) ve OpenCV araçları ile görüntü işleme konularında bilgi ve tecrübe sahibi olmak.",
      "Kamera verileri ile nesne tespiti, takibi ve sınıflandırmasına yönelik bilgisayarlı görü yetenekleri geliştirmiş olmak.",
-     "Nesnelerin İnterneti (IoT) cihazlarından toplanan operasyonel veriler ve zaman serileri üzerinde tahminleme ile anomali tespit modelleri kurgulayabilmek.",
+     "Nesnelerin İnterneti (IoT) cihazlarından toplanan operasyonel veriler ve zaman serileri üzerinde tahminleme ve anomali tespit modelleri kurgulayabilmek.",
      "Makine öğrenmesi modellerini operasyonel verilerle neredeyse gerçek zamanlı işleme sistemlerine entegre edebilmek ve uçtan uca ML yaşam döngüsü konusunda uzman olmak.",
      "Ölçeklenebilir backend sistemleri geliştirebilmek; Docker gibi konteyner mimarileri ve modern yazılım mühendisliği pratikleriyle derin öğrenme çözümlerini devreye alma tecrübesine sahip olmak.",
      "Linux işletim sistemleri ve PostgreSQL ilişkisel veri tabanı yönetim sistemleri üzerinde bilgi ve tecrübe sahibi olmak.",
-     "Git tabanlı sürüm kontrol sistemleri ve CI/CD süreçlerini kullanabilmek; geliştirilen yapay zeka uygulamalarının sürdürülebilir yönetimi ve güncellenmesi konusunda bilgi sahibi olmak.",
+     "Git tabanlı sürüm kontrol sistemleri ve CI/CD süreçlerini kullanabilmek; geliştirilen yapay zeka uygulamalarının sürdürülebilir biçimde yönetilmesi ve güncellenmesi konusunda bilgi sahibi olmak.",
      "Model hata ayıklama, veri keşfi ve operasyonel analizi desteklemek amacıyla görselleştirme araçları ile veri etiketleme uygulamaları geliştirebilmek.",
-     "KPSS P3 (2026) puanı varsa sıralamada puanın %70'i kullanılır; KPSS puanı yoksa 70 puan sayılır, KPSS zorunlu değildir.",
-     "Yabancı dil: İngilizce YDS/e-YDS veya denk sınav puanı varsa puanın %30'u sıralamaya eklenir; belge yoksa dil puanı 0 sayılır.",
-     "Sözlü/uygulamalı sınavdan 100 üzerinden en az 70 puan almak.",
-     "Bir aday yalnızca bir bilişim personeli pozisyonuna başvurabilir."
+     "Mesleki tecrübeyi belgelemek ve başvuru tarihi itibarıyla tecrübe süresini doldurmuş olmak (ücret tavanının 3 katını geçmeyecek adaylar için en az 5 yıl)."
     ]
    }
   ],
-  "notes": "Görev yeri ilanda belirtilmemiştir (Selçuk Üniversitesi). Kabul edilen bölümlerin adları ilanda yazılı değil, yalnızca Yönetmelik'in 6. maddesinin (b)/(c) bentlerine atıf yapılıyor; bu yüzden departments boş bırakıldı. KPSS P3 belgesi 'var ise' ibaresiyle isteğe bağlıdır (sıralamada kullanılır, yoksa 70 sayılır); asgari puan belirtilmemiştir. Başvuru kariyerkapisi.gov.tr üzerinden yapılır."
+  "general_conditions": [
+   "Türk vatandaşı olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "657 sayılı Devlet Memurları Kanunu'nun 48. maddesine göre kamu kurumlarında çalışmaya engel oluşturabilecek sabıka kaydı bulunmamak.",
+   "Erkek adaylar için muvazzaf askerlik hizmetini yapmış, yedek sınıfa geçirilmiş veya askerlikten muaf olmak ya da askerlikle ilişiği bulunmamak.",
+   "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+   "Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak ve güncel programlama dillerinden en az ikisini bildiğini belgelemek.",
+   "Büyük ölçekli kamu kurum ve kuruluşlarının veya özel şirketlerin bilgi işlem birimlerinde ya da bunlara hizmet veren özel yazılım şirketlerinde yazılımların tasarım ve geliştirme faaliyetlerinde en az 5 yıllık mesleki tecrübeye sahip olmak ve bunu belgelemek.",
+   "Hizmetin gerektirdiği nitelikler ile muhakeme, temsil, yeni teknolojileri takip etme, öğrenme ve araştırma, kendini geliştirme, analitik düşünebilme, takım çalışmasına yatkınlık, yüksek iletişim becerisi, yoğun ve stresli iş temposuna ayak uydurabilme ve dokümantasyon yeteneklerine sahip olmak.",
+   "Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmelik'te belirtilen hususları kabul etmek.",
+   "Sadece bir pozisyona başvuru yapılabilir; birden fazla pozisyona yapılan başvurular geçersizdir.",
+   "Başvuru tarihi itibarıyla mesleki tecrübe süresini doldurmuş olmak; kamu kurumlarında bilişim personeli olarak geçen süreler ile özel sektör süreleri belgelenmelidir.",
+   "Yurtdışı üniversite mezunları denklik belgesi sunmalıdır (e-Devlet'te mezuniyet bilgisi bulunanlar hariç).",
+   "Güvenlik soruşturması ve arşiv araştırması yapılması şartıyla sözleşme imzalanır."
+  ],
+  "notes": "Mezuniyet için aranan bölümler ilanda sayılmamış, yalnızca Yönetmeliğin 6. maddesinin (b) ve (c) bentlerine atıf yapılmıştır; bu nedenle departments boş bırakıldı. Görev yeri belirtilmemiştir. KPSS P3 (2026) belgesi 'var ise' istenir; zorunlu değildir, KPSS puanı olmayan adayın puanı 70 sayılır, bu yüzden kpss_types boş bırakıldı. Yabancı dil (YDS) belgesi de zorunlu değildir, puanlamaya girer."
  },
- "reading": 2
+ "reading": 3
 }

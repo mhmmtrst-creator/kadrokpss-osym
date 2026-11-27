@@ -4,7 +4,7 @@
  "institution": "DİCLE KALKINMA AJANSI",
  "title": "4 SÖZLEŞMELİ UZMAN PERSONEL ALACAK",
  "range": "4 Aralık - 18 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 4,
@@ -15,7 +15,7 @@
   "positions": [
    {
     "code": null,
-    "title": "UZMAN PERSONEL (İKTİSAT, İŞLETME, MALİYE)",
+    "title": "UZMAN PERSONEL",
     "place": "Mardin, Batman, Siirt ve Şırnak (Ajans faaliyet bölgesi)",
     "count": 1,
     "places": [],
@@ -71,22 +71,14 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt dışı yükseköğretim kurumlarından mezun olmak.",
-     "KPSS puanı son başvuru tarihi itibarıyla geçerli olmalı; ilgili puan türlerinden en az 80 puan alınmış olmalı.",
-     "YDS veya e-YDS İngilizce dilinden son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya uluslararası geçerliliği olan başka bir sınavdan en az C düzeyine karşılık gelen puanın eşdeğerine sahip olmak (YÖKDİL geçerli değildir).",
-     "Belge: Dil sınavı eşdeğerliği için ÖSYM tarafından eşdeğerliği kabul edilen yabancı dil sınavı belgesi (YDS dışı sınav beyanında)",
-     "Belge: Bölümü dengi olup isim farklılığı olan veya yurt dışındaki denk bölümlerden mezun adaylar için e-Devlet başvurusunda 'Diğer Belgelerimiz' altındaki 'Denklik Gösterir Belge' alanına yüklenecek denklik belgesi",
-     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
-     "Az tehlikeli iş yerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
-     "Askerlikle ilgisi bulunmamak; askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
-     "Her aday yalnızca bir pozisyon için başvuru yapabilir.",
-     "Tercih nedeni (belgelenmesi halinde değerlendirmede dikkate alınır): yüksek lisans veya doktora derecesi, ikinci yabancı dil belgesi, ilanda sayılan alanlarda fiilen çalışmış olmak."
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt dışı yükseköğretim kurumlarından lisans düzeyinde mezun olmak.",
+     "YDS veya e-YDS İngilizce dilinden son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya ÖSYM resmi denklik çizelgesine göre asgari (C) düzeyine karşılık gelen puanı sağlayan uluslararası geçerliliği olan başka bir sınav belgesine sahip olmak (YÖKDİL geçerli değildir).",
+     "Bölüm adı farklı ancak dengi olan bölümlerden veya yurt dışındaki denk bölümlerden mezun olanlar için: Belge: Denklik Gösterir Belge"
     ]
    },
    {
     "code": null,
-    "title": "UZMAN PERSONEL (SİYASET BİLİMİ VE KAMU YÖNETİMİ, KAMU YÖNETİMİ, ÇALIŞMA EKONOMİSİ VE ENDÜSTRİ İLİŞKİLERİ, ULUSLARARASI İLİŞKİLER, HUKUK)",
+    "title": "UZMAN PERSONEL",
     "place": "Mardin, Batman, Siirt ve Şırnak (Ajans faaliyet bölgesi)",
     "count": 1,
     "places": [],
@@ -159,22 +151,14 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt dışı yükseköğretim kurumlarından mezun olmak.",
-     "KPSS puanı son başvuru tarihi itibarıyla geçerli olmalı; ilgili puan türlerinden en az 80 puan alınmış olmalı.",
-     "YDS veya e-YDS İngilizce dilinden son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya uluslararası geçerliliği olan başka bir sınavdan en az C düzeyine karşılık gelen puanın eşdeğerine sahip olmak (YÖKDİL geçerli değildir).",
-     "Belge: Dil sınavı eşdeğerliği için ÖSYM tarafından eşdeğerliği kabul edilen yabancı dil sınavı belgesi (YDS dışı sınav beyanında)",
-     "Belge: Bölümü dengi olup isim farklılığı olan veya yurt dışındaki denk bölümlerden mezun adaylar için e-Devlet başvurusunda 'Diğer Belgelerimiz' altındaki 'Denklik Gösterir Belge' alanına yüklenecek denklik belgesi",
-     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
-     "Az tehlikeli iş yerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
-     "Askerlikle ilgisi bulunmamak; askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
-     "Her aday yalnızca bir pozisyon için başvuru yapabilir.",
-     "Tercih nedeni (belgelenmesi halinde değerlendirmede dikkate alınır): yüksek lisans veya doktora derecesi, ikinci yabancı dil belgesi, ilanda sayılan alanlarda fiilen çalışmış olmak."
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt dışı yükseköğretim kurumlarından lisans düzeyinde mezun olmak.",
+     "YDS veya e-YDS İngilizce dilinden son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya ÖSYM resmi denklik çizelgesine göre asgari (C) düzeyine karşılık gelen puanı sağlayan uluslararası geçerliliği olan başka bir sınav belgesine sahip olmak (YÖKDİL geçerli değildir).",
+     "Bölüm adı farklı ancak dengi olan bölümlerden veya yurt dışındaki denk bölümlerden mezun olanlar için: Belge: Denklik Gösterir Belge"
     ]
    },
    {
     "code": null,
-    "title": "UZMAN PERSONEL (İSTATİSTİK, MATEMATİK, ŞEHİR VE BÖLGE PLANLAMA, MÜHENDİSLİK)",
+    "title": "UZMAN PERSONEL",
     "place": "Mardin, Batman, Siirt ve Şırnak (Ajans faaliyet bölgesi)",
     "count": 2,
     "places": [],
@@ -209,21 +193,23 @@
     "age_rule": null,
     "license_classes": [],
     "other_conditions": [
-     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt dışı yükseköğretim kurumlarından mezun olmak.",
-     "KPSS puanı son başvuru tarihi itibarıyla geçerli olmalı; ilgili puan türlerinden en az 80 puan alınmış olmalı.",
-     "YDS veya e-YDS İngilizce dilinden son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya uluslararası geçerliliği olan başka bir sınavdan en az C düzeyine karşılık gelen puanın eşdeğerine sahip olmak (YÖKDİL geçerli değildir).",
-     "Belge: Dil sınavı eşdeğerliği için ÖSYM tarafından eşdeğerliği kabul edilen yabancı dil sınavı belgesi (YDS dışı sınav beyanında)",
-     "Belge: Bölümü dengi olup isim farklılığı olan veya yurt dışındaki denk bölümlerden mezun adaylar için e-Devlet başvurusunda 'Diğer Belgelerimiz' altındaki 'Denklik Gösterir Belge' alanına yüklenecek denklik belgesi",
-     "Türk vatandaşı olmak ve kamu haklarından mahrum bulunmamak.",
-     "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
-     "Az tehlikeli iş yerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
-     "Askerlikle ilgisi bulunmamak; askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
-     "Her aday yalnızca bir pozisyon için başvuru yapabilir.",
-     "Tercih nedeni (belgelenmesi halinde değerlendirmede dikkate alınır): yüksek lisans veya doktora derecesi, ikinci yabancı dil belgesi, ilanda sayılan alanlarda fiilen çalışmış olmak."
+     "En az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından veya denkliği YÖK tarafından kabul edilen yurt dışı yükseköğretim kurumlarından lisans düzeyinde mezun olmak.",
+     "YDS veya e-YDS İngilizce dilinden son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya ÖSYM resmi denklik çizelgesine göre asgari (C) düzeyine karşılık gelen puanı sağlayan uluslararası geçerliliği olan başka bir sınav belgesine sahip olmak (YÖKDİL geçerli değildir).",
+     "Bölüm adı farklı ancak dengi olan bölümlerden veya yurt dışındaki denk bölümlerden mezun olanlar için: Belge: Denklik Gösterir Belge"
     ]
    }
   ],
-  "notes": "Tablo 1'de bölümler üç personel grubuna ayrılmış (1+1+2=4 kadro); her grup ayrı kadro olarak girildi. KPSS yılı belirtilmemiş, son başvuru tarihi itibarıyla geçerli KPSS isteniyor. Görev yeri Mardin, Batman, Siirt ve Şırnak illerinden herhangi biri olarak belirtilmiş. Sınav öncesi başvuru puanlaması (KPSS %55, YDS %35 vb.) yapılıyor."
+  "general_conditions": [
+   "Türk vatandaşı olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "Affa uğramış olsalar bile Devletin şahsiyetine karşı işlenen suçlarla, zimmet, ihtilas, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, inancı kötüye kullanma, dolanlı iflas gibi yüz kızartıcı veya şeref ve haysiyeti kırıcı suçlardan veya istimal ve istihlak kaçakçılığı hariç kaçakçılık, resmî ihale ve alım satımlara fesat karıştırma, Devlet sırlarını açığa vurma suçlarından hükümlü bulunmamak.",
+   "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak.",
+   "Az tehlikeli iş yerinde çalışanlar için gerekli işe giriş sağlık raporuna sahip olmak.",
+   "Askerlikle ilgisi bulunmamak; askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+   "ÖSYM tarafından son başvuru tarihi itibarıyla geçerliliği bulunan KPSS'den ilgili puan türlerinden en az 80 puan almış olmak.",
+   "YDS veya e-YDS İngilizce dilinden son başvuru tarihi itibarıyla son 5 yıl içinde en az 70 puan almış olmak veya denkliği kabul edilen başka bir sınavdan asgari (C) düzeyine karşılık gelen puanı sağlayan belgeye sahip olmak."
+  ],
+  "notes": "Tablo 1'de bölüm grupları birleşik hücrelerle verilmiş: ilk üç bölüm 1 kişi, sonraki dört satır (Siyaset Bilimi ve Kamu Yönetimi/Kamu Yönetimi, Çalışma Ekonomisi ve Endüstri İlişkileri, Uluslararası İlişkiler, Hukuk) 1 kişi, son grup 2 kişi olarak üç kayıt halinde yazıldı. 'Siyaset Bilimi ve Kamu Yönetimi, Kamu Yönetimi' iki ayrı bölüm olarak okundu. Çalışma yeri tek tek il bazında belirtilmemiş; Mardin, Batman, Siirt ve Şırnak illerinden herhangi birinde görevlendirilebilir. Tercih nedenleri (yüksek lisans, doktora, ikinci yabancı dil vb.) zorunlu şart değil, değerlendirmede puan sağlar. KPSS yılı ayrıca belirtilmemiş, son başvuru tarihi itibarıyla geçerli olması isteniyor."
  },
- "reading": 2
+ "reading": 3
 }

@@ -4,7 +4,7 @@
  "institution": "ANADOLU ÜNİVERSİTESİ",
  "title": "1 SÖZLEŞMELİ PERSONEL ALACAK",
  "range": "16 Kasım - 30 Kasım",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 1,
@@ -15,7 +15,7 @@
   "positions": [
    {
     "code": "ÇM01",
-    "title": "Çevre Mühendisi",
+    "title": "ÇEVRE MÜHENDİSİ",
     "place": null,
     "count": 1,
     "places": [],
@@ -36,18 +36,29 @@
     "age_rule": "İlan tarihi son günü itibarıyla 35 (otuz beş) yaşından gün almamış olmak",
     "license_classes": [],
     "other_conditions": [
-     "Mesai saatleri dışında ve hafta sonları çalışmaya herhangi bir engeli olmamak.",
+     "Yapılacak görev gereği mesai saatleri dışında ve hafta sonları çalışmaya herhangi bir engeli olmamak.",
      "Alanında en az 3 yıl mesleki tecrübeye sahip olmak.",
-     "Belge: Mesleki tecrübeyi e-Devlet'ten alınacak barkodlu meslek kodunu gösterir SGK Hizmet Dökümü ile belgelemek.",
-     "Herhangi bir Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almıyor olmak.",
-     "Görevini devamlı yapmasına engel olabilecek herhangi bir sağlık sorunu ve benzeri durumu bulunmamak.",
-     "Güvenlik soruşturması ve/veya arşiv araştırması sonucu olumlu olmak.",
-     "Kamu kurum ve kuruluşlarında başvurulan pozisyon unvanında sözleşmeli olarak çalışmıyor olmak.",
-     "Askerlik durumu bakımından askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya muvazzaf askerlik hizmetini yapmış, ertelenmiş ya da yedek sınıfa geçirilmiş olmak."
+     "Mesleki tecrübe e-Devlet'ten alınacak barkodlu meslek kodunu gösterir SGK Hizmet Dökümü ile belgelenecektir."
     ]
    }
   ],
-  "notes": "Tek kadro. Bölüm adı tabloda 'Çevre Mühendisliği' olarak veriliyor; unvanın yanındaki (Erkek) ifadesi cinsiyet şartı olarak alındı. KPSS puan türü 2026 KPSS(B) KPSSP3, en az 60 puan. Başvuru 16.11.2026 saat 09:00 - 30.11.2026 saat 13:00."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanunu'nun 48. maddesindeki genel şartları taşımak.",
+   "Türkiye Cumhuriyeti vatandaşı olmak.",
+   "Son başvuru tarihi itibarıyla 18 yaşını doldurmuş olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "Türk Ceza Kanunu'nun 53. maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla hapis cezası almamış olmak, affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak.",
+   "Askerlik durumu bakımından askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak veya askerlik çağına gelmişse muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+   "2026 yılı KPSS (B) grubu KPSSP3 puan türünden en az 60 puan almış olmak.",
+   "Herhangi bir Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almıyor olmak.",
+   "Yapılacak görev gereği mesai saatleri dışında ve hafta sonları çalışmaya herhangi bir engeli olmamak.",
+   "Görevini devamlı yapmasına engel olabilecek herhangi bir sağlık sorunu veya benzeri durumu bulunmamak.",
+   "Güvenlik soruşturması ve/veya arşiv araştırması sonucu olumlu olmak.",
+   "Kamu kurum ve kuruluşlarında başvuracağı pozisyon unvanında sözleşmeli olarak çalışmıyor olmak.",
+   "657 sayılı Kanun'un 4. maddesinin (B) fıkrası uyarınca, hizmet sözleşmesi esaslarına aykırı hareket nedeniyle sözleşmesi feshedilen veya sözleşmeyi istisnalar dışında tek taraflı feshedenler için fesih tarihinden itibaren bir yıl geçmiş olmak.",
+   "Lisans eğitimi veren yurt içi yükseköğretim kurumlarından veya denkliği yetkili makamlarca kabul edilen yurt dışı yükseköğretim kurumlarından ilanda belirtilen bölümlerden birini bitirmiş olmak."
+  ],
+  "notes": "Tek pozisyon var (Çevre Mühendisi, Erkek, 1 kadro). Unvanda geçen (Erkek) ibaresi cinsiyet şartı olarak alındı. Yaş sınırı ilan tarihi son günü itibarıyla aranıyor."
  },
- "reading": 2
+ "reading": 3
 }

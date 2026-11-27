@@ -4,7 +4,7 @@
  "institution": "ÖZBURUN BELEDİYE BAŞKANLIĞI",
  "title": "2 SüREKLİ (OPERATÖR) İŞÇİ ALACAK",
  "range": "26 Kasım - 30 Kasım",
- "read_at": "2026-11-26T03:59:22Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 2,
@@ -26,7 +26,7 @@
     "department_kpss": [],
     "min_score": null,
     "departments": [],
-    "any_department": false,
+    "any_department": true,
     "gender": null,
     "age_years": 35,
     "age_rule": "18 yaşını tamamlamış, 35 yaşından gün almamış olmak",
@@ -35,15 +35,12 @@
      "B"
     ],
     "other_conditions": [
-     "Bolvadin İlçesi sınırlarında ikamet ediyor olmak.",
+     "Bolvadin ilçesi sınırlarında ikamet ediyor olmak.",
      "Erkek adaylar için askerliğini yapmış, tecilli veya muaf olmak.",
      "Sürücü belgesinde Beko Loder (Kazıcı-Yükleyici) operatörlüğüne uygun kodun bulunması.",
      "Beko Loder (Kazıcı-Yükleyici) operatörü olarak en az 1 yıl mesleki deneyime sahip olmak.",
      "Belge: Beko Loder (Kazıcı-Yükleyici) Operatörlük Belgesi",
-     "Görevini devamlı yapmasına engel olabilecek fiziksel veya sağlık yönünden herhangi bir engeli bulunmamak.",
-     "Yöntem: Noter kurası, sözlü sınav ve uygulamalı sınav.",
-     "Vardiyalı çalışmaya engel durumu bulunmamak.",
-     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almıyor olmak."
+     "Görevini devamlı yapmasına engel olabilecek fiziksel veya sağlık yönünden herhangi bir engeli bulunmamak."
     ]
    },
    {
@@ -59,7 +56,7 @@
     "department_kpss": [],
     "min_score": null,
     "departments": [],
-    "any_department": false,
+    "any_department": true,
     "gender": null,
     "age_years": 35,
     "age_rule": "18 yaşını tamamlamış, 35 yaşından gün almamış olmak",
@@ -70,20 +67,31 @@
     ],
     "other_conditions": [
      "Bolvadin ilçesi sınırlarında ikamet ediyor olmak.",
+     "C veya CE sınıfı sürücü belgesine sahip olmak (B sınıfı ehliyete de sahip olmak).",
      "Erkek adaylar için askerliğini yapmış, tecilli veya muaf olmak.",
      "Belge: Psikoteknik belgesi",
      "Kara tankeri şoförü/operatörü olarak en az 1 yıl mesleki deneyime sahip olmak.",
      "Tehlikeli madde taşıma, yükleme ve boşaltma işlemlerinde ADR ve iş sağlığı ve güvenliği kurallarına uygun hareket etmeyi kabul etmek.",
-     "Belge: SRC-5 belgesi (tanker taşımacılığı yetkisi bulunan)",
+     "Belge: SRC-5 belgesi (tanker taşımacılığı yetkisini içeren)",
      "Belge: ADR Temel ve ADR Tanker eğitimi belgesi",
-     "Kara tankerinin kullanımı, dolum ve boşaltma işlemleri ile ilgili görevleri yerine getirebilecek bilgi ve deneyime sahip olmak.",
-     "Yöntem: Noter kurası, sözlü sınav ve uygulamalı sınav.",
-     "Vardiyalı çalışmaya engel durumu bulunmamak.",
-     "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almıyor olmak."
+     "Kara tankerinin kullanımı, dolum ve boşaltma işlemleri ile ilgili görevleri yerine getirebilecek bilgi ve deneyime sahip olmak."
     ]
    }
   ],
-  "notes": "Sürekli işçi alımı (İŞKUR, noter kurası); KPSS aranmıyor. Başvuru süresi ilan tarihinden itibaren 5 gün (ilan tarihi 20/11/2026 belirtilmiş, kesin başvuru başlangıç/bitiş tarihi açıkça yazılmadığından null bırakıldı). Evrak teslimi 03-04/12/2026. C veya CE sınıfı sürücü belgesi alternatif olarak yazıldı; B sınıfı da ayrıca aranıyor."
+  "general_conditions": [
+   "657 sayılı Kanun'un 48/A maddesinin (1), (4) ve (7) numaralı alt bentlerindeki şartları taşımak.",
+   "Kamu kurum ve kuruluşlarının özel kanunlarında yer alan özel şartları taşımak.",
+   "Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almıyor olmak.",
+   "Göreve başlayacak personelin görevini devamlı yapmasına engel ruhsal ve fiziksel sorununun olmadığını belgelemek.",
+   "Başvuru yapılan yerin Adres Kayıt Sisteminde kayıtlı yerleşim yeri adresi dikkate alınır; başvuru süresi içinde yerleşim yerini talebin karşılanacağı yere taşıyanların başvurusu kabul edilmez.",
+   "Askerlik ile ilişiği olmamak (yapmış, muaf veya tecilli olmak).",
+   "Devletin güvenliğine, anayasal düzene, milli savunmaya, devlet sırlarına karşı suçlar, casusluk, cinsel saldırı veya çocuğun cinsel istismarı suçlarından mahkûm olmamak (af olsa bile).",
+   "Kasten işlenen bir suçtan bir yıl veya daha fazla hapis cezası almamış olmak; zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak.",
+   "Kamusal hakları kullanmaktan yoksun bırakılmamış olmak.",
+   "18 yaşını tamamlamış olmak.",
+   "Vardiyalı çalışmaya engel durumu bulunmamak."
+  ],
+  "notes": "İlan İŞKUR üzerinden sürekli işçi alımıdır; başvuru ilan tarihinden itibaren 5 gün içindedir, kesin başvuru tarihleri belirtilmemiştir (ilan tarihi 20/11/2026; belge teslimi 03-04/12/2026). KPSS aranmıyor. Kara Tankeri için B sınıfı ile birlikte C veya CE sınıfı isteniyor; license_classes'a ayrı ayrı yazıldı."
  },
- "reading": 2
+ "reading": 3
 }

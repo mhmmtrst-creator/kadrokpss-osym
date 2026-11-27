@@ -4,7 +4,7 @@
  "institution": "GELİR İDARESİ BAŞKANLIĞI",
  "title": "23 SÖZLEŞMELİ TEKNİKER ALACAK",
  "range": "2 Aralık - 9 Aralık",
- "read_at": "2026-11-27T13:02:28Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 23,
@@ -55,10 +55,7 @@
     "age_years": 35,
     "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
     "license_classes": [],
-    "other_conditions": [
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
-     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
-    ]
+    "other_conditions": []
    },
    {
     "code": null,
@@ -101,10 +98,7 @@
     "age_years": 35,
     "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
     "license_classes": [],
-    "other_conditions": [
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
-     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
-    ]
+    "other_conditions": []
    },
    {
     "code": null,
@@ -142,10 +136,7 @@
     "age_years": 35,
     "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
     "license_classes": [],
-    "other_conditions": [
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
-     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
-    ]
+    "other_conditions": []
    },
    {
     "code": null,
@@ -184,10 +175,7 @@
     "age_years": 35,
     "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
     "license_classes": [],
-    "other_conditions": [
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
-     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
-    ]
+    "other_conditions": []
    },
    {
     "code": null,
@@ -247,13 +235,16 @@
     "age_years": 35,
     "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
     "license_classes": [],
-    "other_conditions": [
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
-     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
-    ]
+    "other_conditions": []
    }
   ],
-  "notes": "Görev yeri ve pozisyon tablosunda toplam 23 kadro (Elektrik 5, İnşaat 5, İklimlendirme 3, Tesisat 2, Bilgisayar 8) duyuruyla uyumlu. Adaylar en fazla 5 görev yeri tercih edebilir. Sözlü sınav 23 Aralık 2026'da Ankara'da yapılacaktır."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+   "01.01.2026 tarihi itibarıyla 35 yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilir).",
+   "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış ve KPSS P93 puan türünden en az 70 puan almış olmak.",
+   "Başvuru şartları son başvuru tarihi itibarıyla aranır."
+  ],
+  "notes": "Toplam 23 kadro, sözleşmeli (657 sayılı Kanun 4/B). Her unvan için görev yerleri ve sayıları tablodan alındı (Elektrik 5, İnşaat 5, İklimlendirme 3, Tesisat 2, Bilgisayar 8). Üst yaş sınırı genel şart olarak tüm kadrolara uygulandı."
  },
- "reading": 2
+ "reading": 3
 }

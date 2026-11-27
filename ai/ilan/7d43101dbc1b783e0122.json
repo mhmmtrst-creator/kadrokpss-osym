@@ -4,7 +4,7 @@
  "institution": "BOZKÖY BELEDİYE BAŞKANLIĞI",
  "title": "İPTAL İLANI",
  "range": "27 Kasım - 7 Aralık",
- "read_at": "2026-11-27T09:02:17Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -13,7 +13,8 @@
   "apply_start": null,
   "apply_end": null,
   "positions": [],
-  "notes": "Bu bir iptal ilanıdır: Niğde ili Bozköy Belediye Başkanlığı'nın 08.11.2026 tarihli ve 33424 sayılı Resmî Gazete'de yayımlanan ilk defa atanmak üzere İtfaiye Eri alımı ilanı iptal edilmiştir. Belgede kadro/pozisyon yoktur."
+  "general_conditions": [],
+  "notes": "Bu bir iptal ilanıdır. Niğde ili Bozköy Belediye Başkanlığı, 08.11.2026 tarihli ve 33424 sayılı Resmî Gazete'de yayımlanan ilk defa atanmak üzere İtfaiye Eri alımı ilanını iptal etmiştir. Belgede kadro bulunmadığından pozisyon çıkarılmadı."
  },
- "reading": 2
+ "reading": 3
 }

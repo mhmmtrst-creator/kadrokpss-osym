@@ -4,7 +4,7 @@
  "institution": "ELEŞKİRT BELEDİYE BAŞKANLIĞI",
  "title": "1 MEMUR ALACAK",
  "range": "9 Aralık - 11 Aralık",
- "read_at": "2026-11-23T18:47:37Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": null,
@@ -16,7 +16,7 @@
    {
     "code": null,
     "title": "İTFAİYE ERİ",
-    "place": "Eleşkirt Belediye Başkanlığı (Ağrı)",
+    "place": "Eleşkirt (Ağrı)",
     "count": 1,
     "places": [],
     "education": [
@@ -36,21 +36,28 @@
      "B"
     ],
     "other_conditions": [
-     "Boy: tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılmak kaydıyla erkeklerde en az 1.67 metre, kadınlarda en az 1.60 metre boyunda olmak.",
-     "Kilo: boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak.",
-     "Boy ve kilo tespitleri Belediye tarafından başvuru sırasında yapılacaktır.",
-     "Sağlık: kapalı mekân, dar alan ve yükseklik gibi fobisi olmamak kaydıyla itfaiye teşkilatının çalışma şartlarına uygun olmak.",
-     "Kadro: Hizmet sınıfı GİH, kadro derecesi 11.",
-     "Başvuru şahsen yapılır; posta veya diğer yollarla yapılan başvurular kabul edilmez.",
-     "Sözlü ve uygulamalı sınavda başarılı sayılmak için en az 60 puan almak gerekir.",
-     "Erkek adaylar için askerlik durumu: askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş olmak, ya da muvazzaf askerlik hizmetini yapmış, ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
-     "Kamu haklarından mahrum bulunmamak.",
-     "Türk vatandaşı olmak.",
-     "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak."
+     "Kadro: GİH sınıfı, 11. derece.",
+     "Boy en az 1.67 metre olmalı (erkeklerde); tartılma ve ölçülme aç karnına, soyunuk ve çıplak ayakla yapılır.",
+     "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamalı.",
+     "Sağlık açısından kapalı mekân, dar alan ve yükseklik gibi fobisi olmamak kaydıyla itfaiye teşkilatının çalışma şartlarına uygun olmak.",
+     "Belge: En az B sınıfı sürücü belgesi (2918 sayılı Karayolları Trafik Kanunu hükümlerince verilmiş)."
     ]
    }
   ],
-  "notes": "Boy şartı metinde hem erkek hem kadın için yazılmış ancak tablo cinsiyeti Erkek olduğundan gender ERKEK alındı. KPSS (B) grubu, 2026 yılı KPSS. İlan başlığı \"1 MEMUR ALACAK\"; ilan metninde toplam sayı ayrıca belirtilmemiş, tek kadro 1."
+  "general_conditions": [
+   "Türk vatandaşı olmak.",
+   "Kamu haklarından mahrum bulunmamak.",
+   "Türk Ceza Kanunu'nun 53. maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak.",
+   "Erkek adaylar için askerlik durumu itibariyle askerlikle ilgisi bulunmamak veya askerlik çağına gelmemiş bulunmak ya da askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak.",
+   "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.",
+   "İlan edilen kadrolar için aranan diğer başvuru şartlarını taşımak.",
+   "Mezun olunan okul itibarıyla öğrenim şartını taşımak ve 2026 yılı KPSS (B) grubu sınavından kadronun karşısındaki puan türünden belirtilen asgari puanı almış olmak.",
+   "Belediye İtfaiye Yönetmeliği 15/A maddesindeki özel şartlara göre kadınlarda boy en az 1.60 metre, erkeklerde en az 1.67 metre olmalı; boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamalı.",
+   "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak.",
+   "Sağlık açısından kapalı mekân, dar alan ve yükseklik gibi fobisi olmamak kaydıyla itfaiye teşkilatının çalışma şartlarına uygun olmak.",
+   "Adaylar yalnızca bir kadroya başvurabilir."
+  ],
+  "notes": "İlanda tek kadro (İtfaiye Eri, 1 adet) vardır; ilan başlığındaki '1 MEMUR' ile uyumludur. Toplam sayı ilanda ayrıca belirtilmediği için declared_total null bırakıldı. Kadro erkeklere açıktır (tabloda Cinsiyeti: Erkek); kadın boy şartı genel metinde geçmektedir. Yer olarak Eleşkirt Belediyesi (Ağrı) alındı."
  },
- "reading": 2
+ "reading": 3
 }

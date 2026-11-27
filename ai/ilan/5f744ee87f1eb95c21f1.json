@@ -4,7 +4,7 @@
  "institution": "GELİR İDARESİ BAŞKANLIĞI",
  "title": "45 SÖZLEŞMELİ DESTEK PERSONELİ (HİZMETLİ) ALACAK",
  "range": "2 Aralık - 9 Aralık",
- "read_at": "2026-11-27T13:02:28Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 45,
@@ -144,17 +144,18 @@
     "any_department": true,
     "gender": null,
     "age_years": 35,
-    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir)",
     "license_classes": [],
-    "other_conditions": [
-     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
-     "Ortaöğretim kurumlarının herhangi bir alanından mezun olmak.",
-     "ÖSYM tarafından 2026 yılında yapılan KPSS (Ortaöğretim) sınavına katılmış olmak.",
-     "Sözlü sınavda her kriterden 100 tam puan üzerinden en az 70 puan almak."
-    ]
+    "other_conditions": []
    }
   ],
-  "notes": "Tek unvan (Destek Personeli - Hizmetli) 28 görev yerinde; toplam 45 ilanda belirtilen sayıyla uyumlu. Sınav sözlü sınavdır (24-28 Aralık 2026, Ankara). Adaylar en fazla 5 yer tercih edebilir."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+   "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilir).",
+   "Ortaöğretim kurumlarının herhangi bir alanından mezun olmak.",
+   "ÖSYM tarafından 2026 yılında yapılan KPSS (Ortaöğretim) sınavına katılmış ve KPSS P94 puan türünden en az 70 puan almış olmak."
+  ],
+  "notes": "Tek unvan (Destek Personeli - Hizmetli), 28 görev yerinde toplam 45 kadro; yer sayıları toplamı 45 ile uyuşuyor. Sınav sözlü; adaylar en fazla 5 görev yeri tercih edebilir."
  },
- "reading": 2
+ "reading": 3
 }

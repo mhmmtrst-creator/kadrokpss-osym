@@ -4,7 +4,7 @@
  "institution": "AVRUPA BİRLİĞİ BAŞKANLIĞI",
  "title": "5 SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) ALACAK",
  "range": "27 Kasım - 14 Aralık",
- "read_at": "2026-11-27T04:00:07Z",
+ "read_at": "2026-11-27T16:35:22Z",
  "model": "claude-sonnet-5-5",
  "result": {
   "declared_total": 5,
@@ -27,41 +27,33 @@
      "P94",
      "P93"
     ],
-    "department_kpss": [
-     {
-      "department": "Ortaöğretim mezunları",
-      "kpss_types": [
-       "P94"
-      ]
-     },
-     {
-      "department": "Ön lisans mezunları",
-      "kpss_types": [
-       "P93"
-      ]
-     }
-    ],
+    "department_kpss": [],
     "min_score": 70,
     "departments": [],
     "any_department": true,
     "gender": null,
     "age_years": null,
-    "age_rule": "657 sayılı Devlet Memurları Kanununun 40 ıncı maddesindeki yaş şartlarını taşımak",
+    "age_rule": null,
     "license_classes": [
      "B"
     ],
     "other_conditions": [
+     "Ortaöğretim mezunları için KPSS P94, ön lisans mezunları için KPSS P93 puan türünden en az 70 puan almış olmak.",
      "En az B sınıfı sürücü belgesine son başvuru tarihi itibarıyla 3 yıldır sahip olmak.",
      "Görevini devamlı yapmasına engel olabilecek bir hastalığı olmamak; yurdun her yerinde ve her türlü iklim koşullarında görev yapmaya elverişli olmak, seyahate engel durumu olmamak.",
-     "Yapılacak görev gereği 7/24 saat esasına göre vardiyalı olarak kapalı ve açık alanlarda çalışmasına engel durumu olmamak.",
-     "KPSS puan türü ortaöğretim mezunları için P94, ön lisans mezunları için P93'tür; en az 70 puan gerekir.",
-     "Herhangi bir kamu kurumunda çalışmakta iken görevden veya meslekten ihraç edilmemiş olmak.",
-     "Sözleşmeli personel olarak istihdamına engel hali bulunmamak.",
-     "Güvenlik soruşturması ve arşiv araştırması olumlu sonuçlanmak."
+     "Yapılacak görev gereği 7/24 saat esasına göre vardiyalı olarak kapalı ve açık alanlarda çalışmasına engel durumu olmamak."
     ]
    }
   ],
-  "notes": "Teşkilat: Merkez; istihdam türü 4/B sözleşmeli. Yaş sınırı rakamla belirtilmemiş, yalnızca 657 sayılı Kanunun 40. maddesine atıf var; bu yüzden age_years null. Ortaöğretim veya ön lisans mezunu olma şartı nedeniyle herhangi bir bölüm kabul edilir (any_department true)."
+  "general_conditions": [
+   "657 sayılı Devlet Memurları Kanunu'nun 48/1-A maddesinde belirtilen genel şartları taşımak.",
+   "657 sayılı Devlet Memurları Kanunu'nun 40. maddesindeki yaş şartlarını taşımak.",
+   "Herhangi bir kamu kurumunda çalışmakta iken görevden veya meslekten ihraç edilmemiş olmak.",
+   "06.06.1978 tarihli ve 7/15754 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan Sözleşmeli Personel Çalıştırılmasına İlişkin Esasların Ek 1 inci maddesi kapsamında sözleşmeli personel olarak istihdamına engel hali bulunmamak.",
+   "Güvenlik soruşturması ve arşiv araştırması olumlu sonuçlanmak.",
+   "ÖSYM tarafından 2026 yılında gerçekleştirilen KPSS'de en az 70 puan almış olmak."
+  ],
+  "notes": "Ek-1 tablosunda tek kadro var (Merkez teşkilatı, Ankara/Çankaya, 5 kişi). Öğrenim durumu ortaöğretim veya ön lisans; herhangi bir bölüm şartı yok. Yaş sınırı için sadece 657 sayılı Kanun'un 40. maddesine atıf var, sayı verilmemiş."
  },
- "reading": 2
+ "reading": 3
 }
