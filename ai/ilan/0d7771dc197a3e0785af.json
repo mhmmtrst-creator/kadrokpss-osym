@@ -1,0 +1,127 @@
+{
+ "schema": 2,
+ "id": "0d7771dc197a3e0785af",
+ "institution": "GELİR İDARESİ BAŞKANLIĞI",
+ "title": "27 SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) ALACAK",
+ "range": "2 Aralık - 9 Aralık",
+ "read_at": "2026-11-27T13:02:28Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 27,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-02",
+  "apply_end": "2026-12-09",
+  "positions": [
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (ŞOFÖR)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "GELİR İDARESİ BAŞKANLIĞI (MERKEZ)",
+      "count": 2
+     },
+     {
+      "place": "AFYONKARAHİSAR",
+      "count": 1
+     },
+     {
+      "place": "ANKARA",
+      "count": 2
+     },
+     {
+      "place": "BAYBURT",
+      "count": 1
+     },
+     {
+      "place": "BURSA",
+      "count": 1
+     },
+     {
+      "place": "ESKİŞEHİR",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL",
+      "count": 7
+     },
+     {
+      "place": "İZMİR",
+      "count": 2
+     },
+     {
+      "place": "KIRŞEHİR",
+      "count": 1
+     },
+     {
+      "place": "KOCAELİ",
+      "count": 1
+     },
+     {
+      "place": "MERSİN",
+      "count": 1
+     },
+     {
+      "place": "MUĞLA",
+      "count": 1
+     },
+     {
+      "place": "NEVŞEHİR",
+      "count": 1
+     },
+     {
+      "place": "SİİRT",
+      "count": 1
+     },
+     {
+      "place": "SİNOP",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA",
+      "count": 1
+     },
+     {
+      "place": "YOZGAT",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Otobüs Şoförlüğü (Kaptanlık)",
+     "Otobüs Şoförlüğü",
+     "Otobüs Kaptanlığı"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [
+     "D"
+    ],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+     "Belge: Geçerlilik süresi dolmamış D sınıfı sürücü belgesi",
+     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak.",
+     "Sözlü sınavda her bir kriterden 100 tam puan üzerinden en az 70 puan almak.",
+     "Adaylar en fazla 5 görev yeri için tercihte bulunabilir."
+    ]
+   }
+  ],
+  "notes": "Tek pozisyon, 18 görev yerinde toplam 27 kadro (tablo toplamı ilan edilen 27 ile uyumlu). Başvuru 9 Aralık 2026 saat 17.00'de sona erer. Sözlü sınav 28-29 Aralık 2026'da Ankara'da yapılacaktır."
+ },
+ "reading": 2
+}

@@ -1,0 +1,259 @@
+{
+ "schema": 2,
+ "id": "a3140698a5ab69419bae",
+ "institution": "GELİR İDARESİ BAŞKANLIĞI",
+ "title": "23 SÖZLEŞMELİ TEKNİKER ALACAK",
+ "range": "2 Aralık - 9 Aralık",
+ "read_at": "2026-11-27T13:02:28Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 23,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-02",
+  "apply_end": "2026-12-09",
+  "positions": [
+   {
+    "code": null,
+    "title": "TEKNİKER (ELEKTRİK)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "GELİR İDARESİ BAŞKANLIĞI (MERKEZ)",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL",
+      "count": 2
+     },
+     {
+      "place": "SAMSUN",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Elektrik",
+     "Elektrik-Elektronik Teknolojisi",
+     "Endüstriyel Otomasyon Teknolojileri",
+     "Endüstriyel Elektronik"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİKER (İNŞAAT)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ANKARA",
+      "count": 1
+     },
+     {
+      "place": "GAZİANTEP",
+      "count": 1
+     },
+     {
+      "place": "İZMİR",
+      "count": 2
+     },
+     {
+      "place": "ZONGULDAK",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "İnşaat",
+     "İnşaat Teknikerliği",
+     "İnşaat Teknolojisi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİKER (İKLİMLENDİRME)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ADANA",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL",
+      "count": 2
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "İklimlendirme-Soğutma",
+     "Soğutma Tesisatçılığı",
+     "Soğutma Tesisatı",
+     "Soğutma ve Havalandırma",
+     "İklimlendirme Teknolojisi",
+     "İklimlendirme ve Soğutma Teknolojisi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİKER (TESİSAT)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ANTALYA",
+      "count": 1
+     },
+     {
+      "place": "İZMİR",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Doğalgaz",
+     "Isıtma ve Sıhhi Tesisat Teknolojisi",
+     "Sıhhi Tesisat",
+     "Sıhhi Tesisat ve Doğalgaz",
+     "Doğalgaz ve Isıtma",
+     "Tesisat Teknolojisi",
+     "Yapı Tesisat Teknolojisi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
+    ]
+   },
+   {
+    "code": null,
+    "title": "TEKNİKER (BİLGİSAYAR)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "GELİR İDARESİ BAŞKANLIĞI (MERKEZ)",
+      "count": 1
+     },
+     {
+      "place": "AĞRI",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL",
+      "count": 1
+     },
+     {
+      "place": "KIRŞEHİR",
+      "count": 1
+     },
+     {
+      "place": "KONYA",
+      "count": 1
+     },
+     {
+      "place": "ORDU",
+      "count": 1
+     },
+     {
+      "place": "SİNOP",
+      "count": 1
+     },
+     {
+      "place": "VAN",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Bilgisayar Programcılığı",
+     "Bilgisayar Teknolojisi",
+     "Bilgisayar Destekli Tasarım ve Animasyon",
+     "Bilgisayar Operatörlüğü"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+     "ÖSYM tarafından 2026 yılında yapılan KPSS Ön Lisans sınavına katılmış olmak."
+    ]
+   }
+  ],
+  "notes": "Görev yeri ve pozisyon tablosunda toplam 23 kadro (Elektrik 5, İnşaat 5, İklimlendirme 3, Tesisat 2, Bilgisayar 8) duyuruyla uyumlu. Adaylar en fazla 5 görev yeri tercih edebilir. Sözlü sınav 23 Aralık 2026'da Ankara'da yapılacaktır."
+ },
+ "reading": 2
+}

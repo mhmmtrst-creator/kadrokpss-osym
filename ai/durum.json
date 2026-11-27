@@ -13,6 +13,12 @@
    "seen": "2026-11-27",
    "title": "1 MEMUR ALACAK"
   },
+  "0d7771dc197a3e0785af": {
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "range": "2 Aralık - 9 Aralık",
+   "seen": "2026-11-27",
+   "title": "27 SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) ALACAK"
+  },
   "0fb15a671981386d9169": {
    "ekler_denendi": true,
    "institution": "SAHİL GÜVENLİK KOMUTANLIĞI",
@@ -145,6 +151,12 @@
    "seen": "2026-11-27",
    "title": "ENGELLİ VE TERÖRLE MÜCADELEDE MALUL SAYILMAYACAK ŞEKİLDE YARALANANLARDAN SÜREKLİ İŞÇİ TEMİNİ İLANI"
   },
+  "5f744ee87f1eb95c21f1": {
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "range": "2 Aralık - 9 Aralık",
+   "seen": "2026-11-27",
+   "title": "45 SÖZLEŞMELİ DESTEK PERSONELİ (HİZMETLİ) ALACAK"
+  },
   "6095f530f17c42a93075": {
    "institution": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ",
    "range": "9 Kasım - 23 Kasım",
@@ -262,6 +274,12 @@
    "seen": "2026-11-23",
    "title": "8 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK"
   },
+  "a3140698a5ab69419bae": {
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "range": "2 Aralık - 9 Aralık",
+   "seen": "2026-11-27",
+   "title": "23 SÖZLEŞMELİ TEKNİKER ALACAK"
+  },
   "a4faccebae595a5f023e": {
    "institution": "ORTA ANADOLU KALKINMA AJANSI",
    "range": "9 Kasım - 3 Aralık",
@@ -340,6 +358,12 @@
    "seen": "2026-11-27",
    "title": "21 SüREKLİ İŞÇİ ALACAK"
   },
+  "d35372a34317032e8e82": {
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "range": "2 Aralık - 9 Aralık",
+   "seen": "2026-11-27",
+   "title": "21 SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ ALACAK"
+  },
   "d5e0b15e5924715621e6": {
    "institution": "ANADOLU ÜNİVERSİTESİ",
    "range": "16 Kasım - 30 Kasım",
@@ -386,6 +410,12 @@
    "seen": "2026-11-27",
    "title": "1 ALACAK"
   },
+  "f0adecaef054facf90e6": {
+   "institution": "GELİR İDARESİ BAŞKANLIĞI",
+   "range": "2 Aralık - 9 Aralık",
+   "seen": "2026-11-27",
+   "title": "22 SÖZLEŞMELİ AVUKAT ALACAK"
+  },
   "f7e5c77da55169aa3357": {
    "ekler_denendi": true,
    "institution": "HAZİNE VE MALİYE BAKANLIĞI",
@@ -420,6 +450,6 @@
  },
  "pending": [],
  "spent": {
-  "2026-11": 7.3837
+  "2026-11": 7.4706
  }
 }

@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "f0adecaef054facf90e6",
+ "institution": "GELİR İDARESİ BAŞKANLIĞI",
+ "title": "22 SÖZLEŞMELİ AVUKAT ALACAK",
+ "range": "2 Aralık - 9 Aralık",
+ "read_at": "2026-11-27T13:02:28Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 22,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-02",
+  "apply_end": "2026-12-09",
+  "positions": [
+   {
+    "code": null,
+    "title": "AVUKAT",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ANKARA",
+      "count": 2
+     },
+     {
+      "place": "BURSA",
+      "count": 2
+     },
+     {
+      "place": "DENİZLİ",
+      "count": 1
+     },
+     {
+      "place": "ERZURUM",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL",
+      "count": 10
+     },
+     {
+      "place": "İZMİR",
+      "count": 1
+     },
+     {
+      "place": "MALATYA",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN",
+      "count": 2
+     },
+     {
+      "place": "ŞANLIURFA",
+      "count": 2
+     }
+    ],
+    "education": [
+     "LISANS"
+    ],
+    "kpss_types": [
+     "P3"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Hukuk Fakültesi"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+     "En az dört yıllık lisans eğitimi veren bir hukuk fakültesini bitirmiş olmak.",
+     "Belge: Avukatlık ruhsatnamesi (başvuru tarihinin son günü itibarıyla sahip olmak)",
+     "ÖSYM tarafından 2026 yılında yapılan (B) Grubu KPSS (Lisans) sınavına katılmış olmak.",
+     "Sözlü sınavda başarılı sayılmak için en az 70 puan almak gerekir.",
+     "Adaylar en fazla 5 görev yeri için tercihte bulunabilir."
+    ]
+   }
+  ],
+  "notes": "Tek unvan (Avukat) için dokuz görev yeri; toplam 22 kadro. Sınav sözlüdür, 21 Aralık 2026'da Ankara'da yapılacaktır. Başvuru bitişi 9 Aralık 2026 saat 17.00."
+ },
+ "reading": 2
+}

@@ -1,0 +1,160 @@
+{
+ "schema": 2,
+ "id": "5f744ee87f1eb95c21f1",
+ "institution": "GELİR İDARESİ BAŞKANLIĞI",
+ "title": "45 SÖZLEŞMELİ DESTEK PERSONELİ (HİZMETLİ) ALACAK",
+ "range": "2 Aralık - 9 Aralık",
+ "read_at": "2026-11-27T13:02:28Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 45,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-02",
+  "apply_end": "2026-12-09",
+  "positions": [
+   {
+    "code": null,
+    "title": "DESTEK PERSONELİ (HİZMETLİ)",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "GELİR İDARESİ BAŞKANLIĞI (MERKEZ)",
+      "count": 6
+     },
+     {
+      "place": "ADANA",
+      "count": 2
+     },
+     {
+      "place": "AĞRI",
+      "count": 1
+     },
+     {
+      "place": "ANKARA",
+      "count": 1
+     },
+     {
+      "place": "ARDAHAN",
+      "count": 1
+     },
+     {
+      "place": "BALIKESİR",
+      "count": 1
+     },
+     {
+      "place": "BAYBURT",
+      "count": 1
+     },
+     {
+      "place": "BOLU",
+      "count": 1
+     },
+     {
+      "place": "BURSA",
+      "count": 3
+     },
+     {
+      "place": "ISPARTA",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL",
+      "count": 2
+     },
+     {
+      "place": "İZMİR",
+      "count": 6
+     },
+     {
+      "place": "KARAMAN",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ",
+      "count": 1
+     },
+     {
+      "place": "KONYA",
+      "count": 2
+     },
+     {
+      "place": "MALATYA",
+      "count": 1
+     },
+     {
+      "place": "MANİSA",
+      "count": 2
+     },
+     {
+      "place": "MARDİN",
+      "count": 1
+     },
+     {
+      "place": "MUŞ",
+      "count": 1
+     },
+     {
+      "place": "NEVŞEHİR",
+      "count": 2
+     },
+     {
+      "place": "NİĞDE",
+      "count": 1
+     },
+     {
+      "place": "ORDU",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN",
+      "count": 1
+     },
+     {
+      "place": "SİNOP",
+      "count": 1
+     },
+     {
+      "place": "ŞANLIURFA",
+      "count": 1
+     },
+     {
+      "place": "TRABZON",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ",
+      "count": 1
+     },
+     {
+      "place": "YALOVA",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ORTAOGRETIM"
+    ],
+    "kpss_types": [
+     "P94"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [],
+    "any_department": true,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanununun 48 inci maddesinin (A) bendinde yer alan genel şartları taşımak.",
+     "Ortaöğretim kurumlarının herhangi bir alanından mezun olmak.",
+     "ÖSYM tarafından 2026 yılında yapılan KPSS (Ortaöğretim) sınavına katılmış olmak.",
+     "Sözlü sınavda her kriterden 100 tam puan üzerinden en az 70 puan almak."
+    ]
+   }
+  ],
+  "notes": "Tek unvan (Destek Personeli - Hizmetli) 28 görev yerinde; toplam 45 ilanda belirtilen sayıyla uyumlu. Sınav sözlü sınavdır (24-28 Aralık 2026, Ankara). Adaylar en fazla 5 yer tercih edebilir."
+ },
+ "reading": 2
+}

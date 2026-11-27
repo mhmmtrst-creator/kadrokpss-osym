@@ -1,0 +1,106 @@
+{
+ "schema": 2,
+ "id": "d35372a34317032e8e82",
+ "institution": "GELİR İDARESİ BAŞKANLIĞI",
+ "title": "21 SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ ALACAK",
+ "range": "2 Aralık - 9 Aralık",
+ "read_at": "2026-11-27T13:02:28Z",
+ "model": "claude-sonnet-5-5",
+ "result": {
+  "declared_total": 21,
+  "academic": false,
+  "kpss_year": 2026,
+  "apply_start": "2026-12-02",
+  "apply_end": "2026-12-09",
+  "positions": [
+   {
+    "code": null,
+    "title": "KORUMA VE GÜVENLİK GÖREVLİSİ",
+    "place": null,
+    "count": null,
+    "places": [
+     {
+      "place": "ADANA",
+      "count": 1
+     },
+     {
+      "place": "ANKARA",
+      "count": 1
+     },
+     {
+      "place": "ANTALYA",
+      "count": 1
+     },
+     {
+      "place": "BOLU",
+      "count": 1
+     },
+     {
+      "place": "DÜZCE",
+      "count": 1
+     },
+     {
+      "place": "İSTANBUL",
+      "count": 9
+     },
+     {
+      "place": "İZMİR",
+      "count": 1
+     },
+     {
+      "place": "KAYSERİ",
+      "count": 1
+     },
+     {
+      "place": "MARDİN",
+      "count": 1
+     },
+     {
+      "place": "MERSİN",
+      "count": 1
+     },
+     {
+      "place": "SAMSUN",
+      "count": 1
+     },
+     {
+      "place": "TUNCELİ",
+      "count": 1
+     },
+     {
+      "place": "ZONGULDAK",
+      "count": 1
+     }
+    ],
+    "education": [
+     "ONLISANS"
+    ],
+    "kpss_types": [
+     "P93"
+    ],
+    "department_kpss": [],
+    "min_score": 70,
+    "departments": [
+     "Özel Güvenlik ve Koruma",
+     "Savunma ve Güvenlik",
+     "Güvenlik"
+    ],
+    "any_department": false,
+    "gender": null,
+    "age_years": 35,
+    "age_rule": "01.01.2026 tarihi itibarıyla 35 (otuz beş) yaşını doldurmamış olmak (01.01.1991 tarih ve sonraki doğumlular başvurabilecektir.)",
+    "license_classes": [],
+    "other_conditions": [
+     "657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinin (A) bendindeki genel şartları taşımak.",
+     "Belge: Son başvuru tarihi itibarıyla geçerlilik süresi dolmamış özel güvenlik görevlisi kimlik kartı",
+     "5188 sayılı Özel Güvenlik Hizmetlerine Dair Kanunun 10 uncu maddesinde yer alan diğer şartları taşımak.",
+     "ÖSYM tarafından 2026 yılında yapılan KPSS (Ön Lisans) sınavına katılmış olmak.",
+     "Sözlü sınav 22 Aralık 2026'da Ankara'da yapılacaktır; sözlü sınavda her kriterden en az 70 puan alınması gerekir.",
+     "Adaylar en fazla 5 görev yeri için tercihte bulunabilir."
+    ]
+   }
+  ],
+  "notes": "Tek unvan, 13 görev yeri; toplam 21 kadro, ilandaki toplamla uyumlu. Başvuru bitişi 9 Aralık 2026 saat 17.00. Bölümler 'Üniversitelerin Özel Güvenlik ve Koruma, Savunma ve Güvenlik, Güvenlik ön lisans programları' olarak verilmiştir."
+ },
+ "reading": 2
+}
