@@ -18,7 +18,9 @@ function readJson(file) {
 /**
  * Satırlar ilan.parse ile aynı biçimde ({ key, kurum, title, range } ve ilanın kimliği id). Liste ai/portal.json'dan
  * (portaldaki bütün ilanlar, akademikler de), o yoksa ai/durum.json'daki okunan ilanlardan gelir. Okuması süren (toplu
- * işte bekleyen) ilanlar henüz sayılmaz. İkisi de yoksa null: o zaman portal denenir.
+ * işte bekleyen ya da sırası gelmemiş, portal.json'da ai: "okunuyor") ilanlar henüz sayılmaz: telefonlar okuma
+ * yayımlanınca uyandırılır. Mac'in okumayacağı ilanlar ("okunmayacak": akademik, sınır dolmuş) hemen sayılır; onları
+ * telefon kendisi okur. İkisi de yoksa null: o zaman portal denenir.
  */
 function rows(dir) {
   const state = readJson(path.join(dir, "ai", "durum.json"));
@@ -31,7 +33,7 @@ function rows(dir) {
   const out = [];
   for (const m of list) {
     const id = m && m.id;
-    if (!id || pending.has(id)) continue;
+    if (!id || pending.has(id) || m.ai === "okunuyor") continue;
     const kurum = squash(m.institution);
     const title = squash(m.title);
     const range = squash(m.range).replace(/^\(\s*|\s*\)$/g, "");

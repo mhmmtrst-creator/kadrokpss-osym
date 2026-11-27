@@ -552,14 +552,33 @@ def prune(state: dict, on_portal: set) -> None:
             state["attempts"].pop(lid, None)
 
 
-def write_portal(listings: list) -> None:
-    """Portaldaki bütün ilanlar (akademikler ve okunmayanlar da): GitHub'daki sunucu telefonları bu listeye göre uyandırır
-    (macliste.js), çünkü portal yurt dışındaki sunuculara 403 veriyor. Dosya yalnızca liste değişince değişir; boş bir
-    okuma (hata sayfası) son iyi listenin yerine yazılmaz."""
+def ai_status(l: dict, state: dict) -> str:
+    """Bir ilanın okuma durumu, telefonlar için (2026-11-27, "Mac'in okuması öncelikli"): "okundu" (okuması yayımlandı),
+    "okunuyor" (sırada ya da toplu işte; telefon en çok bir saat bekler), "okunmayacak" (akademik, yanıtı kesilmiş, denemeleri
+    tükenmiş ya da ayın sınırı dolmuş: telefon beklemeden kendisi okur)."""
+    lid = l["id"]
+    if (RESULTS / f"{lid}.json").exists():
+        return "okundu"
+    if any(lid in p.get("ids", []) for p in state.get("pending", [])):
+        return "okunuyor"
+    if SKIP_ACADEMIC and ACADEMIC.search(l["title"]):
+        return "okunmayacak"
+    if state.get("listings", {}).get(lid, {}).get("kesildi") or state.get("attempts", {}).get(lid, 0) >= MAX_ATTEMPTS:
+        return "okunmayacak"
+    if state.get("spent", {}).get(month(), 0.0) >= MONTHLY_LIMIT_USD:
+        return "okunmayacak"
+    return "okunuyor"
+
+
+def write_portal(listings: list, state: dict) -> None:
+    """Portaldaki bütün ilanlar (akademikler ve okunmayanlar da), her birinin okuma durumuyla ("ai", bkz. ai_status):
+    GitHub'daki sunucu telefonları bu listeye göre uyandırır (macliste.js), çünkü portal yurt dışındaki sunuculara 403
+    veriyor; telefonlar da hangi ilanı Mac'in okumayacağını buradan öğrenir. Dosya yalnızca liste ya da bir durum
+    değişince değişir; boş bir okuma (hata sayfası) son iyi listenin yerine yazılmaz."""
     if not listings or not RESULTS.parent.exists():
         return
-    rows = sorted(({"id": l["id"], "institution": l["institution"], "title": l["title"], "range": l["range"]} for l in listings),
-                  key=lambda r: r["id"])
+    rows = sorted(({"id": l["id"], "institution": l["institution"], "title": l["title"], "range": l["range"], "ai": ai_status(l, state)}
+                   for l in listings), key=lambda r: r["id"])
     text = json.dumps({"schema": 1, "ilanlar": rows}, ensure_ascii=False, indent=0, sort_keys=True)
     path = OUT / "portal.json"
     if not path.exists() or path.read_text(encoding="utf-8") != text:
@@ -580,9 +599,10 @@ def main() -> None:
         return
     listings = parse_timeline(html)
     print(f"Portalda {len(listings)} ilan")
-    if not a.sayfa and not a.kuru:
-        write_portal(listings)
     state = load_state()
+    if not a.sayfa and not a.kuru:
+        # Önce bilinen durumla; okuma bitince (run) son durumla bir kez daha yazılır.
+        write_portal(listings, state)
     if a.kuru:
         submit(None, state, listings, dry=True)
         return
@@ -598,14 +618,16 @@ def main() -> None:
     import anthropic
     client = anthropic.Anthropic(api_key=m.group(0), max_retries=6)
     try:
-        run(client, state, listings, a.bekle)
+        run(client, state, listings, a.bekle, portal=not a.sayfa)
     except Exception as e:  # the message never carries the key
         print("Okuma yarıda kaldı:", KEY.sub("[ANAHTAR]", f"{type(e).__name__}: {e}")[:300])
         save_state(state)
+        if not a.sayfa:
+            write_portal(listings, state)
         sys.exit(1)
 
 
-def run(client, state: dict, listings: list, wait_minutes: int) -> None:
+def run(client, state: dict, listings: list, wait_minutes: int, portal: bool = True) -> None:
     collect(client, state)
     submit(client, state, listings, dry=False)
     # Günde iki kez çalışınca (Mac, 08:00 ve 14:00) sonuçlar aynı çalıştırmada toplanır; çoğu toplu iş birkaç dakikada biter.
@@ -617,6 +639,8 @@ def run(client, state: dict, listings: list, wait_minutes: int) -> None:
         print("Toplu iş henüz bitmedi; sonuçlar bir sonraki çalıştırmada toplanacak")
     prune(state, {l["id"] for l in listings})
     save_state(state)
+    if portal:
+        write_portal(listings, state)
     print(f"Bu ay harcanan: {state['spent'].get(month(), 0.0):.2f} $")
 
 

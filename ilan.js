@@ -3,7 +3,6 @@
 // kendi profiline göre değerlendirir ve bildirir; sunucuya hiçbir kişisel bilgi gelmez.
 // Neden: pil tasarrufu (özellikle Xiaomi'nin varsayılan "Önerilen" ayarı) uygulama kapalıyken telefonun
 // kendi kontrolünü durduruyor; yüksek öncelikli FCM mesajı bu durumda da telefonu uyandırabiliyor.
-const cheerio = require("cheerio");
 
 const BASE = "https://kamuilan.sbb.gov.tr/";
 const TOPIC = "ilanlar";
@@ -20,6 +19,8 @@ const squash = (s) => (s || "").replace(/\s+/g, " ").trim();
  * kurum + başlık + tarih aralığı tanır.
  */
 function parse(html) {
+  // Yalnızca burada gerekir: message() gibi bölümler (ve testleri) cheerio kurulu olmadan da yüklenir.
+  const cheerio = require("cheerio");
   const $ = cheerio.load(html);
   const out = [];
   const seen = new Set();
@@ -62,15 +63,31 @@ function remembered(rows, seen) {
   return [...current, ...older.slice(-Math.max(0, KEEP - current.length))];
 }
 
+/** Uyandırmanın ömrü: gecikmiş bir uyandırma sonradan boşuna gelmesin. */
+const TTL_SECONDS = 2 * 3600;
+
 /**
  * Yalnızca uyandırma: başlık ya da metin yok, telefon bildirimi kendisi kurar. Yüksek öncelik, uykudaki
  * telefonun mesajı hemen almasını sağlar; 2 saatlik ömür, gecikmiş bir uyandırmanın sonradan boşuna gelmesini önler.
+ *
+ * iPhone (2026-11-27): aynı mesaj APNs'e sessiz arka plan bildirimi olarak gider (content-available). Apple bunun için
+ * "background" türünü ve 5 önceliğini şart koşar; 10 ile gönderilen sessiz bildirim reddedilir. Uygulama uyanınca
+ * (AppDelegate didReceiveRemoteNotification) portal listesini ve Mac'in okumalarını alır, bildirimi kendisi kurar.
  */
-function message(count) {
+function message(count, now = new Date()) {
   return {
     topic: TOPIC,
     data: { type: "listings", count: String(count) },
-    android: { priority: "high", ttl: 2 * 3600 * 1000, collapseKey: "ilanlar" },
+    android: { priority: "high", ttl: TTL_SECONDS * 1000, collapseKey: "ilanlar" },
+    apns: {
+      headers: {
+        "apns-push-type": "background",
+        "apns-priority": "5",
+        "apns-collapse-id": "ilanlar",
+        "apns-expiration": String(Math.floor(now.getTime() / 1000) + TTL_SECONDS),
+      },
+      payload: { aps: { "content-available": 1 } },
+    },
   };
 }
 
