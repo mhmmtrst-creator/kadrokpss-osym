@@ -51,7 +51,7 @@ READING_VERSION = 3
 # Dolar / milyon token, toplu işlem yarı fiyat (claude-api belgesindeki tablo, 2026-11-03).
 PRICE = {"in": 2.0, "out": 10.0, "cache_read": 0.10, "cache_write": 2.5}
 BATCH_DISCOUNT = 0.5
-MONTHLY_LIMIT_USD = 40.0       # bu ay bu kadar harcandıysa yeni ilan gönderilmez
+MONTHLY_LIMIT_USD = 100.0      # bu ay bu kadar harcandıysa yeni ilan gönderilmez (kullanıcı 2026-11-27: "40 değil 100 dolarlık apimiz var")
 MAX_PER_RUN = 60               # bir çalıştırmada gönderilecek en çok ilan
 MAX_PDF_BYTES = 25_000_000     # API sınırı 32 MB (base64 ile büyür)
 MAX_ATTEMPTS = 4               # indirilemeyen ya da okunamayan bir ilan en çok bu kadar denenir
